@@ -32,6 +32,7 @@ url: "https://mlinpl.github.io/www-dev/" # the base hostname & protocol for your
 # Build settings
 theme: minima
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed
 
 # Exclude from processing.
@@ -60,7 +61,7 @@ color:
   links: '#FF0000'
 
 # Footer settings
-footer: ML in PL Assosiation
+footer: ML in PL Association
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -75,3 +76,4 @@ social:
 
 # Build settings
 markdown: kramdown
+permalink: pretty

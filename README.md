@@ -9,6 +9,8 @@
 ## Project structure
 
 - _data - contains yml files with data
+- _includes - contains different modules that can be included
+- _layouts - contains full layouts for the page
 - images - contains different images used on the site
 
 
