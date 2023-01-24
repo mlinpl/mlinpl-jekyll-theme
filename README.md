@@ -25,13 +25,18 @@ sudo gem install jekyll bundler
 
 On Mac:
 ```
-brew install ruby-dev
+brew install chruby ruby-install xz
+ruby-install ruby
+echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+echo "chruby ruby" >> ~/.zshrc
+source ~/.zshrc # or restart your session
 gem install jekyll bundler
 ```
 
 ### Installing other deps
 ```
-bundle
+bundle install
 ```
 
 ### Run server
