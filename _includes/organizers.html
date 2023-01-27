@@ -1,0 +1,14 @@
+<!-- Organizers Section -->
+<section id="organizers" class="container content-section text-center" >
+    <div class="row">
+            <h2>Organizers</h2>
+            <div style="width: 100%; display: flex;flex-wrap: wrap;align-items: center;">
+                {% for organizer in site.data.mlss-organizers %}
+                <div style="flex: 1; padding: 0.78571429em 0 0.71428571em 0 !important;">
+                     <img width="200px" style="border-radius: 50%; padding: 10px" class="rounded-circle float-right" src="{{ organizer.image | relative_url }}" alt="{{ organizer.name }}">
+                     <h5>{{ organizer.name }}</h5>
+                </div>
+                {% endfor %}
+            </div>
+    </div>
+</section>

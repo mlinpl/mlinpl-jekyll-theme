@@ -13,8 +13,6 @@
 - _layouts - contains full layouts for the page
 - images - contains different images used on the site
 
-
-
 ## Quick-start - running this repo localy
 
 ### Install deps
