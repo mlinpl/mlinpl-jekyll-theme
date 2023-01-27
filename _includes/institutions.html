@@ -3,9 +3,11 @@
   <div class="row">
     <h2>Institutions</h2>
     <div style="width: 100%; display: flex;flex-wrap: wrap;align-items: center;">
-      {% for institution in site.institutions %}
-      <div style="flex: 1; padding: 2em 0 2em 0 !important;"">
-          <img width="300px" src="{{ institution.image | relative_url }}" alt="">
+      {% for institution in site.data.mlss-organizing-institutions %}
+      <div style="flex: 1; padding: 2em 0 2em 0 !important;">
+        <a href="{{ institution.url }}">
+          <img width="300px" src="www-dev/images/institutions-logos/{{ institution.logo }}" alt="{{ institution.name }}">
+        </a>
       </div>
       {% endfor %}
     </div>
