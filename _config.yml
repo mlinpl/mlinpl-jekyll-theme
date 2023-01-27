@@ -74,6 +74,12 @@ social:
   - title: youtube
     url: https://www.youtube.com/channel/UCmXKn-Xeq1ZTAQBTwsYw4AA
 
+collections:
+  organizers:
+    output: true
+  institutions:
+    output: true
+
 # Build settings
 markdown: kramdown
 permalink: pretty

@@ -12,7 +12,8 @@
 - _includes - contains different modules that can be included
 - _layouts - contains full layouts for the page
 - images - contains different images used on the site
-
+- _organizers - contains md files with info about organizers (name, image path) 
+- _institutions - contains md files with info about institutions (name, image path)
 
 
 ## Quick-start - running this repo localy
