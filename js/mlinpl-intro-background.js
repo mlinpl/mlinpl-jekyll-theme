@@ -1,21 +1,45 @@
 'use strict';
 
 const canvas = document.getElementById("intro-background"),
-      ctx = canvas.getContext("2d");
+      ctx = canvas.getContext("2d"),
+      fps = 30,  // To make it less cpu intensive, we only update the canvas every 30 frames
+      framesInterval = 1000 / 30;
 
-let fps = 30,
-    framesInterval = 0,
-    then = 0,
+let then = 0,
     width = 0,
-    height = 0;
-
-let bgParticles = [], // Background particles
+    height = 0,
+    bgParticles = [], // Background particles
     mgParticles = [], // Middle ground particles
     fgParticles = [], // Foreground particles
     distanceThreshold = 125,
-    particlesDensity = 0.0002,
-    backgroundColor = "#FFFFFF";
-
+    backgroundColor = "#FFFFFF",
+    bgParticlesCfg = {
+        colors: "#EEE",
+        lineColors: "#EEE",
+        sizeMin: 5,
+        sizeRange: 3,
+        speedMax: 0.5,
+        groups: [[0, 1], [0, 2], [1, 2]],
+        density: 0.0001
+    },
+    mgParticlesCfg = {
+        colors: "#AAA",
+        lineColors: "#AAA",
+        sizeMin: 2,
+        sizeRange: 2,
+        speedMax: 0.75,
+        groups: [[]], // This group of particles has no connecting lines
+        density: 0.0001
+    },
+    fgParticlesCfg = {
+        colors: {"#FF0000": 0.1, "#000000": 0.9},
+        lineColors: {"#000": 0.3, "#222": 0.3, "#444": 0.3},
+        sizeMin: 3,
+        sizeRange: 6,
+        speedMax: 1,
+        groups: [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3], [0], [1], [2], [3]],
+        density: 0.0002
+    };
 
 // Helper functions
 function randomChoice(arr) {
@@ -70,8 +94,8 @@ function updateParticle(p){
     p.x += p.velX;
     p.y += p.velY;
 
-    if(p.x < 0 || p.x > width) p.velX *= -1;
-    if(p.y < 0 || p.y > height) p.velY *= -1;
+    if(p.x < 0) p.x = width; // Wrap around the left and right
+    if((p.y + p.size) < 0 || (p.y + p.size) > height) p.velY *= -1; // Bounce off the top and bottom
 }
 
 function drawParticles(particles){
@@ -83,9 +107,11 @@ function drawParticles(particles){
         for(let j = i + 1;  j < particles.length; j++){
             const p1 = particles[i],
                   p2 = particles[j];
+
+            // This part can be done faster by creating indexes for groups, but I'm too lazy to implemt it
             if(distVec2d(p1, p2) > distanceThreshold) continue;
 
-            for (let g of p1.groups){
+            for (let g of p1.groups){  
                 if (p2.groups.includes(g)){
                     drawLine(p1, p2);
                     break;
@@ -99,8 +125,6 @@ function drawParticles(particles){
 }
     
 function draw(){
-    //console.log(bgParticles.length, mgParticles.length, fgParticles.length);
-    //console.log(bgParticles[0], mgParticles[0], fgParticles[0]);
     ctx.fillStyle = backgroundColor;
     ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 
@@ -109,8 +133,8 @@ function draw(){
     drawParticles(fgParticles);
 }
     
-function createParticles(x, y, width, height, particlesDensity, colors, lineColors, groups, sizeMin, sizeRange) {
-    let newParticlesCount = width * height * particlesDensity,
+function createParticles(x, y, width, height, particlesCfg) {
+    let newParticlesCount = width * height * particlesCfg.density,
         newParticles = [];
 
     // Create new particles
@@ -118,12 +142,12 @@ function createParticles(x, y, width, height, particlesDensity, colors, lineColo
         newParticles.push({
             x: Math.random() * width + x,
             y: Math.random() * height + y,
-            velY: Math.random() * 2 - 1,
-            velX: Math.random() * 2 - 1,
-            size: Math.random() * sizeRange + sizeMin,
-            color: typeof colors === "string" ? colors : rulletChoice(colors),
-            lineColor: typeof lineColors === "string" ? lineColors : rulletChoice(lineColors),
-            groups: randomChoice(groups),
+            velY: (Math.random() * 2 - 1) * particlesCfg.speedMax,
+            velX: (Math.random() * 2 - 1) * particlesCfg.speedMax,
+            size: Math.random() * particlesCfg.sizeRange + particlesCfg.sizeMin,
+            color: typeof particlesCfg.colors === "string" ? particlesCfg.colors : rulletChoice(particlesCfg.colors),
+            lineColor: typeof particlesCfg.lineColors === "string" ? particlesCfg.lineColors : rulletChoice(particlesCfg.lineColors),
+            groups: randomChoice(particlesCfg.groups),
         });
     }
 
@@ -131,12 +155,9 @@ function createParticles(x, y, width, height, particlesDensity, colors, lineColo
 }
 
 function spawnParticles(x, y, width, height) {
-    const bgGroups = [[0, 1], [0, 2], [1, 2]];
-    bgParticles.push(...createParticles(x, y, width, height, 0.00005, "#EEE", "#EEE", bgGroups, 5, 3));
-    mgParticles.push(...createParticles(x, y, width, height, 0.00005, "#AAA", "#AAA", [[]], 2, 2));
-    const fgGroups = [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3], [0], [1], [2], [3]];
-    fgParticles.push(...createParticles(x, y, width, height, 0.0001, 
-        {"#FF0000": 0.1, "#000000": 0.9}, {"#000000": 0.3, "#222": 0.3, "#444": 0.3}, fgGroups, 3, 6));
+    bgParticles.push(...createParticles(x, y, width, height, bgParticlesCfg));
+    mgParticles.push(...createParticles(x, y, width, height, mgParticlesCfg));
+    fgParticles.push(...createParticles(x, y, width, height, fgParticlesCfg));
 }
 
 function removeOutOfBoundsParticles(particles) {
