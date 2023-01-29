@@ -11,16 +11,16 @@ let then = 0,
     bgParticles = [], // Background particles
     mgParticles = [], // Middle ground particles
     fgParticles = [], // Foreground particles
-    distanceThreshold = 125,
-    backgroundColor = "#FFFFFF",
+    connectionDistanceThreshold = 125,
+    backgroundColor = "{{ site.color.background }}",
     bgParticlesCfg = {
         colors: "#EEE",
         lineColors: "#EEE",
-        sizeMin: 5,
+        sizeMin: 4,
         sizeRange: 3,
         speedMax: 0.5,
         groups: [[0, 1], [0, 2], [1, 2]],
-        density: 0.0001
+        density: 0.00015
     },
     mgParticlesCfg = {
         colors: "#AAA",
@@ -29,16 +29,16 @@ let then = 0,
         sizeRange: 2,
         speedMax: 0.75,
         groups: [[]], // This group of particles has no connecting lines
-        density: 0.0001
+        density: 0.00015
     },
     fgParticlesCfg = {
-        colors: {"#FF0000": 0.1, "#000000": 0.9},
+        colors: {"{{ site.color.main }}": 0.1, "#000000": 0.9},
         lineColors: {"#000": 0.3, "#222": 0.3, "#444": 0.3},
-        sizeMin: 3,
-        sizeRange: 6,
+        sizeMin: 2,
+        sizeRange: 5,
         speedMax: 1,
-        groups: [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3], [0], [1], [2], [3]],
-        density: 0.0002
+        groups: [[0, 1], [0, 2], [0, 3], [0, 4], [1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4], [0], [1], [2], [3], [4], [0], [1], [2], [3], [4]],
+        density: 0.0003
     };
 
 // Helper functions
@@ -56,22 +56,23 @@ function rulletChoice(dict){
     }
 }
 
-function distVec2d(vec1, vec2){
-    return Math.sqrt(Math.pow(vec1.x - vec2.x, 2) + Math.pow(vec1.y - vec2.y, 2))
+// Standard Normal variate using Box-Muller transform.
+function gaussianRandom(mean=0, stdev=1) {
+    let u = 1 - Math.random(); //Converting [0,1) to (0,1)
+    let v = Math.random();
+    let z = Math.sqrt( -2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v );
+    // Transform to the desired mean and standard deviation:
+    return z * stdev + mean;
 }
-   
-function drawTriangle(p1, p2, p3){
-    // Don't draw triangle if its area is too big
-    const maxDist = Math.max(distVec2d(p1, p2), distVec2d(p1, p2), distVec2d(p2, p3));
-    if (maxDist > distanceThreshold) return;
 
-    // Stroke triangle
-    ctx.beginPath();
-    ctx.moveTo(p1.x, p1.y);
-    for (let p of [p1, p2, p3, p1]) ctx.lineTo(p.x, p.y);
-    ctx.lineWidth = 1;
-    ctx.strokeStyle = p.color;
-    ctx.stroke();
+function distVec2d(vec1, vec2){
+    return Math.sqrt(Math.pow(vec1.x - vec2.x, 2) + Math.pow(vec1.y - vec2.y, 2));
+}
+
+function wrappedDistVec2d(vec1, vec2){
+    let dist = distVec2d(vec1, vec2);
+    if (dist > width / 2) dist = width - dist;
+    return dist;
 }
 
 function drawParticle(p){
@@ -91,11 +92,15 @@ function drawLine(p1, p2){
 }
 
 function updateParticle(p){
+    let prevSinVal = Math.sin(p.x / p.freq) * p.amp;
     p.x += p.velX;
-    p.y += p.velY;
+    let nextSinVal = Math.sin(p.x / p.freq) * p.amp;
+    p.y += p.velY * (prevSinVal - nextSinVal);
 
-    if(p.x < 0) p.x = width; // Wrap around the left and right
-    if((p.y + p.size) < 0 || (p.y + p.size) > height) p.velY *= -1; // Bounce off the top and bottom
+    // Wrap around the left and right
+    if(p.x < -connectionDistanceThreshold) p.x = width + connectionDistanceThreshold; 
+    else if(p.x > width + connectionDistanceThreshold) p.x = -connectionDistanceThreshold;
+    if(p.y + p.size >= height) p.velY *= -1;
 }
 
 function drawParticles(particles){
@@ -104,12 +109,15 @@ function drawParticles(particles){
 
     // Draw lines between particles in the same group
     for (let i = 0; i < particles.length - 1; i++){
+        // Skip particles that are not in any group - can't connect to any other particle
+        if (particles[i].groups.length === 0) continue;
+
         for(let j = i + 1;  j < particles.length; j++){
             const p1 = particles[i],
                   p2 = particles[j];
 
             // This part can be done faster by creating indexes for groups, but I'm too lazy to implemt it
-            if(distVec2d(p1, p2) > distanceThreshold) continue;
+            if(distVec2d(p1, p2) > connectionDistanceThreshold) continue;
 
             for (let g of p1.groups){  
                 if (p2.groups.includes(g)){
@@ -140,10 +148,12 @@ function createParticles(x, y, width, height, particlesCfg) {
     // Create new particles
     for(let i = 0; i < newParticlesCount; i++){
         newParticles.push({
-            x: Math.random() * width + x,
-            y: Math.random() * height + y,
-            velY: (Math.random() * 2 - 1) * particlesCfg.speedMax,
+            x: Math.random() * (width + 2 * connectionDistanceThreshold) + x - connectionDistanceThreshold,
+            y: gaussianRandom(0, 1) * 1 / 3 * height + y,
             velX: (Math.random() * 2 - 1) * particlesCfg.speedMax,
+            velY: 1,
+            freq: Math.random() * 100 + 100,
+            amp: Math.random() * 100,
             size: Math.random() * particlesCfg.sizeRange + particlesCfg.sizeMin,
             color: typeof particlesCfg.colors === "string" ? particlesCfg.colors : rulletChoice(particlesCfg.colors),
             lineColor: typeof particlesCfg.lineColors === "string" ? particlesCfg.lineColors : rulletChoice(particlesCfg.lineColors),
@@ -168,23 +178,16 @@ function removeOutOfBoundsParticles(particles) {
     
 function resize() {
     console.log("Resizing canvas");
-    // Add particles to the new parts of the canvas.
-    const divWidth = canvas.offsetWidth - width,
-          divHeight = canvas.offsetHeight - height;
-
-    if(divWidth > 0) spawnParticles(width, 0, divWidth, height);
-    if(divHeight > 0) spawnParticles(0, height, width, divHeight);
-    if(divWidth > 0 || divHeight > 0) spawnParticles(width, height, divWidth, divHeight);
-
     width = canvas.offsetWidth;
     height = canvas.offsetHeight;
     canvas.width = width;
     canvas.height = height;
 
-    // Remove particles that are out of bounds of the new canvas to improve performance.
-    bgParticles = removeOutOfBoundsParticles(bgParticles);
-    mgParticles = removeOutOfBoundsParticles(mgParticles);
-    fgParticles = removeOutOfBoundsParticles(fgParticles);
+    // Add particles to the new parts of the canvas.
+    bgParticles = [];
+    mgParticles = [];
+    fgParticles = [];
+    spawnParticles(0, 0, width, height);
 }
 
 function render() {

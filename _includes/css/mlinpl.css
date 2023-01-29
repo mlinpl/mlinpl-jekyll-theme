@@ -191,7 +191,7 @@ a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
-    background: radial-gradient(circle, rgba(255,255,255,1) 30%, rgba(255,255,255,0) 100%); 
+    background: radial-gradient(circle, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 75%); 
     position: relative;
 }
 
