@@ -1,9 +1,14 @@
 /*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * ML in PL Theme, based on Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ /* Force larger margins for all Bootstrap elements */
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
 
 .intro-background {
     position: absolute;
@@ -317,7 +322,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 150px;
     }
 
     .download-section {
@@ -411,3 +416,111 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+/* Some classes for images in about page */
+.width-100 {
+    max-width: 100%;
+}
+
+.fadein {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.fadein img {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fadein img:first-child {
+    -webkit-animation-delay: 0;
+    animation-delay: 0;
+    position: relative;
+}
+
+.fadein img:nth-child(2){
+    -webkit-animation-delay: -15s;
+    animation-delay: -15s;
+}
+
+.fadein img:nth-child(3){
+    -webkit-animation-delay: -30s;
+    animation-delay: -30s;
+}
+
+.fadein img:nth-child(4){
+    -webkit-animation-delay: -45s;
+    animation-delay: -45s;
+}
+
+.fadein-2 img {
+    -webkit-animation-name: fade-2;
+    -webkit-animation-duration: 30s;
+    animation-name: fade-2;
+    animation-duration: 30s;
+}
+
+@-webkit-keyframes fade-2 {
+    0% {opacity: 1;}
+    30% {opacity: 1;}
+    50% {opacity: 0;}
+    80% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fade-2 {
+    0% {opacity: 1;}
+    30% {opacity: 1;}
+    50% {opacity: 0;}
+    80% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadein-3 img {
+    -webkit-animation-name: fade-3;
+    -webkit-animation-duration: 45s;
+    animation-name: fade-3;
+    animation-duration: 45s;
+}
+
+@-webkit-keyframes fade-3 {
+    0% {opacity: 1;}
+    20% {opacity: 1;}
+    33% {opacity: 0;}
+    86% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fade-3 {
+    0% {opacity: 1;}
+    20% {opacity: 1;}
+    33% {opacity: 0;}
+    86% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadein-4 img {
+    -webkit-animation-name: fade-4;
+    -webkit-animation-duration: 60s;
+    animation-name: fade-4;
+    animation-duration: 60s;
+}
+
+@-webkit-keyframes fade-4 {
+    0% {opacity: 1;}
+    17% {opacity: 1;}
+    25% {opacity: 0;}
+    92% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fade-4 {
+    0% {opacity: 1;}
+    17% {opacity: 1;}
+    25% {opacity: 0;}
+    92% {opacity: 0;}
+    100% {opacity: 1;}
+}

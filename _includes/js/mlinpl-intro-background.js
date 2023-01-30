@@ -32,7 +32,7 @@ let then = 0,
         density: 0.00015
     },
     fgParticlesCfg = {
-        colors: {"{{ site.color.main }}": 0.1, "#000000": 0.9},
+        colors: {"{{ site.color.main }}": 0.2, "#000000": 0.8},
         lineColors: {"#000": 0.3, "#222": 0.3, "#444": 0.3},
         sizeMin: 2,
         sizeRange: 5,
