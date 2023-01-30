@@ -4,11 +4,11 @@
     <div class="col-lg-12">
       <h2>/ Organizers</h2>
     </div>
-    <div style="width: 100%; display: flex;flex-wrap: wrap;align-items: center;">
+    <div class="col-lg-12 text-center" style="width: 100%; display: flex; flex-wrap: wrap; align-items: center;">
       {% for institution in site.data.mlss-organizing-institutions %}
-      <div style="flex: 1; padding: 2em 0 2em 0 !important;">
+      <div style="flex: 1; padding: 2em 1em 2em 1em !important;">
         <a href="{{ institution.url }}">
-          <img width="300px" src="{{ institution.logo | relative_url }}" alt="{{ institution.name }}">
+          <img width="300" src="{{ institution.logo | relative_url }}" alt="{{ institution.name }}">
         </a>
       </div>
       {% endfor %}

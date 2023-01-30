@@ -18,9 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: MLSS^S 2023
-email: mlss@mlinpl.org
-event-date: "2023-06-26T00:00:00"
+title: ML in PL Conference 2023
+email: contact@conference.mlinpl.org
+event-date: "2023-10-26T00:00:00"
+description: >-
+  ML in PL Conference 2023 is an event focused on the best of Machine Learning both in academia and in business.
+main-image: images/mlinpl-conference-2023-logo-black.png
+twitter-username: "@MLinPL"
 baseurl: "/www-dev" # the subpath of your site, e.g. /blog
 url: "https://mlinpl.github.io/www-dev/" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -52,10 +56,9 @@ plugins:
 
 # Color settings
 color:
-  main: "#6DB6C6"
-  main-gradient: "#FF0000, #FF00FF"
+  main: "#E7322A"
+  main-gradient: "#E7322A, #FF00FF"
   background: "#FFFFFF"
-  hue-rotate: 190
 
 # Footer settings
 footer: ML in PL Association

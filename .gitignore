@@ -4,6 +4,9 @@ _site
 .jekyll-metadata
 vendor
 
+# Ours
+_config.yml.bak
+
 # MacOS
 .DS_Store
 

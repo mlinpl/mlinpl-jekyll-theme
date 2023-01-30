@@ -22,7 +22,6 @@
 .event-heading {
     margin-top: 2em;
     font-size: 7em;
-    margin-bottom: 0.1em;
 }
 
 .event-subheading {
@@ -30,11 +29,16 @@
 }
 
 .event-date-location {
-
+    color: {{ site.color.main }};
 }
 
 .main-name {
     font-weight: 700;
+    text-transform: none;
+}
+
+.sub-name{
+    font-weight: 400;
 }
 
 .superscript{
@@ -49,10 +53,14 @@
     color: {{ site.color.main }};
 }
 
-/* .year{
-    font-weight: 400;
-} */
+.big-text {
+    font-size: 2em; 
+    text-transform: uppercase;
+}
 
+.nowrap {
+    white-space: nowrap;
+}
 
 body {
     width: 100%;
@@ -95,7 +103,7 @@ p {
 }
 
 a {
-    color: {{ site.color.links }};
+    color: {{ site.color.main }};
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -104,7 +112,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: {{ site.color.main }};
 }
 
 .light {
@@ -144,7 +152,7 @@ a:focus {
 
 .navbar-custom .nav li.active {
     outline: none;
-    background-color: rgba(255,255,255,.3);
+    background-color: {{ site.color.main }};
 }
 
 .navbar-custom .nav li a {
@@ -157,7 +165,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
     outline: 0;
-    background-color: rgba(255,255,255,.3);
+    background-color: {{ site.color.main }};
 }
 
 @media(min-width:767px) {
@@ -345,17 +353,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid {{ site.color.links }};
-    color: {{ site.color.links }};
+    border: 1px solid {{ site.color.main }};
+    color: {{ site.color.main }};
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid {{ site.color.links }};
+    border: 1px solid {{ site.color.main }};
     outline: 0;
     color: {{ site.color.background }};
-    background-color: {{ site.color.links }};
+    background-color: {{ site.color.main }};
 }
 
 ul.banner-social-buttons {

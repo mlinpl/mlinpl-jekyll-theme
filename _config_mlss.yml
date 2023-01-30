@@ -21,6 +21,15 @@
 title: MLSS^S 2023
 email: mlss@mlinpl.org
 event-date: "2023-06-26T00:00:00"
+description: >-
+  MLSS^S 2023 is a summer school providing a didactic introduction to a range of modern topics 
+  in Machine Learning and their applications in other disciplines of Science, primarily intended for
+  research-oriented graduate students. The school features a line-up of internationally recognised
+  researchers who will talk with enthusiasm about their subjects. Our goal is to provide a unique
+  opportunity to learn from and connect with the leading experts in the scenic setting of the historical
+  city of Cracow, Poland.
+main-image: images/mlinpl-logo-black.png
+twitter-username: "@MLinPL"
 baseurl: "/www-dev" # the subpath of your site, e.g. /blog
 url: "https://mlinpl.github.io/www-dev/" # the base hostname & protocol for your site, e.g. http://example.com
 
