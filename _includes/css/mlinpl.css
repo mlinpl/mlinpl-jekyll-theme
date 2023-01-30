@@ -32,6 +32,10 @@
     color: {{ site.color.main }};
 }
 
+.logo {
+    font-family: 'Poppins', sans-serif;
+}
+
 .main-name {
     font-weight: 700;
     text-transform: none;
@@ -39,6 +43,7 @@
 
 .sub-name{
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 .superscript{

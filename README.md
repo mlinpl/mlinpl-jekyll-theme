@@ -14,7 +14,7 @@ Repositorium for testing new ideas and designs for ML in PL websites
 - _layouts - contains full layouts for the page
 - images - contains different images used on the site
 
-## Quick-start - running this repo localy
+## Quick-start - running this repo locally
 
 ### Install deps
 
@@ -35,12 +35,12 @@ source ~/.zshrc # or restart your session
 gem install jekyll bundler
 ```
 
-### Installing other deps
+Then:
 ```
 bundle install
 ```
 
-### Run server
+### Run server with livereload
 ```
 bundle exec jekyll serve --livereload
 ```
