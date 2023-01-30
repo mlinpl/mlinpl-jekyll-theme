@@ -18,13 +18,26 @@ Repositorium for testing new ideas and designs for ML in PL websites
 
 ### Install deps
 
-On Ubuntu:
+#### Ubuntu:
+First setup rbenv according to the official github page: https://github.com/rbenv/rbenv. 
+Don't install the version provided in the distro's repo. Follow the official rbenv 
+instructions to install the latest Ruby version and set it as the default interpreter.
+
+Now you should be able to run `ruby` and `gem`:
 ```
-sudo apt install ruby-full build-essential zlib1g-dev
-sudo gem install jekyll bundler
+$ ruby --version
+ruby 3.0.2p107 (2021-07-07 revision 0db68f0233) [x86_64-linux-gnu]
+$ gem
+3.4.5
 ```
 
-On Mac:
+Now you can run the following in the project's root to install bundler (ruby's version of venv) and the correct gems.
+```
+gem install jekyll bundler
+bundle install
+```
+
+#### Mac:
 ```
 brew install chruby ruby-install xz
 ruby-install ruby
