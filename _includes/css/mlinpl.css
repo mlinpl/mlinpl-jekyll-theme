@@ -68,9 +68,8 @@
 }
 
 #d-left, #h-left, #m-left, #s-left {
-    text-transform: full-width;
-    letter-spacing: -0.3em;
-    margin-right: 0.1em;
+    min-width: 1.5em;
+    display: inline-block;
 }
 
 body {
