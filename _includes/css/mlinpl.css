@@ -400,6 +400,14 @@ ul.banner-social-buttons li {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
+
+    .feature {
+        margin-bottom: 30px;
+    }
+
+    #sponsors img {
+        padding: 3% 0 0 !important;
+    }
 }
 
 footer {
@@ -541,4 +549,43 @@ body {
     25% {opacity: 0;}
     92% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+.feature {
+    margin-bottom: 60px;
+}
+
+#sponsors a {
+    display: inline-block;
+    width: 100%;
+}
+
+#sponsors img {
+    padding: 5%;
+}
+
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.mt-2 {
+    margin-top: 0.5rem !important;
 }

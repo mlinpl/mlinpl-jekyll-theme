@@ -1,0 +1,47 @@
+strategic:
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/McK_QuantumBlack.png"
+    link: "https://www.amazon.com"
+
+platinum:
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/Allegro2.png"
+    link: "https://www.amazon.com"
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/Amazon3.png"
+    link: 
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/deepsense.ai_.png"
+    link:
+
+gold:
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/DeepMind.png"
+    link: "https://www.amazon.com"
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/JaneStreet.png"
+    link: "https://www.amazon.com"
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2021/10/samsung.png"
+    link: "https://www.amazon.com"
+
+silver:
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/IdeasNCBR.png"
+    link: "https://www.amazon.com"
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/IdeasNCBR.png"
+    link: "https://www.amazon.com"
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/IdeasNCBR.png"
+    link: "https://www.amazon.com"
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/IdeasNCBR.png"
+    link: 
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/IdeasNCBR.png"
+    link: "https://www.amazon.com"
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/IdeasNCBR.png"
+    link: "https://www.amazon.com"
+
+partner:
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/IdeasNCBR.png"
+    link: "https://www.amazon.com"
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/IdeasNCBR.png"
+    link: "https://www.amazon.com"
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/IdeasNCBR.png"
+    link: 
+
+patronage:
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/UW.png"
+    link: "https://www.amazon.com"
+  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/MIMUW.png"
+    link: 
