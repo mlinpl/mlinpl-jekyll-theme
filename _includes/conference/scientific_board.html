@@ -1,0 +1,24 @@
+    <!-- Scientific board section -->
+    <section id="scientific_board" class="container content-section">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>/ Scientific Board</h2>
+            </div>
+            <div class="flex-container" style="width: 100%; display: flex;flex-wrap: wrap;align-items: center;">
+                {% for organizer in site.data.scientific-board %}
+                <div style="text-align: center;">
+                    <div style="padding: 15px">
+                        <img width="150px" style="border-radius: 50%; border: 5px solid #444; outline: 10px solid #CCC;" class="rounded-circle float-right" src="{{ organizer.photo | relative_url }}" alt="{{ organizer.name }}">
+                    </div>
+                    <h5 style="margin-left: 10px">{{ organizer.name }}</h5>
+                    <div style="text-align: justify;">
+                        <p style="font-size: 14px;">{{organizer.bio}}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="col-md-4">
+                <a href="https://mlinpl.org"><img class="width-100" src="{{ "./images/mlinpl-logo-black.png" | relative_url }}"></a>
+            </div>
+        </div>
+    </section>
