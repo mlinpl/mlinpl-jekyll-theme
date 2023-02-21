@@ -1,5 +1,5 @@
 # www-dev
-Repositorium for testing new ideas and designs for ML in PL websites
+Repositorium for testing new ideas and designs for ML in PL websites 
 
 ## Our resources
 
