@@ -1,162 +1,222 @@
-- name: "Michal Zmyslowski"
-  image: "./images/organizers/MichalZmyslowski.jpg"
+- name: "Emilia Wiśnios"
+  team: "Project Leader"
+  teamLeader: "True"
+  linkedIn: "https://www.linkedin.com/in/emilia-wisnios/"
+  image: "images/organizers/EmiliaWiśnios.jpg"
 
-- name: "Antoni Kowalczuk"
-  image: "./images/organizers/AntoniKowalczuk.jpg"
+- name: "Maciej Pióro"
+  team: "Project Leader"
+  teamLeader: "True"
+  linkedIn: "https://www.linkedin.com/in/maciej-pi%C3%B3ro-0ab6201a2/"
+  image: "images/organizers/MaciejPióro.jpg"
 
-- name: "Piotr Nawrot"
-  image: "./images/organizers/PiotrNawrot.jpg"
+- name: "Piotr Komorowski"
+  team: "Panel"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/piotr-komorowski/"
+  image: "images/organizers/PiotrKomorowski.jpeg"
 
-- name: "Aleksandra I Nowak"
-  image: "./images/organizers/AleksandraINowak.jpg"
+- name: "Joanna Wojciechowska"
+  team: "Sponsors"
+  teamLeader: "False"
+  linkedIn: ""
+  image: "images/organizers/JoannaWojciechowska.jpg"
 
-- name: "Patrycja Zalewska"
-  image: "./images/organizers/PatrycjaZalewska.jpg"
+- name: "Mikołaj Piórczyński"
+  team: "CfC"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/mpiorczynski/"
+  image: "images/organizers/MikołajPiórczyński.jpg"
 
-- name: "Anna Raczkowska"
-  image: "./images/organizers/AnnaRaczkowska.jpg"
-
-- name: "Karolina Bolesta"
-  image: "./images/organizers/KarolinaBolesta.jpg"
-
-- name: "Marek Masiak"
-  image: "./images/organizers/MarekMasiak.jpg"
-
-- name: "Alexander Golys"
-  image: "./images/organizers/AlexanderGolys.jpg"
-
-- name: "Karolina Cwojdzinska"
-  image: "./images/organizers/KarolinaCwojdzinska.jpg"
-
-- name: "Marek Wydmuch"
-  image: "./images/organizers/MarekWydmuch.jpg"
-
-- name: "Adam Golinski"
-  image: "./images/organizers/AdamGolinski.jpg"
-
-- name: "Agnieszka Slowik"
-  image: "./images/organizers/AgnieszkaSlowik.jpg"
-
-- name: "Krzysztof Kowalczyk"
-  image: "./images/organizers/KrzysztofKowalczyk.jpg"
-
-- name: "Jakub Mysliwiec"
-  image: "./images/organizers/JakubMysliwiec.jpg"
-
-- name: "Weronika Obcowska"
-  image: "./images/organizers/WeronikaObcowska.jpg"
-
-- name: "Jakub Laguna"
-  image: "./images/organizers/JakubLaguna.jpg"
-
-- name: "Lukasz Zalewski"
-  image: "./images/organizers/LukaszZalewski.jpg"
-
-- name: "Lukasz Pszenny"
-  image: "./images/organizers/LukaszPszenny.jpg"
-
-- name: "Michal Tyrolski"
-  image: "./images/organizers/MichalTyrolski.jpg"
-
-- name: "Mikołaj Slupinski"
-  image: "./images/organizers/MikołajSlupinski.jpg"
-
-- name: "Ernest Perkowski"
-  image: "./images/organizers/ErnestPerkowski.jpg"
-
-- name: "Alicja Grochocka"
-  image: "./images/organizers/AlicjaGrochocka.jpg"
-
-- name: "Maciej Pioro"
-  image: "./images/organizers/MaciejPioro.jpg"
-
-- name: "Jakub Boryk"
-  image: "./images/organizers/JakubBoryk.jpg"
-
-- name: "Aleksandra Nowak"
-  image: "./images/organizers/AleksandraNowak.jpg"
-
-- name: "Maciej Chrabaszcz"
-  image: "./images/organizers/MaciejChrabaszcz.jpg"
-
-- name: "Dmytro Zhylko"
-  image: "./images/organizers/DmytroZhylko.jpg"
+- name: "Michał Tyrolski"
+  team: "Speakers"
+  teamLeader: "True"
+  linkedIn: "https://www.linkedin.com/in/mtyrolski/"
+  image: "images/organizers/MichalTyrolski.png"
 
 - name: "Franek Budrowski"
-  image: "./images/organizers/FranekBudrowski.jpg"
+  team: "Speakers"
+  teamLeader: "True"
+  linkedIn: "https://www.linkedin.com/in/fbudrowski/"
+  image: "images/organizers/FranekBudrowski.jpg"
 
-- name: "Anna Balcerak"
-  image: "./images/organizers/AnnaBalcerak.jpg"
-
-- name: "Jakub Myśliwiec"
-  image: "./images/organizers/JakubMyśliwiec.jpg"
-
-- name: "Maja Jablonska"
-  image: "./images/organizers/MajaJablonska.jpg"
-
-- name: "Joanna Chlebus"
-  image: "./images/organizers/JoannaChlebus.jpg"
-
-- name: "Natalia Piecko"
-  image: "./images/organizers/NataliaPiecko.jpg"
-
-- name: "Martyna Kumaszka"
-  image: "./images/organizers/MartynaKumaszka.jpg"
-
-- name: "Marek Ballaun"
-  image: "./images/organizers/MarekBallaun.jpg"
-
-- name: "Adam Dubowski"
-  image: "./images/organizers/AdamDubowski.jpg"
-
-- name: "Michal Filipiuk"
-  image: "./images/organizers/MichalFilipiuk.jpg"
-
-- name: "Wiktor Daniec"
-  image: "./images/organizers/WiktorDaniec.jpg"
-
-- name: "Rafal Rysiejko"
-  image: "./images/organizers/RafalRysiejko.jpg"
+- name: "Karolina Cwojdzińska"
+  team: "Board/Finance"
+  teamLeader: "False"
+  linkedIn: ""
+  image: "images/organizers/KarolinaCwojdzińska.jpg"
 
 - name: "Jakub Podolak"
-  image: "./images/organizers/JakubPodolak.jpg"
+  team: "Panel"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/jakub-podolak/"
+  image: "images/organizers/JakubPodolak.jpg"
+
+- name: "Magdalena Cebula"
+  team: "Marketing"
+  teamLeader: "False"
+  linkedIn: "Magdalena Cebula | LinkedIn"
+  image: "images/organizers/MagdalenaCebula.jpg"
+
+- name: "Antoni  Kowalczuk "
+  team: "Sponsors"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/antoni-kowalczuk-j3p"
+  image: "images/organizers/AntoniKowalczuk.jpg"
+
+- name: "Maja Jabłońska"
+  team: "Marketing"
+  teamLeader: "True"
+  linkedIn: "https://www.linkedin.com/in/maja-jablonska/"
+  image: "images/organizers/MajaJabłońska.jpg"
+
+- name: "Marek Wydmuch"
+  team: "Board/Infra"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/marekwydmuch/"
+  image: "images/organizers/MarekWydmuch.jpg"
+
+- name: "Marek Ballaun"
+  team: "Legal"
+  teamLeader: "True"
+  linkedIn: "https://www.linkedin.com/in/marek-ballaun/"
+  image: "images/organizers/MarekBallaun.jpg"
+
+- name: "Jakub Myśliwiec"
+  team: "Visual Identity"
+  teamLeader: "True"
+  linkedIn: "https://www.linkedin.com/in/jmysliwiec/"
+  image: "images/organizers/JakubMyśliwiec.jpg"
+
+- name: "Maciej Chrabąszcz"
+  team: "Panel "
+  teamLeader: "True"
+  linkedIn: "https://www.linkedin.com/in/maciej-chrabaszcz"
+  image: "images/organizers/MaciejChrabąszcz.jpg"
+
+- name: "Alicja Grochocka"
+  team: "Panel"
+  teamLeader: "False"
+  linkedIn: ""
+  image: "images/organizers/AlicjaGrochocka.jpg"
+
+- name: "Maciej Kaczkowski"
+  team: "SpecOps"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/kaczkowski-maciej"
+  image: "images/organizers/MaciejKaczkowski.jpg"
+
+- name: "Piotr Sotniczuk"
+  team: "CfC"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/piotr-sotniczuk-422a60257/"
+  image: "images/organizers/PiotrSotniczuk.JPG"
+
+- name: "Mikołaj Słupiński"
+  team: "CfC"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/miko%C5%82aj-s%C5%82upi%C5%84ski-839509109/"
+  image: "images/organizers/MikołajSłupiński.jpg"
+
+- name: "Zuzanna Kwiatkowska"
+  team: "Marketing"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/zkwiatkowska/"
+  image: "images/organizers/ZuzannaKwiatkowska.jpeg"
+
+- name: "Filip Szatkowski"
+  team: "CfC"
+  teamLeader: "True"
+  linkedIn: "https://www.linkedin.com/in/fszatkowski/"
+  image: "images/organizers/FilipSzatkowski.png"
+
+- name: "Jakub Walendowski"
+  team: "Infra"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/jakub-walendowski-982550210/"
+  image: "images/organizers/empty.png"
+
+- name: "Jakub Sobolewski"
+  team: "Sponsors"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/jakub-sobolewski-3b29a0227/"
+  image: "images/organizers/empty.png"
+
+- name: "Maria Wyrzykowska"
+  team: "Premeetings"
+  teamLeader: "True"
+  linkedIn: "https://www.linkedin.com/in/maria-wyrzykowska-1129141b8/"
+  image: "images/organizers/MariaWyrzykowska.jpg"
+
+- name: "Andrzej Pióro"
+  team: "SpecOps"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/andrzej-pioro/"
+  image: "images/organizers/MaciejPióro.jpg"
+
+- name: "Mateusz Borowski"
+  team: "Sponsors"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/m-borowski/"
+  image: "images/organizers/empty.png"
+
+- name: "Andrzej Krupka"
+  team: "Marketing"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/andrzej-krupka-48aaa1222"
+  image: "images/organizers/AndrzejKrupka.jpg"
+
+- name: "Adam Dubowski"
+  team: "Sponsors"
+  teamLeader: "True"
+  linkedIn: "https://www.linkedin.com/in/adubowski/"
+  image: "images/organizers/AdamDubowski.jpg"
+
+- name: "Weronika Piotrowska"
+  team: "Registration"
+  teamLeader: "False"
+  linkedIn: ""
+  image: "images/organizers/WeronikaPiotrowska.jpg"
+
+- name: "Dawid Mączka"
+  team: "Infra"
+  teamLeader: "False"
+  linkedIn: ""
+  image: "images/organizers/empty.png"
+
+- name: "Piotr Hondra"
+  team: "Premeetings/Tutorials"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/piotr-hondra/"
+  image: "images/organizers/PiotrHondra.jpg"
+
+- name: "Ernest Perkowski"
+  team: "Sponsors"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/ernest-perkowski/"
+  image: "images/organizers/ErnestPerkowski.jpg"
 
 - name: "Sebastian Dziadzio"
-  image: "./images/organizers/SebastianDziadzio.jpg"
+  team: "Speakers"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/sebastiandziadzio/"
+  image: "images/organizers/SebastianDziadzio.jpg"
 
-- name: "Emilia Wisnios"
-  image: "./images/organizers/EmiliaWisnios.jpg"
+- name: "Dima Zhylko"
+  team: "SpecOps"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/dima-z-a67006131/"
+  image: "images/organizers/DmytroZhylko.jpg"
 
-- name: "Daniel Klepacki"
-  image: "./images/organizers/DanielKlepacki.jpg"
+- name: "Bartek Krzepkowski"
+  team: "Registration"
+  teamLeader: "False"
+  linkedIn: ""
+  image: "images/organizers/empty.png"
 
-- name: "Michal Krolikowski"
-  image: "./images/organizers/MichalKrolikowski.jpg"
-
-- name: "Kamil Bladoszewski"
-  image: "./images/organizers/KamilBladoszewski.jpg"
-
-- name: "Aleksander Bula"
-  image: "./images/organizers/AleksanderBula.jpg"
-
-- name: "Aleksandra Petrykiewicz"
-  image: "./images/organizers/AleksandraPetrykiewicz.jpg"
-
-- name: "Jolanta Mozyrska"
-  image: "./images/organizers/JolantaMozyrska.jpg"
-
-- name: "Julia Bazinska"
-  image: "./images/organizers/JuliaBazinska.jpg"
-
-- name: "Malgorzata Bocian"
-  image: "./images/organizers/MalgorzataBocian.jpg"
-
-- name: "Krzysztof Smutek"
-  image: "./images/organizers/KrzysztofSmutek.png"
-
-- name: "Patryk Bundyra"
-  image: "./images/organizers/PatrykBundyra.jpg"
-
-- name: "Filip Czerniawski"
-  image: "./images/organizers/FilipCzerniawski.jpg"
+- name: "Karolina  Romanowska"
+  team: "Premeetings/Tutorials"
+  teamLeader: "False"
+  linkedIn: "https://www.linkedin.com/in/karolina-romanowska/"
+  image: "images/organizers/KarolinaRomanowska.jpg"
 
