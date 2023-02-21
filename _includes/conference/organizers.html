@@ -13,4 +13,19 @@
                 <a href="https://mlinpl.org"><img class="width-100" src="{{ "./images/mlinpl-logo-black.png" | relative_url }}"></a>
             </div>
         </div>
+        <div style="width: 100%; display: flex;flex-wrap: wrap;align-items: center;">
+            {% for organizer in site.data.mlss-organizers %}
+            <div style="text-align: center; flex: 1; padding: 0.78571429em 0 0.71428571em 0 !important;">
+                {% if organizer.linkedIn != "" %}
+                <a href="{{ organizer.linkedIn }}" target="_blank">
+                    <img width="200px" style="border-radius: 50%; padding: 20px" class="rounded-circle float-right" src="{{ organizer.image | relative_url }}" alt="{{ organizer.name }}">
+                </a>
+                {% else %}
+                <img width="200px" style="border-radius: 50%; padding: 15px" class="rounded-circle float-right" src="{{ organizer.image | relative_url }}" alt="{{ organizer.name }}">
+                {% endif %}
+                <h5 style="text-align: center; margin-bottom: 0.2em">{{ organizer.name }}</h5>
+                <p><span>{{ organizer.team }}</span></p>
+            </div>
+            {% endfor %}
+        </div>
     </section>
