@@ -42,30 +42,30 @@
 
 - name: Piotr Miłoś
   affiliation: University of Warsaw
-  photo: ./images/scientific-board/JanChorowski.jpg
+  photo: ./images/scientific-board/PiotrMilos.jpg
   bio: >-
     Piotr Miłoś is an Associate Professor at the Faculty of Mathematics, Mechanics and Computer Science of the University of Warsaw. He received his Ph.D. in probability theory. From 2016 he has developed interest in machine learning. Since then he collaborated with deepsense.ai on various research projects. His focus in on problems in reinforcement learning.
 
 - name: Przemysław Biecek
   affiliation: Warsaw University of Technology, University of Warsaw
-  photo: ./images/scientific-board/JanChorowski.jpg
+  photo: ./images/scientific-board/PrzemyslawBiecek.jpg
   bio: >-
     Przemysław Biecek obtained his Ph.D. in Mathematical Statistics and MSc in Software Engineering at Wroclaw University of Science and Technology. He is currently working as an Associate Professor at the Faculty of Mathematics and Information Science, Warsaw University of Technology, and an Assistant Professor at the Faculty of Mathematics, Informatics and Mechanics, University of Warsaw.
 
 - name: Razvan Pascanu
   affiliation: DeepMind
-  photo: ./images/scientific-board/JanChorowski.jpg
+  photo: ./images/scientific-board/RazvanPascanu.jpg
   bio: >-
     Razvan Pascanu is a Research Scientist at Google DeepMind, London. He obtained a Ph.D. from the University of Montreal under the supervision of Yoshua Bengio. While in Montreal he was a core developer of Theano. Razvan is also one of the organizers of the Eastern European Summer School. He has a wide range of interests around deep learning including optimization, RNNs, meta-learning and graph neural networks.
 
 - name: Tomasz Trzciński
   affiliation: Warsaw University of Technology, Tooploox, Jagiellonian University
-  photo: ./images/scientific-board/JanChorowski.jpg
+  photo: ./images/scientific-board/TomaszTrzcinski.jpg
   bio: >-
     Tomasz Trzciński is an Associate Professor at Warsaw University of Technology since 2015, where he leads a Computer Vision Lab. He was a Visiting Scholar at Stanford University in 2017 and at Nanyang Technological University in 2019. Previously, he worked at Google in 2013, Qualcomm in 2012 and Telefónica in 2010. He is an Associate Editor of IEEE Access and MDPI Electronics and frequently serves as a reviewer in major computer science conferences (CVPR, ICCV, ECCV, NeurIPS, ICML) and journals (TPAMI, IJCV, CVIU). He is a Senior Member of IEEE and an expert of National Science Centre and Foundation for Polish Science. He is a Chief Scientist at Tooploox and a co-founder of Comixify, a technology startup focused on using machine learning algorithms for video editing.
 
 - name: Viorica Patraucean
   affiliation: DeepMind
-  photo: ./images/scientific-board/JanChorowski.jpg
+  photo: ./images/scientific-board/VioricaPatraucean.jpg
   bio: >-
     Viorica Patraucean is a research scientist in DeepMind. She obtained her PhD from University of Toulouse on probabilistic models for low-level image processing. She then carried out postdoctoral work at Ecole Polytechnique Paris and University of Cambridge, on processing of images, videos, and point-clouds. Her main research interests revolve around efficient vision systems, with a focus on deep video models. She is one of the main organisers of EEML summer school and has served as program committee member for top Computer Vision and Machine Learning conferences.
