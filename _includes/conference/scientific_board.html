@@ -1,0 +1,31 @@
+    <!-- Scientific board section -->
+    <section id="scientific_board" class="container content-section">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>/ Scientific Board</h2>
+            </div>
+        </div>
+
+        {% for member in site.data.scientific-board %}
+        {% assign odd = forloop.index | modulo: 2 %}
+        {% if odd == 1 %}
+        <div class="row">
+            {% endif %}
+            <div class="col-lg-2 text-center">
+                <img class="sb-photo" src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+                <h5 class="sb-name">{{ member.name }}</h5>
+                <h6 class="sb-affiliation">{{ member.affiliation }}</h6>
+            </div>
+            <div class="col-lg-4 text-center">
+                <div style="text-align: justify;">
+                    <p style="font-size: 14px;">{{member.bio}}</p>
+                </div>
+            </div>
+
+
+            {% if odd == 0 or forloop.last == true %}
+        </div>
+        {% endif %}
+
+        {% endfor %}
+    </section>

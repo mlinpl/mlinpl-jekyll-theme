@@ -589,3 +589,39 @@ body {
 .mt-2 {
     margin-top: 0.5rem !important;
 }
+
+.sb-name {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+@media(min-width:1200px) {
+    .sb-name {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+}
+
+.sb-affiliation {
+    margin-bottom: 15px;
+}
+
+@media(min-width:1200px) {
+    .sb-affiliation {
+        margin-bottom: 50px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+}
+
+.sb-photo {
+    border-radius: 50%;
+    border: 5px solid #444;
+    width: 160px;
+}
