@@ -1,5 +1,8 @@
-  <!-- Timeline Section -->
-  <section id="timeline" class="container content-section">
+<!-- Timeline Section -->
+{% comment %}
+Expects following parameters: timeline-title, timeline-data
+{% endcomment %}
+<section id="timeline" class="container content-section">
     <div class="row">
         <div class="col-md-7 timeline">
             <h2>/ {{ include.timeline-title }}</h2>
