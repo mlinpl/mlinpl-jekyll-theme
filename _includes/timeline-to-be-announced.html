@@ -1,19 +1,20 @@
-  <!-- Timeline Section -->
+  <!-- Timeline (To be announced) Section -->
   <section id="timeline" class="container content-section">
     <div class="row">
         <div class="col-lg-12">
-            <h2>/ Timeline</h2>
+            <h2>/ {{ include.timeline-title }}</h2>
         </div>
-        <div class="col-md-3 text-center" style="filter: hue-rotate({{ site.color.hue-rotate }}deg);">
+        <div class="col-md-4 text-center">
             <img class="width-100" src="{{ "./images/ai-generated-retouched/group_of_people_working_hard_1.jpg" | relative_url }}">
         </div>
-        <div class="col-md-9 text-center">
+        <div class="col-md-8 text-center">
             <div class="big-text emph" style="margin-top: 35px; margin-bottom: 35px;">
                 To be announced
             </div>
             <p>
-                The detailed timeline regarding the application process will be announced soon.</br>
-                We are working hard on it!
+                {{ include.to-be-announced-description }}
+                <!-- e.g.: The detailed timeline regarding the Call for Contributions and registration will be announced soon. 
+                We are working hard on it! -->
             </p>
         </div>
     </div>

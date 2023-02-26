@@ -1,0 +1,26 @@
+  <!-- Timeline Section -->
+  <section id="timeline" class="container content-section">
+    <div class="row">
+        <div class="col-md-7 timeline">
+            <h2>/ {{ include.timeline-title }}</h2>
+
+            {% for date in include.timeline-data %}
+            <div class="row">
+                <div class="col-xs-4 timeline-date">
+                    <p class="emph uppercase">
+                        {{ date.date }}
+                    </p>
+                </div>
+                <div class="col-xs-8 timeline-desc">
+                    <p>
+                        {{ date.description }}
+                    </p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="col-md-5 text-center" style="filter: hue-rotate({{ site.color.hue-rotate }}deg);">
+            <img class="width-100" src="{{ "./images/ai-generated-retouched/group_of_people_working_hard_1.jpg" | relative_url }}">
+        </div>
+    </div>
+</section>

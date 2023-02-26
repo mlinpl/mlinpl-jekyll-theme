@@ -63,6 +63,10 @@
     text-transform: uppercase;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 .nowrap {
     white-space: nowrap;
 }
@@ -199,6 +203,10 @@ a:focus {
     }
 }
 
+.navbar-nav, .navbar-brand{
+    background: radial-gradient(rgba(255, 255, 255, 0.75) 0%, rgba(255,255,255,0) 100%);
+}
+
 .intro {
     display: table;
     width: 100%;
@@ -214,7 +222,8 @@ a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
-    background: radial-gradient(circle, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 75%); 
+    /*background: radial-gradient(circle, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 75%); */
+    background: radial-gradient(farthest-side at 50% 75%, rgb(255, 255, 255, 1) 50%, rgba(255,255,255,0) 100%);
     position: relative;
 }
 
@@ -591,6 +600,7 @@ body {
     margin-top: 0.5rem !important;
 }
 
+
 .sb-name {
     font-weight: bold;
     margin-top: 15px;
@@ -625,4 +635,41 @@ body {
     border-radius: 50%;
     border: 5px solid #444;
     width: 160px;
+}
+
+
+/* Timeline styles */
+
+.timeline .timeline-date {
+    text-align: right;
+    border-right: 1px solid {{ site.color.main }};
+    margin-right: -1px;
+}
+
+.timeline .row:last-child .timeline-date {
+    border-right: none;
+}
+
+.timeline .timeline-date:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    background-color: {{ site.color.main }};
+    color: #fff;
+    right: -0.55em;
+    top: 0.65em;
+}
+
+.timeline .timeline-desc {
+    border-left: 1px solid {{ site.color.main }};
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.timeline .row:last-child .timeline-desc {
+    border-left: none;
 }
