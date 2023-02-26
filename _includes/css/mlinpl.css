@@ -245,10 +245,10 @@ a:focus {
     width: 70px;
     height: 70px;
     margin-top: 15px;
-    padding: 7px 16px;
+    padding: 12px 16px;
     border: 2px solid #000;
-    border-radius: 35px;
-    font-size: 40px;
+    border-radius: 100%;
+    font-size: 30px;
     color: #000;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
@@ -366,6 +366,7 @@ a:focus {
     border: 1px solid {{ site.color.main }};
     color: {{ site.color.main }};
     background-color: transparent;
+    border-radius: 0;
 }
 
 .btn-default:hover,
@@ -588,4 +589,40 @@ body {
 
 .mt-2 {
     margin-top: 0.5rem !important;
+}
+
+.sb-name {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+@media(min-width:1200px) {
+    .sb-name {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+}
+
+.sb-affiliation {
+    margin-bottom: 15px;
+}
+
+@media(min-width:1200px) {
+    .sb-affiliation {
+        margin-bottom: 50px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+}
+
+.sb-photo {
+    border-radius: 50%;
+    border: 5px solid #444;
+    width: 160px;
 }
