@@ -14,7 +14,7 @@
             </div>
         </div>
 
-        <div style="width: 100%; display: flex;flex-wrap: wrap;align-items: center;">
+        <div style="width: 100%; display: flex; flex-wrap: wrap; align-items: baseline;">
             {% for organizer in site.data.mlss-organizers %}
             <div style="text-align: center; flex: 1; padding: 0.78571429em 0 0.71428571em 0 !important;">
                 <img width="180px" style="border-radius: 50%; padding: 20px" class="rounded-circle float-right" src="{{ organizer.image | relative_url }}" alt="{{ organizer.name }}">
@@ -30,9 +30,6 @@
                     <a href="{{ organizer.twitter }}">
                         <i class="fa-brands fa-square-twitter"></i>
                     </a>
-                    {% endif %}
-                    {% if organizer.twitter == "" and organizer.linkedIn == "" %}
-                        <div style="height: 25px"></div>
                     {% endif %}
                 </div>
             </div>
