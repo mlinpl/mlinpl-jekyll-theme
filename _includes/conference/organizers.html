@@ -20,20 +20,24 @@
                 <img width="180px" style="border-radius: 50%; padding: 20px" class="rounded-circle float-right" src="{{ organizer.image | relative_url }}" alt="{{ organizer.name }}">
                 <h5 style="text-align: center; margin-bottom: 0.2em">{{ organizer.name }}</h5>
                 <p style="font-size: 12px; text-align: center; margin-bottom: 0.4em"><span>{{ organizer.team }}</span></p>
-                <div style="width: 100%; display: flex; flex-wrap: wrap; justify-content: space-evenly;" >
-                    {% if organizer.linkedIn != ""  %}
+
+                {% if organizer.twitter == "" and organizer.linkedIn != "" %}
                     <a href="{{ organizer.linkedIn }}">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
-                    {% endif %}
-                    {% if organizer.twitter != "" %}
+                {% elsif organizer.twitter != "" and organizer.linkedIn == "" %}
                     <a href="{{ organizer.twitter }}">
                         <i class="fa-brands fa-square-twitter"></i>
                     </a>
-                    {% endif %}
-                </div>
+                {% elsif organizer.twitter != "" and organizer.linkedIn != "" %}
+                    <a href="{{ organizer.linkedIn }}" style="padding-right: 0.5em">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="{{ organizer.twitter }}" style="padding-left: 0.5em">
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </a>
+                {% endif %}
             </div>
             {% endfor %}
         </div>
-        
     </section>
