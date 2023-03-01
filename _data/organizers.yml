@@ -2,17 +2,17 @@
   title: Project Leader
   linkedin: https://www.linkedin.com/in/emilia-wisnios/
   twitter: https://twitter.com/wisnios_emilia
-  image: images/organizers-300x300/EmiliaWiśnios.webp
+  image: images/organizers-300x300/EmiliaWisnios.webp
 
 - name: Maciej Pióro
   title: Project Leader
   linkedin: https://www.linkedin.com/in/maciej-pi%C3%B3ro-0ab6201a2/
-  image: images/organizers-300x300/MaciejPióro.webp
+  image: images/empty.png
 
 - name: Piotr Komorowski
   title: Panel
   linkedin: https://www.linkedin.com/in/piotr-komorowski/
-  image: images/organizers-300x300/PiotrKomorowski.jpeg
+  image: images/organizers-300x300/PiotrKomorowski.webp
 
 - name: Joanna Wojciechowska
   title: Sponsors
@@ -21,13 +21,13 @@
 - name: Mikołaj Piórczyński
   title: CfC
   linkedin: https://www.linkedin.com/in/mpiorczynski/
-  image: images/organizers-300x300/MikołajPiórczyński.webp
+  image: images/organizers-300x300/MikolajPiorczynski.webp
 
 - name: Michał Tyrolski
   title: Speakers
   linkedin: https://www.linkedin.com/in/mtyrolski/
   twitter: https://twitter.com/mtyrolski
-  image: images/organizers-300x300/MichalTyrolski.png
+  image: images/organizers-300x300/MichalTyrolski.webp
 
 - name: Franek Budrowski
   title: Speakers
@@ -36,7 +36,7 @@
 
 - name: Karolina Cwojdzińska
   title: Board/Finance
-  image: images/organizers-300x300/KarolinaCwojdzińska.webp
+  image: images/organizers-300x300/KarolinaCwojdzinska.webp
 
 - name: Jakub Podolak
   title: Panel
@@ -58,7 +58,7 @@
 - name: Maja Jabłońska
   title: Marketing
   linkedin: https://www.linkedin.com/in/maja-jablonska/
-  image: images/organizers-300x300/MajaJabłońska.webp
+  image: images/organizers-300x300/MajaJablonska.webp
 
 - name: Marek Wydmuch
   title: Board/Infra
@@ -74,12 +74,12 @@
 - name: Jakub Myśliwiec
   title: Visual Identity
   linkedin: https://www.linkedin.com/in/jmysliwiec/
-  image: images/organizers-300x300/JakubMyśliwiec.webp
+  image: images/organizers-300x300/JakubMysliwiec.webp
 
 - name: Maciej Chrabąszcz
   title: Panel 
   linkedin: https://www.linkedin.com/in/maciej-chrabaszcz
-  image: images/organizers-300x300/MaciejChrabąszcz.webp
+  image: images/organizers-300x300/MaciejChrabaszcz.webp
 
 - name: Alicja Grochocka
   title: Panel
@@ -98,28 +98,28 @@
 - name: Mikołaj Słupiński
   title: CfC
   linkedin: https://www.linkedin.com/in/miko%C5%82aj-s%C5%82upi%C5%84ski-839509109/
-  image: images/organizers-300x300/MikołajSłupiński.webp
+  image: images/organizers-300x300/MikolajSlupinski.webp
 
 - name: Zuzanna Kwiatkowska
   title: Marketing
   linkedin: https://www.linkedin.com/in/zkwiatkowska/
   twitter: https://twitter.com/aiflavours
-  image: images/organizers-300x300/ZuzannaKwiatkowska.jpeg
+  image: images/organizers-300x300/ZuzannaKwiatkowska.webp
 
 - name: Filip Szatkowski
   title: CfC
   linkedin: https://www.linkedin.com/in/fszatkowski/
-  image: images/organizers-300x300/FilipSzatkowski.png
+  image: images/organizers-300x300/FilipSzatkowski.webp
 
 - name: Jakub Walendowski
   title: Infra
   linkedin: https://www.linkedin.com/in/jakub-walendowski-982550210/
-  image: images/organizers-300x300/empty.png
+  image: images/empty.png
 
 - name: Jakub Sobolewski
   title: Sponsors
   linkedin: https://www.linkedin.com/in/jakub-sobolewski-3b29a0227/
-  image: images/organizers-300x300/empty.png
+  image: images/empty.png
 
 - name: Maria Wyrzykowska
   title: Premeetings
@@ -129,12 +129,12 @@
 - name: Andrzej Pióro
   title: SpecOps
   linkedin: https://www.linkedin.com/in/andrzej-pioro/
-  image: images/organizers-300x300/MaciejPióro.webp
+  image: images/empty.png
 
 - name: Mateusz Borowski
   title: Sponsors
   linkedin: https://www.linkedin.com/in/m-borowski/
-  image: images/organizers-300x300/empty.png
+  image: images/empty.png
 
 - name: Andrzej Krupka
   title: Marketing
@@ -152,7 +152,7 @@
 
 - name: Dawid Mączka
   title: Infra
-  image: images/organizers-300x300/empty.png
+  image: images/empty.png
 
 - name: Piotr Hondra
   title: Premeetings/Tutorials
@@ -173,11 +173,11 @@
 - name: Dima Zhylko
   title: SpecOps
   linkedin: https://www.linkedin.com/in/dima-z-a67006131/
-  image: images/organizers-300x300/DmytroZhylko.webp
+  image: images/organizers-300x300/DimaZhylko.webp
 
 - name: Bartek Krzepkowski
   title: Registration
-  image: images/organizers-300x300/empty.png
+  image: images/empty.png
 
 - name: Karolina  Romanowska
   title: Premeetings/Tutorials
