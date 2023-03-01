@@ -1,44 +1,97 @@
-- name: "Michał Tyrolski"
-  title: "Speakers"
-  teamLeader: "True"
-  linkedin: "https://www.linkedin.com/in/mtyrolski/"
-  twitter: "https://twitter.com/mtyrolski"
-  image: "images/organizers/MichalTyrolski.png"
+- name: Tomasz Trzciński
+  title: IDEAS NCBR / Jagiellonian University
+  linkedin: https://www.linkedin.com/in/tomasz-trzcinski-168b4838/
+  image: images/organizers-300x300/TomaszTrzcinski.webp
 
-- name: "Franek Budrowski"
-  title: "Speakers"
-  teamLeader: "True"
-  linkedin: "https://www.linkedin.com/in/fbudrowski/"
-  twitter: ""
-  image: "images/organizers/FranekBudrowski.jpg"
+- name: Adam Pardyl
+  title: IDEAS NCBR / Jagiellonian University
+  image: images/organizers-300x300/AdamPardyl.webp
 
+- name: Marcin Przewięźlikowski
+  title: IDEAS NCBR / Jagiellonian University
+  linkedin: https://www.linkedin.com/in/marcin-przewi%C4%99%C5%BAlikowski-aa5b82135/
+  image: images/organizers-300x300/MarcinPrzewiezlikowski.webp
 
-- name: "Magdalena Cebula"
-  title: "Marketing"
-  linkedin: "Magdalena Cebula | linkedin"
-  twitter: ""
-  image: "images/organizers/MagdalenaCebula.jpg"
+- name: Filip Szatkowski
+  title: IDEAS NCBR / ML in PL / Warsaw University of Technology
+  linkedin: https://www.linkedin.com/in/fszatkowski/
+  image: images/organizers-300x300/FilipSzatkowski.webp
 
-- name: "Maja Jabłońska"
-  title: "Marketing"
-  teamLeader: "True"
-  linkedin: "https://www.linkedin.com/in/maja-jablonska/"
-  twitter: ""
-  image: "images/organizers/MajaJabłońska.jpg"
+- name: Sylwia Piskorska
+  title: IDEAS NCBR
+  linkedin: https://www.linkedin.com/in/sylwia-piskorska-34b3446/
+  image: images/organizers-300x300/SylwiaPiskorska.webp
 
-- name: "Marek Wydmuch"
-  title: "Board/Infra"
-  linkedin: "https://www.linkedin.com/in/marekwydmuch/"
-  twitter: "https://twitter.com/marekwydmuch"
-  image: "images/organizers/MarekWydmuch.jpg"
+- name: Karolina Matusiak
+  title: IDEAS NCBR
+  linkedin: https://www.linkedin.com/in/karolina-matusiak-8a582676/
+  image: images/organizers-300x300/KarolinaMatusiak.webp
 
-- name:
+- name: Adam Goliński
+  title: ML in PL / Apple
+  linkedin: https://www.linkedin.com/in/adamgol/
+  image: images/organizers-300x300/AdamGolinski.webp
+
+- name: Maciej Chrabąszcz
+  title: ML in PL / Warsaw University of Technology
+  linkedin: https://www.linkedin.com/in/maciej-chrabaszcz
+  image: images/organizers-300x300/MaciejChrabaszcz.webp
+
+- name: Maja Jabłońska
+  title: ML in PL
+  linkedin: https://www.linkedin.com/in/maja-jablonska/
+  image: images/organizers-300x300/MajaJablonska.webp
+
+- name: Marek Wydmuch
+  title: ML in PL / Poznan University of Technology
+  linkedin: https://www.linkedin.com/in/marekwydmuch/
+  image: images/organizers-300x300/MarekWydmuch.webp
+
+- name: Franek Budrowski
+  title: ML in PL / G-Reaserch
+  linkedin: https://www.linkedin.com/in/fbudrowski/
+  image: images/organizers-300x300/FranekBudrowski.webp
+
+- name: Marek Masiak
+  title: ML in PL / University College London
+  linkedin: https://www.linkedin.com/in/marekmasiak/
+  image: images/empty.png
+
+- name: Sebastian Dziadzio
+  title: ML in PL / University of Tübingen
+  linkedin: https://www.linkedin.com/in/sebastiandziadzio/
+  image: images/organizers-300x300/SebastianDziadzio.webp
+
+- name: Michał Tyrolski
+  title: ML in PL / Deepflare
+  linkedin: https://www.linkedin.com/in/mtyrolski/
+  image: images/organizers-300x300/MichalTyrolski.webp
+
+- name: Andrzej Krupka
+  title: ML in PL / University of Warsaw
+  linkedin: https://www.linkedin.com/in/andrzej-krupka-48aaa1222
+  image: images/organizers-300x300/AndrzejKrupka.webp
+
+- name: Magdalena Cebula
+  title: ML in PL / Orange
+  linkedin: https://www.linkedin.com/in/magdalena-cebula/
+  image: images/organizers-300x300/MagdalenaCebula.webp
+
+- name: Alicja Ziarko
+  title: ML in PL / University of Warsaw
+  linkedin: https://www.linkedin.com/in/alicja-ziarko-941b44173/
+  image: images/organizers-300x300/AlicjaZiarko.webp
 
 - name: Dawid Mączka
-  title: ML in PL
-  image: images/organizers/empty.png
+  title: ML in PL / University of Warsaw
+  image: images/empty.png
 
 - name: Jakub Walendowski
-  title: ML in PL
+  title: ML in PL / University of Warsaw
   linkedin: https://www.linkedin.com/in/jakub-walendowski-982550210/
-  image: images/organizers/JakubWalendowski.png
+  image: images/organizers-300x300/JakubWalendowski.webp
+
+- name: Marcin Możejko
+  title: ML in PL / University of Warsaw
+  linkedin: https://www.linkedin.com/in/marcin-mo%C5%BCejko-6b024bbb/
+  image: images/organizers-300x300/MarcinMozejko.webp
