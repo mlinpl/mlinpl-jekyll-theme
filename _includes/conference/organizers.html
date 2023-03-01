@@ -13,31 +13,6 @@
                 <a href="https://mlinpl.org"><img class="width-100" src="{{ "./images/mlinpl-logo-black.png" | relative_url }}"></a>
             </div>
         </div>
-
-        <div style="width: 100%; display: flex; flex-wrap: wrap; align-items: baseline;">
-            {% for organizer in site.data.mlss-organizers %}
-            <div style="text-align: center; flex: 1; padding: 0.78571429em 0 0.71428571em 0 !important;">
-                <img width="180px" style="border-radius: 50%; padding: 20px" class="rounded-circle float-right" src="{{ organizer.image | relative_url }}" alt="{{ organizer.name }}">
-                <h5 style="text-align: center; margin-bottom: 0.2em">{{ organizer.name }}</h5>
-                <p style="font-size: 12px; text-align: center; margin-bottom: 0.4em"><span>{{ organizer.team }}</span></p>
-
-                {% if organizer.twitter == "" and organizer.linkedIn != "" %}
-                    <a href="{{ organizer.linkedIn }}">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                {% elsif organizer.twitter != "" and organizer.linkedIn == "" %}
-                    <a href="{{ organizer.twitter }}">
-                        <i class="fa-brands fa-square-twitter"></i>
-                    </a>
-                {% elsif organizer.twitter != "" and organizer.linkedIn != "" %}
-                    <a href="{{ organizer.linkedIn }}" style="padding-right: 0.5em">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                    <a href="{{ organizer.twitter }}" style="padding-left: 0.5em">
-                        <i class="fa-brands fa-square-twitter"></i>
-                    </a>
-                {% endif %}
-            </div>
-            {% endfor %}
-        </div>
+        
+        {% include people1a.html people-data=site.data.organizers %}
     </section>

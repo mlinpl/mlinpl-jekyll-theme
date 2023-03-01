@@ -586,6 +586,8 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
 }
 
 .text-align-left {
@@ -631,10 +633,37 @@ body {
     }
 }
 
-.sb-photo {
+.person-photo {
     border-radius: 50%;
-    border: 5px solid #444;
-    width: 160px;
+    border: 3px solid {{ site.color.main }};
+}
+
+.person-photo-with-social {
+    position: relative;
+}
+
+.person-social {
+    font-size: 20px;
+}
+
+.person-photo-with-social .person-social a i {
+    position: absolute;
+    background: {{ site.color.main }};
+    border-radius: 50%;
+    padding: 8px;
+    color: white !important;
+    width: 35px;
+    height: 35px;
+}
+
+.person-photo-with-social .person-social a:nth-child(1) i {
+    bottom: 13px;
+    right: 25px;
+}
+
+.person-photo-with-social .person-social a:nth-child(2) i {
+    bottom: 50px;
+    right: 0px;
 }
 
 
