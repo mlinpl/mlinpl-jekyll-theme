@@ -18,11 +18,9 @@ optimize_images () {
 }
 
 # Optimize images of organizers
-#optimize_images ${ROOT_DIR}/images/organizers 150x150 webp 90
 optimize_images ${ROOT_DIR}/images/organizers 300x300 webp 90
 
 # Optimize images of speakers
-#optimize_images ${ROOT_DIR}/images/speakers 300x300 webp 90
 optimize_images ${ROOT_DIR}/images/speakers 600x600 webp 90
 
 # Optimize AI-generated images

@@ -12,16 +12,15 @@
         <div class="row">
             {% endif %}
             <div class="col-lg-2 text-center">
-                <img class="person-photo" src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+                <img class="person-photo" style="width: 160px;" src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
                 <h5 class="sb-name">{{ member.name }}</h5>
-                <h6 class="sb-affiliation">{{ member.affiliation }}</h6>
+                <p class="sb-affiliation">{{ member.affiliation }}</p>
             </div>
             <div class="col-lg-4 text-center">
                 <div style="text-align: justify;">
                     <p style="font-size: 14px;">{{member.bio}}</p>
                 </div>
             </div>
-
 
             {% if odd == 0 or forloop.last == true %}
         </div>
