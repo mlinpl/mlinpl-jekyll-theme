@@ -57,15 +57,15 @@
   linkedin: https://www.linkedin.com/in/marekmasiak/
   image: images/empty.png
 
-- name: Sebastian Dziadzio
-  title: ML in PL / University of Tübingen
-  linkedin: https://www.linkedin.com/in/sebastiandziadzio/
-  image: images/organizers-300x300/SebastianDziadzio.webp
-
 - name: Michał Tyrolski
   title: ML in PL / Deepflare
   linkedin: https://www.linkedin.com/in/mtyrolski/
   image: images/organizers-300x300/MichalTyrolski.webp
+
+- name: Sebastian Dziadzio
+  title: ML in PL / University of Tübingen
+  linkedin: https://www.linkedin.com/in/sebastiandziadzio/
+  image: images/organizers-300x300/SebastianDziadzio.webp
 
 - name: Andrzej Krupka
   title: ML in PL / University of Warsaw
