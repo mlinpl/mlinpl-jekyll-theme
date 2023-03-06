@@ -5,7 +5,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand page-scroll" href="{{ "#page-top" | relative_url }}">
                     {{ site.inline-logo }}
                 </a>
             </div>
@@ -18,16 +18,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">/ About</a>
+                        <a class="page-scroll" href="{{ "#about" | relative_url }}">/ About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#speakers">/ Speakers</a>
+                        <a class="page-scroll" href="{{ "#speakers" | relative_url }}">/ Speakers</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#timeline">/ Timeline</a>
+                        <a class="page-scroll" href="{{ "/registration" | relative_url }}">/ Registration</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#organizers">/ Organizers</a>
+                        <a class="page-scroll" href="{{ "#timeline" | relative_url }}">/ Timeline</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{ "#organizers" | relative_url }}">/ Organizers</a>
                     </li>
                 </ul>
             </div>
