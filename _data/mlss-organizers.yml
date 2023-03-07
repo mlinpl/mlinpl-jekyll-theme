@@ -1,259 +1,97 @@
-- name: "Emilia Wiśnios"
-  team: "Project Leader"
-  teamLeader: "True"
-  linkedIn: "https://www.linkedin.com/in/emilia-wisnios/"
-  twitter: "https://twitter.com/wisnios_emilia"
-  image: "images/organizers/EmiliaWiśnios.jpg"
+- name: Tomasz Trzciński
+  title: IDEAS NCBR / Jagiellonian University
+  linkedin: https://www.linkedin.com/in/tomasz-trzcinski-168b4838/
+  image: images/organizers-300x300/TomaszTrzcinski.webp
 
-- name: "Maciej Pióro"
-  team: "Project Leader"
-  teamLeader: "True"
-  linkedIn: "https://www.linkedin.com/in/maciej-pi%C3%B3ro-0ab6201a2/"
-  twitter: ""
-  image: "images/organizers/MaciejPióro.jpg"
+- name: Adam Pardyl
+  title: IDEAS NCBR / Jagiellonian University
+  image: images/organizers-300x300/AdamPardyl.webp
 
-- name: "Piotr Komorowski"
-  team: "Panel"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/piotr-komorowski/"
-  twitter: ""
-  image: "images/organizers/PiotrKomorowski.jpeg"
+- name: Marcin Przewięźlikowski
+  title: IDEAS NCBR / Jagiellonian University
+  linkedin: https://www.linkedin.com/in/marcin-przewi%C4%99%C5%BAlikowski-aa5b82135/
+  image: images/organizers-300x300/MarcinPrzewiezlikowski.webp
 
-- name: "Joanna Wojciechowska"
-  team: "Sponsors"
-  teamLeader: "False"
-  linkedIn: ""
-  twitter: ""
-  image: "images/organizers/JoannaWojciechowska.jpg"
+- name: Filip Szatkowski
+  title: IDEAS NCBR / ML in PL / Warsaw University of Technology
+  linkedin: https://www.linkedin.com/in/fszatkowski/
+  image: images/organizers-300x300/FilipSzatkowski.webp
 
-- name: "Mikołaj Piórczyński"
-  team: "CfC"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/mpiorczynski/"
-  twitter: ""
-  image: "images/organizers/MikołajPiórczyński.jpg"
+- name: Sylwia Piskorska
+  title: IDEAS NCBR
+  linkedin: https://www.linkedin.com/in/sylwia-piskorska-34b3446/
+  image: images/organizers-300x300/SylwiaPiskorska.webp
 
-- name: "Michał Tyrolski"
-  team: "Speakers"
-  teamLeader: "True"
-  linkedIn: "https://www.linkedin.com/in/mtyrolski/"
-  twitter: "https://twitter.com/mtyrolski"
-  image: "images/organizers/MichalTyrolski.png"
+- name: Karolina Matusiak
+  title: IDEAS NCBR
+  linkedin: https://www.linkedin.com/in/karolina-matusiak-8a582676/
+  image: images/organizers-300x300/KarolinaMatusiak.webp
 
-- name: "Franek Budrowski"
-  team: "Speakers"
-  teamLeader: "True"
-  linkedIn: "https://www.linkedin.com/in/fbudrowski/"
-  twitter: ""
-  image: "images/organizers/FranekBudrowski.jpg"
+- name: Adam Goliński
+  title: ML in PL / Apple
+  linkedin: https://www.linkedin.com/in/adamgol/
+  image: images/organizers-300x300/AdamGolinski.webp
 
-- name: "Karolina Cwojdzińska"
-  team: "Board/Finance"
-  teamLeader: "False"
-  linkedIn: ""
-  twitter: ""
-  image: "images/organizers/KarolinaCwojdzińska.jpg"
+- name: Maciej Chrabąszcz
+  title: ML in PL / Warsaw University of Technology
+  linkedin: https://www.linkedin.com/in/maciej-chrabaszcz
+  image: images/organizers-300x300/MaciejChrabaszcz.webp
 
-- name: "Jakub Podolak"
-  team: "Panel"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/jakub-podolak/"
-  twitter: "moze nie"
-  image: "images/organizers/JakubPodolak.jpg"
+- name: Maja Jabłońska
+  title: ML in PL
+  linkedin: https://www.linkedin.com/in/maja-jablonska/
+  image: images/organizers-300x300/MajaJablonska.webp
 
-- name: "Magdalena Cebula"
-  team: "Marketing"
-  teamLeader: "False"
-  linkedIn: "Magdalena Cebula | LinkedIn"
-  twitter: ""
-  image: "images/organizers/MagdalenaCebula.jpg"
+- name: Marek Wydmuch
+  title: ML in PL / Poznan University of Technology
+  linkedin: https://www.linkedin.com/in/marekwydmuch/
+  image: images/organizers-300x300/MarekWydmuch.webp
 
-- name: "Antoni  Kowalczuk "
-  team: "Sponsors"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/antoni-kowalczuk-j3p"
-  twitter: "XD "
-  image: "images/organizers/AntoniKowalczuk.jpg"
+- name: Franek Budrowski
+  title: ML in PL / G-Research
+  linkedin: https://www.linkedin.com/in/fbudrowski/
+  image: images/organizers-300x300/FranekBudrowski.webp
 
-- name: "Maja Jabłońska"
-  team: "Marketing"
-  teamLeader: "True"
-  linkedIn: "https://www.linkedin.com/in/maja-jablonska/"
-  twitter: ""
-  image: "images/organizers/MajaJabłońska.jpg"
+- name: Marek Masiak
+  title: ML in PL / University College London
+  linkedin: https://www.linkedin.com/in/marekmasiak/
+  image: images/empty.png
 
-- name: "Marek Wydmuch"
-  team: "Board/Infra"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/marekwydmuch/"
-  twitter: "https://twitter.com/marekwydmuch"
-  image: "images/organizers/MarekWydmuch.jpg"
+- name: Michał Tyrolski
+  title: ML in PL / Deepflare
+  linkedin: https://www.linkedin.com/in/mtyrolski/
+  image: images/organizers-300x300/MichalTyrolski.webp
 
-- name: "Marek Ballaun"
-  team: "Legal"
-  teamLeader: "True"
-  linkedIn: "https://www.linkedin.com/in/marek-ballaun/"
-  twitter: ""
-  image: "images/organizers/MarekBallaun.jpg"
+- name: Sebastian Dziadzio
+  title: ML in PL / University of Tübingen
+  linkedin: https://www.linkedin.com/in/sebastiandziadzio/
+  image: images/organizers-300x300/SebastianDziadzio.webp
 
-- name: "Jakub Myśliwiec"
-  team: "Visual Identity"
-  teamLeader: "True"
-  linkedIn: "https://www.linkedin.com/in/jmysliwiec/"
-  twitter: ""
-  image: "images/organizers/JakubMyśliwiec.jpg"
+- name: Andrzej Krupka
+  title: ML in PL / University of Warsaw
+  linkedin: https://www.linkedin.com/in/andrzej-krupka-48aaa1222
+  image: images/organizers-300x300/AndrzejKrupka.webp
 
-- name: "Maciej Chrabąszcz"
-  team: "Panel "
-  teamLeader: "True"
-  linkedIn: "https://www.linkedin.com/in/maciej-chrabaszcz"
-  twitter: ""
-  image: "images/organizers/MaciejChrabąszcz.jpg"
+- name: Magdalena Cebula
+  title: ML in PL / Orange
+  linkedin: https://www.linkedin.com/in/magdalena-cebula/
+  image: images/organizers-300x300/MagdalenaCebula.webp
 
-- name: "Alicja Grochocka"
-  team: "Panel"
-  teamLeader: "False"
-  linkedIn: ""
-  twitter: ""
-  image: "images/organizers/AlicjaGrochocka.jpg"
+- name: Alicja Ziarko
+  title: ML in PL / University of Warsaw
+  linkedin: https://www.linkedin.com/in/alicja-ziarko-941b44173/
+  image: images/organizers-300x300/AlicjaZiarko.webp
 
-- name: "Maciej Kaczkowski"
-  team: "SpecOps"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/kaczkowski-maciej"
-  twitter: ""
-  image: "images/organizers/MaciejKaczkowski.jpg"
+- name: Dawid Mączka
+  title: ML in PL / University of Warsaw
+  image: images/empty.png
 
-- name: "Piotr Sotniczuk"
-  team: "CfC"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/piotr-sotniczuk-422a60257/"
-  twitter: ""
-  image: "images/organizers/PiotrSotniczuk.JPG"
+- name: Jakub Walendowski
+  title: ML in PL / University of Warsaw
+  linkedin: https://www.linkedin.com/in/jakub-walendowski-982550210/
+  image: images/organizers-300x300/JakubWalendowski.webp
 
-- name: "Mikołaj Słupiński"
-  team: "CfC"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/miko%C5%82aj-s%C5%82upi%C5%84ski-839509109/"
-  twitter: ""
-  image: "images/organizers/MikołajSłupiński.jpg"
-
-- name: "Zuzanna Kwiatkowska"
-  team: "Marketing"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/zkwiatkowska/"
-  twitter: "https://twitter.com/aiflavours"
-  image: "images/organizers/ZuzannaKwiatkowska.jpeg"
-
-- name: "Filip Szatkowski"
-  team: "CfC"
-  teamLeader: "True"
-  linkedIn: "https://www.linkedin.com/in/fszatkowski/"
-  twitter: ""
-  image: "images/organizers/FilipSzatkowski.png"
-
-- name: "Jakub Walendowski"
-  team: "Infra"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/jakub-walendowski-982550210/"
-  twitter: ""
-  image: "images/organizers/empty.png"
-
-- name: "Jakub Sobolewski"
-  team: "Sponsors"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/jakub-sobolewski-3b29a0227/"
-  twitter: ""
-  image: "images/organizers/empty.png"
-
-- name: "Maria Wyrzykowska"
-  team: "Premeetings"
-  teamLeader: "True"
-  linkedIn: "https://www.linkedin.com/in/maria-wyrzykowska-1129141b8/"
-  twitter: ""
-  image: "images/organizers/MariaWyrzykowska.jpg"
-
-- name: "Andrzej Pióro"
-  team: "SpecOps"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/andrzej-pioro/"
-  twitter: ""
-  image: "images/organizers/MaciejPióro.jpg"
-
-- name: "Mateusz Borowski"
-  team: "Sponsors"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/m-borowski/"
-  twitter: ""
-  image: "images/organizers/empty.png"
-
-- name: "Andrzej Krupka"
-  team: "Marketing"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/andrzej-krupka-48aaa1222"
-  twitter: "💩"
-  image: "images/organizers/AndrzejKrupka.jpg"
-
-- name: "Adam Dubowski"
-  team: "Sponsors"
-  teamLeader: "True"
-  linkedIn: "https://www.linkedin.com/in/adubowski/"
-  twitter: ""
-  image: "images/organizers/AdamDubowski.jpg"
-
-- name: "Weronika Piotrowska"
-  team: "Registration"
-  teamLeader: "False"
-  linkedIn: ""
-  twitter: ""
-  image: "images/organizers/WeronikaPiotrowska.jpg"
-
-- name: "Dawid Mączka"
-  team: "Infra"
-  teamLeader: "False"
-  linkedIn: ""
-  twitter: ""
-  image: "images/organizers/empty.png"
-
-- name: "Piotr Hondra"
-  team: "Premeetings/Tutorials"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/piotr-hondra/"
-  twitter: ""
-  image: "images/organizers/PiotrHondra.jpg"
-
-- name: "Ernest Perkowski"
-  team: "Sponsors"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/ernest-perkowski/"
-  twitter: ""
-  image: "images/organizers/ErnestPerkowski.jpg"
-
-- name: "Sebastian Dziadzio"
-  team: "Speakers"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/sebastiandziadzio/"
-  twitter: "https://twitter.com/sbdzdz"
-  image: "images/organizers/SebastianDziadzio.jpg"
-
-- name: "Dima Zhylko"
-  team: "SpecOps"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/dima-z-a67006131/"
-  twitter: ""
-  image: "images/organizers/DmytroZhylko.jpg"
-
-- name: "Bartek Krzepkowski"
-  team: "Registration"
-  teamLeader: "False"
-  linkedIn: ""
-  twitter: ""
-  image: "images/organizers/empty.png"
-
-- name: "Karolina  Romanowska"
-  team: "Premeetings/Tutorials"
-  teamLeader: "False"
-  linkedIn: "https://www.linkedin.com/in/karolina-romanowska/"
-  twitter: ""
-  image: "images/organizers/KarolinaRomanowska.jpg"
-
+- name: Marcin Możejko
+  title: ML in PL / University of Warsaw
+  linkedin: https://www.linkedin.com/in/marcin-mo%C5%BCejko-6b024bbb/
+  image: images/organizers-300x300/MarcinMozejko.webp

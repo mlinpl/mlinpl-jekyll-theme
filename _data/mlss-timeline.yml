@@ -1,8 +1,8 @@
-- date: 3 March
-  description: Registration open
+- date: 6 March
+  description: Registration open (<a href="/application-instructions">details here</a>)
 
 - date: 8 April
-  description: Registration deadline
+  description: Registration closes
 
 - date: 28 April
   description: Acceptance notifications
@@ -11,7 +11,7 @@
   description: Time to pay the registration fee
 
 - date: 8 May
-  description: Confirmation of participation (if fee paid)
+  description: Confirmation of participation
 
 - date: 26 June - 1 July
   description: <span class="logo"><span class="main-name">MLSS<span class="superscript">S</span></span> <span class="sub-name">2023</span></span>

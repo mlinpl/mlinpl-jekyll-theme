@@ -1,0 +1,47 @@
+- name: Matej Balog 
+  title: DeepMind
+  image: images/speakers-600x600/MatejBalog.webp
+
+- name: Bingqing Cheng 
+  title: Institute of Science and Technology, Austria
+  image: images/speakers-600x600/BingqingCheng.webp
+
+- name: Sayak Ray Chowdhury 
+  title: Microsoft Research
+  image: images/speakers-600x600/SayakRayChowdhury.webp
+
+- name: Marco Cuturi 
+  title: Apple / CREST-ENSAE
+  image: images/speakers-600x600/MarcoCuturi.webp
+
+- name: Anna Gambin 
+  title: University of Warsaw
+  image: images/speakers-600x600/AnnaGambin.webp
+
+- name: Jose Miguel Hernandez-Lobato 
+  title: University of Cambridge
+  image: images/speakers-600x600/JoseMiguelHernandez-Lobato.webp
+
+- name: Stanisław Jastrzębski 
+  title: Molecule.one
+  image: images/speakers-600x600/StanislawJastrzebski.webp
+
+- name: Mario Krenn 
+  title: Max Planck Institute for the Science of Light
+  image: images/speakers-600x600/MarioKrenn.webp
+
+- name: Mathias Niepert 
+  title: University of Stuttgart
+  image: images/speakers-600x600/MathiasNiepert.webp
+
+- name: Benedek Rozemberczki 
+  title: Isomorphic Labs
+  image: images/speakers-600x600/BenedekRozemberczki.webp
+
+- name: Christoph Weniger 
+  title: University of Amsterdam
+  image: images/speakers-600x600/ChristophWeniger.webp
+
+- name: Bartosz Zieliński 
+  title: Jagiellonian University
+  image: images/speakers-600x600/BartoszZielinski.webp

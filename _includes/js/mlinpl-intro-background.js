@@ -1,5 +1,9 @@
 'use strict';
 
+/*!
+ * Header animation for ML in PL Theme
+ */
+
 const canvas = document.getElementById("intro-background"),
       ctx = canvas.getContext("2d"),
       fps = 30,  // To make it less cpu intensive, we only update the canvas every 30 frames

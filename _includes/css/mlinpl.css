@@ -102,14 +102,14 @@ h6 {
     letter-spacing: 1px;
 }
 
-p {
+p, ul {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
 }
 
 @media(min-width:767px) {
-    p {
+    p, ul {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
@@ -125,7 +125,7 @@ a {
 
 a:hover,
 a:focus {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: {{ site.color.main }};
 }
 
@@ -207,7 +207,11 @@ a:focus {
     background: radial-gradient(rgba(255, 255, 255, 0.75) 0%, rgba(255,255,255,0) 100%);
 }
 
-.intro {
+.navbar-nav {
+    font-size: 14px;
+}
+
+.intro, .page-intro {
     display: table;
     width: 100%;
     height: auto;
@@ -216,7 +220,7 @@ a:focus {
     color: #000;
     background-color: {{ site.color.background }};
     background-size: cover;
-
+    position: relative;
 }
 
 .intro .intro-body {
@@ -233,6 +237,11 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+}
+
+.page-intro {
+    height: 400px !important;
+    margin-bottom: -150px;
 }
 
 @media(min-width:767px) {
@@ -586,6 +595,8 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
 }
 
 .text-align-left {
@@ -602,7 +613,6 @@ body {
 
 
 .sb-name {
-    font-weight: bold;
     margin-top: 15px;
     margin-bottom: 10px;
     margin-left: 0px;
@@ -620,6 +630,7 @@ body {
 }
 
 .sb-affiliation {
+    font-size: 14px;
     margin-bottom: 15px;
 }
 
@@ -631,10 +642,37 @@ body {
     }
 }
 
-.sb-photo {
+.person-photo {
     border-radius: 50%;
-    border: 5px solid #444;
-    width: 160px;
+    border: 2px solid {{ site.color.main }};
+}
+
+.person-photo-with-social {
+    position: relative;
+}
+
+.person-social {
+    font-size: 20px;
+}
+
+.person-photo-with-social .person-social a i {
+    position: absolute;
+    background: {{ site.color.main }};
+    border-radius: 50%;
+    padding: 8px;
+    color: white !important;
+    width: 35px;
+    height: 35px;
+}
+
+.person-photo-with-social .person-social a:nth-child(1) i {
+    bottom: 13px;
+    right: 25px;
+}
+
+.person-photo-with-social .person-social a:nth-child(2) i {
+    bottom: 50px;
+    right: 0px;
 }
 
 
