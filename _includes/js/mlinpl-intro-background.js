@@ -181,7 +181,6 @@ function removeOutOfBoundsParticles(particles) {
 }
     
 function resize() {
-    console.log("Resizing canvas");
     width = canvas.offsetWidth;
     height = canvas.offsetHeight;
     canvas.width = width;
@@ -199,13 +198,12 @@ function render() {
           timeElapsed = now - then;
 
     // Limit framerate
+    if (timeElapsed >= framesInterval){
+        then = now;
+        if(width !== canvas.offsetWidth || height !== canvas.offsetHeight) resize();
+        draw();
+    }
     requestAnimationFrame(render);
-    if (timeElapsed <= framesInterval) return;
-    then = now;
-
-    //console.log(canvas.offsetWidth, canvas.offsetHeight);
-    if(width !== canvas.offsetWidth || height !== canvas.offsetHeight) resize();
-    draw();
 }
 
 render();

@@ -21,7 +21,7 @@
 title: ML in PL Conference 2023
 email: contact@conference.mlinpl.org
 event-date: "2023-10-26T00:00:00"
-countdown-date: "2023-10-26T00:00:00"
+
 description: >-
   ML in PL Conference 2023 is an event focused on the best of Machine Learning both in academia and in business.
 main-image: images/mlinpl-conference-2023-logo-black.png
@@ -29,8 +29,39 @@ twitter-username: "@MLinPL"
 baseurl: "/www-dev" # the subpath of your site, e.g. /blog
 url: "https://mlinpl.github.io/www-dev/" # the base hostname & protocol for your site, e.g. http://example.com
 
-logo: <span class="logo"><span class="main-name">MLSS<span class="superscript">S</span></span> <span class="sub-name">2023</span></span>
-inline-logo: <span class="logo"><span class="main-name">MLSS<span class="superscript">S</span></span> <span class="sub-name">2023</span></span>
+
+# Header settings
+inline-logo: '<span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2023</span></span>'
+header:
+  heading: '<img src="images/mlinpl-conference-2023-logo-black.png" style="max-height: 1.5em; max-width: 90%;">'
+  date-location: 26 - 29 October / Warsaw, Poland
+  # Countdown settings
+  countdown-date: "2023-10-26T00:00:00"
+
+
+# Navigation settings
+navigation:
+  - name: "/ About"
+    url: "#about"
+  
+  - name: "/ Speakers"
+    url: "#speakers"
+
+  - name: "/ CfC"
+    url: "#cfc"
+
+  - name: "/ Timeline"
+    url: "#timeline"
+
+  - name: "/ Sponsors"
+    url: "#sponsors"
+
+  - name: "/ Organizers"
+    url: "#organizers"
+
+  - name: "/ Contact"
+    url: "#contact"
+
 
 # Build settings
 theme: minima

@@ -2,6 +2,10 @@
   title: DeepMind
   image: images/speakers-600x600/MatejBalog.webp
 
+- name: Michael Bronstein
+  title: University of Oxford, Twitter
+  image: images/speakers-600x600/MichaelBronstein.webp
+
 - name: Bingqing Cheng 
   title: Institute of Science and Technology, Austria
   image: images/speakers-600x600/BingqingCheng.webp
@@ -43,5 +47,5 @@
   image: images/speakers-600x600/ChristophWeniger.webp
 
 - name: Bartosz Zieliński 
-  title: Jagiellonian University
+  title: Jagiellonian University / IDEAS NCBR
   image: images/speakers-600x600/BartoszZielinski.webp

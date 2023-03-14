@@ -21,7 +21,6 @@
 title: MLSS^S 2023
 email: mlss@mlinpl.org
 event-date: "2023-06-26T00:00:00"
-countdown-date: "2023-06-26T00:00:00"
 description: >-
   MLSS^S 2023 is a summer school providing a didactic introduction to a range of modern topics in Machine Learning
   and their applications in other disciplines of Science, primarily intended for research-oriented graduate students. 
@@ -32,8 +31,35 @@ twitter-username: "@MLinPL"
 baseurl: "/www-dev" # the subpath of your site, e.g. /blog
 url: "https://mlinpl.github.io/www-dev/" # the base hostname & protocol for your site, e.g. http://example.com
 
-logo: <span class="logo"><span class="main-name">MLSS<span class="superscript">S</span></span> <span class="sub-name">2023</span></span>
-inline-logo: <span class="logo"><span class="main-name">MLSS<span class="superscript">S</span></span> <span class="sub-name">2023</span></span>
+
+# Header settings
+inline-logo: '<span class="logo"><span class="main-name">MLSS<span class="superscript">S</span></span> <span class="sub-name">2023</span></span>'
+header:
+  heading: '<span class="logo"><span class="main-name">MLSS<span class="superscript">S</span></span> <span class="sub-name">2023</span></span>'
+  subheading: Machine Learning Summer School</br>on applications in <span class="emph">Science</span>
+  date-location: 26 June - 2 July / Kraków, Poland
+  # Countdown settings
+  countdown-date: "2023-04-09T00:00:00"
+  countdown-text: '<a href="registration">Registation</a> closes in:'
+
+
+# Navigation settings
+navigation:
+  - name: "/ About"
+    url: "#about"
+  
+  - name: "/ Speakers"
+    url: "#speakers"
+
+  - name: "/ Registration"
+    url: "registration"
+
+  - name: "/ Timeline"
+    url: "#timeline"
+
+  - name: "/ Organizers"
+    url: "#organizers"
+
 
 # Build settings
 theme: minima
