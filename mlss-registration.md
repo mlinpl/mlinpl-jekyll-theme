@@ -5,10 +5,22 @@ permalink: /registration
 ---
 
 
+## Registration process in short
+
+1) Submit your extended abstract: <a href="https://openreview.net/group?id=MLinPL.org/2023/MLSS" class="btn btn-default btn-lg"><i class="fa-solid fa-file-pdf"></i> <span class="network-name">Openreview</span></a>
+
+2) Submit your personal information: <a href="https://forms.office.com/e/zR57si49sE" class="btn btn-default btn-lg"><i class="fa-solid fa-table-list"></i> <span class="network-name">Application form</span></a>
+
+All the information about the registration process and how to prepare your submission can be found below on this page.
+
+
+---
+
+
 ## Application instructions
 
 The application process closes on April 8th 2023 11:59pm AOE (Anywhere on Earth).
-Please read the information below and fill in the form linked to at the bottom of this page.
+Please read the information below and fill in the forms linked on this page.
 Remember that the registration process includes a required extended abstract submission, so get started well ahead of time.
 If this page doesn’t include all the information you need, please send your questions to [{{ site.email }}](mailto:{{ site.email }}), we will answer as soon as possible and add the missing information to the Frequently Asked Question section at the bottom of this page.
 The application process for MLSS^S is based on the one from the EEML summer school [https://eeml.eu](https://eeml.eu/). We kindly thank the organizers of EEML for sharing their expertise with us. 
@@ -17,8 +29,10 @@ The school welcomes applications from candidates all over the world, regardless 
 
 ## Timeline
 
-- 11:59pm Anywhere-on-Earth (AOE) Thursday 8th April 2023 - Registration closes
+- 11:59 pm Anywhere-on-Earth (AOE) Thursday 8th April 2023 - Registration closes
 - 28th April 2023 - Results announced
+- 28th April 2023 - 8th May 2023 - Time to pay the registration fee (if your application is accepted)
+- 8th May 2023 - Final confirmation of particiaption
 
 
 ## Costs
@@ -110,10 +124,13 @@ In your OpenReview application, please add the type of your extended abstract (o
 - (bonus) Additional interpretation / insights about the works, or re-interpretation of one of the works in the light of the other
 
 
-#### Link to Openreview: [https://openreview.net/group?id=MLinPL.org/2023/MLSS](https://openreview.net/group?id=MLinPL.org/2023/MLSS)
+---
 
-#### Link to the application form: [https://forms.office.com/e/zR57si49sE](https://forms.office.com/e/zR57si49sE)
+1) Link to OpenReview: <a href="https://openreview.net/group?id=MLinPL.org/2023/MLSS" class="btn btn-default btn-lg"><i class="fa-solid fa-file-pdf"></i> <span class="network-name">Openreview</span></a>
 
+2) Link to the application form: <a href="https://forms.office.com/e/zR57si49sE" class="btn btn-default btn-lg"><i class="fa-solid fa-table-list"></i> <span class="network-name">Application form</span></a>
+
+---
 
 
 ## Frequently Asked Questions

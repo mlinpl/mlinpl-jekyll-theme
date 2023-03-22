@@ -18,16 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+
+# Head settings
 title: ML in PL Conference 2023
 email: contact@conference.mlinpl.org
 event-date: "2023-10-26T00:00:00"
-
 description: >-
   ML in PL Conference 2023 is an event focused on the best of Machine Learning both in academia and in business.
 main-image: images/mlinpl-conference-2023-logo-black.png
 twitter-username: "@MLinPL"
 baseurl: "/www-dev" # the subpath of your site, e.g. /blog
-url: "https://mlinpl.github.io/www-dev/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mlinpl.github.io/www-dev" # the base hostname & protocol for your site, e.g. http://example.com
+author:
+  name: ML in PL Association
+  url: https://mlinpl.org
 
 
 # Header settings
@@ -63,11 +67,48 @@ navigation:
     url: "#contact"
 
 
+# Defaults for different pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/mlinpl-conference-2023-event-banner.jpg
+
+
+# Color settings
+color:
+  main: "#E7322A"
+  main-gradient: "#E7322A, #FF00FF"
+  background: "#FFFFFF"
+
+
+# Footer settings
+footer: ML in PL Association
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/company/mlinpl
+  - title: facebook
+    url: https://www.facebook.com/MLinPL
+  - title: twitter
+    url: https://twitter.com/mlinpl
+  - title: youtube
+    url: https://www.youtube.com/channel/UCmXKn-Xeq1ZTAQBTwsYw4AA
+
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-seo-tag
-  - jekyll-feed
+
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -88,30 +129,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-# Color settings
-color:
-  main: "#E7322A"
-  main-gradient: "#E7322A, #FF00FF"
-  background: "#FFFFFF"
-
-# Footer settings
-footer: ML in PL Association
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: linkedin
-    url: https://www.linkedin.com/company/mlinpl
-  - title: facebook
-    url: https://www.facebook.com/MLinPL
-  - title: twitter
-    url: https://twitter.com/mlinpl
-  - title: youtube
-    url: https://www.youtube.com/channel/UCmXKn-Xeq1ZTAQBTwsYw4AA
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-
-sass:
-  style: compressed # possible values: nested expanded compact compressed

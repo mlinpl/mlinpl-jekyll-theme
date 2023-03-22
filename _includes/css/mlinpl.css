@@ -20,9 +20,16 @@
 }
 
 .event-heading {
-    margin-top: 2em;
-    font-size: 7em;
+    margin-top: 1.5em;
+    font-size: 3.5em;
     margin-bottom: 5px;
+}
+
+@media(min-width:767px) {
+    .event-heading {
+        margin-top: 2em;
+        font-size: 7em;
+    }
 }
 
 .event-subheading {
