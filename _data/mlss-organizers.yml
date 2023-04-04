@@ -55,7 +55,7 @@
 - name: Marek Masiak
   title: ML in PL / University College London
   linkedin: https://www.linkedin.com/in/marekmasiak/
-  image: images/empty.png
+  image: images/organizers-300x300/MarekMasiak.webp
 
 - name: Michał Tyrolski
   title: ML in PL / Deepflare
@@ -84,12 +84,22 @@
 
 - name: Dawid Mączka
   title: ML in PL / University of Warsaw
-  image: images/empty.png
+  image: images/organizers-300x300/DawidMaczka.webp
 
 - name: Jakub Walendowski
   title: ML in PL / University of Warsaw
   linkedin: https://www.linkedin.com/in/jakub-walendowski-982550210/
   image: images/organizers-300x300/JakubWalendowski.webp
+
+- name: Aleksandra Możwiłło
+  title: ML in PL
+  linkedin: https://www.linkedin.com/in/aleksandra-mo%C5%BCwi%C5%82%C5%82o-22a7281ab/
+  image: images/organizers-300x300/AleksandraMozwillo.webp
+
+- name: Jakub Myśliwiec
+  title: ML in PL / Utrecht University
+  linkedin: https://www.linkedin.com/in/jmysliwiec/
+  image: images/organizers-300x300/JakubMysliwiec.webp
 
 - name: Marcin Możejko
   title: ML in PL / University of Warsaw

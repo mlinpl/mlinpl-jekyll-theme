@@ -20,8 +20,16 @@
 }
 
 .event-heading {
-    margin-top: 2em;
-    font-size: 7em;
+    margin-top: 1.5em;
+    font-size: 3.5em;
+    margin-bottom: 5px;
+}
+
+@media(min-width:767px) {
+    .event-heading {
+        margin-top: 2em;
+        font-size: 7em;
+    }
 }
 
 .event-subheading {
@@ -29,7 +37,14 @@
 }
 
 .event-date-location {
+    margin-top: 35px;
     color: {{ site.color.main }};
+}
+
+.event-countdown-text {
+    font-size: 75%;
+    font-weight: bold;
+    margin: 10px;
 }
 
 .logo {

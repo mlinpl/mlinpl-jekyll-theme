@@ -22,7 +22,7 @@ let then = 0,
         lineColors: "#EEE",
         sizeMin: 4,
         sizeRange: 3,
-        speedMax: 0.5,
+        speedMax: 0.4,
         groups: [[0, 1], [0, 2], [1, 2]],
         density: 0.00015
     },
@@ -31,7 +31,7 @@ let then = 0,
         lineColors: "#AAA",
         sizeMin: 2,
         sizeRange: 2,
-        speedMax: 0.75,
+        speedMax: 0.6,
         groups: [[]], // This group of particles has no connecting lines
         density: 0.00015
     },
@@ -40,7 +40,7 @@ let then = 0,
         lineColors: {"#000": 0.3, "#222": 0.3, "#444": 0.3},
         sizeMin: 2,
         sizeRange: 5,
-        speedMax: 1,
+        speedMax: 0.8,
         groups: [[0, 1], [0, 2], [0, 3], [0, 4], [1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4], [0], [1], [2], [3], [4], [0], [1], [2], [3], [4]],
         density: 0.0003
     };
@@ -181,7 +181,6 @@ function removeOutOfBoundsParticles(particles) {
 }
     
 function resize() {
-    console.log("Resizing canvas");
     width = canvas.offsetWidth;
     height = canvas.offsetHeight;
     canvas.width = width;
@@ -199,13 +198,18 @@ function render() {
           timeElapsed = now - then;
 
     // Limit framerate
-    requestAnimationFrame(render);
-    if (timeElapsed <= framesInterval) return;
-    then = now;
+    if (timeElapsed >= framesInterval){
+        // Get ready for next frame by setting then=now,
+        // also, adjust for screen refresh rate
+        then = now - (timeElapsed % framesInterval);
 
-    //console.log(canvas.offsetWidth, canvas.offsetHeight);
-    if(width !== canvas.offsetWidth || height !== canvas.offsetHeight) resize();
-    draw();
+        // Check if resize is needed
+        if(width !== canvas.offsetWidth || height !== canvas.offsetHeight) resize();
+
+        // Update animation
+        draw();
+    }
+    requestAnimationFrame(render);
 }
 
 render();

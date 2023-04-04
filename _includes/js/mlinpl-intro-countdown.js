@@ -13,6 +13,6 @@ if(eventCountdownElement){
             document.getElementById("m-left").innerHTML = ("0" + ts.minutes).slice(-2);
             document.getElementById("s-left").innerHTML = ("0" + ts.seconds).slice(-2);
         },
-        new Date("{{ site.countdown-date }}"),
+        new Date("{{ site.header.countdown-date }}"),
         countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
 }

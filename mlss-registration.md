@@ -1,14 +1,26 @@
 ---
-layout: mlss-page
+layout: page
 title: Registration
 permalink: /registration
 ---
 
 
+## Registration process in short
+
+1) Submit your extended abstract: <a href="https://openreview.net/group?id=MLinPL.org/2023/MLSS" class="btn btn-default btn-lg"><i class="fa-solid fa-file-pdf"></i> <span class="network-name">Openreview</span></a>
+
+2) Submit your personal information: <a href="https://forms.office.com/e/zR57si49sE" class="btn btn-default btn-lg"><i class="fa-solid fa-table-list"></i> <span class="network-name">Application form</span></a>
+
+All the information about the registration process and how to prepare your submission can be found below on this page.
+
+
+---
+
+
 ## Application instructions
 
-The application process closes on April 8th 2023 11:59pm AOE (Anywhere on Earth).
-Please read the information below and fill in the form linked to at the bottom of this page.
+The application process closes on 8th April 2023 11:59pm AOE (Anywhere on Earth).
+Please read the information below and fill in the forms linked on this page.
 Remember that the registration process includes a required extended abstract submission, so get started well ahead of time.
 If this page doesn’t include all the information you need, please send your questions to [{{ site.email }}](mailto:{{ site.email }}), we will answer as soon as possible and add the missing information to the Frequently Asked Question section at the bottom of this page.
 The application process for MLSS^S is based on the one from the EEML summer school [https://eeml.eu](https://eeml.eu/). We kindly thank the organizers of EEML for sharing their expertise with us. 
@@ -17,8 +29,10 @@ The school welcomes applications from candidates all over the world, regardless 
 
 ## Timeline
 
-- 11:59pm Anywhere-on-Earth (AOE) Thursday 8th April 2023 - Registration closes
+- 11:59 pm Anywhere-on-Earth (AOE) Thursday 8th April 2023 - Registration closes
 - 28th April 2023 - Results announced
+- 28th April 2023 - 8th May 2023 - Time to pay the registration fee (if your application is accepted)
+- 8th May 2023 - Final confirmation of participation
 
 
 ## Costs
@@ -54,36 +68,36 @@ The scholarship includes reimbursement of the following costs up to the total of
 
 To apply for the summer school, you will need to provide the following information:
 
-- Personal information (name, contact, affiliation etc.)
+- Personal information (name, contact, affiliation, etc.)
 - A brief history of your education / employment
 - A short statement of research interests, a few sentences (max 2000 characters, but don’t feel pressured to use all available space): describe your research interests, projects related to ML you worked on or would like to work on, and motivation for attending the summer school.
 - An extended abstract on (choose ONLY ONE):
-  1. **[Research]** Your own project related to Machine Learning or Computational Neuroscience OR
-  2. **[Reproduction]** A project reproducing the results of a paper published by someone else in a top conference or journal in ML (e.g. NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, ACL, EMNLP, TPAMI, JMLR) or Neuroscience (Nature, Nature Neuroscience, Nature Communications, Science, Science Advances, PNAS, Neuron, J. Neuroscience, eLife, PLOS Comp. Neurosci.) in the past 3 years, OR
-  3. **[Review]** A review of 3 related research papers on an ML or Neuroscience topic of your choice (e.g. 3 papers on continual learning, or 3 papers on attention models, etc), published by other authors in top conferences or journals (e.g. NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, ACL for ML; Nature, Science, PNAS, Neuron, J. Neuroscience, eLife, PLOS Comp. Neurosci. for Neuroscience).
+  1. **[Research]** Your own project related to Machine Learning or Computational Science OR
+  2. **[Reproduction]** A project reproducing the results of a paper published by someone else in a top conference or journal in ML or applied ML (e.g., NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, ACL, EMNLP, TPAMI, JMLR, Nature, Nature Communications, Science, Science Advances, PNAS) in the past 3 years, OR
+  3. **[Review]** A review of 3 related research papers on an ML or applied ML topic of your choice (e.g., 3 papers on continual learning, or 3 papers on attention models, etc.), published by other authors in top conferences or journals (e.g., NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, ACL, EMNLP, TPAMI, JMLR, Nature, Nature Communications, Science, Science Advances, PNAS).
 
 ## Notes regarding the extended abstract
 
 - Since the number of people who can attend the summer school in person is limited, we will only be able to accept selected applications. The extended abstract will be the most important factor in this decision.
 Submission of the extended abstract is handled through OpenReview, a system enabling double-blind review of the submissions.
 - We provide three options for the extended abstract to make sure that the selection process is accessible to anyone, irrespective of the level of expertise in Machine Learning. We will assess the applicant’s interest in the field, not just expertise in these topics.
-- The extended abstract can be structured as a short paper, i.e., it can have sections (e.g. Intro, Method, Experiments, References, etc.), and it can include images, figures, tables, etc.
+- The extended abstract can be structured as a short paper, i.e., it can have sections (e.g., Intro, Method, Experiments, References, etc.), and it can include images, figures, tables, etc.
 - The extended abstract must not exceed **two pages**, excluding references.
 - **Submissions are double blind**: author(s) names and affiliations should not appear in the PDF.
-- It is possible to submit the extended abstract of a research paper that you've already published (from 2018 onward); this falls under option (1). Summarise your paper to respect the page limit, and if you are not the only author, include a brief description of your contribution in the pdf document.
-- Use whatever layout and editor you prefer; e.g., for latex you could use NeurIPS format and sharelatex editor.
-We accept multiple applicants (normally 2) with the same extended abstract for options (1) and (2), provided that all the applicants contributed considerably to the work. In your extended abstract, include a brief description of your contribution to the project. Note that the selection decision takes into account several factors, not only the abstract, hence it can differ for candidates with the same abstract.
+- It is possible to submit the extended abstract of a research paper that you've already published (from 2018 onward); this falls under option **[Research]**. Summarise your paper to respect the page limit, and if you are not the only author, include a brief description of your contribution in the pdf document.
+- Use whatever layout and editor you prefer; e.g., for latex, you could use NeurIPS format and Overleaf editor.
+We accept multiple applicants (normally 2) with the same extended abstract for options **[Research]** and **[Reproduction]**, provided that all the applicants contributed considerably to the work. In your extended abstract, include a brief description of your contribution to the project. Note that the selection decision takes into account several factors, not only the abstract. Hence it can differ for candidates with the same abstract.
 - All documents must be submitted in PDF format.
 
 ## Hints for writing the extended abstract:
 
 For option **[Research]**, it is fine if the work is in incipient stages and you only have preliminary results. This is a non-archival submission; you can submit your work to any other venue as well.
 
-For option **[Reproduction]**, please also include, if possible, your own observations about the paper, e.g. analysis of robustness, was the paper difficult to reproduce given the details in the paper; most important tricks in implementation etc.
+For option **[Reproduction]**, please also include, if possible, your own observations about the paper, e.g., analysis of robustness, was the paper difficult to reproduce given the details in the paper; most important tricks in implementation, etc.
 
 For option **[Review]**, consider reviewing works that have some aspects in common, so that you can compare them and highlight their pros and cons.
 
-In your OpenReview application please add the type of your extended abstract (one of: research, reproduction, review) in the “keywords” section.
+In your OpenReview application, please add the type of your extended abstract (one of: research, reproduction, or review) in the “keywords” section.
 
 ## Evaluation criteria
 
@@ -99,22 +113,24 @@ In your OpenReview application please add the type of your extended abstract (on
 - Clarity of the description of the paper reproduced
 - Understanding of the paper reproduced
 - Clear description of the reproduction setting / implementation
-- Discuss results of the reproduction
+- Discuss the results of the reproduction
 - Comments on the difficulty of reproducing results / criticisms
-- (bonus) Further exploration of the method, e.g. robustness to hyper-parameters, additional evaluation on a different dataset, etc.
+- (bonus) Further exploration of the method, e.g., robustness to hyper-parameters, additional evaluation on a different dataset, etc.
 
 **Review:**
 - Clear description of the reviewed papers
 - Understanding of the reviewed papers
-- Comparison between the 3 papers, highlighting the differences, considering advantages and downsides for each
-- (bonus) Additional interpretation / insights about the works, or re-interpretion of one of the works in the light of the other
+- Comparison between the 3 papers, highlighting the differences, considering the advantages and downsides of each
+- (bonus) Additional interpretation / insights about the works, or re-interpretation of one of the works in the light of the other
 
 
-#### Link to Openreview: [https://openreview.net/group?id=MLinPL.org/2023/MLSS](https://openreview.net/group?id=MLinPL.org/2023/MLSS)
+---
 
-#### Link to the application form: [https://forms.office.com/e/zR57si49sE](https://forms.office.com/e/zR57si49sE)
+1) Link to OpenReview: <a href="https://openreview.net/group?id=MLinPL.org/2023/MLSS" class="btn btn-default btn-lg"><i class="fa-solid fa-file-pdf"></i> <span class="network-name">Openreview</span></a>
 
+2) Link to the application form: <a href="https://forms.office.com/e/zR57si49sE" class="btn btn-default btn-lg"><i class="fa-solid fa-table-list"></i> <span class="network-name">Application form</span></a>
 
+---
 
 
 ## Frequently Asked Questions
