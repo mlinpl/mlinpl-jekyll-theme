@@ -78,8 +78,10 @@ defaults:
 # Color settings
 color:
   main: "#E7322A"
+  second: "#010101"
   main-gradient: "#E7322A, #FF00FF"
   background: "#FFFFFF"
+  photo-grayscale: 100%
 
 
 # Footer settings

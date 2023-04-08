@@ -1,24 +1,28 @@
 - name: Ewa Szczurek
   affiliation: University of Warsaw
   photo: ./images/scientific-board/EwaSzczurek.jpg
+  google-scholar: https://scholar.google.pl/citations?hl=pl&user=hltmGf0AAAAJ
   bio: >-
     Ewa Szczurek is an assistant professor at the Faculty of Mathematics, Informatics and Mechanics at the University of Warsaw. She holds two Master degrees, one from the Uppsala University, Sweden and one from the University of Warsaw, Poland. She finished PhD studies at the Max Planck Institute for Molecular Genetics in Berlin, Germany and conducted postdoctoral research at ETH Zurich, Switzerland. She now leads a research group focusing on machine learning and molecular biology, with most applications in computational oncology. Her group works mainly with probabilistic graphical models and deep learning, with a recent focus on variational autoencoders.
 
 - name: Henryk Michalewski
   affiliation: Google Brain
   photo: ./images/scientific-board/HenrykMichalewski.jpg
+  google-scholar: https://scholar.google.pl/citations?hl=pl&user=YdHW1ycAAAAJ
   bio: >-
     Henryk Michalewski obtained his Ph.D. in Mathematics and Habilitation in Computer Science from the University of Warsaw. Henryk spent a semester in the Fields Institute, was a postdoc at the Ben Gurion University in Beer-Sheva and a visiting professor in the École normale supérieure de Lyon. He was working on topology, determinacy of games, logic and automata. Then he turned his interests to more practical games and wrote two papers on Morpion Solitaire. Presenting these papers at the IJCAI conference in 2015 he met researchers from DeepMind and discovered the budding field of deep reinforcement learning. This resulted in a series of papers including Learning from memory of Atari 2600, Hierarchical Reinforcement Learning with Parameters, Distributed Deep Reinforcement Learning: Learn how to play Atari games in 21 minutes and Reinforcement Learning of Theorem Proving.
 
 - name: Jacek Tabor
   affiliation: Jagiellonian University (GMUM)
   photo: ./images/scientific-board/JacekTabor.jpg
+  google-scholar: https://scholar.google.pl/citations?hl=pl&user=zSKYziUAAAAJ
   bio: >-
     Jacek Tabor in his scientific work deals with broadly understood machine learning, in particular with deep generative models. He is also a member of the GMUM group (gmum.net) aimed at popularization and development of machine learning methods in Cracow.
 
 - name: Jan Chorowski
-  affiliation: University of Wrocław
+  affiliation: University of Wrocław, Pathway
   photo: ./images/scientific-board/JanChorowski.jpg
+  google-scholar: https://scholar.google.pl/citations?hl=pl&user=Yc94070AAAAJ
   bio: >-
     Jan Chorowski is an Associate Professor at Faculty of Mathematics and Computer Science at University of Wrocław. He received his M.Sc. degree in electrical engineering from Wrocław University of Technology and Ph.D. from University of Louisville. He has visited several research teams, including Google Brain, Microsoft Research and Yoshua Bengio’s lab. His research interests are applications of neural networks to problems which are intuitive and easy for humans and difficult for machines, such as speech and natural language processing.
 
@@ -31,6 +35,7 @@
 - name: Krzysztof Geras
   affiliation: New York University
   photo: ./images/scientific-board/KrzysztofGeras.jpg
+  google-scholar: https://scholar.google.pl/citations?hl=pl&user=ZMCGp48AAAAJ
   bio: >-
     Krzysztof Geras is an assistant professor at NYU School of Medicine and an affiliated faculty at NYU Center for Data Science. His main interests are in unsupervised learning with neural networks, model compression, transfer learning, evaluation of machine learning models and applications of these techniques to medical imaging. He previously completed a postdoc at NYU with Kyunghyun Cho, a PhD at the University of Edinburgh with Charles Sutton and an MSc as a visiting student at the University of Edinburgh with Amos Storkey. His BSc is from the University of Warsaw. He also completed industrial internships in Microsoft Research (Redmond and Bellevue), Amazon (Berlin) and J.P. Morgan (London).
 
@@ -69,3 +74,10 @@
   photo: ./images/scientific-board/VioricaPatraucean.jpg
   bio: >-
     Viorica Patraucean is a research scientist in DeepMind. She obtained her PhD from University of Toulouse on probabilistic models for low-level image processing. She then carried out postdoctoral work at Ecole Polytechnique Paris and University of Cambridge, on processing of images, videos, and point-clouds. Her main research interests revolve around efficient vision systems, with a focus on deep video models. She is one of the main organisers of EEML summer school and has served as program committee member for top Computer Vision and Machine Learning conferences.
+
+- name: Stanisław Jastrzębski
+  affiliation: Molecule.one
+  photo: ""
+  google-scholar: https://scholar.google.pl/citations?user=wbJxGQ8AAAAJ&hl=pl
+  bio: >-
+    Stanisław Jastrzębski ...

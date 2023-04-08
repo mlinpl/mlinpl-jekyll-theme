@@ -626,40 +626,37 @@ body {
     margin-top: 0.5rem !important;
 }
 
-
-.sb-name {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-
-@media(min-width:1200px) {
-    .sb-name {
-        margin-top: 15px;
-        margin-bottom: 10px;
-        margin-left: 30px;
-        margin-right: 0px;
-    }
-}
-
-.sb-affiliation {
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-
-@media(min-width:1200px) {
-    .sb-affiliation {
-        margin-bottom: 50px;
-        margin-left: 30px;
-        margin-right: 0px;
+@media(min-width:750px) {
+    .person-with-bio {
+        padding-right: 0;
     }
 }
 
 .person-photo {
     border-radius: 50%;
-    border: 2px solid {{ site.color.main }};
+    border: 2px solid {{ site.color.second }};
+    margin-bottom: 1em;
+}
+
+{% if site.color.photo-grayscale %}
+.person-photo {
+    transition: all 0.5s ease-in-out;
+    filter: grayscale({{ site.color.photo-grayscale }});
+}
+.person-photo:hover {
+    filter: grayscale(0%);
+}
+{% endif %}
+
+.person-name {
+    text-align: center; 
+    margin-bottom: 0.2em
+}
+
+.person-title {
+    font-size: 12px; 
+    text-align: center; 
+    margin-bottom: 0.4em
 }
 
 .person-photo-with-social {

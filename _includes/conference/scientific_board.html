@@ -11,17 +11,20 @@
         {% if odd == 1 %}
         <div class="row">
             {% endif %}
-            <div class="col-lg-2 text-center">
-                <img class="person-photo" style="width: 160px;" src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
-                <h5 class="sb-name">{{ member.name }}</h5>
-                <p class="sb-affiliation">{{ member.affiliation }}</p>
-            </div>
-            <div class="col-lg-4 text-center">
-                <div style="text-align: justify;">
-                    <p style="font-size: 14px;">{{member.bio}}</p>
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-sm-4 text-center person-with-bio">
+                        <img class="person-photo" style="width: 160px;" src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+                        <h4 class="person-name">{{ member.name }}</h4>
+                        <p class="person-title">{{ member.affiliation }}</p>
+                    </div>
+                    <div class="col-sm-8 text-center">
+                        <div style="text-align: justify;">
+                            <p style="font-size: 16px;">{{member.bio}}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
             {% if odd == 0 or forloop.last == true %}
         </div>
         {% endif %}
