@@ -626,7 +626,7 @@ body {
     margin-top: 0.5rem !important;
 }
 
-.person-with-bio{
+.person-with-bio {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -644,11 +644,11 @@ body {
 }
 
 {% if site.color.photo-grayscale %}
-.person-photo {
+.person .person-photo {
     transition: all 0.5s ease-in-out;
     filter: grayscale({{ site.color.photo-grayscale }});
 }
-.person-photo:hover {
+.person:hover .person-photo {
     filter: grayscale(0%);
 }
 {% endif %}

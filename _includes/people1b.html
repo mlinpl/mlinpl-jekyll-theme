@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-xs-12 d-flex" style="width: 100%; display: flex; flex-wrap: wrap; align-items: baseline;">
         {% for person in include.people-data %}
-        <div style="text-align: center; width: 165px; margin: 20px 10px;">
+        <div class="person" style="text-align: center; width: 165px; margin: 20px 10px;">
             <div class="person-photo-with-social">
                 <img style="width: 140px;" class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
 
