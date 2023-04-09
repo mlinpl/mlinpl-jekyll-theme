@@ -478,7 +478,8 @@ body {
 
 /* Some classes for images in about page */
 .width-100 {
-    max-width: 100%;
+    width: 100%;
+    max-width: 400px;
 }
 
 .fadein {
@@ -486,6 +487,8 @@ body {
     overflow: hidden;
     width: 100%;
     height: 100%;
+    max-width: 400px;
+    margin: auto;
 }
 
 .fadein img {
