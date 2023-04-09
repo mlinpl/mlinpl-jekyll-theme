@@ -47,12 +47,6 @@ header:
 navigation:
   - name: "/ About"
     url: "#about"
-  
-  - name: "/ Speakers"
-    url: "#speakers"
-
-  - name: "/ CfC"
-    url: "#cfc"
 
   - name: "/ Timeline"
     url: "#timeline"
