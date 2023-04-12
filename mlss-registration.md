@@ -5,6 +5,12 @@ permalink: /registration
 ---
 
 
+<span style="color: #FF5356;">Registration is now closed. We thank all the applicants for their interest in the school. The results of the application process will be announced on 28th April 2023.</span>
+
+
+---
+
+
 ## Registration process in short
 
 1) Submit your extended abstract: <a href="https://openreview.net/group?id=MLinPL.org/2023/MLSS" class="btn btn-default btn-lg"><i class="fa-solid fa-file-pdf"></i> <span class="network-name">Openreview</span></a>
