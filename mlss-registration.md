@@ -19,7 +19,7 @@ All the information about the registration process and how to prepare your submi
 
 ## Application instructions
 
-The application process closes on ~~8th April 2023 11:59PM AOE (Anywhere on Earth)~~ 9th April 2023 11:59PM UTC-0.
+The application process closes on ~~8th April 2023 11:59PM AOE (Anywhere on Earth)~~ 9:59 PM UTC-0 on Tusday 11th April 2023.
 Please read the information below and fill in the forms linked on this page.
 Remember that the registration process includes a required extended abstract submission, so get started well ahead of time.
 If this page doesn’t include all the information you need, please send your questions to [{{ site.email }}](mailto:{{ site.email }}), we will answer as soon as possible and add the missing information to the Frequently Asked Question section at the bottom of this page.
@@ -29,7 +29,7 @@ The school welcomes applications from candidates all over the world, regardless 
 
 ## Timeline
 
-- ~~11:59PM AOE (Anywhere-on-Earth) Saturday 8th April 2023~~ 11:59 UTC-0 Sunday 9th April 2023 - Registration closes
+- ~~11:59 PM AOE (Anywhere-on-Earth) Saturday 8th April 2023~~ 9:59 PM UTC-0, Tusday 11th April 2023 - Registration closes
 - 28th April 2023 - Results announced
 - 28th April 2023 - 8th May 2023 - Time to pay the registration fee (if your application is accepted)
 - 8th May 2023 - Final confirmation of participation

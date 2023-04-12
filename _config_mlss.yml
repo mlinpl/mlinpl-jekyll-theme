@@ -44,8 +44,9 @@ header:
   subheading: Machine Learning Summer School</br>on applications in <span class="emph">Science</span>
   date-location: 26 June - 2 July / Kraków, Poland
   # Countdown settings
-  countdown-date: "2023-04-09T23:59:59Z"
-  countdown-text: '<a href="registration">Registration</a> closes in:'
+  countdown-date: "2023-06-26T00:00:00Z"
+  #countdown-date: "2023-04-11T21:59:59Z"
+  #countdown-text: '<a href="registration">Registration</a> closes in:'
 
 
 # Navigation settings
