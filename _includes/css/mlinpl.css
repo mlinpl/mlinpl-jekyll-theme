@@ -646,13 +646,48 @@ body {
     margin-bottom: 1em;
 }
 
-{% if site.color.photo-grayscale %}
-.person .person-photo {
+{% if site.color.person-photo-filter %}
+.person .person-photo, .person .person-photo-wrapper img {
     transition: all 0.5s ease-in-out;
-    filter: grayscale({{ site.color.photo-grayscale }});
+    filter: {{ site.color.person-photo-filter }};
 }
-.person:hover .person-photo {
-    filter: grayscale(0%);
+.person:hover .person-photo, .person:hover .person-photo-wrapper img {
+    filter: none;
+}
+{% endif %}
+
+.person-photo-wrapper {
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid {{ site.color.second }};
+    margin-bottom: 1em;
+}
+
+.person-photo-wrapper div{
+    position: relative;
+}
+
+.person-photo-wrapper div img{
+    width: 100%;
+    height: auto;
+}
+
+{% if site.color.person-photo-gradient %}
+.person .person-photo-wrapper div:after {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: {{ site.color.person-photo-gradient }};
+}
+
+.person:hover .person-photo-wrapper div:after {
+    opacity: 0;
 }
 {% endif %}
 

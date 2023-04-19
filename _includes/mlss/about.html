@@ -11,14 +11,11 @@
                 This school is the next edtion of <a href="https://mlss2022.mlinpl.org" style="color: #000;"><span class="logo"><span class="main-name">MLSS<span class="superscript" style="color: #a5619b !important">N</span></span> <span class="sub-name">2022</span></span></a>.
             </p>
             <p>
-                Registration is now open! You can find all the information about the process <a href="{{ "/registration" | relative_url }}"> here.</a>
-            </p>
-            <p>
                 If you have any questions about the school, don't hesitate to contact us by email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
             </p>
         </div>
         <div class="col-md-5 text-center">
-            <div class="fadein fadein-4" style="filter: hue-rotate({{ site.color.hue-rotate }}deg);">
+            <div class="fadein fadein-4" style="filter: {{ site.color.image-filter }};">
                 <img class="width-100" src="{{ "./images/ai-generated-800x800/group_of_scientists_engineers_1.webp" | relative_url }}">
                 <img class="width-100" src="{{ "./images/ai-generated-800x800/group_of_people_discussing_new_ideas_1.webp" | relative_url }}">
                 <img class="width-100" src="{{ "./images/ai-generated-800x800/poster_session_1.webp" | relative_url }}">

@@ -15,7 +15,12 @@
                 <div class="row person person-with-bio">
                     <div class="col-sm-4 text-center">
                         <div class="person-photo-with-social">
-                        <img class="person-photo" style="width: 160px;" src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+                        <!-- <img class="person-photo" style="width: 160px;" src="{{ member.photo | relative_url }}" alt="{{ member.name }}"> -->
+                        <div class="person-photo-wrapper" style="width: 160px;">
+                            <div>
+                                <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+                            </div>
+                        </div>
 
                         <div class="person-social-160">
                             {% if member.google-scholar and member.google-scholar != "" %}

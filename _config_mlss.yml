@@ -81,7 +81,7 @@ color:
   second: "#6DB6C6"
   main-gradient: "#FF0000, #FF00FF"
   background: "#FFFFFF"
-  hue-rotate: 190
+  image-filter: hue-rotate(190deg)
 
 
 # Footer settings
