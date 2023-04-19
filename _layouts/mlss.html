@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+{% include head.html %}
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     {% include nav.html %}
     {% include header.html %}
     {% include mlss/about.html %}
     {% include mlss/speakers.html %}
-    {% include timeline.html timeline-title="Timeline" timeline-data=site.data.mlss-timeline %}
+    {% include timeline.html timeline-title="Timeline" timeline-data=site.data.mlss-timeline timeline-col-width=7 image-col-width=5 %}
     {% include mlss/organizers.html %}
     {% include mlss/project.html %}
     {% include footer.html %}
     {% include js.html %}
-    </body>
+</body>
 </html>
