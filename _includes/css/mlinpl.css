@@ -479,6 +479,9 @@ body {
 /* Some classes for images in about page */
 .width-100 {
     width: 100%;
+}
+
+.width-max-400px {
     max-width: 400px;
 }
 
