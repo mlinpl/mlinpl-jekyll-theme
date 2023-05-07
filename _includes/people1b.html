@@ -3,7 +3,6 @@
         {% for person in include.people-data %}
         <div class="person" style="text-align: center; width: 165px; margin: 20px 10px;">
             <div class="person-photo-with-social">
-                <!-- <img style="width: 140px;" class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}"> -->
                 <div class="person-photo-wrapper" style="width: 140px;">
                     <div>
                         <img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
