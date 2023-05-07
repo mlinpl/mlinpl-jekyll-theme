@@ -63,6 +63,9 @@ navigation:
   - name: "/ Timeline"
     url: "#timeline"
 
+  - name: "/ Agenda"
+    url: "#agenda"
+
   - name: "/ Organizers"
     url: "#organizers"
 
