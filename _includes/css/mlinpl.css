@@ -91,6 +91,10 @@
     display: inline-block;
 }
 
+.standard-border {
+    border: 2px solid {{ site.color.second }};
+}
+
 body {
     width: 100%;
     height: 100%;

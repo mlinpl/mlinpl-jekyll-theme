@@ -66,6 +66,9 @@ navigation:
   - name: "/ Agenda"
     url: "#agenda"
 
+  - name: "/ Venue"
+    url: "#venue"
+
   - name: "/ Organizers"
     url: "#organizers"
 
