@@ -1,0 +1,16 @@
+<!-- Add to calendar component -->
+<section id="calendar" class="container content-section">
+    <style>
+
+    </style>
+    <div class="add-calendar">
+        <div class="row">
+            <a href="conference_invite.ics" download class="download">Download ICS</a>
+        </div>
+        <div class="row">
+            {% for calendar in site.data.conference-cal-links %}
+            <a href="{{calendar.link}}" class="calendar {{calendar.style}}"> {{calendar.icon}} </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
