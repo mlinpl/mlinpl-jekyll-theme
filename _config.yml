@@ -46,11 +46,6 @@ header:
 # Navigation settings
 navigation:
   - name: "/ About"
-    subsite:
-      - name: 123
-        url: "https://en.wikipedia.org/wiki/ML_(programming_language)"
-      - name: 342
-        url: "https://en.wikipedia.org/wiki/ML_(programming_language)"
     url: "#about"
 
   - name: "/ Timeline"
@@ -64,9 +59,11 @@ navigation:
 
   - name: "/ Organizers"
     url: "#organizers"
-
-  - name: "/ Contact"
-    url: "#contact"
+    subsites:
+      - name: "/ Scientific Board"
+        url: "#scientific_board"
+      - name: "/ Contact"
+        url: "#contact"    
 
 
 # Defaults for different pages
