@@ -17,8 +17,9 @@ optimize_images () {
     rm -f *.jpg *.jpeg *.png *.gif
 }
 
-# Optimize images of organizers
+# Optimize images of organizers and scientific board
 optimize_images ${ROOT_DIR}/images/organizers 300x300 webp 90
+optimize_images ${ROOT_DIR}/images/scientific-board 300x300 webp 90
 
 # Optimize images of speakers
 optimize_images ${ROOT_DIR}/images/speakers-mlss-2023 600x600 webp 90

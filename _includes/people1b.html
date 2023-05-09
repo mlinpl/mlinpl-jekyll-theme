@@ -1,11 +1,14 @@
 <div class="row">
     <div class="col-xs-12 d-flex" style="width: 100%; display: flex; flex-wrap: wrap; align-items: baseline;">
         {% for person in include.people-data %}
-        <div style="text-align: center; width: 160px; margin: 20px 10px;">
+        <div class="person" style="text-align: center; width: 165px; margin: 20px 10px;">
             <div class="person-photo-with-social">
-                <img style="width: 140px; margin-bottom: 1em;" class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
-
-                <div class="person-social">
+                <div class="person-photo-wrapper" style="width: 140px;">
+                    <div>
+                        <img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+                    </div>
+                </div>
+                <div class="person-social-140">
                     {% if person.linkedin and person.linkedin != "" %}
                     <a href="{{ person.linkedin }}">
                         <i class="fa-brands fa-linkedin-in"></i>
@@ -18,8 +21,8 @@
                     {% endif %}
                 </div>
             </div>
-            <h5 style="text-align: center; margin-bottom: 0.2em">{{ person.name }}</h5>
-            <p style="font-size: 12px; text-align: center; margin-bottom: 0.4em"><span>{{ person.title }}</span></p>
+            <h5 class="person-name">{{ person.name }}</h5>
+            <p class="person-title"><span>{{ person.title }}</span></p>
         </div>
         {% endfor %}
     </div>

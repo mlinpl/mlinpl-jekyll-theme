@@ -5,10 +5,10 @@ Expects following parameters: people-data
 <div class="row">
     <div class="col-xs-12 d-flex" style="width: 100%; display: flex; flex-wrap: wrap; align-items: baseline;">
         {% for person in include.people-data %}
-        <div style="text-align: center; width: 160px; margin: 10px;">
-            <img style="width: 140px; margin-bottom: 1em;" class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
-            <h5 style="text-align: center; margin-bottom: 0.2em">{{ person.name }}</h5>
-            <p style="font-size: 12px; text-align: center; margin-bottom: 0.4em"><span>{{ person.title }}</span></p>
+        <div class="person" style="text-align: center; width: 160px; margin: 10px;">
+            <img style="width: 140px;" class="person-photo" src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+            <h5 class="person-name">{{ person.name }}</h5>
+            <p class="person-title"><span>{{ person.title }}</span></p>
             <div class="person-social">
             {% if person.linkedin and person.linkedin != "" %}
                 <a href="{{ person.linkedIn }}">

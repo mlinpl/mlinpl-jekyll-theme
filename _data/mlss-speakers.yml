@@ -1,20 +1,24 @@
-- name: Matej Balog 
+- name: Thea Klæboe Årrestad
+  title: ETH Zürich / CERN
+  image: images/speakers-mlss-2023-600x600/TheaKlaeboeAarrestad.webp
+
+- name: Matej Balog
   title: DeepMind
   image: images/speakers-mlss-2023-600x600/MatejBalog.webp
 
 - name: Michael Bronstein
-  title: University of Oxford, Twitter
+  title: University of Oxford
   image: images/speakers-mlss-2023-600x600/MichaelBronstein.webp
 
-- name: Bingqing Cheng 
+- name: Bingqing Cheng
   title: Institute of Science and Technology, Austria
   image: images/speakers-mlss-2023-600x600/BingqingCheng.webp
 
-- name: Sayak Ray Chowdhury 
+- name: Sayak Ray Chowdhury
   title: Microsoft Research
   image: images/speakers-mlss-2023-600x600/SayakRayChowdhury.webp
 
-- name: Marco Cuturi 
+- name: Marco Cuturi
   title: Apple / CREST-ENSAE
   image: images/speakers-mlss-2023-600x600/MarcoCuturi.webp
 
@@ -22,19 +26,19 @@
   title: University of Oxford
   image: images/speakers-mlss-2023-600x600/YarinGal.webp
 
-- name: Anna Gambin 
+- name: Anna Gambin
   title: University of Warsaw
   image: images/speakers-mlss-2023-600x600/AnnaGambin.webp
 
-- name: Jose Miguel Hernandez-Lobato 
+- name: Jose Miguel Hernandez-Lobato
   title: University of Cambridge
   image: images/speakers-mlss-2023-600x600/JoseMiguelHernandez-Lobato.webp
 
-- name: Stanisław Jastrzębski 
+- name: Stanisław Jastrzębski
   title: Molecule.one
   image: images/speakers-mlss-2023-600x600/StanislawJastrzebski.webp
 
-- name: Mario Krenn 
+- name: Mario Krenn
   title: Max Planck Institute for the Science of Light
   image: images/speakers-mlss-2023-600x600/MarioKrenn.webp
 
@@ -42,18 +46,22 @@
   title: Microsoft Research
   image: images/speakers-mlss-2023-600x600/KrzysztofMaziarz.webp
 
-- name: Mathias Niepert 
+- name: Mathias Niepert
   title: University of Stuttgart
   image: images/speakers-mlss-2023-600x600/MathiasNiepert.webp
 
-- name: Benedek Rozemberczki 
+- name: Benedek Rozemberczki
   title: Isomorphic Labs
   image: images/speakers-mlss-2023-600x600/BenedekRozemberczki.webp
 
-- name: Christoph Weniger 
+- name: Żaneta Świderska-Chadaj
+  title: Warsaw University of Technology / Bayer
+  image: images/speakers-mlss-2023-600x600/ZanetaSwiderskaChadaj.webp
+
+- name: Christoph Weniger
   title: University of Amsterdam
   image: images/speakers-mlss-2023-600x600/ChristophWeniger.webp
 
-- name: Bartosz Zieliński 
+- name: Bartosz Zieliński
   title: Jagiellonian University / IDEAS NCBR
   image: images/speakers-mlss-2023-600x600/BartoszZielinski.webp
