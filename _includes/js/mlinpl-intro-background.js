@@ -186,7 +186,8 @@ function resize() {
     canvas.width = width;
     canvas.height = height;
 
-    // Add particles to the new parts of the canvas.
+    // Reset and generate new particles 
+    // (this is easier than trying to resize the existing ones)
     bgParticles = [];
     mgParticles = [];
     fgParticles = [];

@@ -91,6 +91,10 @@
     display: inline-block;
 }
 
+.standard-border {
+    border: 2px solid {{ site.color.second }};
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -479,6 +483,9 @@ body {
 /* Some classes for images in about page */
 .width-100 {
     width: 100%;
+}
+
+.width-max-400px {
     max-width: 400px;
 }
 
@@ -617,6 +624,10 @@ body {
     justify-content: center;
 }
 
+.d-inline-block {
+    display: inline-block;
+}
+
 .text-align-left {
     text-align: left;
 }
@@ -629,51 +640,88 @@ body {
     margin-top: 0.5rem !important;
 }
 
-
-.sb-name {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
+.person-with-bio {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-
-@media(min-width:1200px) {
-    .sb-name {
-        margin-top: 15px;
-        margin-bottom: 10px;
-        margin-left: 30px;
-        margin-right: 0px;
-    }
-}
-
-.sb-affiliation {
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-
-@media(min-width:1200px) {
-    .sb-affiliation {
-        margin-bottom: 50px;
-        margin-left: 30px;
-        margin-right: 0px;
+@media(min-width:750px) {
+    .person-with-bio .col-sm-4, .person-with-bio .col-sm-8 {
+        padding-right: 0;
     }
 }
 
 .person-photo {
     border-radius: 50%;
-    border: 2px solid {{ site.color.main }};
+    border: 2px solid {{ site.color.second }};
+    margin-bottom: 1em;
+}
+
+{% if site.color.person-photo-filter %}
+.person .person-photo, .person .person-photo-wrapper img {
+    transition: all 0.5s ease-in-out;
+    filter: {{ site.color.person-photo-filter }};
+}
+.person:hover .person-photo, .person:hover .person-photo-wrapper img {
+    filter: none;
+}
+{% endif %}
+
+.person-photo-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid {{ site.color.second }};
+    margin-bottom: 1em;
+}
+
+.person-photo-wrapper div{
+    position: relative;
+}
+
+.person-photo-wrapper div img{
+    width: 100%;
+    height: auto;
+}
+
+{% if site.color.person-photo-gradient %}
+.person .person-photo-wrapper div:after {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: {{ site.color.person-photo-gradient }};
+}
+
+.person:hover .person-photo-wrapper div:after {
+    opacity: 0;
+}
+{% endif %}
+
+.person-name {
+    text-align: center; 
+    margin-bottom: 0.2em
+}
+
+.person-title {
+    font-size: 12px; 
+    text-align: center; 
+    margin-bottom: 0.4em
 }
 
 .person-photo-with-social {
     position: relative;
 }
 
-.person-social {
+.person-social-140, .person-social-160 {
     font-size: 20px;
 }
 
-.person-photo-with-social .person-social a i {
+.person-photo-with-social .person-social-140 a i, .person-photo-with-social .person-social-160 a i {
     position: absolute;
     background: {{ site.color.main }};
     border-radius: 50%;
@@ -683,12 +731,17 @@ body {
     height: 35px;
 }
 
-.person-photo-with-social .person-social a:nth-child(1) i {
+.person-photo-with-social .person-social-160 a i {
+    bottom: 20px;
+    right: 5px;
+}
+
+.person-photo-with-social .person-social-140 a:nth-child(1) i {
     bottom: 13px;
     right: 25px;
 }
 
-.person-photo-with-social .person-social a:nth-child(2) i {
+.person-photo-with-social .person-social-140 a:nth-child(2) i {
     bottom: 50px;
     right: 0px;
 }
@@ -728,4 +781,94 @@ body {
 
 .timeline .row:last-child .timeline-desc {
     border-left: none;
+}
+
+/* Read more */
+
+.read-more-state {
+    display: none;
+}
+
+.read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+    content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Show less';
+}
+
+.read-more-trigger{
+    margin-top: -1em;
+}
+
+
+/* Agenda */
+.agenda{
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: baseline;
+    width: 100%;
+}
+
+.day{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.days-3 {
+    width: 33%;
+}
+
+.days-7 {
+    width: 14.25%;
+    min-width: 150px;
+}
+
+.events{
+    text-align: left;
+    padding: 5px;
+}
+
+.agenda .events:last-child{
+    border-right: none;
+}
+
+.event{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid {{ site.color.main }};
+}
+
+.event:last-child{
+    border-bottom: none;
+}
+
+.event-1{
+    height: 64px;
+}
+
+.event-2{
+    height: 96px;
+}
+
+.event-3{
+    height: 128px;
+}
+
+.event-4{
+    height: 160px;
 }
