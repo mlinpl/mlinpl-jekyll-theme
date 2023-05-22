@@ -195,8 +195,14 @@ function resize() {
 }
 
 function render() {
-    const now = Date.now(),
-          timeElapsed = now - then;
+    const now = Date.now();
+    let timeElapsed = now - then;
+
+    // Stop animation when tab is not visible to save resources
+    if(document.hidden){
+        then = now;
+        timeElapsed = 0;
+    }
 
     // Limit framerate
     if (timeElapsed >= framesInterval){
