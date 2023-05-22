@@ -59,9 +59,11 @@ navigation:
 
   - name: "/ Organizers"
     url: "#organizers"
-
-  - name: "/ Contact"
-    url: "#contact"
+    subsites:
+      - name: "/ Scientific Board"
+        url: "#scientific_board"
+      - name: "/ Contact"
+        url: "#contact"    
 
 
 # Defaults for different pages
