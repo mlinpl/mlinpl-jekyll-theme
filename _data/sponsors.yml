@@ -1,47 +1,110 @@
 strategic:
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
+  sponsors:
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+  config:
+    title: Strategic Sponsors
+    maxWidth: 600
+    fontSize: 30
+    columns: 2
 
 platinum:
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
+  sponsors:
+      - image: "./images/institutions-logos/logo-mlinpl.svg"
+        link: "https://mlinpl.org"
+      - image: "./images/institutions-logos/logo-mlinpl.svg"
+        link: "https://mlinpl.org"
+      - image: "./images/institutions-logos/logo-mlinpl.svg"
+        link: "https://mlinpl.org"
+
+  config: 
+    title: "Platinum sponsors"
+    maxWidth: 420
+    fontSize: 30
+    columns: 2
+
 
 gold:
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
+  sponsors:
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+
+  config: 
+    title: "Gold sponsors"
+    maxWidth: 290
+    fontSize: 27
+    columns: 3
+
 
 silver:
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: 
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
+  sponsors:
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: 
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+
+  config: 
+    title: "Silver sponsors"
+    maxWidth: 250
+    fontSize: 25
+    columns: 4
+
 
 partner:
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: 
+  sponsors:
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: 
 
-patronage:
-  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/UW.png"
-    link: "https://mlinpl.org"
-  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/MIMUW.png"
-    link: "https://mlinpl.org"
+  config: 
+    title: "Partners"
+    maxWidth: 250
+    fontSize: 25
+    columns: 4
+
+
+honorary-patronage:
+  sponsors:
+    - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/UW.png"
+      link: "https://mlinpl.org"
+    - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/MIMUW.png"
+      link: "https://mlinpl.org"
+
+  config: 
+    title: "Honorary patronage"
+    maxWidth: 270
+    fontSize: 25
+    columns: 4
+
+
+media-partner:
+  sponsors:
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+    - image: "./images/institutions-logos/logo-mlinpl.svg"
+      link: "https://mlinpl.org"
+
+  config: 
+    title: "Media partners"
+    maxWidth: 250
+    fontSize: 25
+    columns: 4
