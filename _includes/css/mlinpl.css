@@ -69,6 +69,7 @@
     top: 0.15em;
     vertical-align: super;
     color: {{ site.color.main }};
+    line-height: 0;
 }
 
 .emph {
@@ -123,7 +124,7 @@ h6 {
     letter-spacing: 1px;
 }
 
-p, ul {
+p, ul, ol {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
@@ -684,6 +685,10 @@ body {
     }
 }
 
+.photo {
+    border: 2px solid {{ site.color.second }};
+}
+
 .person-photo {
     border-radius: 50%;
     border: 2px solid {{ site.color.second }};
@@ -748,6 +753,8 @@ body {
 
 .person-photo-with-social {
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .person-social-140, .person-social-160 {
