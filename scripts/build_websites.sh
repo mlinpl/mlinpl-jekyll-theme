@@ -20,6 +20,7 @@ cp *.md builds/mlss/
 
 cd builds/mlss
 rm _layouts/conference.html
+rm conference-*.md
 rm -r _includes/conference
 
 
@@ -40,4 +41,5 @@ cp *.md builds/conference/
 cd builds/conference
 rm _layouts/mlss.html
 rm -r _includes/mlss
+rm mlss-*.md
 rm _data/mlss-*.yml

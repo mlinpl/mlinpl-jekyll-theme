@@ -430,7 +430,8 @@ a:focus {
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; 
+    vertical-align: bottom;
 }
 
 .btn-default {

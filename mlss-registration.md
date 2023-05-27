@@ -13,9 +13,9 @@ permalink: /registration
 
 ## Registration process in short
 
-1) Submit your extended abstract: <a href="https://openreview.net/group?id=MLinPL.org/2023/MLSS" class="btn btn-default btn-lg"><i class="fa-solid fa-file-pdf"></i> <span class="network-name">Openreview</span></a>
+1) Submit your extended abstract: <a href="https://openreview.net/group?id=MLinPL.org/2023/MLSS" class="btn btn-default btn-lg"><i class="fa-solid fa-file-pdf"></i> Openreview</a>
 
-2) Submit your personal information: <a href="https://forms.office.com/e/zR57si49sE" class="btn btn-default btn-lg"><i class="fa-solid fa-table-list"></i> <span class="network-name">Application form</span></a>
+2) Submit your personal information: <a href="https://forms.office.com/e/zR57si49sE" class="btn btn-default btn-lg"><i class="fa-solid fa-table-list"></i> Application form</a>
 
 All the information about the registration process and how to prepare your submission can be found below on this page.
 
@@ -132,9 +132,9 @@ In your OpenReview application, please add the type of your extended abstract (o
 
 ---
 
-1) Link to OpenReview: <a href="https://openreview.net/group?id=MLinPL.org/2023/MLSS" class="btn btn-default btn-lg"><i class="fa-solid fa-file-pdf"></i> <span class="network-name">Openreview</span></a>
+1) Link to OpenReview: <a href="https://openreview.net/group?id=MLinPL.org/2023/MLSS" class="btn btn-default btn-lg"><i class="fa-solid fa-file-pdf"></i> Openreview</a>
 
-2) Link to the application form: <a href="https://forms.office.com/e/zR57si49sE" class="btn btn-default btn-lg"><i class="fa-solid fa-table-list"></i> <span class="network-name">Application form</span></a>
+2) Link to the application form: <a href="https://forms.office.com/e/zR57si49sE" class="btn btn-default btn-lg"><i class="fa-solid fa-table-list"></i> Application form</a>
 
 ---
 
