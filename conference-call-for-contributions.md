@@ -1,15 +1,17 @@
 ---
 layout: page
-title: Call for Contributions
+title: Call for Contributions (CfC)
 permalink: /call-for-contributions
 mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2023</span></span>
 ---
 
 We are excited to invite you to submit proposals for **contributed talks and posters** for **{{ page.mlinpl-inline-logo }}** and **Student Research Workshop** that will be organized 26 - 29 October 2023. 
 
+{% comment %}
 <a href="https://cfc2023.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
-<a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions</a>
+<a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of CfC</a>
 <a href="{{ "./privacy-policy" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Privacy policy</a>
+{% endcomment %}
 
 ---
 
@@ -58,8 +60,10 @@ The best talks and posters from the Main Conference will be awarded with gift ca
 
 ## Submit your talk/poster proposal
 
+{% comment %}
 <a href="https://cfc2023.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
-<a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions</a>
+<a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of CfC</a>
 <a href="{{ "./privacy-policy" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Privacy policy</a>
+{% endcomment %}
 
 You can contact us at <a href="mailto:contributions@conference.mlinpl.org">contributions@conference.mlinpl.org</a> in case you have any questions regarding Call for Contributions.

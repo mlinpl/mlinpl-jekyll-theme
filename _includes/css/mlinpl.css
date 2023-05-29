@@ -131,7 +131,7 @@ p, ul, ol {
 }
 
 @media(min-width:767px) {
-    p, ul {
+    p, ul, ol{
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
@@ -154,6 +154,45 @@ a:focus {
 .light {
     font-weight: 400;
 }
+
+ol { 
+    counter-reset: item;
+}
+
+ol > li { 
+    display: block;
+}
+
+ol > li:before { 
+    content: counters(item, ".") ". "; 
+    counter-increment: item;
+    content: counters(item, ".") ". ";
+    left: -2em;
+    position: relative;
+    width: 0;
+    display: inline-block; 
+}
+
+ol > li > ol {
+    margin-bottom: 25px;
+}
+
+ol > li > ol > li > ol > li:before {
+    content: counter(item, lower-latin) ". ";
+}
+
+.letters-ol > ol > li:before {
+    content: counter(item, upper-latin) ". ";
+}
+
+.letters-ol > ol > li > ol > li:before {
+    content: counter(item, lower-latin) ". ";
+}
+
+.letters-ol > ol > li > ol > li > ol > li:before {
+    content: counter(item, lower-roman) ". ";
+}
+
 
 .navbar-custom {
     margin-bottom: 0;
