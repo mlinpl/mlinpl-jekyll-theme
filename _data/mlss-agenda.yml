@@ -5,14 +5,14 @@
       time: 8:30 - 9:00
       height: 1
     - title: Christoph Weniger
-      subtitle: TBA
+      subtitle: Simulation-based inference for large forward models in physics and astronomy
       time: 9:00 - 10:30
       height: 4
     - title: <i class="fa-solid fa-mug-saucer"></i> Coffee break
       time: 10:30 - 11:00
       height: 1
     - title: Christoph Weniger
-      subtitle: TBA
+      subtitle: Simulation-based inference for large forward models in physics and astronomy
       time: 11:00 - 12:30
       height: 3
     - title: <i class="fa-solid fa-utensils"></i> Lunch break
@@ -64,7 +64,7 @@
       time: 15:00 - 15:30
       height: 1
     - title: Thea Aarrestad
-      subtitle: TBA
+      subtitle: "Unlocking the Secrets of the Universe: Accelerating Discovery with Machine Learning at CERN"
       time: 15:30 - 17:00
       height: 3
     - title: Poster session
@@ -91,7 +91,7 @@
       time: 12:30 - 13:30
       height: 2
     - title: Krzysztof Maziarz
-      subtitle: TBA
+      subtitle: Reaction Prediction and Retrosynthesis
       time: 13:30 - 15:00
       height: 3
     - title: <i class="fa-solid fa-mug-saucer"></i> Coffee break
@@ -124,9 +124,9 @@
     - title: <i class="fa-solid fa-utensils"></i> Lunch
       time: 12:30 - 13:30
       height: 2
-    - title: Time off
+    - title: Free time
       time: 13:30+
-      height: 8
+      height: 3
 
 - title: Friday
   subtitle: 30 June
@@ -195,13 +195,16 @@
       subtitle: TBA
       time: 15:30 - 17:00
       height: 3
+    - title: Free time
+      time: 17:00+
+      height: 2
 
 - title: Sunday
   subtitle: 2 July
   events:
     - title: ""
       height: 1
-    - title: TBA
+    - title: Krzysztof Krawiec
       subtitle: TBA
       time: 9:00 - 10:30
       height: 4
@@ -215,3 +218,6 @@
     - title: <i class="fa-solid fa-utensils"></i> Lunch
       time: 12:30 - 13:30
       height: 2
+    - title: Closing remarks
+      time: 13:30 - 14:00
+      height: 1

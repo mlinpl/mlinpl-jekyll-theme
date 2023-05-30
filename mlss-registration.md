@@ -37,8 +37,8 @@ The school welcomes applications from candidates all over the world, regardless 
 
 - ~~11:59 PM AOE (Anywhere-on-Earth) Saturday 8th April 2023~~ 9:59 PM UTC-0, Tusday 11th April 2023 - Registration closes
 - 28th April 2023 - Results announced
-- 28th April 2023 - 8th May 2023 - Time to pay the registration fee (if your application is accepted)
-- 8th May 2023 - Final confirmation of participation
+- 28th April 2023 - 16th May 2023 - Time to pay the registration fee (if your application is accepted)
+- 16th May 2023 - Final confirmation of participation
 
 
 ## Costs
@@ -146,3 +146,10 @@ We will fill this section with questions we receive and our answers.
 Q: Is it safe to be in Kraków right now given the Russian invasion of Ukraine?<br/>
 **A: Yes, as of now, the situation in Poland is completely safe!**
 
+
+Q: Can I receive an invoice for the registration fee?<br/>
+**A: Yes, when paying the registration fee through the Evenea platform, select "I want to receive an invoice" and provide the required information.**
+
+
+Q: Can I get a refund of the registration fee if I'm not able to attend the school?<br/>
+**A: Yes, refunds of the registration fee are possible and will be considered if a justifiable reason is provided (e.g., health issues or unexpected personal circumstances). Refund requests must be submitted no later than one month before the event, otherwise, due to the organization costs already incurred (catering and venue services), we will not be able to provide a refund.**

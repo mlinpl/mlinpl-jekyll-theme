@@ -48,6 +48,9 @@ navigation:
   - name: "/ About"
     url: "#about"
 
+  - name: "/ Call for Contributions"
+    url: "/call-for-contributions"
+
   - name: "/ Timeline"
     url: "#timeline"
 
@@ -59,9 +62,11 @@ navigation:
 
   - name: "/ Organizers"
     url: "#organizers"
-
-  - name: "/ Contact"
-    url: "#contact"
+    subsites:
+      - name: "/ Scientific Board"
+        url: "#scientific_board"
+      - name: "/ Contact"
+        url: "#contact"    
 
 
 # Defaults for different pages
@@ -79,7 +84,7 @@ color:
   main-gradient: "#E7322A, #FF00FF"
   background: "#FFFFFF"
   person-photo-filter: "grayscale(75%)"
-  person-photo-gradient: "linear-gradient(to bottom, rgba(231,50,42,0) 0%,rgba(231,50,42,0.5) 100%)"
+  person-photo-gradient: "linear-gradient(140deg, rgba(231,50,42,0) 25%,rgba(231,50,42,0.5) 100%)"
 
 
 # Footer settings

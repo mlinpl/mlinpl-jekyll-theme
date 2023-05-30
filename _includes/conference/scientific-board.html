@@ -3,6 +3,12 @@
         <div class="row">
             <div class="col-lg-12">
                 <h2>/ Scientific Board</h2>
+                <p>
+                    We have invited a group of outstanding researchers and entrepreneurs to serve 
+                    as the scientific board of the conference. 
+                    To guarantee the best possible scientific level, 
+                    we consult with them the event's program.
+                </p>
             </div>
         </div>
 
@@ -14,27 +20,26 @@
             <div class="col-lg-6">
                 <div class="row person person-with-bio">
                     <div class="col-sm-4 text-center">
-                        <div class="person-photo-with-social">
-                        <!-- <img class="person-photo" style="width: 160px;" src="{{ member.photo | relative_url }}" alt="{{ member.name }}"> -->
-                        <div class="person-photo-wrapper" style="width: 160px;">
-                            <div>
-                                <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+                        <div class="person-photo-with-social" style="width: 160px;">
+                            <div class="person-photo-wrapper" style="width: 160px;">
+                                <div>
+                                    <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="person-social-160">
-                            {% if member.google-scholar and member.google-scholar != "" %}
-                            <a href="{{ member.google-scholar }}">
-                                <i>
-                                    <img src="{{ "images/google-scholar-white.svg" | relative_url }}" style="width: 100%; vertical-align: top;">
-                                </i>
-                            </a>
-                            {% endif %}
-                        </div>
+                            <div class="person-social-160">
+                                {% if member.google-scholar and member.google-scholar != "" %}
+                                <a href="{{ member.google-scholar }}">
+                                    <i>
+                                        <img src="{{ "images/google-scholar-icon-white.svg" | relative_url }}" style="width: 100%; vertical-align: top;">
+                                    </i>
+                                </a>
+                                {% endif %}
+                            </div>
                         </div>
                         <h4 class="person-name">{{ member.name }}</h4>
                         <p class="person-title">{{ member.affiliation }}</p>
-                        
+                     
                     </div>
                     <div class="col-sm-8 text-justiy">
                         {% if member.bio-more %}

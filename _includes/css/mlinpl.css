@@ -54,11 +54,13 @@
 .main-name {
     font-weight: 700;
     text-transform: none;
+    letter-spacing: 1px;
 }
 
 .sub-name{
     font-weight: 400;
     text-transform: uppercase;
+    letter-spacing: 0px;
 }
 
 .superscript{
@@ -67,6 +69,7 @@
     top: 0.15em;
     vertical-align: super;
     color: {{ site.color.main }};
+    line-height: 0;
 }
 
 .emph {
@@ -121,14 +124,14 @@ h6 {
     letter-spacing: 1px;
 }
 
-p, ul {
+p, ul, ol {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
 }
 
 @media(min-width:767px) {
-    p, ul {
+    p, ul, ol{
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
@@ -152,6 +155,45 @@ a:focus {
     font-weight: 400;
 }
 
+ol { 
+    counter-reset: item;
+}
+
+ol > li { 
+    display: block;
+}
+
+ol > li:before { 
+    content: counters(item, ".") ". "; 
+    counter-increment: item;
+    content: counters(item, ".") ". ";
+    left: -2em;
+    position: relative;
+    width: 0;
+    display: inline-block; 
+}
+
+ol > li > ol {
+    margin-bottom: 25px;
+}
+
+ol > li > ol > li > ol > li:before {
+    content: counter(item, lower-latin) ". ";
+}
+
+.letters-ol > ol > li:before {
+    content: counter(item, upper-latin) ". ";
+}
+
+.letters-ol > ol > li > ol > li:before {
+    content: counter(item, lower-latin) ". ";
+}
+
+.letters-ol > ol > li > ol > li > ol > li:before {
+    content: counter(item, lower-roman) ". ";
+}
+
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -168,14 +210,20 @@ a:focus {
     outline: 0;
 }
 
-.navbar-custom .navbar-brand .navbar-toggle {
-    padding: 4px 6px;
-    font-size: 16px;
+.navbar-custom .navbar-brand, .navbar-custom .navbar-toggle {
+    font-size: 18px;
     color: #000;
 }
 
-.navbar-custom .navbar-brand .navbar-toggle:focus,
-.navbar-custom .navbar-brand .navbar-toggle:active {
+.navbar-custom .navbar-toggle {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 15px;
+    line-height: 20px;
+}
+
+.navbar-custom .navbar-brand, .navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-brand, .navbar-custom .navbar-toggle:active {
     outline: 0;
 }
 
@@ -226,8 +274,33 @@ a:focus {
     background: radial-gradient(rgba(255, 255, 255, 0.75) 0%, rgba(255,255,255,0) 100%);
 }
 
-.navbar-nav {
+.navbar-nav, .nav-dropdown-content {
     font-size: 14px;
+}
+
+.nav-dropdown-content > li > a {
+    text-align: left;
+    padding-left: 30px;
+    display: block;
+}
+
+@media(min-width:767px) {
+    .nav-dropdown:hover .nav-dropdown-content {
+        display: block;
+    }
+
+    .nav-dropdown-content {
+        min-width: 160px;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .nav-dropdown-content > li > a {
+        padding: 10px 15px;
+    }
 }
 
 .intro, .page-intro {
@@ -396,7 +469,8 @@ a:focus {
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; 
+    vertical-align: bottom;
 }
 
 .btn-default {
@@ -651,6 +725,10 @@ body {
     }
 }
 
+.photo {
+    border: 2px solid {{ site.color.second }};
+}
+
 .person-photo {
     border-radius: 50%;
     border: 2px solid {{ site.color.second }};
@@ -715,6 +793,8 @@ body {
 
 .person-photo-with-social {
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .person-social-140, .person-social-160 {
@@ -872,7 +952,6 @@ body {
 .event-4{
     height: 160px;
 }
-
 
 .add-calendar {
     margin-left: 40px;
