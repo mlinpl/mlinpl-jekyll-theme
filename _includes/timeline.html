@@ -1,4 +1,3 @@
-<!-- Timeline Section -->
 {% comment %}
 Expects following parameters:
     timeline-title, 
@@ -8,28 +7,26 @@ Expects following parameters:
     date-col-width, 
     desc-col-width
 {% endcomment %}
-<section id="timeline" class="container content-section">
-    <div class="row">
-        <div class="col-md-{{ include.timeline-col-width }} timeline">
-            <h2>/ {{ include.timeline-title }}</h2>
+<div class="row">
+    <div class="col-md-{{ include.timeline-col-width }} timeline">
+        <h2>/ {{ include.timeline-title }}</h2>
 
-            {% for date in include.timeline-data %}
-            <div class="row">
-                <div class="col-xs-{{ include.date-col-width }} timeline-date">
-                    <p class="emph uppercase">
-                        {{ date.date }}
-                    </p>
-                </div>
-                <div class="col-xs-{{ include.desc-col-width }} timeline-desc">
-                    <p style="text-align: left;">
-                        {{ date.description }}
-                    </p>
-                </div>
+        {% for date in include.timeline-data %}
+        <div class="row">
+            <div class="col-xs-{{ include.date-col-width }} timeline-date">
+                <p class="emph uppercase">
+                    {{ date.date }}
+                </p>
             </div>
-            {% endfor %}
+            <div class="col-xs-{{ include.desc-col-width }} timeline-desc">
+                <p style="text-align: left;">
+                    {{ date.description }}
+                </p>
+            </div>
         </div>
-        <div class="col-md-{{ include.image-col-width }} text-center" style="filter: {{ site.color.image-filter }};">
-            <img class="width-100 width-max-400px" src="{{ "./images/ai-generated-800x800/group_of_people_looking_at_a_clock_1.webp" | relative_url }}">
-        </div>
+        {% endfor %}
     </div>
-</section>
+    <div class="col-md-{{ include.image-col-width }} text-center" style="filter: {{ site.color.image-filter }};">
+        <img class="width-100 width-max-400px" src="{{ "./images/ai-generated-800x800/group_of_people_looking_at_a_clock_1.webp" | relative_url }}">
+    </div>
+</div>

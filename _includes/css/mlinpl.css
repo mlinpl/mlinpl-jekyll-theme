@@ -113,7 +113,7 @@
 }
 
 .standard-border {
-    border: 2px solid {{ site.color.second }};
+    border: {{ site.photo-border-width }} solid {{ site.color.second }};
 }
 
 body {
@@ -762,12 +762,12 @@ body {
 }
 
 .photo {
-    border: 2px solid {{ site.color.second }};
+    border: {{ site.photo-border-width }} solid {{ site.color.second }};
 }
 
 .person-photo {
     border-radius: 50%;
-    border: 2px solid {{ site.color.second }};
+    border: {{ site.photo-border-width }} solid {{ site.color.second }};
     margin-bottom: 1em;
 }
 
@@ -785,7 +785,7 @@ body {
     display: inline-block;
     overflow: hidden;
     border-radius: 50%;
-    border: 2px solid {{ site.color.second }};
+    border: {{ site.photo-border-width }} solid {{ site.color.second }};
     margin-bottom: 1em;
 }
 

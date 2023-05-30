@@ -82,6 +82,7 @@ defaults:
 
 
 # Color settings
+photo-border-width: 2px
 color:
   main: "#6DB6C6"
   second: "#6DB6C6"
