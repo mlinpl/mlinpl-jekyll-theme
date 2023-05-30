@@ -4,7 +4,7 @@ Repositorium for testing new ideas and designs for ML in PL websites
 ## Our resources
 
 - Jakyll tutorial: https://jekyllrb.com/docs/step-by-step/01-setup/
-- GitHub pages docs: https://docs.github.com/en/pages]
+- GitHub pages docs: https://docs.github.com/en/pages
 
 
 ## Project structure
