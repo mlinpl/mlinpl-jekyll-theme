@@ -11,7 +11,7 @@ copy_all () {
     cp _config_${website}.yml builds/${website}/_config.yml
     sed -i '' 's/\/www-dev//g' builds/${website}/_config.yml
     sed -i '' "s/https:\/\/mlinpl.github.io/https:\/\/${url}/g" builds/${website}/_config.yml
-    cp mlss.html builds/${website}/index.html
+    cp ${website}.html builds/${website}/index.html
     cp -r _includes builds/${website}/_includes
     cp -r _layouts builds/${website}/_layouts
     cp -r _data builds/${website}/_data
@@ -23,6 +23,7 @@ copy_all () {
     cp Gemfile builds/${website}/
     cp Gemfile.lock builds/${website}/
     cp *.md builds/${website}/
+    rm builds/${website}/README.md
 }
 
 # Clear old buils
