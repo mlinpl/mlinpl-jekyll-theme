@@ -77,7 +77,8 @@ defaults:
       image: /images/mlinpl-conference-2023-event-banner.jpg
 
 
-# Color settings
+# Colors and styles settings
+photo-border-width: 1px
 color:
   main: "#E7322A"
   second: "#010101"
