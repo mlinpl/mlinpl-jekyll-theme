@@ -762,7 +762,7 @@ body {
 }
 
 .photo {
-    border: 2px solid {{ site.color.second }};
+    border: 1px solid {{ site.color.second }};
 }
 
 .person-photo {
@@ -785,7 +785,7 @@ body {
     display: inline-block;
     overflow: hidden;
     border-radius: 50%;
-    border: 2px solid {{ site.color.second }};
+    border: 1px solid {{ site.color.second }};
     margin-bottom: 1em;
 }
 
