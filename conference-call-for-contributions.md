@@ -25,9 +25,10 @@ We aim at providing a forum for discussing recent advances from the possible bro
 3. **Reinforcement Learning**: Bandits, Decision and Control, Exploration, Hierarchical RL, Markov Decision Processes, Multi-Agent RL, Navigation, Planning, etc.
 4. **Probabilistic Methods**: Bayesian methods, Causal Inference, Gaussian Processes, Graphical Models, etc.
 5. **Applications of Machine Learning**: Audio and Speech Processing, Computational Biology, Computer Vision, Natural Language Processing, Robotics, Neuroscience, Physics, Social Good, etc.
-6. **Social Aspects of Machine Learning**: Accountability, AI Ethics, AI Safety, Causality, Explainability, Biased Data, Fairness, Privacy, Robustness, and Safety, etc.
-7. **Technical Solutions and Machine Learning Resources**: Architectures, Competitions, Data Sets, and Repositories, Distributed Machine Learning, Implementations, Software Toolkits, etc.
-8. **Machine Learning Stories**: Interesting and insightful competitions, projects and start-up stories!
+6. **Social Aspects of Machine Learning**: Accountability, AI Ethics, AI Safety, Causality, Biased Data, Fairness, Privacy, Robustness, and Safety, etc.
+7. **Explainable Machine Learning**: Interpretability and Explainability of Machine Learning Models, Methods for Understanding and Explaining Model Decisions, Techniques for Building Transparent and Understandable AI Systems, Human-AI Interaction, etc.
+8. **Technical Solutions and Machine Learning Resources**: Architectures, Competitions, Data Sets, and Repositories, Distributed Machine Learning, Implementations, Software Toolkits, etc.
+9. **Machine Learning Stories**: Interesting and insightful competitions, projects and start-up stories!
 
 The talks will have a length of 20 minutes + 5 minutes for questions for contributed talks at Main Conference and 15 minutes + 5 minutes for questions for the Student Research Workshop. To participate in Call for Contributions, we ask you to provide the title of your talk/poster proposal, abstract up to 300 words, preference towards talk or poster, short bio, a photo and list of your previous talks. Talks and posters should be in English. The submission deadline is 1 September 2023. With the help of the Contributions Committee, we will select the best proposals. 
 
