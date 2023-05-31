@@ -48,7 +48,7 @@ All accepted talks and posters will be presented during the Main Conference (or 
 
 - 1 June: Call for Contributions (Talks and Posters) open
 - 1 September (AoW): Call for Contributions submissions deadline
-- 15 September - Talks and posters acceptance notifications
+- 7 September: Talks and posters acceptance notifications
 - 26 October: Student Research Workshop
 - 26 - 29 October: Main Conference
 
