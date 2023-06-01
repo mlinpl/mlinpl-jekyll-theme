@@ -197,13 +197,14 @@ ol {
 
 ol > li { 
     display: block;
+    padding-left: 0.5em;
 }
 
 ol > li:before { 
     content: counters(item, ".") ". "; 
     counter-increment: item;
     content: counters(item, ".") ". ";
-    left: -2em;
+    left: -2.5em;
     position: relative;
     width: 0;
     display: inline-block; 

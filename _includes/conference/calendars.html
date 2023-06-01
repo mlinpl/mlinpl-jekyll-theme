@@ -6,12 +6,12 @@
 
         <div class="row">
             {% for calendar in site.data.conference-cal-links %}
-            <a href="{{calendar.link}}" class="btn-default {{calendar.style}} btn-calendar"> {{calendar.icon}} </a>
+            <a href="{{ calendar.link }}" class="btn-default {{ calendar.style }} btn-calendar"> {{calendar.icon}} </a>
             {% endfor %}
         </div>
 
         <div class="row">
-            <a href="conference_invite.ics" download class="btn">Download ICS</a>
+            <a href="{{ './docs/conference-invite.ics' | relative_url }}" download class="btn">Download ICS</a>
         </div>
     </div>
     <div class="col-md-6">
@@ -20,7 +20,7 @@
         </p>
         <div class="row">
             {% for event in site.data.conference-events-links %}
-            <a href="{{event.link}}" class="btn-default {{event.style}} btn-calendar"> {{event.icon}} </a>
+            <a href="{{ event.link }}" class="btn-default {{ event.style }} btn-calendar"> {{event.icon}} </a>
             {% endfor %}
         </div>
     </div>
