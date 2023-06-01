@@ -7,11 +7,17 @@ mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="e
 
 We are excited to invite you to submit proposals for **contributed talks and posters** for **{{ page.mlinpl-inline-logo }}** and **Student Research Workshop** that will be organized 26 - 29 October 2023. 
 
-{% comment %}
-<a href="https://cfc2023.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
-<a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of CfC</a>
-<a href="{{ "./privacy-policy" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Privacy policy</a>
-{% endcomment %}
+<ul class="list-inline banner-social-buttons">
+    <li>
+        <a href="https://cfc2023.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
+    </li>
+    <li>
+        <a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of CfC</a>
+    </li>
+    <li>
+        <a href="{{ "./privacy-policy" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Privacy policy</a>
+    </li>
+</ul>
 
 ---
 
@@ -61,10 +67,16 @@ The best talks and posters from the Main Conference will be awarded with gift ca
 
 ## Submit your talk/poster proposal
 
-{% comment %}
-<a href="https://cfc2023.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
-<a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of CfC</a>
-<a href="{{ "./privacy-policy" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Privacy policy</a>
-{% endcomment %}
+<ul class="list-inline banner-social-buttons">
+    <li>
+        <a href="https://cfc2023.paperform.co/" class="btn btn-default btn-lg"><i class="fa-solid fa-list"></i> Submit your talk/poster proposal</a>
+    </li>
+    <li>
+        <a href="{{ "./cfc-terms-and-conditions" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Terms and conditions of CfC</a>
+    </li>
+    <li>
+        <a href="{{ "./privacy-policy" | relative_url }}" class="btn btn-default"><i class="fa-solid fa-file-lines"></i> Privacy policy</a>
+    </li>
+</ul>
 
 You can contact us at <a href="mailto:contributions@conference.mlinpl.org">contributions@conference.mlinpl.org</a> in case you have any questions regarding Call for Contributions.

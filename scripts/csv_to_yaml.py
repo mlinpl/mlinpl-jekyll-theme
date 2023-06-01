@@ -7,7 +7,7 @@ import pandas as pd
 
 CONFIGS = {
     "conference-organizers": {
-        "sort_values": ["Kolejność na WWW", "Pełna nazwa roli", "Nazwisko"],
+        "sort_values": ["Kolejność na WWW", "Nazwisko", "Pełna nazwa roli"],
         "fields": {
             "name": lambda row: row["Imię"].strip() + " " + row["Nazwisko"].strip(),
             "title": lambda row: row["Pełna nazwa roli"].strip(),
@@ -67,7 +67,7 @@ def main(input_file, output_file, config):
     if config in CONFIGS:
         config = CONFIGS[config]
     else:
-        raise Exception(f"Config {config} not found")
+        raise Exception(f"Config {config} not found, available configs: {list(CONFIGS.keys())}")
 
     # Load and sort organizers
     df = pd.read_csv(input_file)
