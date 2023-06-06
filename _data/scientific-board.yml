@@ -1,3 +1,12 @@
+- name: Ewa Szczurek
+  affiliation: University of Warsaw
+  photo: ./images/scientific-board-300x300/EwaSzczurek.webp
+  google-scholar: https://scholar.google.pl/citations?user=hltmGf0AAAAJ
+  bio-intro: >-
+    Ewa Szczurek is an assistant professor at the Faculty of Mathematics, Informatics and Mechanics at the University of Warsaw. She holds two Master degrees, one from the Uppsala University, Sweden and one from the University of Warsaw, Poland.
+  bio-more: >-
+    She finished PhD studies at the Max Planck Institute for Molecular Genetics in Berlin, Germany and conducted postdoctoral research at ETH Zurich, Switzerland. She now leads a research group focusing on machine learning and molecular biology, with most applications in computational oncology. Her group works mainly with probabilistic graphical models and deep learning, with a recent focus on variational autoencoders.
+
 - name: Agnieszka Ławrynowicz
   affiliation: Poznan University of Technology
   photo: ./images/scientific-board-300x300/AgnieszkaLawrynowicz.webp
