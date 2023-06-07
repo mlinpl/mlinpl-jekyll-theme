@@ -10,7 +10,7 @@
 - name: Agnieszka Ławrynowicz
   affiliation: Poznan University of Technology
   photo: ./images/scientific-board-300x300/AgnieszkaLawrynowicz.webp
-  google-scholar: https://scholar.google.pl/citations?user=7cZ0afAAAAAJ&hl=pl
+  google-scholar: https://scholar.google.pl/citations?user=7cZ0afAAAAAJ
   bio-intro: >-
     Associate Professor of AI and an experienced researcher in combining machine learning with symbolic approaches such as knowledge graphs. She is passionate about her work and continually seeks new ways to apply her knowledge to help solve real-world problems.
   bio-more: >-
@@ -76,7 +76,7 @@
 - name: Piotr Sankowski
   affiliation: IDEAS NCBR, University of Warsaw
   photo:  ./images/scientific-board-300x300/PiotrSankowski.webp
-  google-scholar: https://scholar.google.pl/citations?user=-5LVg-0AAAAJ&hl=pl
+  google-scholar: https://scholar.google.pl/citations?user=-5LVg-0AAAAJ
   bio-intro: >-
     Piotr Sankowski is a professor at the Institute of Informatics, University of Warsaw, where he received his habilitation in 2009 and where he received a doctorate in computer science in 2005. His research interest focuses on practical application of algorithms, ranging from economic applications, through learning data structures, to parallel algorithms for data science.
   bio-more: >-    
