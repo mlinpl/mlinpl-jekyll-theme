@@ -7,6 +7,15 @@
   bio-more: >-
     She finished PhD studies at the Max Planck Institute for Molecular Genetics in Berlin, Germany and conducted postdoctoral research at ETH Zurich, Switzerland. She now leads a research group focusing on machine learning and molecular biology, with most applications in computational oncology. Her group works mainly with probabilistic graphical models and deep learning, with a recent focus on variational autoencoders.
 
+- name: Agnieszka Ławrynowicz
+  affiliation: Poznan University of Technology
+  photo: ./images/scientific-board-300x300/AgnieszkaLawrynowicz.webp
+  google-scholar: https://scholar.google.pl/citations?user=7cZ0afAAAAAJ
+  bio-intro: >-
+    Associate Professor of AI and an experienced researcher in combining machine learning with symbolic approaches such as knowledge graphs. She is passionate about her work and continually seeks new ways to apply her knowledge to help solve real-world problems.
+  bio-more: >-
+    She has led and participated in many R&D projects, including research in computational food, digital humanities, and social good. She enjoys things that are simple to use but elegant and creative.
+
 - name: Henryk Michalewski
   affiliation: Google Brain
   photo: ./images/scientific-board-300x300/HenrykMichalewski.webp
@@ -33,11 +42,11 @@
     He has visited several research teams, including Google Brain, Microsoft Research and Yoshua Bengio’s lab. His research interests are applications of neural networks to problems which are intuitive and easy for humans and difficult for machines, such as speech and natural language processing.
 
 - name: Krzysztof Dembczyński
-  affiliation: Yahoo! Research
+  affiliation: Yahoo Research
   photo: ./images/scientific-board-300x300/KrzysztofDembczynski.webp
   google-scholar: https://scholar.google.com/citations?user=SetMoyoAAAAJ
   bio-intro: >-
-    Prior to joining Yahoo! Research Krzysztof Dembczyński was an Assistant Professor at Poznan University of Technology (PUT), Poland. He has received his PhD degree in 2009 and Habilitation degree in 2018, both from PUT. During his PhD studies he was mainly working on preference learning and boosting-based decision rule algorithms. 
+    Prior to joining Yahoo Research Krzysztof Dembczyński was an Assistant Professor at Poznan University of Technology (PUT), Poland. He has received his PhD degree in 2009 and Habilitation degree in 2018, both from PUT. During his PhD studies he was mainly working on preference learning and boosting-based decision rule algorithms.
   bio-more: >-  
     During his postdoc at Marburg University, Germany, he has started working on multi-target prediction problems with the main focus on multi-label classification. Currently, his main scientific activity concerns extreme classification, i.e., classification problems with an extremely large number of labels. His articles has been published at the premier conferences (ICML, NeurIPS, ECML) and in the leading journals (JMLR, MLJ, DAMI) in the field of machine learning. As a co-author he won the best paper award at ECAI 2012 and at ACML 2015. He serves as an Area Chair for ICML, NeurIPS, and ICLR, and as an Action Editor for MLJ.
 
@@ -67,7 +76,7 @@
 - name: Piotr Sankowski
   affiliation: IDEAS NCBR, University of Warsaw
   photo:  ./images/scientific-board-300x300/PiotrSankowski.webp
-  google-scholar: https://scholar.google.pl/citations?user=-5LVg-0AAAAJ&hl=pl
+  google-scholar: https://scholar.google.pl/citations?user=-5LVg-0AAAAJ
   bio-intro: >-
     Piotr Sankowski is a professor at the Institute of Informatics, University of Warsaw, where he received his habilitation in 2009 and where he received a doctorate in computer science in 2005. His research interest focuses on practical application of algorithms, ranging from economic applications, through learning data structures, to parallel algorithms for data science.
   bio-more: >-    
@@ -113,3 +122,12 @@
     Viorica Patraucean is a research scientist in DeepMind. She obtained her PhD from University of Toulouse on probabilistic models for low-level image processing. She then carried out postdoctoral work at Ecole Polytechnique Paris and University of Cambridge, on processing of images, videos, and point-clouds.
   bio-more: >-  
     Her main research interests revolve around efficient vision systems, with a focus on deep video models. She is one of the main organisers of EEML summer school and has served as program committee member for top Computer Vision and Machine Learning conferences.
+
+- name: Inez Okulska
+  affiliation: NASK
+  photo: ./images/scientific-board-300x300/InezOkulska.webp
+  google-scholar: https://scholar.google.pl/citations?user=wKQ-ZfQAAAAJ&hl=pl
+  bio-intro: >-
+    Inez Okulska is the Head of the Department of Linguistic Engineering and Text Analysis at the NASK National Research Institute.
+  bio-more: >-
+    After completing a colorful humanistic path (which included, among others, linguistics, comparative literary studies, cultural studies, philosophy), culminating in a doctorate in translation studies and a postdoctoral fellowship at Harvard University, she completed master’s studies in automation and robotics at the WEiTI faculty of the Warsaw University of Technology. Scientifically interested in the semantic and pragmalinguistic potential of grammar, explores proprietary vector representations of text and their algebraic potential. She implements projects related to cybersecurity, primarily at the level of detection and classification of undesirable content.
