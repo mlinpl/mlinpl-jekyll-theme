@@ -1,4 +1,4 @@
-strategic:
+- strategic:
   sponsors:
     - image: "./images/institutions-logos/logo-mlinpl.svg"
       link: "https://mlinpl.org"
@@ -6,9 +6,8 @@ strategic:
     title: Strategic Sponsors
     maxWidth: 600
     fontSize: 30
-    columns: 2
 
-platinum:
+- platinum:
   sponsors:
       - image: "./images/institutions-logos/logo-mlinpl.svg"
         link: "https://mlinpl.org"
@@ -21,10 +20,9 @@ platinum:
     title: "Platinum sponsors"
     maxWidth: 420
     fontSize: 30
-    columns: 2
 
 
-gold:
+- gold:
   sponsors:
     - image: "./images/institutions-logos/logo-mlinpl.svg"
       link: "https://mlinpl.org"
@@ -39,10 +37,9 @@ gold:
     title: "Gold sponsors"
     maxWidth: 290
     fontSize: 27
-    columns: 3
 
 
-silver:
+- silver:
   sponsors:
     - image: "./images/institutions-logos/logo-mlinpl.svg"
       link: "https://mlinpl.org"
@@ -59,10 +56,9 @@ silver:
     title: "Silver sponsors"
     maxWidth: 250
     fontSize: 25
-    columns: 4
 
 
-partner:
+- partner:
   sponsors:
     - image: "./images/institutions-logos/logo-mlinpl.svg"
       link: "https://mlinpl.org"
@@ -75,10 +71,9 @@ partner:
     title: "Partners"
     maxWidth: 250
     fontSize: 25
-    columns: 4
 
 
-honorary-patronage:
+- honorary-patronage:
   sponsors:
     - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/UW.png"
       link: "https://mlinpl.org"
@@ -89,10 +84,9 @@ honorary-patronage:
     title: "Honorary patronage"
     maxWidth: 270
     fontSize: 25
-    columns: 4
 
 
-media-partner:
+- media-partner:
   sponsors:
     - image: "./images/institutions-logos/logo-mlinpl.svg"
       link: "https://mlinpl.org"
@@ -107,4 +101,3 @@ media-partner:
     title: "Media partners"
     maxWidth: 250
     fontSize: 25
-    columns: 4

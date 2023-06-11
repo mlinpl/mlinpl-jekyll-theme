@@ -1053,3 +1053,7 @@ body {
 .btn-calendar:focus {
     text-decoration: none;
 }
+
+.max-width-100 {
+    max-width: min(100%, 400px);
+}
