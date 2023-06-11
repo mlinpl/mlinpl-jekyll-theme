@@ -33,10 +33,10 @@ function handleSpeakerItemClick(clickedElement) {
   speakerDetails.addEventListener('animationend', function() {
     speakerDetails.classList.remove('fade-out');
     speakerDetails.innerHTML = `
-      <div class="details-image">
-        <img src="${speaker.image}" alt="${speaker.name}">
+      <div class="details-image col-md-4">
+        <img src="${speaker.image}" alt="${speaker.name}" class="person-photo width-100 width-max-400px">
       </div>
-      <div class="details-text">
+      <div class="details-text col-md-8">
         <h2>${speaker.name}</h2>
         <h3>${speaker.title}</h3>
         <p>${speaker.description}</p>
