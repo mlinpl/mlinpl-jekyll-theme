@@ -7,6 +7,17 @@
   </div>
   <div class="row">
   <div class="col-lg-12 invited-speakers-container">
+    <div id="speaker-details">
+      <!-- Speaker details will be displayed here when a speaker is selected -->
+    </div>
+
+    <div style="width: 100%; padding: 30px 15px;">
+      <div id="speaker-timer">
+      
+      </div>
+    </div>
+
+
     <div id="speaker-tab">
       {% for speaker in site.data.invited-speakers %}
       <div class="speaker-item" data-index="{{ forloop.index0 }}">
@@ -23,9 +34,6 @@
         </div>
       </div>
       {% endfor %}
-    </div>
-
-    <div id="speaker-details"><!-- Speaker details will be displayed here when a speaker is selected -->
     </div>
   </div>
   </div>

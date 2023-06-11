@@ -10,14 +10,17 @@ speakerItems.forEach(function(speakerItem, index) {
 var firstSpeakerItem = document.querySelector('.speaker-item');
 handleSpeakerItemClick(firstSpeakerItem);
 
+var timeoutId = null;
 function handleSpeakerItemClick(clickedElement) {
   // Deactivate all speakers in the tab
   document.querySelectorAll('.speaker-item.active').forEach(function(item) {
     item.classList.remove('active');
   });
 
-  console.log(clickedElement);
-  
+  // Deactivate timer indicator
+  let speakerTimer = document.getElementById('speaker-timer')
+  speakerTimer.classList.remove('width-from-0-to-100');
+
   // Mark the clicked speaker item as active
   clickedElement.classList.add('active');
   
@@ -42,5 +45,13 @@ function handleSpeakerItemClick(clickedElement) {
     
     // Fade in the new speaker detail
     speakerDetails.classList.add('fade-in');
+    
+    // Clear timer and setup new one
+    speakerTimer.classList.add('width-from-0-to-100');
+    if(timeoutId) clearTimeout(timeoutId);
+    timeoutId = setTimeout(function() {
+      let newItem = clickedElement.parentNode.children[(parseInt(clickedElement.dataset.index) + 1) % clickedElement.parentNode.children.length];
+      handleSpeakerItemClick(newItem);
+    }, 30000);
   }, { once: true });
 }

@@ -48,17 +48,19 @@ navigation:
   - name: "/ About"
     url: "#about"
 
-  - name: "/ Call for Contributions"
-    url: "/call-for-contributions"
+  - name: "/ Program"
+    url: "#speakers"
+    subsites:
+      - name: "/ Call for Contributions"
+        url: "/call-for-contributions"
+      - name: "/ Invited speakers"
+        url: "#invited-speakers"
 
   - name: "/ Timeline"
     url: "#timeline"
 
-  - name: "/ Sponsors"
+  - name: "/ Sponsors & partners"
     url: "#sponsors"
-
-  - name: "/ Partners"
-    url: "#partners"
 
   - name: "/ Organizers"
     url: "#organizers"

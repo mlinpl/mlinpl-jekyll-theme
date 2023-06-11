@@ -47,7 +47,6 @@
 #speaker-details {
     display: flex;
     justify-content: space-between;
-    width: 80%;
     margin: 40px auto;
     padding: 20px;
     opacity: 0;
@@ -79,4 +78,21 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+#speaker-timer{
+    height: 2px;
+    background: {{ site.color.main }};
+    width: 0%;
+    transition: width 30s ease-in-out;
+}
+
+@keyframes width-from-0-to-100 {
+    0% { width: 0%; }
+    100% { width: 100%; }
+}
+
+.width-from-0-to-100 {
+    animation: width-from-0-to-100 30s forwards;
+    animation-fill-mode: forwards;
 }
