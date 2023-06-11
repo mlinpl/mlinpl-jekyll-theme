@@ -6,11 +6,13 @@
     {% include nav.html %}
     {% include header.html %}
     {% include conference/about.html %}
-    {% include timeline.html timeline-title="Timeline" timeline-data=site.data.timeline %}
     {% include conference/speakers.html %}
+    {% include conference/timeline-with-calendars.html %}
+    {% comment %}
     {% include conference/sponsors.html %}
+    {% endcomment %}
     {% include conference/organizers.html %}
-    {% include conference/scientific_board.html %}
+    {% include conference/scientific-board.html %}
     {% include contact.html %}
     {% include footer.html %}
     {% include js.html %}

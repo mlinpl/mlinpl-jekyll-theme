@@ -1,11 +1,17 @@
 - date: 1 June
-  description: Call for Contributions (Talks and Posters) open
+  description: <a href="/call-for-contributions">Call for Contributions</a> (Talks and Posters) open
+
+- date: 1 August
+  description: Start of Early Bird (selective) registration
 
 - date: 1 September
-  description: Call for Contributions submissions deadline
+  description: Call for Contributions submissions deadline / End of Early Bird registration period
 
-- date: 15 September
+- date: 7 September
   description: Talks and posters acceptance notifications
 
-- date: 26 June - 1 July
+- date: 11 September
+  description: Regular ticket sales start
+
+- date: 26 - 29 October
   description: <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2023</span></span>

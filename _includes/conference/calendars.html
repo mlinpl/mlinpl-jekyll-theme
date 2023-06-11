@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-md-6">
+        <p class="calendar-text">
+            Save the date, add the conference to your calendar:
+        </p>
+
+        <div class="row">
+            {% for calendar in site.data.conference-cal-links %}
+            <a href="{{ calendar.link }}" class="btn-default {{ calendar.style }} btn-calendar"> {{calendar.icon}} </a>
+            {% endfor %}
+        </div>
+
+        <div class="row">
+            <a href="{{ './docs/conference-invite.ics' | relative_url }}" download class="btn">Download ICS</a>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <p class="calendar-text">
+            Or follow our event on social media:
+        </p>
+        <div class="row">
+            {% for event in site.data.conference-events-links %}
+            <a href="{{ event.link }}" class="btn-default {{ event.style }} btn-calendar"> {{event.icon}} </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

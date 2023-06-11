@@ -47,12 +47,9 @@ header:
 navigation:
   - name: "/ About"
     url: "#about"
-  
-  - name: "/ Speakers"
-    url: "#speakers"
 
-  - name: "/ CfC"
-    url: "#cfc"
+  - name: "/ Call for Contributions"
+    url: "/call-for-contributions"
 
   - name: "/ Timeline"
     url: "#timeline"
@@ -60,11 +57,16 @@ navigation:
   - name: "/ Sponsors"
     url: "#sponsors"
 
+  - name: "/ Partners"
+    url: "#partners"
+
   - name: "/ Organizers"
     url: "#organizers"
-
-  - name: "/ Contact"
-    url: "#contact"
+    subsites:
+      - name: "/ Scientific Board"
+        url: "#scientific_board"
+      - name: "/ Contact"
+        url: "#contact"    
 
 
 # Defaults for different pages
@@ -75,11 +77,15 @@ defaults:
       image: /images/mlinpl-conference-2023-event-banner.jpg
 
 
-# Color settings
+# Colors and styles settings
+photo-border-width: 1px
 color:
   main: "#E7322A"
+  second: "#010101"
   main-gradient: "#E7322A, #FF00FF"
   background: "#FFFFFF"
+  person-photo-filter: "grayscale(75%)"
+  person-photo-gradient: "linear-gradient(140deg, rgba(231,50,42,0) 25%,rgba(231,50,42,0.5) 100%)"
 
 
 # Footer settings

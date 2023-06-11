@@ -186,7 +186,8 @@ function resize() {
     canvas.width = width;
     canvas.height = height;
 
-    // Add particles to the new parts of the canvas.
+    // Reset and generate new particles 
+    // (this is easier than trying to resize the existing ones)
     bgParticles = [];
     mgParticles = [];
     fgParticles = [];
@@ -194,8 +195,14 @@ function resize() {
 }
 
 function render() {
-    const now = Date.now(),
-          timeElapsed = now - then;
+    const now = Date.now();
+    let timeElapsed = now - then;
+
+    // Stop animation when tab is not visible to save resources
+    if(document.hidden){
+        then = now;
+        timeElapsed = 0;
+    }
 
     // Limit framerate
     if (timeElapsed >= framesInterval){
