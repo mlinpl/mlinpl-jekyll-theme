@@ -1,62 +1,17 @@
-- name: Matej Balog 
-  title: DeepMind
-  image: images/speakers-mlss-2023-600x600/MatejBalog.webp
-  icon: images/speakers-icons/man-icon.svg
-  description: Petar Veličković is a Staff Research Scientist at DeepMind, Affiliated Lecturer at the University of Cambridge, and an Associate of Clare Hall, Cambridge. He holds a PhD in Computer Science from the University of Cambridge (Trinity College), obtained under the supervision of Pietro Liò. His research concerns geometric deep learning—devising neural network architectures that respect the invariances and symmetries in data (a topic I’ve co-written a proto-book about). For his contributions, he is recognised as an ELLIS Scholar in the Geometric Deep Learning Program. Particularly, his focus is graph representation learning and its applications in algorithmic reasoning (featured in VentureBeat). He is the first author of Graph Attention Networks—a popular convolutional layer for graphs—and Deep Graph Infomax—a popular self-supervised learning pipeline for graphs (featured in ZDNet). Petar’s research has been used in substantially improving travel-time predictions in Google Maps (featured in the CNBC, Endgadget, VentureBeat, CNET, the Verge and ZDNet), and guiding intuition of mathematicians towards new top-tier theorems and conjectures (featured in Nature, Science, Quanta Magazine, New Scientist, The Independent, Sky News, The Sunday Times, la Repubblica and The Conversation).
+- name: Volodymyr Mnih
+  title: Google DeepMind
+  image: images/speakers-2023-600x600/VolodymyrMnih.webp
+  bio: >- 
+    Volodymyr Mnih is a Research Scientist at Google DeepMind. He completed an MSc at the University of Alberta working under the supervision of Csaba Szepesvari and a PhD at the University of Toronto working under the supervision of Geoffrey Hinton. Since joining DeepMind, he has been working at the intersection of deep learning and reinforcement learning, co-developing Deep Q Networks (DQN), the asynchronous advantage actor critic (A3C), and reinforcement learning-based hard attention mechanisms.
 
-- name: Michael Bronstein
-  title: University of Oxford, Twitter
-  image: images/speakers-mlss-2023-600x600/MichaelBronstein.webp
-  icon: images/speakers-icons/man-icon.svg
-  description: Matthias Bethge is a Professor for Computational Neuroscience and Machine Learning at the University of Tübingen and director of the Tübingen AI Center, a joint center between Tübingen University and MPI for Intelligent Systems that is part of the German AI strategy. He is also co-initiator of the European ELLIS initiative and co-founder of Deepart UG, and Layer7 AI GmbH.
+- name: Edoardo Maria Ponti
+  title: University of Edinburgh / University of Cambridge
+  image: images/speakers-2023-600x600/EdoardoMariaPonti.webp
+  bio: >-
+    Edoardo M. Ponti is a Lecturer (≈ Assistant Professor) in Natural Language Processing at the University of Edinburgh, where he is part of the "Institute for Language, Cognition, and Computation" (ILCC), and an Affiliated Lecturer at the University of Cambridge. Previously, he was a visiting postdoctoral scholar at Stanford University and a postdoctoral fellow at Mila and McGill University in Montreal. In 2021, he obtained a PhD in computational linguistics from the University of Cambridge, St John’s College. His main research foci are modular deep learning, sample-efficient learning, faithful text generation, computational typology and multilingual NLP. His research earned him a Google Research Faculty Award and 2 Best Paper Awards at EMNLP 2021 and RepL4NLP 2019. He is a board member and co-founder of SIGTYP, the ACL special interest group for computational typology, and a scholar of the European Lab for Learning and Intelligent Systems (ELLIS). He is a (terrible) violinist, football player, and an aspiring practitioner of heroic viticulture.
 
-- name: Bingqing Cheng 
-  title: Institute of Science and Technology, Austria
-  image: images/speakers-mlss-2023-600x600/BingqingCheng.webp
-  icon: images/speakers-icons/man-icon.svg
-  description: Farah Shamout is an Assistant Professor of Computer Engineering at NYU Abu Dhabi, where she leads the Clinical Artificial Intelligence Lab. She is also an Associated Faculty at the NYU Tandon School of Engineering (Computer Science & Engineering and Biomedical Engineering Departments) and an Affiliated Faculty at NYU Langone Health (Radiology). Before pursuing the tenure-track position, Dr. Shamout spent three years at NYU as an Assistant Professor Emerging Scholar, during which she received the Campus Life Faculty Leadership Award in 2021. At the Clinical AI Lab, Dr. Shamout is interested in developing machine learning methods and systems using heterogeneous real-world data for applications in computational precision health. This includes electronic health records data and medical imaging for medical diagnostics and prognostics. Methodologies of interest pertain to multi-modal fusion, representation learning, and augmenting machine and human decision-making, to achieve high performance and utility in clinical practice. Dr. Shamout completed her DPhil (PhD) in Engineering Science at the University of Oxford as a Rhodes Scholar and was a member of Balliol College. Her doctoral research focused on developing early warning models using electronic health records data to predict in-hospital clinical deterioration. While at Oxford, Shamout taught with the inaugural UAE-Oxford Artificial Intelligence Program and worked on global data commons and digital health policy. She also completed her BSc in Computer Engineering (cum laude) at NYU Abu Dhabi
-
-- name: Sayak Ray Chowdhury 
-  title: Microsoft Research
-  image: images/speakers-mlss-2023-600x600/SayakRayChowdhury.webp
-  icon: images/speakers-icons/man-icon.svg
-
-- name: Marco Cuturi 
-  title: Apple / CREST-ENSAE
-  image: images/speakers-mlss-2023-600x600/MarcoCuturi.webp
-  icon: images/speakers-icons/man-icon.svg
-
-- name: Yarin Gal
-  title: University of Oxford
-  image: images/speakers-mlss-2023-600x600/YarinGal.webp
-  icon: images/speakers-icons/man-icon.svg
-
-- name: Anna Gambin 
-  title: University of Warsaw
-  image: images/speakers-mlss-2023-600x600/AnnaGambin.webp
-  icon: images/speakers-icons/man-icon.svg
-
-- name: Jose Miguel Hernandez-Lobato 
-  title: University of Cambridge
-  image: images/speakers-mlss-2023-600x600/JoseMiguelHernandez-Lobato.webp
-  icon: images/speakers-icons/man-icon.svg
-
-- name: Stanisław Jastrzębski 
-  title: Molecule.one
-  image: images/speakers-mlss-2023-600x600/StanislawJastrzebski.webp
-  icon: images/speakers-icons/man-icon.svg
-
-- name: Mario Krenn 
-  title: Max Planck Institute for the Science of Light
-  image: images/speakers-mlss-2023-600x600/MarioKrenn.webp
-  icon: images/speakers-icons/man-icon.svg
-
-- name: Krzysztof Maziarz
-  title: Microsoft Research
-  image: images/speakers-mlss-2023-600x600/KrzysztofMaziarz.webp
-  icon: images/speakers-icons/man-icon.svg
-
-- name: Mathias Niepert 
-  title: University of Stuttgart
-  image: images/speakers-mlss-2023-600x600/MathiasNiepert.webp
-  icon: images/speakers-icons/man-icon.svg
+- name: Desmond Elliott
+  title: University of Copenhagen
+  image: images/speakers-2023-600x600/DesmondElliott.webp
+  bio: >-
+    Desmond Elliott is an Assistant Professor and a Villum Young Investigator at the University of Copenhagen. He obtained his Ph.D from the University of Edinburgh, under the supervision of Frank Keller, and he was a Postdoctoral Researcher at CWI, and the University of Amsterdam in the Netherlands. His current research interests include tokenisation-free language modelling, and multilingual and multimodal learning.
