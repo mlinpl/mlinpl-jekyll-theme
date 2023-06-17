@@ -39,7 +39,7 @@ function handleSpeakerItemClick(clickedElement) {
       <div class="details-text col-md-8">
         <h2>${speaker.name}</h2>
         <h3>${speaker.title}</h3>
-        <p>${speaker.description}</p>
+        <p>${speaker.bio}</p>
       </div>
     `;
     

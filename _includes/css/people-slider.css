@@ -47,12 +47,19 @@
 #speaker-details {
     opacity: 0;
     text-align: justify;
-    height: 370px;
+    min-height: 600px;
     overflow: hidden;
+}
+
+@media(min-width:767px) {
+    #speaker-details {
+        min-height: 400px;
+    }
 }
 
 #speaker-details .details-text h2 {
     margin-bottom: 0;
+    font-weight: 700;
 }
 
 #speaker-details .details-image {
@@ -61,8 +68,6 @@
 
 #speaker-details .details-image img {
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
 }
 
 .center-verticaly {
