@@ -1,11 +1,11 @@
 - name: "Emilia Wiśnios"
-  title: "Project Leader"
+  title: "Co-project Leader"
   linkedin: "https://www.linkedin.com/in/emilia-wisnios/"
   twitter: "https://twitter.com/wisnios_emilia"
   image: "images/organizers-300x300/EmiliaWisnios.webp"
 
 - name: "Maciej Pióro"
-  title: "Vice Project Leader"
+  title: "Co-project Leader"
   linkedin: "https://www.linkedin.com/in/maciej-pi%C3%B3ro-0ab6201a2/"
   twitter: ""
   image: "images/organizers-300x300/MaciejPioro.webp"
@@ -84,15 +84,27 @@
 
 - name: "Magdalena Cebula"
   title: "Marketing Team"
-  linkedin: "Magdalena Cebula | LinkedIn"
+  linkedin: "https://www.linkedin.com/in/magdalena-cebula/"
   twitter: ""
   image: "images/organizers-300x300/MagdalenaCebula.webp"
+
+- name: "Błażej Dolicki"
+  title: "Speakers Team"
+  linkedin: "https://www.linkedin.com/in/blazejdolicki/"
+  twitter: "https://twitter.com/BlazejDolicki"
+  image: "images/organizers-300x300/BlazejDolicki.webp"
 
 - name: "Sebastian Dziadzio"
   title: "Sponsors Team"
   linkedin: "https://www.linkedin.com/in/sebastiandziadzio/"
   twitter: "https://twitter.com/sbdzdz"
   image: "images/organizers-300x300/SebastianDziadzio.webp"
+
+- name: "Zuzanna Glinka"
+  title: "Registration Team"
+  linkedin: "https://www.linkedin.com/in/zuzanna-glinka-6a2359236"
+  twitter: ""
+  image: "images/organizers-300x300/ZuzannaGlinka.webp"
 
 - name: "Alicja Grochocka"
   title: "Panel Team"
@@ -127,7 +139,7 @@
 - name: "Andrzej Krupka"
   title: "Marketing Team"
   linkedin: "https://www.linkedin.com/in/andrzej-krupka-48aaa1222"
-  twitter: "💩"
+  twitter: ""
   image: "images/organizers-300x300/AndrzejKrupka.webp"
 
 - name: "Bartek Krzepkowski"
@@ -184,17 +196,17 @@
   twitter: "moze nie"
   image: "images/organizers-300x300/JakubPodolak.webp"
 
+- name: "Karol Rogoziński"
+  title: "Finance Team"
+  linkedin: "https://www.linkedin.com/in/karol-rogoziński-41a60b234/"
+  twitter: ""
+  image: "images/organizers-300x300/KarolRogozinski.webp"
+
 - name: "Karolina Romanowska"
   title: "Premeetings and Tutorials Team"
   linkedin: "https://www.linkedin.com/in/karolina-romanowska/"
   twitter: ""
   image: "images/organizers-300x300/KarolinaRomanowska.webp"
-
-- name: "Kacper Skonieczka"
-  title: "Research Platform Team"
-  linkedin: "www.linkedin.com/in/kskonieczka01"
-  twitter: ""
-  image: "images/organizers-300x300/KacperSkonieczka.webp"
 
 - name: "Jakub Sobolewski"
   title: "Sponsors Team"

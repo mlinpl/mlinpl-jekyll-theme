@@ -1,7 +1,8 @@
 'use strict';
 
 /*!
- * Initiates event coundown
+ * ML in PL Jekyll Theme - Countdown
+ * This script initiates countdown to the event
  */
 
 var eventCountdownElement = document.getElementById("event-countdown");

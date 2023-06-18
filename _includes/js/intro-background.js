@@ -1,7 +1,8 @@
 'use strict';
 
 /*!
- * Header animation for ML in PL Theme
+ * ML in PL Jekyll Theme - Intro animation
+ * This script animates the intro background
  */
 
 const canvas = document.getElementById("intro-background"),

@@ -1,6 +1,9 @@
 - title: Monday
   subtitle: 26 June
   events:
+    - title: Registration
+      time: 8:00 - 8:30
+      height: 1
     - title: Introduction
       time: 8:30 - 9:00
       height: 1
@@ -14,7 +17,7 @@
     - title: Christoph Weniger
       subtitle: Simulation-based inference for large forward models in physics and astronomy
       time: 11:00 - 12:30
-      height: 3
+      height: 4
     - title: <i class="fa-solid fa-utensils"></i> Lunch break
       time: 12:30 - 13:30
       height: 2
@@ -31,7 +34,7 @@
       height: 3
     - title: Free time / break
       time: 17:30+
-      height: 1
+      height: 1-5
     - title: <i class="fa-solid fa-handshake"></i> Party 1
       time: 18:00+
       height: 1
@@ -41,18 +44,21 @@
   subtitle: 27 June
   events:
     - title: ""
+      height: 1-no-border
+    - title: Registration
+      time: 8:45 - 9:00
       height: 1
     - title: Marco Cuturi
-      subtitle: TBA
+      subtitle: A primer on Optimal Transport Theory and Algorithms, with Applications to Single-Cell Omics
       time: 9:00 - 10:30
       height: 4
     - title: <i class="fa-solid fa-mug-saucer"></i> Coffee break
       time: 10:30 - 11:00
       height: 1
     - title: Marco Cuturi
-      subtitle: TBA
+      subtitle: A primer on Optimal Transport Theory and Algorithms, with Applications to Single-Cell Omics
       time: 11:00 - 12:30
-      height: 3
+      height: 4
     - title: <i class="fa-solid fa-utensils"></i> Lunch break
       time: 12:30 - 13:30
       height: 2
@@ -69,12 +75,15 @@
       height: 3
     - title: Poster session
       time: 17:00+
-      height: 2
+      height: 1-5
 
 - title: Wednesday
   subtitle: 28 June
   events:
     - title: ""
+      height: 1-no-border
+    - title: Registration
+      time: 8:45 - 9:00
       height: 1
     - title: Ania Gambin
       subtitle: Bayesian models, Bayesian networks, and Bayesian neural networks with applications in computational biology
@@ -86,7 +95,7 @@
     - title: Yarin Gal
       subtitle: Uncertainty in Deep Learning
       time: 11:00 - 12:30
-      height: 3
+      height: 4
     - title: <i class="fa-solid fa-utensils"></i> Lunch break
       time: 12:30 - 13:30
       height: 2
@@ -97,18 +106,24 @@
     - title: <i class="fa-solid fa-mug-saucer"></i> Coffee break
       time: 15:00 - 15:30
       height: 1
-    - title: Stanisław Jastrzębski
-      subtitle: TBA
+    - title: Sayak Ray Chowdhury
+      subtitle: Differential Privacy in Reinforcement Learning
       time: 15:30 - 17:00
       height: 3
+    - title: Research projects at Jagiellonian University
+      time: 17:15 - 18:15
+      height: 1-5
     - title: Free time
-      time: 17:00+
-      height: 2
+      time: 18:15+
+      height: 1
 
 - title: Thursday
   subtitle: 29 June
   events:
     - title: ""
+      height: 1-no-border
+    - title: Registration
+      time: 8:45 - 9:00
       height: 1
     - title: Mathias Niepert
       subtitle: Learning with Discrete Structures and Algorithms
@@ -120,7 +135,7 @@
     - title: Mathias Niepert
       subtitle: Learning with Discrete Structures and Algorithms
       time: 11:00 - 12:30
-      height: 3
+      height: 4
     - title: <i class="fa-solid fa-utensils"></i> Lunch
       time: 12:30 - 13:30
       height: 2
@@ -132,6 +147,9 @@
   subtitle: 30 June
   events:
     - title: ""
+      height: 1-no-border
+    - title: Registration
+      time: 8:45 - 9:00
       height: 1
     - title: Jose Miguel Hernandez-Lobato
       subtitle: Machine Learning for Molecules
@@ -143,7 +161,7 @@
     - title: Jose Miguel Hernandez-Lobato
       subtitle: Machine Learning for Molecules
       time: 11:00 - 12:30
-      height: 3
+      height: 4
     - title: <i class="fa-solid fa-utensils"></i> Lunch break
       time: 12:30 - 13:30
       height: 2
@@ -160,7 +178,7 @@
       height: 3
     - title: Free time / break
       time: 17:00+
-      height: 1
+      height: 1-5
     - title: <i class="fa-solid fa-champagne-glasses"></i> Party 2
       time: 18:00+
       height: 1
@@ -169,6 +187,9 @@
   subtitle: 1 July
   events:
     - title: ""
+      height: 1-no-border
+    - title: Registration
+      time: 8:45 - 9:00
       height: 1
     - title: Żaneta Swiderska-Chadaj
       subtitle: Machine Learning in medical image analysis - challenges and opportunities
@@ -177,35 +198,38 @@
     - title: <i class="fa-solid fa-mug-saucer"></i> Coffee break
       time: 10:30 - 11:00
       height: 1
-    - title: Sayak Ray Chowdhury
-      subtitle: Differential Privacy in Reinforcement Learning
+    - title: Stanisław Jastrzębski
+      subtitle: Nothing Makes Sense in Deep Learning Except in the Light of the Simplicity Bias
       time: 11:00 - 12:30
-      height: 3
+      height: 4
     - title: <i class="fa-solid fa-utensils"></i> Lunch break
       time: 12:30 - 13:30
       height: 2
     - title: Michael Bronstein
-      subtitle: TBA
+      subtitle: Geometric deep learning
       time: 13:30 - 15:00
       height: 3
     - title: <i class="fa-solid fa-mug-saucer"></i> Coffee break
       time: 15:00 - 15:30
       height: 1
     - title: Michael Bronstein
-      subtitle: TBA
+      subtitle: Geometric deep learning
       time: 15:30 - 17:00
       height: 3
     - title: Free time
       time: 17:00+
-      height: 2
+      height: 1-5
 
 - title: Sunday
   subtitle: 2 July
   events:
     - title: ""
+      height: 1-no-border
+    - title: Registration
+      time: 8:45 - 9:00
       height: 1
     - title: Krzysztof Krawiec
-      subtitle: TBA
+      subtitle: Machine Learning meets Program Synthesis
       time: 9:00 - 10:30
       height: 4
     - title: <i class="fa-solid fa-mug-saucer"></i> Coffee break
@@ -214,7 +238,7 @@
     - title: Bartosz Zieliński
       subtitle: Interpretable Deep Learning with Prototypical Parts
       time: 11:00 - 12:30
-      height: 3
+      height: 4
     - title: <i class="fa-solid fa-utensils"></i> Lunch
       time: 12:30 - 13:30
       height: 2
