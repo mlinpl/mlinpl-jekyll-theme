@@ -1,5 +1,11 @@
 var speakers = {{site.data.invited-speakers | jsonify }};
 
+function colorI(html){
+  html = html.replace('i', '<span class="emph">i</span>');
+  html = html.replace('I', '<span class="emph">I</span>');
+  return html;
+}
+
 // Speakers preview in the tab
 var speakerTab = document.getElementById('speaker-tab');
 var speakerItems = speakerTab.querySelectorAll('.speaker-item');
@@ -34,10 +40,10 @@ function handleSpeakerItemClick(clickedElement) {
     speakerDetails.classList.remove('fade-out');
     speakerDetails.innerHTML = `
       <div class="details-image col-md-4">
-        <img src="${speaker.image}" alt="${speaker.name}" class="person-photo width-100 width-max-400px">
+        <img src="${speaker.image}" alt="${speaker.name} photo" class="person-photo width-100 width-max-400px">
       </div>
       <div class="details-text col-md-8">
-        <h2>${speaker.name}</h2>
+        <h2>${colorI(speaker.name)}</h2>
         <h3>${speaker.title}</h3>
         <p>${speaker.bio}</p>
       </div>
