@@ -1,0 +1,115 @@
+/*!
+ * ML in PL Jekyll Theme
+ */
+
+/* Timeline styles */
+.timeline .timeline-date {
+    text-align: right;
+    border-right: 1px solid {{ site.color.main }};
+    margin-right: -1px;
+}
+
+.timeline .row:last-child .timeline-date {
+    border-right: 1px solid transparent;
+}
+
+.timeline .timeline-date p, .timeline .timeline-desc p {
+    margin-top: -5px;
+    margin-bottom: 30px;
+}
+
+.timeline .timeline-date:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    background-color: {{ site.color.main }};
+    color: #fff;
+    right: -0.55em;
+    top: 0px;
+}
+
+@media(min-width:767px) {
+    .timeline .timeline-date:before {
+        top: 4px;
+    }
+}
+
+.timeline .timeline-desc {
+    border-left: 1px solid {{ site.color.main }};
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.timeline .row:last-child .timeline-desc {
+    border-left: 1px solid transparent;
+}
+
+
+/* Calendar buttons styles */
+.add-calendar {
+    margin-left: 40px;
+    margin-bottom: 400px;
+}
+
+.google {
+    padding: 12px 14px 6px 18px;
+    margin-left: 14px;
+    margin-right: 8px;
+}
+
+.outlook {
+    padding: 12px 14px 6px 17px;
+    margin-right: 8px
+}
+
+.office {
+    padding: 12px 14px 6px 18px;
+    margin-right: 8px
+}
+
+.yahoo {
+    padding: 12px 14px 6px 17px;
+}
+
+.facebook {
+    padding: 12px 12px 6px 16px;
+    margin-left: 14px;
+    margin-right: 8px
+}
+
+.linkedin {
+    padding: 12px 16px 6px 18px;
+    margin-right: 8px
+}
+
+.download {
+    background-color: #000000;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 16px 60px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+.download:hover {
+    background-color: #0a0a0a;
+    color: #ffffff;
+}
+
+.calendar-text {
+    margin-top: 14px;
+    margin-bottom: 14px
+}
+
+.btn-calendar:hover,
+.btn-calendar:focus {
+    text-decoration: none;
+}
