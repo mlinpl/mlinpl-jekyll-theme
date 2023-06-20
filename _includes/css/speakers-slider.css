@@ -38,6 +38,11 @@
 #speaker-tab .speaker-item.active, #speaker-tab .speaker-item:hover {
     background: {{ site.color.main }};
     transition: background .3s ease-in-out;
+    color: {{ site.color.background }};
+}
+
+#speaker-tab .speaker-item.active div, #speaker-tab .speaker-item:hover div{
+    border-color: {{ site.color.background }};
 }
 
 #speaker-details {

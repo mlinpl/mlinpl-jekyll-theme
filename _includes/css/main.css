@@ -265,22 +265,18 @@ ol > li > ol > li > ol > li:before {
     color: #000;
 }
 
-.navbar-custom .nav li.active {
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active a {
     outline: none;
     background-color: {{ site.color.main }};
+    color: {{ site.color.background }};
 }
 
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
-}
-
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a.active {
-    outline: 0;
-    background-color: {{ site.color.main }};
 }
 
 @media(min-width:767px) {
