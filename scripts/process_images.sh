@@ -24,9 +24,9 @@ optimize_images ${ROOT_DIR}/images/organizers 300x300 webp 90
 optimize_images ${ROOT_DIR}/images/scientific-board 300x300 webp 90
 
 # Optimize images of speakers
+optimize_images ${ROOT_DIR}/images/speakers-2023 600x600 webp 90
 optimize_images ${ROOT_DIR}/images/speakers-mlss-2023 600x600 webp 90
 optimize_images ${ROOT_DIR}/images/speakers-mlss-2022 600x600 webp 90
-#optimize_images ${ROOT_DIR}/images/speakers 600x600 webp 90
 
 # Optimize sponsors and partners logos
 optimize_images ${ROOT_DIR}/images/partners-logos 600x600 webp 90

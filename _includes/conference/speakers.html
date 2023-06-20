@@ -1,0 +1,47 @@
+<!-- Speakers Section -->
+<section id="invited-speakers" class="container content-section">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>/ Invited Speakers</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12 invited-speakers-container">
+      <div id="speaker-details" class="row">
+        <!-- Speaker details will be displayed here when a speaker is selected -->
+      </div>
+
+      <div style="width: 100%; padding: 30px 15px;">
+        <div id="speaker-timer">
+        
+        </div>
+      </div>
+
+      <div id="speaker-tab">
+        {% for speaker in site.data.invited-speakers %}
+        <div class="speaker-item person" data-index="{{ forloop.index0 }}">
+          <div class="person-photo-wrapper speaker-photo" style="width: 75px;">
+            <div>
+              <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }} photo">
+            </div>
+          </div>
+          <div class="center-verticaly">
+            <div>
+              <span class="speaker-name">
+                {{ speaker.name }}
+              </span></br>
+              <span class="speaker-title">
+                {{ speaker.title }}
+              </span>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="col-lg-12 text-center" style="margin-top: 2em;">
+      <h3>and more is coming!</h3>
+    </div>
+  </div>
+</section>

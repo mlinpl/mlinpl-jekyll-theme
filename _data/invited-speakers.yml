@@ -1,0 +1,17 @@
+- name: Volodymyr Mnih
+  title: Google DeepMind
+  image: images/speakers-2023-600x600/VolodymyrMnih.webp
+  bio: >- 
+    Volodymyr Mnih is a Research Scientist at Google DeepMind. He completed an MSc at the University of Alberta working under the supervision of Csaba Szepesvari and a PhD at the University of Toronto working under the supervision of Geoffrey Hinton. Since joining DeepMind, he has been working at the intersection of deep learning and reinforcement learning, co-developing Deep Q Networks (DQN), the asynchronous advantage actor critic (A3C), and reinforcement learning-based hard attention mechanisms.
+
+- name: Edoardo Maria Ponti
+  title: University of Edinburgh / University of Cambridge
+  image: images/speakers-2023-600x600/EdoardoMariaPonti.webp
+  bio: >-
+    Edoardo M. Ponti is a Lecturer (≈ Assistant Professor) in Natural Language Processing at the University of Edinburgh, where he is part of the "Institute for Language, Cognition, and Computation" (ILCC), and an Affiliated Lecturer at the University of Cambridge. Previously, he was a visiting postdoctoral scholar at Stanford University and a postdoctoral fellow at Mila and McGill University in Montreal. In 2021, he obtained a PhD in computational linguistics from the University of Cambridge, St John’s College. His main research foci are modular deep learning, sample-efficient learning, faithful text generation, computational typology and multilingual NLP. His research earned him a Google Research Faculty Award and 2 Best Paper Awards at EMNLP 2021 and RepL4NLP 2019. He is a board member and co-founder of SIGTYP, the ACL special interest group for computational typology, and a scholar of the European Lab for Learning and Intelligent Systems (ELLIS). He is a (terrible) violinist, football player, and an aspiring practitioner of heroic viticulture.
+
+- name: Desmond Elliott
+  title: University of Copenhagen
+  image: images/speakers-2023-600x600/DesmondElliott.webp
+  bio: >-
+    Desmond Elliott is an Assistant Professor and a Villum Young Investigator at the University of Copenhagen. He obtained his Ph.D from the University of Edinburgh, under the supervision of Frank Keller, and he was a Postdoctoral Researcher at CWI, and the University of Amsterdam in the Netherlands. His current research interests include tokenisation-free language modelling, and multilingual and multimodal learning.
