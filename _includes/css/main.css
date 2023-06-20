@@ -1,9 +1,6 @@
 /*!
- * ML in PL Theme, based on Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * ML in PL Jekyll Theme
  */
-
 
 /* Force larger margins for all Bootstrap elements */
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
@@ -706,13 +703,24 @@ body {
     100% {opacity: 1;}
 }
 
-
-/* Some classes for lists of people, sponsors etc.*/
-.sponsor-logo{
-    margin: 20px 30px;
-    display: block;
+.feature {
+    margin-bottom: 60px;
 }
 
+#sponsors a {
+    display: inline-block;
+    width: 100%;
+}
+
+#sponsors img {
+    padding: 5%;
+}
+
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
 
 .d-flex {
     display: -webkit-box;
@@ -740,6 +748,14 @@ body {
     margin-top: 0.5rem !important;
 }
 
+.people-grid {
+    width: 100%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: baseline;
+    justify-content: center;
+}
+  
 .person-with-bio {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -823,11 +839,13 @@ body {
     margin-right: auto;
 }
 
-.person-social-140, .person-social-160 {
+.person-social-120, .person-social-140, .person-social-160 {
     font-size: 20px;
 }
 
-.person-photo-with-social .person-social-140 a i, .person-photo-with-social .person-social-160 a i {
+.person-photo-with-social .person-social-120 a i,
+.person-photo-with-social .person-social-140 a i, 
+.person-photo-with-social .person-social-160 a i {
     position: absolute;
     background: {{ site.color.main }};
     border-radius: 50%;
@@ -852,45 +870,18 @@ body {
     right: 0px;
 }
 
-
-/* Timeline styles */
-
-.timeline .timeline-date {
-    text-align: right;
-    border-right: 1px solid {{ site.color.main }};
-    margin-right: -1px;
+.person-photo-with-social .person-social-120 a:nth-child(1) i {
+    bottom: 16px;
+    right: 18px;
 }
 
-.timeline .row:last-child .timeline-date {
-    border-right: none;
+.person-photo-with-social .person-social-120 a:nth-child(2) i {
+    bottom: 55px;
+    right: -5px;
 }
 
-.timeline .timeline-date:before {
-    content: "";
-    position: absolute;
-    border-radius: 50%;
-    height: 1em;
-    width: 1em;
-    background-color: {{ site.color.main }};
-    color: #fff;
-    right: -0.55em;
-    top: 0.65em;
-}
-
-.timeline .timeline-desc {
-    border-left: 1px solid {{ site.color.main }};
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: -10px;
-    margin-top: -10px;
-}
-
-.timeline .row:last-child .timeline-desc {
-    border-left: none;
-}
 
 /* Read more */
-
 .read-more-state {
     display: none;
 }
@@ -918,131 +909,4 @@ body {
 
 .read-more-trigger{
     margin-top: -1em;
-}
-
-
-/* Agenda */
-.agenda{
-    display: flex;
-    flex-wrap: wrap; 
-    align-items: baseline;
-    width: 100%;
-}
-
-.day{
-    display: block;
-    margin-bottom: 10px;
-}
-
-.days-3 {
-    width: 33%;
-}
-
-.days-7 {
-    width: 14.25%;
-    min-width: 150px;
-}
-
-.events{
-    text-align: left;
-    padding: 5px;
-}
-
-.agenda .events:last-child{
-    border-right: none;
-}
-
-.event{
-    display: block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid {{ site.color.main }};
-}
-
-.event:last-child{
-    border-bottom: none;
-}
-
-.event-1{
-    height: 64px;
-}
-
-.event-2{
-    height: 96px;
-}
-
-.event-3{
-    height: 128px;
-}
-
-.event-4{
-    height: 160px;
-}
-
-.add-calendar {
-    margin-left: 40px;
-    margin-bottom: 400px;
-}
-
-.google {
-    padding: 12px 14px 6px 18px;
-    margin-left: 14px;
-    margin-right: 8px;
-}
-
-.outlook {
-    padding: 12px 14px 6px 17px;
-    margin-right: 8px
-}
-
-.office {
-    padding: 12px 14px 6px 18px;
-    margin-right: 8px
-}
-
-.yahoo {
-    padding: 12px 14px 6px 17px;
-}
-
-.facebook {
-    padding: 12px 12px 6px 16px;
-    margin-left: 14px;
-    margin-right: 8px
-}
-
-.linkedin {
-    padding: 12px 16px 6px 18px;
-    margin-right: 8px
-}
-
-.download {
-    background-color: #000000;
-    border-radius: 50px;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 16px;
-    padding: 16px 60px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #2f6627;
-}
-
-.download:hover {
-    background-color: #0a0a0a;
-    color: #ffffff;
-}
-
-.calendar-text {
-    margin-top: 14px;
-    margin-bottom: 14px
-}
-
-.btn-calendar:hover,
-.btn-calendar:focus {
-    text-decoration: none;
-}
-
-.max-width-100 {
-    max-width: min(100%, 400px);
 }

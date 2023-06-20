@@ -27,6 +27,11 @@
   linkedin: https://www.linkedin.com/in/karolina-matusiak-8a582676/
   image: images/organizers-300x300/KarolinaMatusiak.webp
 
+- name: Monika Staniszewska
+  title: IDEAS NCBR
+  linkedin: https://www.linkedin.com/in/monika-staniszewska/
+  image: images/organizers-300x300/MonikaStaniszewska.webp
+
 - name: Adam Goliński
   title: ML in PL / Apple
   linkedin: https://www.linkedin.com/in/adamgol/
@@ -109,6 +114,11 @@
 - name: Bartek Krzepkowski
   title: IDEAS NCBR / ML in PL
   image: images/organizers-300x300/BartekKrzepkowski.webp
+
+- name: Mateusz Pyla
+  title: IDEAS NCBR / Jagiellonian University
+  linkedin: https://www.linkedin.com/in/mateusz-pyla-91303b135/
+  image: images/organizers-300x300/MateuszPyla.webp
 
 - name: Marcin Możejko
   title: ML in PL / University of Warsaw

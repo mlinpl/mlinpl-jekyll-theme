@@ -1,1 +1,3 @@
-{% include css/mlinpl.css %}
+{% include css/main.css %}
+{% include css/timeline.css %}
+{% include css/agenda.css %}

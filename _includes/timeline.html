@@ -8,9 +8,10 @@ Expects following parameters:
     desc-col-width
 {% endcomment %}
 <div class="row">
-    <div class="col-md-{{ include.timeline-col-width }} timeline">
+    <div class="col-lg-12">
         <h2>/ {{ include.timeline-title }}</h2>
-
+    </div>
+    <div class="col-md-{{ include.timeline-col-width }} timeline">
         {% for date in include.timeline-data %}
         <div class="row">
             <div class="col-xs-{{ include.date-col-width }} timeline-date">

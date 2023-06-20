@@ -1,3 +1,3 @@
-{% include js/mlinpl-intro-countdown.js %}
-{% include js/mlinpl-intro-background.js %}
-{% include js/mlinpl-nav.js %}
+{% include js/intro-countdown.js %}
+{% include js/intro-background.js %}
+{% include js/nav.js %}
