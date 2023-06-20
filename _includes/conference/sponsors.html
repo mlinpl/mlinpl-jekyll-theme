@@ -7,14 +7,14 @@
             </div>
             <div class="row d-flex justify-content-center text-center">
                 {% for sponsor in category.sponsors %}
-                <div class="col-md-6 ">
+                <div style="flex: 1;">
                     <div class="feature">
                         {% if sponsor.link %}
                         <a href="{{ sponsor.link }}" target="_blank">
-                            <img class="width-100" width="{{category.config.maxWidth}}" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
+                            <img  width="{{category.config.maxWidth}}" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
                         </a>
                         {% else %}
-                        <img class="width-100" width="{{category.config.maxWidth}}" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
+                        <img width="{{category.config.maxWidth}}" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
                         {% endif %}
                     </div>
                 </div>

@@ -88,16 +88,24 @@
 
 - media-partner:
   sponsors:
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
+    - image: "./images/partners-logos/ai_flavours.jpeg"
+      link: "https://www.linkedin.com/company/aiflavours"
+    - image: "./images/partners-logos/gauss.png"
+      link: "http://gauss.im.pwr.wroc.pl"
+    - image: "./images/partners-logos/ghost.png"
+      link: "https://ghostday.pl"
+    - image: "./images/partners-logos/golem.png"
+      link: "https://ai.ii.pw.edu.pl/kolo-naukowe-sztucznej-inteligencji-golem/"
+    - image: "./images/partners-logos/knum.png"
       link: "https://mlinpl.org"
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
+    - image: "./images/partners-logos/machine_learning_prague.png"
+      link: "https://mlprague.com/"
+    - image: "./images/partners-logos/warsaw_ai.png"
+      link: "https://warsaw.ai"
+    - image: "./images/partners-logos/zdarzenie_poznawcze.jpeg"
+      link: "https://www.facebook.com/zderzenia.poznawcze/?locale=pl_PL"
 
   config: 
     title: "Media partners"
-    maxWidth: 250
+    maxWidth: 300
     fontSize: 25
