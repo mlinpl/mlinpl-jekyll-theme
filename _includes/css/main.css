@@ -267,7 +267,7 @@ ol > li > ol > li > ol > li:before {
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active a {
+.navbar-custom .nav li.active > a {
     outline: none;
     background-color: {{ site.color.main }};
     color: {{ site.color.background }};
