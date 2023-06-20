@@ -1,47 +1,36 @@
-strategic:
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
+- title: "/ Media partners"
+  imageMaxWidth: 220px
+  imageMaxHeight: 120px
+  sponsors:
+    - name: AIFlavours
+      image: "./images/partners-logos-600x600/AIFlavours.webp"
+      url: "https://www.linkedin.com/company/aiflavours"
+    - name: Gauss
+      image: "./images/partners-logos-600x600/Gauss.webp"
+      url: "http://gauss.im.pwr.wroc.pl"
+    - name: "Ghost Day: Applied Machine Learning Conference"
+      image: "./images/partners-logos-600x600/GhostDay.webp"
+      url: "https://ghostday.pl"
+    - name: Group of Horribly Optimistic STatisticians
+      image: "./images/partners-logos-600x600/GHOST.webp"
+      url: "https://ghost.put.poznan.pl"
+    - name: Golem
+      image: "./images/partners-logos-600x600/Golem.webp"
+      url: "https://ai.ii.pw.edu.pl/kolo-naukowe-sztucznej-inteligencji-golem/"
+    - name: KNUM
+      image: "./images/partners-logos-600x600/KNUM.webp"
+      url: "https://mlinpl.org"
+    - name: Machine Learning Prague
+      image: "./images/partners-logos-600x600/MachineLearningPrague.webp"
+      url: "https://mlprague.com/"
+    - name: Quantum AI Foundation
+      image: "./images/partners-logos-600x600/QuantumAIFoundation.webp"
+      url: "https://www.qaif.org"
+    - name: Warsaw AI
+      image: "./images/partners-logos-600x600/WarsawAI.webp"
+      url: "https://warsaw.ai"
+    - name: Zdarzenia Poznawcze
+      image: "./images/partners-logos-600x600/ZdarzeniePoznawcze.webp"
+      url: "https://www.facebook.com/zderzenia.poznawcze"
 
-platinum:
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
 
-gold:
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-
-silver:
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: 
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-
-partner:
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: "https://mlinpl.org"
-  - image: "./images/institutions-logos/logo-mlinpl.svg"
-    link: 
-
-patronage:
-  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/UW.png"
-    link: "https://mlinpl.org"
-  - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/MIMUW.png"
-    link: "https://mlinpl.org"

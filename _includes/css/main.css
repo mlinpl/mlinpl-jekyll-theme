@@ -703,23 +703,10 @@ body {
     100% {opacity: 1;}
 }
 
-.feature {
-    margin-bottom: 60px;
-}
-
-#sponsors a {
-    display: inline-block;
-    width: 100%;
-}
-
-#sponsors img {
-    padding: 5%;
-}
-
-.justify-content-center {
-    -webkit-box-pack: center !important;
-    -ms-flex-pack: center !important;
-    justify-content: center !important;
+/* Some classes for lists of people, sponsors etc.*/
+.sponsor-logo{
+    margin: 20px 30px;
+    display: block;
 }
 
 .d-flex {

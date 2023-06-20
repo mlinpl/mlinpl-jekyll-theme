@@ -1,146 +1,25 @@
 <!-- Sponsors Section -->
 <section id="sponsors" class="container content-section">
-    <!-- Strategic Sponsors -->
-    {% if site.data.sponsors.strategic %}
-    <div class="row">
-        <div class="col-lg-12">
-            <h2 class="text-align-left">/ Strategic Sponsors</h2>
-        </div>
-        <div class="row d-flex justify-content-center text-center">
-            {% for sponsor in site.data.sponsors.strategic %}
-            <div class="col-md-6 ">
-                <div class="feature">
-                    {% if sponsor.link %}
-                    <a href="{{ sponsor.link }}" target="_blank">
-                        <img class="width-100" width="600" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
+    {% for category in site.data.sponsors %}
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-align-left">{{category.title}}</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 d-flex text-center">
+                {% for sponsor in category.sponsors %}
+                <div class="sponsor-logo" style="width: {{ category.imageMaxWidth }};">
+                    {% if sponsor.url %}
+                    <a href="{{ sponsor.url }}" target="_blank">
+                    {% endif %}
+                        <img style="max-width: {{ category.imageMaxWidth }}; max-height: {{ category.imageMaxHeight }};" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
+                    {% if sponsor.url %}
                     </a>
-                    {% else %}
-                    <img class="width-100" width="600" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
                     {% endif %}
                 </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    {% endif %}
-
-    <!-- Platinum Sponsors -->
-    {% if site.data.sponsors.platinum %}
-    <div class="row mt-2">
-        <div class="col-lg-12">
-            <h2 class="text-align-left">/ Platinum Sponsors</h2>
-        </div>
-        <div class="row d-flex justify-content-center text-center">
-            {% for sponsor in site.data.sponsors.platinum %}
-            <div class="col-sm-4 ">
-                <div class="feature">
-                    {% if sponsor.link %}
-                    <a href="{{ sponsor.link }}" target="_blank">
-                        <img class="width-100" width="420" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
-                    </a>
-                    {% else %}
-                    <img class="width-100" width="420" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
-                    {% endif %}
+                {% endfor %}
                 </div>
             </div>
-            {% endfor %}
         </div>
-    </div>
-    {% endif %}
-
-    <!-- Gold Sponsors -->
-    {% if site.data.sponsors.gold %}
-    <div class="row mt-2">
-        <div class="col-lg-12">
-            <h2 class="text-align-left" style="font-size: 27px;">/ Gold Sponsors</h2>
-        </div>
-        <div class="row d-flex justify-content-center text-center">
-            {% for sponsor in site.data.sponsors.gold %}
-            <div class="col-sm-4 ">
-                <div class="feature">
-                    {% if sponsor.link %}
-                    <a href="{{ sponsor.link }}" target="_blank">
-                        <img class="width-100" width="290" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
-                    </a>
-                    {% else %}
-                    <img class="width-100" width="290" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
-                    {% endif %}
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    {% endif %}
-
-    <!-- Silver Sponsors -->
-    {% if site.data.sponsors.silver %}
-    <div class="row mt-2">
-        <div class="col-lg-12">
-            <h2 class="text-align-left" style="font-size: 25px;">/ Silver Sponsors</h2>
-        </div>
-        <div class="row d-flex justify-content-center text-center">
-            {% for sponsor in site.data.sponsors.silver %}
-            <div class="col-sm-3 ">
-                <div class="feature">
-                    {% if sponsor.link %}
-                    <a href="{{ sponsor.link }}" target="_blank">
-                        <img class="width-100" width="250" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
-                    </a>
-                    {% else %}
-                    <img class="width-100" width="250" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
-                    {% endif %}
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    {% endif %}
-
-    <!-- Partners -->
-    {% if site.data.sponsors.partner %}
-    <div class="row mt-5">
-        <div class="col-lg-12">
-            <h2 class="text-align-left">/ Partners</h2>
-        </div>
-        <div class="row d-flex justify-content-center text-center">
-            {% for sponsor in site.data.sponsors.partner %}
-            <div class="col-sm-3 ">
-                <div class="feature">
-                    {% if sponsor.link %}
-                    <a href="{{ sponsor.link }}" target="_blank">
-                        <img class="width-100" width="250" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
-                    </a>
-                    {% else %}
-                    <img class="width-100" width="250" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
-                    {% endif %}
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    {% endif %}
-
-    <!-- Honorary Patronages -->
-    {% if site.data.sponsors.patronage %}
-    <div class="row mt-5">
-        <div class="col-lg-12">
-            <h2 class="text-align-left">/ Honorary Patronages</h2>
-        </div>
-        <div class="row d-flex justify-content-center text-center">
-            {% for sponsor in site.data.sponsors.patronage %}
-            <div class="col-sm-6">
-                <div>
-                    {% if sponsor.link %}
-                    <a href="{{ sponsor.link }}" target="_blank">
-                        <img class="width-100" width="320" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
-                    </a>
-                    {% else %}
-                    <img class="width-100" width="320" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
-                    {% endif %}
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-    {% endif %}
+    {% endfor %}
 </section>
