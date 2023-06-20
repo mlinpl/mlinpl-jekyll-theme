@@ -1,111 +1,29 @@
-- strategic:
+- title: "/ Honorary patronage"
+  imageMaxWidth: 400px
+  imageMaxHeight: 250px
   sponsors:
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
-  config:
-    title: Strategic Sponsors
-    maxWidth: 600
-    fontSize: 30
+    - image: "./images/partners-logos/CentrumNaukiKopernik.svg"
+      link: "https://www.kopernik.org.pl/"
 
-- platinum:
+- title: "/ Media partners"
+  imageMaxWidth: 220px
+  imageMaxHeight: 120px
   sponsors:
-      - image: "./images/institutions-logos/logo-mlinpl.svg"
-        link: "https://mlinpl.org"
-      - image: "./images/institutions-logos/logo-mlinpl.svg"
-        link: "https://mlinpl.org"
-      - image: "./images/institutions-logos/logo-mlinpl.svg"
-        link: "https://mlinpl.org"
-
-  config: 
-    title: "Platinum sponsors"
-    maxWidth: 420
-    fontSize: 30
-
-
-- gold:
-  sponsors:
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
-
-  config: 
-    title: "Gold sponsors"
-    maxWidth: 290
-    fontSize: 27
-
-
-- silver:
-  sponsors:
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: 
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
-
-  config: 
-    title: "Silver sponsors"
-    maxWidth: 250
-    fontSize: 25
-
-
-- partner:
-  sponsors:
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: "https://mlinpl.org"
-    - image: "./images/institutions-logos/logo-mlinpl.svg"
-      link: 
-
-  config: 
-    title: "Partners"
-    maxWidth: 250
-    fontSize: 25
-
-
-- honorary-patronage:
-  sponsors:
-    - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/UW.png"
-      link: "https://mlinpl.org"
-    - image: "https://conference2022.mlinpl.org/wp-content/uploads/2022/10/MIMUW.png"
-      link: "https://mlinpl.org"
-
-  config: 
-    title: "Honorary patronage"
-    maxWidth: 270
-    fontSize: 25
-
-
-- media-partner:
-  sponsors:
-    - image: "./images/partners-logos/ai_flavours.jpeg"
+    - image: "./images/partners-logos-600x600/AIFlavours.webp"
       link: "https://www.linkedin.com/company/aiflavours"
-    - image: "./images/partners-logos/gauss.png"
+    - image: "./images/partners-logos-600x600/Gauss.webp"
       link: "http://gauss.im.pwr.wroc.pl"
-    - image: "./images/partners-logos/ghost.png"
+    - image: "./images/partners-logos-600x600/GhostDay.webp"
       link: "https://ghostday.pl"
-    - image: "./images/partners-logos/golem.png"
+    - image: "./images/partners-logos-600x600/Golem.webp"
       link: "https://ai.ii.pw.edu.pl/kolo-naukowe-sztucznej-inteligencji-golem/"
-    - image: "./images/partners-logos/knum.png"
+    - image: "./images/partners-logos-600x600/KNUM.webp"
       link: "https://mlinpl.org"
-    - image: "./images/partners-logos/machine_learning_prague.png"
+    - image: "./images/partners-logos-600x600/MachineLearningPrague.webp"
       link: "https://mlprague.com/"
-    - image: "./images/partners-logos/warsaw_ai.png"
+    - image: "./images/partners-logos-600x600/WarsawAI.webp"
       link: "https://warsaw.ai"
-    - image: "./images/partners-logos/zdarzenie_poznawcze.jpeg"
+    - image: "./images/partners-logos-600x600/ZdarzeniePoznawcze.webp"
       link: "https://www.facebook.com/zderzenia.poznawcze/?locale=pl_PL"
 
-  config: 
-    title: "Media partners"
-    maxWidth: 300
-    fontSize: 25
+
