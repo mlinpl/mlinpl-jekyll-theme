@@ -1,29 +1,36 @@
-- title: "/ Honorary patronage"
-  imageMaxWidth: 400px
-  imageMaxHeight: 250px
-  sponsors:
-    - image: "./images/partners-logos/CentrumNaukiKopernik.svg"
-      link: "https://www.kopernik.org.pl/"
-
 - title: "/ Media partners"
   imageMaxWidth: 220px
   imageMaxHeight: 120px
   sponsors:
-    - image: "./images/partners-logos-600x600/AIFlavours.webp"
-      link: "https://www.linkedin.com/company/aiflavours"
-    - image: "./images/partners-logos-600x600/Gauss.webp"
-      link: "http://gauss.im.pwr.wroc.pl"
-    - image: "./images/partners-logos-600x600/GhostDay.webp"
-      link: "https://ghostday.pl"
-    - image: "./images/partners-logos-600x600/Golem.webp"
-      link: "https://ai.ii.pw.edu.pl/kolo-naukowe-sztucznej-inteligencji-golem/"
-    - image: "./images/partners-logos-600x600/KNUM.webp"
-      link: "https://mlinpl.org"
-    - image: "./images/partners-logos-600x600/MachineLearningPrague.webp"
-      link: "https://mlprague.com/"
-    - image: "./images/partners-logos-600x600/WarsawAI.webp"
-      link: "https://warsaw.ai"
-    - image: "./images/partners-logos-600x600/ZdarzeniePoznawcze.webp"
-      link: "https://www.facebook.com/zderzenia.poznawcze/?locale=pl_PL"
+    - name: AIFlavours
+      image: "./images/partners-logos-600x600/AIFlavours.webp"
+      url: "https://www.linkedin.com/company/aiflavours"
+    - name: Gauss
+      image: "./images/partners-logos-600x600/Gauss.webp"
+      url: "http://gauss.im.pwr.wroc.pl"
+    - name: "Ghost Day: Applied Machine Learning Conference"
+      image: "./images/partners-logos-600x600/GhostDay.webp"
+      url: "https://ghostday.pl"
+    - name: Group of Horribly Optimistic STatisticians
+      image: "./images/partners-logos-600x600/GHOST.webp"
+      url: "https://ghost.put.poznan.pl"
+    - name: Golem
+      image: "./images/partners-logos-600x600/Golem.webp"
+      url: "https://ai.ii.pw.edu.pl/kolo-naukowe-sztucznej-inteligencji-golem/"
+    - name: KNUM
+      image: "./images/partners-logos-600x600/KNUM.webp"
+      url: "https://mlinpl.org"
+    - name: Machine Learning Prague
+      image: "./images/partners-logos-600x600/MachineLearningPrague.webp"
+      url: "https://mlprague.com/"
+    - name: Quantum AI Foundation
+      image: "./images/partners-logos-600x600/QuantumAIFoundation.webp"
+      url: "https://www.qaif.org"
+    - name: Warsaw AI
+      image: "./images/partners-logos-600x600/WarsawAI.webp"
+      url: "https://warsaw.ai"
+    - name: Zdarzenia Poznawcze
+      image: "./images/partners-logos-600x600/ZdarzeniePoznawcze.webp"
+      url: "https://www.facebook.com/zderzenia.poznawcze"
 
 
