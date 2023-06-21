@@ -12,7 +12,7 @@
   photo: ./images/scientific-board-300x300/AgnieszkaLawrynowicz.webp
   google-scholar: https://scholar.google.pl/citations?user=7cZ0afAAAAAJ
   bio-intro: >-
-    Associate Professor of AI and an experienced researcher in combining machine learning with symbolic approaches such as knowledge graphs. She is passionate about her work and continually seeks new ways to apply her knowledge to help solve real-world problems.
+    Agnieszka Ławrynowicz is an associate professor of AI and an experienced researcher in combining machine learning with symbolic approaches such as knowledge graphs. She is passionate about her work and continually seeks new ways to apply her knowledge to help solve real-world problems.
   bio-more: >-
     She has led and participated in many R&D projects, including research in computational food, digital humanities, and social good. She enjoys things that are simple to use but elegant and creative.
 
@@ -37,7 +37,7 @@
   photo: ./images/scientific-board-300x300/JanChorowski.webp
   google-scholar: https://scholar.google.pl/citations?user=Yc94070AAAAJ
   bio-intro: >-
-    Jan Chorowski is an Associate Professor at Faculty of Mathematics and Computer Science at University of Wrocław. He received his M.Sc. degree in electrical engineering from Wrocław University of Technology and Ph.D. from University of Louisville. 
+    Jan Chorowski is an associate professor at Faculty of Mathematics and Computer Science at University of Wrocław. He received his M.Sc. degree in electrical engineering from Wrocław University of Technology and Ph.D. from University of Louisville. 
   bio-more: >-
     He has visited several research teams, including Google Brain, Microsoft Research and Yoshua Bengio’s lab. His research interests are applications of neural networks to problems which are intuitive and easy for humans and difficult for machines, such as speech and natural language processing.
 
@@ -55,7 +55,7 @@
   photo: ./images/scientific-board-300x300/KrzysztofGeras.webp
   google-scholar: https://scholar.google.pl/citations?user=ZMCGp48AAAAJ
   bio-intro: >-
-    Krzysztof Geras is an assistant professor at NYU School of Medicine and an affiliated faculty at NYU Center for Data Science. His main interests are in unsupervised learning with neural networks, model compression, transfer learning, evaluation of machine learning models and applications of these techniques to medical imaging. 
+    Krzysztof Geras is an associate professor at NYU School of Medicine and an affiliated faculty at NYU Center for Data Science. His main interests are in unsupervised learning with neural networks, model compression, transfer learning, evaluation of machine learning models and applications of these techniques to medical imaging. 
   bio-more: >-
     He previously completed a postdoc at NYU with Kyunghyun Cho, a PhD at the University of Edinburgh with Charles Sutton and an MSc as a visiting student at the University of Edinburgh with Amos Storkey. His BSc is from the University of Warsaw. He also completed industrial internships in Microsoft Research (Redmond and Bellevue), Amazon (Berlin) and J.P. Morgan (London).
 
@@ -67,11 +67,11 @@
     Marek Cygan is currently an associate professor at the University of Warsaw, leading a newly created Robot learning group, focused on robotic manipulation and computer vision. Additionally, CTO and co-founder of Nomagic, a startup delivering smart pick-and-place robots for intralogistics applications. Earlier doing research in various branches of algorithms, having an ERC Starting grant on the subject.
 
 - name: Piotr Miłoś
-  affiliation: University of Warsaw
+  affiliation: IDEAS NCBR, University of Warsaw
   photo: ./images/scientific-board-300x300/PiotrMilos.webp
   google-scholar: https://scholar.google.com/citations?user=Se68XecAAAAJ
   bio: >-
-    Piotr Miłoś is an Associate Professor at the Faculty of Mathematics, Mechanics and Computer Science of the University of Warsaw. He received his Ph.D. in probability theory. From 2016 he has developed interest in machine learning. Since then he collaborated with deepsense.ai on various research projects. His focus in on problems in reinforcement learning.
+    Piotr Miłoś is an associate professor in the Polish Academy of Sciences, a team leader at IDEAS NCBR and a member of the ELLIS Society. He is interested in methods that can deliver robust decision-making capabilities in complex scenarios. This covers many scenarios including continual learning, automated reasoning in mathematics, planning algorithms and sequential modelling. 
 
 - name: Piotr Sankowski
   affiliation: IDEAS NCBR, University of Warsaw
@@ -87,7 +87,7 @@
   photo: ./images/scientific-board-300x300/PrzemyslawBiecek.webp
   google-scholar: https://scholar.google.com/citations?user=Af0O75cAAAAJ
   bio: >-
-    Przemysław Biecek obtained his Ph.D. in Mathematical Statistics and MSc in Software Engineering at Wroclaw University of Science and Technology. He is currently working as an Associate Professor at the Faculty of Mathematics and Information Science, Warsaw University of Technology, and an Assistant Professor at the Faculty of Mathematics, Informatics and Mechanics, University of Warsaw.
+    Przemysław Biecek obtained his Ph.D. in Mathematical Statistics and MSc in Software Engineering at Wroclaw University of Science and Technology. He is currently working as an associate professor at the Faculty of Mathematics and Information Science, Warsaw University of Technology, and an Assistant Professor at the Faculty of Mathematics, Informatics and Mechanics, University of Warsaw.
 
 - name: Razvan Pascanu
   affiliation: DeepMind
@@ -110,9 +110,9 @@
   photo: ./images/scientific-board-300x300/TomaszTrzcinski.webp
   google-scholar: https://scholar.google.com/citations?user=bJMRBFoAAAAJ
   bio-intro: >-
-    Tomasz Trzciński is an Associate Professor at Warsaw University of Technology since 2015, where he leads a Computer Vision Lab. He was a Visiting Scholar at Stanford University in 2017 and at Nanyang Technological University in 2019. Previously, he worked at Google in 2013, Qualcomm in 2012 and Telefónica in 2010. 
+    Tomasz Trzciński (DSc, WUT'20; PhD, EPFL'14; MSc, UPC/PoliTo'10) is an Associate Professor at Warsaw University of Technology, where he leads a Computer Vision Lab, and at Jagiellonian University of Cracow (GMUM). He is also a Computer Vision Group Leader at IDEAS NCBR, a publicly-funded Polish Center for AI. He was a Visiting Scholar at Stanford University in 2017 and at Nanyang Technological University in 2019. 
   bio-more: >-  
-    He is an Associate Editor of IEEE Access and MDPI Electronics and frequently serves as a reviewer in major computer science conferences (CVPR, ICCV, ECCV, NeurIPS, ICML) and journals (TPAMI, IJCV, CVIU). He is a Senior Member of IEEE and an expert of National Science Centre and Foundation for Polish Science. He is a Chief Scientist at Tooploox and a co-founder of Comixify, a technology startup focused on using machine learning algorithms for video editing.
+    Previously, he worked at Google in 2013, Qualcomm in 2012 and Telefónica in 2010. He is an Associate Editor of IEEE Access and MDPI Electronics and frequently serves as a reviewer in major computer science conferences (CVPR, ICCV, ECCV, NeurIPS, ICML) and journals (TPAMI, IJCV, CVIU). He is a Senior Member of IEEE, member of ELLIS Society, member of the ALICE Collaboration at CERN and an expert of National Science Centre and Foundation for Polish Science. He is a Chief Scientist at Tooploox and a co-founder of Comixify, a technology startup focused on using machine learning algorithms for video editing.
 
 - name: Viorica Patraucean
   affiliation: DeepMind
