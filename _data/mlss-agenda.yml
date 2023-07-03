@@ -20,7 +20,7 @@
       height: 4
     - title: <i class="fa-solid fa-utensils"></i> Lunch break
       time: 12:30 - 13:30
-      height: 2
+      height: 1
     - title: Bingqing Cheng
       subtitle: Predicting materials properties with the help of machine learning
       time: 13:30 - 15:00
@@ -44,7 +44,7 @@
   subtitle: 27 June
   events:
     - title: ""
-      height: 1-no-border
+      height: 1 event-empty
     - title: Registration
       time: 8:45 - 9:00
       height: 1
@@ -61,7 +61,7 @@
       height: 4
     - title: <i class="fa-solid fa-utensils"></i> Lunch break
       time: 12:30 - 13:30
-      height: 2
+      height: 1
     - title: Benedek Rozemberczki
       subtitle: Deep Learning for Drug Pair Scoring
       time: 13:30 - 15:00
@@ -81,7 +81,7 @@
   subtitle: 28 June
   events:
     - title: ""
-      height: 1-no-border
+      height: 1 event-empty
     - title: Registration
       time: 8:45 - 9:00
       height: 1
@@ -98,7 +98,7 @@
       height: 4
     - title: <i class="fa-solid fa-utensils"></i> Lunch break
       time: 12:30 - 13:30
-      height: 2
+      height: 1
     - title: Krzysztof Maziarz
       subtitle: Reaction Prediction and Retrosynthesis
       time: 13:30 - 15:00
@@ -121,24 +121,24 @@
   subtitle: 29 June
   events:
     - title: ""
-      height: 1-no-border
+      height: 1 event-empty
     - title: Registration
       time: 8:45 - 9:00
       height: 1
-    - title: Mathias Niepert
-      subtitle: Learning with Discrete Structures and Algorithms
+    - title: Stanisław Jastrzębski
+      subtitle: Nothing Makes Sense in Deep Learning Except in the Light of the Simplicity Bias
       time: 9:00 - 10:30
       height: 4
     - title: <i class="fa-solid fa-mug-saucer"></i> Coffee break
       time: 10:30 - 11:00
       height: 1
-    - title: Mathias Niepert
-      subtitle: Learning with Discrete Structures and Algorithms
+    - title: Przemysław Spurek
+      subtitle: Hypernetwork approach to generating 3D objects
       time: 11:00 - 12:30
       height: 4
     - title: <i class="fa-solid fa-utensils"></i> Lunch
       time: 12:30 - 13:30
-      height: 2
+      height: 1
     - title: Free time
       time: 13:30+
       height: 3
@@ -147,7 +147,7 @@
   subtitle: 30 June
   events:
     - title: ""
-      height: 1-no-border
+      height: 1 event-empty
     - title: Registration
       time: 8:45 - 9:00
       height: 1
@@ -164,7 +164,7 @@
       height: 4
     - title: <i class="fa-solid fa-utensils"></i> Lunch break
       time: 12:30 - 13:30
-      height: 2
+      height: 1
     - title: Mario Krenn
       subtitle: Towards an Artificial Muse for new Ideas in Physics
       time: 13:30 - 15:00
@@ -187,24 +187,27 @@
   subtitle: 1 July
   events:
     - title: ""
-      height: 1-no-border
+      height: 6 event-empty
+    # - title: Registration
+    #   time: 8:45 - 9:00
+    #   height: 1
+    # - title: Free time / TBA
+    #   subtitle: 
+    #   time: 9:00 - 10:30
+    #   height: 4
     - title: Registration
-      time: 8:45 - 9:00
+      time: 10:15 - 10:30
       height: 1
-    - title: Żaneta Swiderska-Chadaj
-      subtitle: Machine Learning in medical image analysis - challenges and opportunities
-      time: 9:00 - 10:30
-      height: 4
     - title: <i class="fa-solid fa-mug-saucer"></i> Coffee break
       time: 10:30 - 11:00
       height: 1
-    - title: Stanisław Jastrzębski
-      subtitle: Nothing Makes Sense in Deep Learning Except in the Light of the Simplicity Bias
+    - title: Żaneta Swiderska-Chadaj
+      subtitle: Machine Learning in medical image analysis - challenges and opportunities
       time: 11:00 - 12:30
       height: 4
     - title: <i class="fa-solid fa-utensils"></i> Lunch break
       time: 12:30 - 13:30
-      height: 2
+      height: 1
     - title: Michael Bronstein
       subtitle: Geometric deep learning
       time: 13:30 - 15:00
@@ -224,7 +227,7 @@
   subtitle: 2 July
   events:
     - title: ""
-      height: 1-no-border
+      height: 1 event-empty
     - title: Registration
       time: 8:45 - 9:00
       height: 1
@@ -239,9 +242,9 @@
       subtitle: Interpretable Deep Learning with Prototypical Parts
       time: 11:00 - 12:30
       height: 4
-    - title: <i class="fa-solid fa-utensils"></i> Lunch
-      time: 12:30 - 13:30
-      height: 2
     - title: Closing remarks
-      time: 13:30 - 14:00
+      time: 12:30 - 13:00
+      height: 1
+    - title: <i class="fa-solid fa-utensils"></i> Lunch
+      time: 13:00 - 14:00
       height: 1
