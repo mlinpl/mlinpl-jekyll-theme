@@ -3,15 +3,32 @@
   image: images/speakers-2023-600x600/VolodymyrMnih.webp
   bio: >- 
     Volodymyr Mnih is a Research Scientist at Google DeepMind. He completed an MSc at the University of Alberta working under the supervision of Csaba Szepesvari and a PhD at the University of Toronto working under the supervision of Geoffrey Hinton. Since joining DeepMind, he has been working at the intersection of deep learning and reinforcement learning, co-developing Deep Q Networks (DQN), the asynchronous advantage actor critic (A3C), and reinforcement learning-based hard attention mechanisms.
+  google-scholar: https://scholar.google.com/citations?user=rLdfJ1gAAAAJ
 
 - name: Edoardo Maria Ponti
   title: University of Edinburgh / University of Cambridge
   image: images/speakers-2023-600x600/EdoardoMariaPonti.webp
   bio: >-
     Edoardo M. Ponti is a Lecturer (≈ Assistant Professor) in Natural Language Processing at the University of Edinburgh, where he is part of the "Institute for Language, Cognition, and Computation" (ILCC), and an Affiliated Lecturer at the University of Cambridge. Previously, he was a visiting postdoctoral scholar at Stanford University and a postdoctoral fellow at Mila and McGill University in Montreal. In 2021, he obtained a PhD in computational linguistics from the University of Cambridge, St John’s College. His main research foci are modular deep learning, sample-efficient learning, faithful text generation, computational typology and multilingual NLP. His research earned him a Google Research Faculty Award and 2 Best Paper Awards at EMNLP 2021 and RepL4NLP 2019. He is a board member and co-founder of SIGTYP, the ACL special interest group for computational typology, and a scholar of the European Lab for Learning and Intelligent Systems (ELLIS). He is a (terrible) violinist, football player, and an aspiring practitioner of heroic viticulture.
+  google-scholar: https://scholar.google.com/citations?user=tklL2q0AAAAJ
 
 - name: Desmond Elliott
   title: University of Copenhagen
   image: images/speakers-2023-600x600/DesmondElliott.webp
   bio: >-
     Desmond Elliott is an Assistant Professor and a Villum Young Investigator at the University of Copenhagen. He obtained his Ph.D from the University of Edinburgh, under the supervision of Frank Keller, and he was a Postdoctoral Researcher at CWI, and the University of Amsterdam in the Netherlands. His current research interests include tokenisation-free language modelling, and multilingual and multimodal learning.
+  google-scholar: https://scholar.google.com/citations?user=OjYpMi4AAAAJ
+
+- name: Frans A. Oliehoek
+  title: Delft University of Technology
+  image: images/speakers-2023-600x600/FransOliehoek.webp
+  bio: >-
+    Dr. Frans A. Oliehoek is Associate Professor at Delft University of Technology, where he leads a group on interactive learning and decision making, is one of the scientific directors of the Mercury machine learning lab, and is director and co-founder of the ELLIS Unit Delft. He received his Ph.D. in Computer Science (2010) from the University of Amsterdam (UvA), and held  positions at various universities including MIT, Maastricht University and the University of Liverpool.  Frans' research interests revolve around intelligent systems that learn about their environment via interaction, building on techniques from machine learning, AI and game theory. He has served as PC/SPC/AC at top-tier venues in AI and machine learning, and currently serves as associate editor for JAIR and AIJ. He is a Senior Member of AAAI, and was awarded a number of personal research grants, including a prestigious ERC Starting Grant.
+  google-scholar: https://scholar.google.com/citations?user=rSNBJJIAAAAJ
+
+- name: Philippe Preux
+  title: Université de Lille
+  image: images/speakers-2023-600x600/PhilippePreux.webp
+  bio: >-
+    Philippe Preux is a professor in Computer Science at the Université de Lille, France. He has been active in research in artificial intelligence for 30 years now, mostly dealing with machine learning and data mining in the last 2 decades, especially reinforcement learning. He has been the head of the SequeL research group at Inria/CNRS/Université de Lille since 2006, a group now renamed Scool. His research ranges from fundamental algorithmic and methodological questions to applications of reinforcement learning in collaboration with companies. Philippe currently focuses his efforts on applications related to health or sustainable development. He has hosted ICML 2015, and co-organized various scientific events such as the European Workshop on Reinforcement Learning in 2008 and 2018, as well as the Reinforcement Learning Summer School in 2019.
+  google-scholar: https://scholar.google.com/citations?user=JTXxmeAAAAAJ

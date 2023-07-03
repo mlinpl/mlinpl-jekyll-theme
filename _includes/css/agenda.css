@@ -44,8 +44,7 @@
     border-bottom: none;
 }
 
-.event-1-no-border{
-    height: 64px;
+.event-empty{
     border-bottom: none;
 }
 
@@ -75,4 +74,20 @@
 
 .event-4{
     height: 160px;
+}
+
+.event-5{
+    height: 192px;
+}
+
+.event-6{
+    height: 224px;
+}
+
+.event-7{
+    height: 256px;
+}
+
+.event-8{
+    height: 288px;
 }
