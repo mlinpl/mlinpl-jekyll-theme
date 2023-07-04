@@ -47,6 +47,9 @@ header:
 navigation:
   - name: "/ About"
     url: "#about"
+    subsites: 
+      - name: "/ More about the event"
+        url: "/about"
 
   - name: "/ Program"
     url: "#speakers"
