@@ -80,3 +80,6 @@ The best talks and posters from the Main Conference will be awarded with gift ca
 </ul>
 
 You can contact us at <a href="mailto:contributions@conference.mlinpl.org">contributions@conference.mlinpl.org</a> in case you have any questions regarding Call for Contributions.
+
+We look forward to receiving your talk and poster proposals!
+Join us in shaping **{{ page.mlinpl-inline-logo }}**!

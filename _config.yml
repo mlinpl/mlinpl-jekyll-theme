@@ -51,10 +51,12 @@ navigation:
   - name: "/ Program"
     url: "#speakers"
     subsites:
-      - name: "/ Call for Contributions"
-        url: "/call-for-contributions"
       - name: "/ Invited speakers"
         url: "#invited-speakers"
+      - name: "/ Call for Contributions"
+        url: "/call-for-contributions"
+      - name: "/ Call for Tutorials"
+        url: "/call-for-tutorials"
 
   - name: "/ Timeline"
     url: "#timeline"
