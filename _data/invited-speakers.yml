@@ -1,3 +1,10 @@
+- name: Léon Bottou
+  title: Facebook AI Research
+  image: images/speakers-2023-600x600/LeonBottou.webp
+  bio: >- 
+    Léon Bottou received the Diplôme d’Ingénieur de l’École Polytechnique (X84) in 1987, the Magistère de Mathématiques Fondamentales et Appliquées et d’Informatique from École Normale Supérieure in 1988, and a Ph.D. in Computer Science from Université de Paris-Sud in 1991. His research career took him to AT&T Bell Laboratories, AT&T Labs Research, NEC Labs America and Microsoft. He joined Facebook AI Research in 2015. The long-term goal of Léon Bottou’s research is to understand and replicate intelligence. Because this goal requires conceptual advances that cannot be anticipated, Leon’s research has followed many practical and theoretical turns: neural networks applications in the late 1980s, stochastic gradient learning algorithms and statistical properties of learning systems in the early 1990s, computer vision applications with structured outputs in the late 1990s, theory of large scale learning in the 2000s. During the last few years, Léon Bottou’s research aims to clarify the relation between learning and reasoning, with more and more focus on the many aspects of causation (inference, invariance, reasoning, affordance, and intuition.)
+  google-scholar: https://scholar.google.com/citations?user=kbN88gsAAAAJ
+
 - name: Volodymyr Mnih
   title: Google DeepMind
   image: images/speakers-2023-600x600/VolodymyrMnih.webp
@@ -11,6 +18,13 @@
   bio: >-
     Edoardo M. Ponti is a Lecturer (≈ Assistant Professor) in Natural Language Processing at the University of Edinburgh, where he is part of the "Institute for Language, Cognition, and Computation" (ILCC), and an Affiliated Lecturer at the University of Cambridge. Previously, he was a visiting postdoctoral scholar at Stanford University and a postdoctoral fellow at Mila and McGill University in Montreal. In 2021, he obtained a PhD in computational linguistics from the University of Cambridge, St John’s College. His main research foci are modular deep learning, sample-efficient learning, faithful text generation, computational typology and multilingual NLP. His research earned him a Google Research Faculty Award and 2 Best Paper Awards at EMNLP 2021 and RepL4NLP 2019. He is a board member and co-founder of SIGTYP, the ACL special interest group for computational typology, and a scholar of the European Lab for Learning and Intelligent Systems (ELLIS). He is a (terrible) violinist, football player, and an aspiring practitioner of heroic viticulture.
   google-scholar: https://scholar.google.com/citations?user=tklL2q0AAAAJ
+
+- name: Massimiliano Pontil
+  title: Italian Institute of Technology / University College London / ELLIS
+  image: images/speakers-2023-600x600/MassimilianoPontil.webp
+  bio: >-
+    Massimiliano Pontil is Senior Researcher at the Italian Institute of Technology, where he leads the CSML research unit, and co-director of ELLIS unit Genoa. He is also Professor at University College London and member of the UCL Centre for Artificial Intelligence. He has been active in machine learning for over twenty-five years, working on theory and algorithms, including the areas of kernel methods, learning dynamical systems, meta-learning, multitask and transfer learning, sparse estimation, and statistical learning theory.
+  google-scholar: https://scholar.google.com/citations?user=lcOacs8AAAAJ
 
 - name: Desmond Elliott
   title: University of Copenhagen
@@ -30,7 +44,7 @@
   title: Delft University of Technology
   image: images/speakers-2023-600x600/FransOliehoek.webp
   bio: >-
-    Dr. Frans A. Oliehoek is Associate Professor at Delft University of Technology, where he leads a group on interactive learning and decision making, is one of the scientific directors of the Mercury machine learning lab, and is director and co-founder of the ELLIS Unit Delft. He received his Ph.D. in Computer Science (2010) from the University of Amsterdam (UvA), and held  positions at various universities including MIT, Maastricht University and the University of Liverpool.  Frans' research interests revolve around intelligent systems that learn about their environment via interaction, building on techniques from machine learning, AI and game theory. He has served as PC/SPC/AC at top-tier venues in AI and machine learning, and currently serves as associate editor for JAIR and AIJ. He is a Senior Member of AAAI, and was awarded a number of personal research grants, including a prestigious ERC Starting Grant.
+    Frans A. Oliehoek is Associate Professor at Delft University of Technology, where he leads a group on interactive learning and decision making, is one of the scientific directors of the Mercury machine learning lab, and is director and co-founder of the ELLIS Unit Delft. He received his Ph.D. in Computer Science (2010) from the University of Amsterdam (UvA), and held positions at various universities including MIT, Maastricht University and the University of Liverpool.  Frans' research interests revolve around intelligent systems that learn about their environment via interaction, building on techniques from machine learning, AI and game theory. He has served as PC/SPC/AC at top-tier venues in AI and machine learning, and currently serves as associate editor for JAIR and AIJ. He is a Senior Member of AAAI, and was awarded a number of personal research grants, including a prestigious ERC Starting Grant.
   google-scholar: https://scholar.google.com/citations?user=rSNBJJIAAAAJ
 
 - name: Philippe Preux
