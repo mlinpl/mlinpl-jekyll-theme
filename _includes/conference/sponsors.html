@@ -5,21 +5,7 @@
             <div class="col-lg-12">
                 <h2 class="text-align-left">{{category.title}}</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-12 d-flex text-center">
-                {% for sponsor in category.sponsors %}
-                <div class="sponsor-logo" style="width: {{ category.imageMaxWidth }};">
-                    {% if sponsor.url %}
-                    <a href="{{ sponsor.url }}" target="_blank">
-                    {% endif %}
-                        <img style="max-width: {{ category.imageMaxWidth }}; max-height: {{ category.imageMaxHeight }};" src="{{ sponsor.image | relative_url }}" alt="{{ sponsor.name }} logo">
-                    {% if sponsor.url %}
-                    </a>
-                    {% endif %}
-                </div>
-                {% endfor %}
-                </div>
-            </div>
+            {% include logos.html logos-data=category.sponsors imageMaxWidth=category.imageMaxWidth imageMaxHeight=category.imageMaxHeight %}
         </div>
     {% endfor %}
 </section>

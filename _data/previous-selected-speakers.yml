@@ -1,0 +1,45 @@
+- name: Yoshua Bengio
+  title: University of Montreal, Mila, IVADO, CIFAR, Turing Award Laureate
+  google-scholar: https://scholar.google.com/citations?user=kukA0LcAAAAJ
+  image: images/previous-speakers-600x600/YoshuaBengio.webp
+
+- name: Kyunghyun Cho
+  title: New York University, Genentech
+  google-scholar: https://scholar.google.com/citations?hl=pl&user=0RAmmIAAAAAJ
+  image: images/previous-speakers-600x600/KyunghyunCho.webp
+
+- name: Daphne Koller
+  title: CEO and Founder of insitro
+  google-scholar: https://scholar.google.com/citations?hl=pl&user=5Iqe53IAAAAJ
+  image: images/previous-speakers-600x600/DaphneKoller.webp
+
+- name: Kyle Cranmer
+  title: University of Wisconsin-Madison
+  google-scholar: https://scholar.google.com/citations?hl=pl&user=EZjSxgwAAAAJ
+  image: images/previous-speakers-600x600/KyleCranmer.webp
+
+- name: Alexei Efros
+  title: UC Berkeley
+  google-scholar: https://scholar.google.com/citations?hl=pl&user=d97bGd8AAAAJ
+  image: images/previous-speakers-600x600/AlexeiEfros.webp
+
+- name: Rich Caruana
+  title: Microsoft Reesearch
+  google-scholar: https://scholar.google.com/citations?hl=pl&user=B2U8EUwAAAAJ
+  image: images/previous-speakers-600x600/RichCaruana.webp
+
+- name: Petar Veličković
+  title: DeepMind, University of Cambridge
+  google-scholar: https://scholar.google.com/citations?hl=pl&user=kcTK_FAAAAAJ
+  image: images/previous-speakers-600x600/PetarVelickovic.webp
+
+- name: Matthias Bethge
+  title: Tübingen University & Maddox Co-Founder
+  google-scholar: https://scholar.google.com/citations?hl=pl&user=0z0fNxUAAAAJ
+  image: images/previous-speakers-600x600/MatthiasBethge.webp
+
+- name: Cheng Zhang 
+  title: Microsoft Research
+  google-scholar: https://scholar.google.com/citations?hl=pl&user=r40iAwIAAAAJ
+  image: images/previous-speakers-600x600/ChengZhang.webp
+

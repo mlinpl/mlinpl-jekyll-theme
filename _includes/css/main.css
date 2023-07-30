@@ -308,6 +308,19 @@ ol > li > ol > li > ol > li:before {
     font-size: 14px;
 }
 
+/* Dropdown icon */
+.nav-dropdown > a::after {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 6 Free"; 
+    font-weight: 900; 
+    content: "\f107";
+    margin-left: 8px;
+}
+
 .nav-dropdown-content > li > a {
     text-align: left;
     padding-left: 30px;
@@ -545,10 +558,6 @@ ul.banner-social-buttons li {
 
     .feature {
         margin-bottom: 30px;
-    }
-
-    #sponsors img {
-        padding: 3% 0 0 !important;
     }
 }
 
