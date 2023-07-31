@@ -2,10 +2,9 @@
 layout: page
 title: Call for Contributions - Terms and Conditions
 permalink: /cfc-terms-and-conditions
-mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference</span></span>
+mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2023</span></span>
 ---
 
-Call for Contributions - Terms and Conditions
 Rules of contributed talks and posters acceptance to the {{ page.mlinpl-inline-logo }} and poster competition (hereinafter, the "Rules of Call for Contributions")
 
 ## § 1. The purpose and scope of the Competition

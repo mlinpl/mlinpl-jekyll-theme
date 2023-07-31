@@ -5,7 +5,10 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     {% include nav.html %}
     {% include page-header.html %}
-
+    
+    {% if page.wrapper == 'false' %}
+    {{ content }}
+    {% else %}
     <section class="container content-section">
         <div class="row">
             <div class="col-xs-12">
@@ -13,6 +16,7 @@
             </div>
         </div>
     </section>
+    {% endif %}
 
     {% include footer.html %}
     {% include js.html %}

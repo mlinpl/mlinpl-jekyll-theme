@@ -5,7 +5,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
+                {% if page.html-title %}
+                    <h1 class="page-heading">{{ page.html-title | trim }}</h1>
+                {% else %}
                     <h1 class="page-heading">{{ page.title | escape }}</h1>
+                {% endif %}
                 </div>
             </div>
         </div>
