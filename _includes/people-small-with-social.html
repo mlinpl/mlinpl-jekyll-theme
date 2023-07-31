@@ -13,6 +13,13 @@ Expects following parameters: people-data
                     </div>
                 </div>
                 <div class="person-social-120">
+                    {% if person.google-scholar and person.google-scholar != "" %}
+                    <a href="{{ person.google-scholar }}">
+                        <i>
+                            <img src="{{ "images/google-scholar-icon-white.svg" | relative_url }}" style="width: 100%; vertical-align: top;">
+                        </i>
+                    </a>
+                    {% endif %}
                     {% if person.linkedin and person.linkedin != "" %}
                     <a href="{{ person.linkedin }}">
                         <i class="fa-brands fa-linkedin-in"></i>

@@ -531,6 +531,21 @@ ol > li > ol > li > ol > li:before {
     background-color: {{ site.color.main }};
 }
 
+.btn-nonactive {
+    border: 1px solid #666;
+    color: #666;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.btn-nonactive:hover,
+.btn-nonactive:focus {
+    border: 1px solid #666;
+    outline: 0;
+    color: {{ site.color.background }};
+    background-color: #666;
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
@@ -821,6 +836,12 @@ body {
 
 .person-title {
     font-size: 12px; 
+    text-align: center; 
+    margin-bottom: 0.4em
+}
+
+.person-comment{
+    font-size: 18px; 
     text-align: center; 
     margin-bottom: 0.4em
 }

@@ -47,6 +47,7 @@ header:
   countdown-date: "2023-06-26T00:00:00Z"
   #countdown-date: "2023-04-11T21:59:59Z"
   #countdown-text: '<a href="registration">Registration</a> closes in:'
+  arrow-url: "#about"
 
 
 # Navigation settings

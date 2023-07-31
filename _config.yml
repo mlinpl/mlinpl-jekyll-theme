@@ -41,12 +41,19 @@ header:
   date-location: 26 - 29 October / Warsaw, Poland
   # Countdown settings
   countdown-date: "2023-10-26T00:00:00"
+  arrow-url: "#tickets"
 
 
 # Navigation settings
 navigation:
+  - name: "/ Tickets"
+    url: "#tickets"
+
   - name: "/ About"
     url: "#about"
+    subsites:
+      - name: "/ More informations"
+        url: "/about-ml-in-pl-conference"
 
   - name: "/ Program"
     url: "#speakers"
