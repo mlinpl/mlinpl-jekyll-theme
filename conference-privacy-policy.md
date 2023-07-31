@@ -6,7 +6,7 @@ permalink: /privacy-policy
 
 ## § 1. GENERAL PROVISIONS
 
-1. This Privacy Policy sets forth the rules for the processing and protection of personal data of  [https://conference2023.mlinpl.org/](https://conference2023.mlinpl.org/) Website Users and relates to data provided by Users for the purposes of Registration, participation in the Conferences and payment by Participants.
+1. This Privacy Policy sets forth the rules for the processing and protection of personal data of [https://conference2023.mlinpl.org](https://conference2023.mlinpl.org) Website Users and relates to data provided by Users for the purposes of Registration, participation in the Conferences and payment by Participants.
 2. The terms not defined in the Privacy Policy but written with capital letters shall have the meaning set forth in the [Terms of Participation]({{ "/terms-of-participation" | relative_url }}).
 3. Controller shall process the personal data of Users in accordance with regulations of REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (further as: **“GDPR”**) and other applicable laws.
 4. Controller declares to apply technical and organizational means ensuring the protection of processed personal data which are adequate in relations to threats and categories of personal data encompassed by said protection, in particular by securing data from access and theft by unauthorised persons, from processing in a manner inconsistent with the provisions of law, and from alteration, loss, damage and destruction.
