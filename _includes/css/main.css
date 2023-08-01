@@ -327,6 +327,11 @@ ol > li > ol > li > ol > li:before {
     display: block;
 }
 
+/* Fix for bootstrap limited navbar height */
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 700px;
+}
+
 @media(min-width:767px) {
     .nav-dropdown:hover .nav-dropdown-content {
         display: block;
@@ -392,6 +397,15 @@ ol > li > ol > li > ol > li:before {
     .intro .intro-body .intro-text {
         font-size: 25px;
     }
+}
+
+/* Fix for bootstrap non-wrapping buttons */
+.btn {
+    white-space: normal;
+}
+
+.btn-default{
+    margin-bottom: 4px;
 }
 
 .btn-circle {

@@ -70,7 +70,6 @@
 }
 
 .btn-calendar {
-    margin-left: 6px;
     margin-right: 6px;
     text-align: center;
     vertical-align: bottom;
@@ -91,5 +90,4 @@
 .btn-download {
     margin-left: -1px;
     padding-left: 0px;
-    margin-top: 3px;
 }
