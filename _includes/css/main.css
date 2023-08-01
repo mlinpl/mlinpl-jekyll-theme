@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
 
-p, ul, ol {
+p, ul, ol, table {
     margin: 0 0 25px;
     font-size: 16px;
     line-height: 1.5;
@@ -160,7 +160,7 @@ p, ul, ol {
 }
 
 @media(min-width:767px) {
-    p, ul, ol{
+    p, ul, ol, table{
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
@@ -483,7 +483,7 @@ ol > li > ol > li > ol > li:before {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 95px;
     text-align: justify;
 }
 
@@ -507,7 +507,7 @@ ol > li > ol > li > ol > li:before {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 150px;
+        padding-top: 140px;
     }
 
     .download-section {
@@ -972,4 +972,29 @@ body {
 .fade-out {
     animation: fadeOutToRight 0.5s forwards;
     animation-fill-mode: forwards;
+}
+
+.ticket-info p, .ticket-info table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ticket-info .btn, .ticket-info table {
+    width: 100%;
+}
+
+.ticket-info table th{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.bg-active{
+    background: {{ site.color.main }};
+    color: {{ site.color.background }};
+}
+
+.bg-nonactive{
+    background: #666;
+    color: {{ site.color.background }};
 }
