@@ -1,11 +1,11 @@
 - name: Yoshua Bengio
-  title: University of Montreal, Mila, IVADO, CIFAR
+  title: University of Montreal / Mila / IVADO / CIFAR
   google-scholar: https://scholar.google.com/citations?user=kukA0LcAAAAJ
   image: images/previous-speakers-300x300/YoshuaBengio.webp
   comment: Laurate of 2018 Turing Award
 
 - name: Kyunghyun Cho
-  title: New York University, Genentech
+  title: New York University / Genentech
   google-scholar: https://scholar.google.com/citations?hl=pl&user=0RAmmIAAAAAJ
   image: images/previous-speakers-300x300/KyunghyunCho.webp
   comment: Pioneer in neural machine translation
@@ -17,7 +17,7 @@
   comment: Co-founder of Coursera, CEO and Founder of Insitro a drug discovery startup
 
 - name: Łukasz Kaiser
-  title: OpenAI & CNRS
+  title: OpenAI / CNRS
   google-scholar: https://scholar.google.com/citations?user=JWmiQR0AAAAJ
   image: images/previous-speakers-300x300/LukaszKaiser.webp
   comment: Co-author of Tensorflow, Attention is all you need, Reformer, and ChatGPT
@@ -41,7 +41,7 @@
   comment: Co-inventor of Proximal Policy Optimization algorithm
 
 - name: Petar Veličković
-  title: Google DeepMind, University of Cambridge
+  title: Google DeepMind / University of Cambridge
   google-scholar: https://scholar.google.com/citations?hl=pl&user=kcTK_FAAAAAJ
   image: images/previous-speakers-300x300/PetarVelickovic.webp
   comment: First author of Graph Attention Networks
@@ -59,7 +59,7 @@
   comment: Led the development of the leading probabilistic symbolic model checker PRISM
 
 - name: Matthias Bethge
-  title: Tübingen University & Maddox Co-Founder
+  title: Tübingen University / ELLIS / Maddox
   google-scholar: https://scholar.google.com/citations?hl=pl&user=0z0fNxUAAAAJ
   image: images/previous-speakers-300x300/MatthiasBethge.webp
   comment: Co-founder of the ELLIS, co-invention of neural style transfer using CNNs

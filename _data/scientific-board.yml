@@ -1,12 +1,12 @@
 - name: Przemysław Biecek
-  affiliation: Warsaw University of Technology, University of Warsaw
+  affiliation: Warsaw University of Technology / University of Warsaw
   photo: ./images/scientific-board-300x300/PrzemyslawBiecek.webp
   google-scholar: https://scholar.google.com/citations?user=Af0O75cAAAAJ
   bio: >-
     Przemysław Biecek obtained his Ph.D. in Mathematical Statistics and MSc in Software Engineering at Wroclaw University of Science and Technology. He is currently working as an associate professor at the Faculty of Mathematics and Information Science, Warsaw University of Technology, and an Assistant Professor at the Faculty of Mathematics, Informatics and Mechanics, University of Warsaw.
 
 - name: Jan Chorowski
-  affiliation: University of Wrocław, Pathway
+  affiliation: University of Wrocław / Pathway
   photo: ./images/scientific-board-300x300/JanChorowski.webp
   google-scholar: https://scholar.google.pl/citations?user=Yc94070AAAAJ
   bio-intro: >-
@@ -15,7 +15,7 @@
     He has visited several research teams, including Google Brain, Microsoft Research and Yoshua Bengio’s lab. His research interests are applications of neural networks to problems which are intuitive and easy for humans and difficult for machines, such as speech and natural language processing.
 
 - name: Marek Cygan
-  affiliation: University of Warsaw, Nomagic
+  affiliation: University of Warsaw / Nomagic
   photo: ./images/scientific-board-300x300/MarekCygan.webp
   google-scholar: https://scholar.google.com/citations?user=df8TSy4AAAAJ
   bio: >-
@@ -67,7 +67,7 @@
     He was working on topology, determinacy of games, logic and automata. Then he turned his interests to more practical games and wrote two papers on Morpion Solitaire. Presenting these papers at the IJCAI conference in 2015 he met researchers from DeepMind and discovered the budding field of deep reinforcement learning. This resulted in a series of papers including Learning from memory of Atari 2600, Hierarchical Reinforcement Learning with Parameters, Distributed Deep Reinforcement Learning: Learn how to play Atari games in 21 minutes and Reinforcement Learning of Theorem Proving.
 
 - name: Piotr Miłoś
-  affiliation: IDEAS NCBR, University of Warsaw
+  affiliation: IDEAS NCBR / University of Warsaw
   photo: ./images/scientific-board-300x300/PiotrMilos.webp
   google-scholar: https://scholar.google.com/citations?user=Se68XecAAAAJ
   bio: >-
@@ -99,7 +99,7 @@
     Her main research interests revolve around efficient vision systems, with a focus on deep video models. She is one of the main organisers of EEML summer school and has served as program committee member for top Computer Vision and Machine Learning conferences.
 
 - name: Piotr Sankowski
-  affiliation: IDEAS NCBR, University of Warsaw
+  affiliation: IDEAS NCBR / University of Warsaw
   photo:  ./images/scientific-board-300x300/PiotrSankowski.webp
   google-scholar: https://scholar.google.pl/citations?user=-5LVg-0AAAAJ
   bio-intro: >-
@@ -124,7 +124,7 @@
     Jacek Tabor in his scientific work deals with broadly understood machine learning, in particular with deep generative models. He is also a member of the GMUM group (gmum.net) aimed at popularization and development of machine learning methods in Cracow.
 
 - name: Tomasz Trzciński
-  affiliation: Warsaw University of Technology, Tooploox, Jagiellonian University
+  affiliation: Warsaw University of Technology / Tooploox / Jagiellonian University
   photo: ./images/scientific-board-300x300/TomaszTrzcinski.webp
   google-scholar: https://scholar.google.com/citations?user=bJMRBFoAAAAJ
   bio-intro: >-
