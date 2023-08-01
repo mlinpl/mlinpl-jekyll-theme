@@ -52,7 +52,7 @@ navigation:
   - name: "/ About"
     url: "#about"
     subsites:
-      - name: "/ More informations"
+      - name: "/ More information"
         url: "/about-ml-in-pl-conference"
 
   - name: "/ Program"
