@@ -487,6 +487,14 @@ ol > li > ol > li > ol > li:before {
     text-align: justify;
 }
 
+.sponsors-section{
+    padding-bottom: 45px;
+}
+
+.sponsors-section:last-child{
+    padding-bottom: 0;
+}
+
 .download-section {
     width: 100%;
     padding: 50px 0;
@@ -508,6 +516,10 @@ ol > li > ol > li > ol > li:before {
 @media(min-width:767px) {
     .content-section {
         padding-top: 140px;
+    }
+
+    .sponsors-section{
+        padding-bottom: 60px;
     }
 
     .download-section {

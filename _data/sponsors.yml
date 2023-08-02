@@ -1,36 +1,44 @@
+- title: '/ <span style="color: #F1C233;">Gold sponsors</span>'
+  imageMaxWidth: 260px
+  imageMaxHeight: 100px
+  sponsors:
+    - name: Ideas NCBR
+      image: "./images/sponsor-logos-600x600/IdeasNCBR.webp"
+      url: "https://ideas-ncbr.pl/en/"
+
 - title: "/ Media partners"
   imageMaxWidth: 220px
   imageMaxHeight: 120px
   sponsors:
     - name: AIFlavours
-      image: "./images/partners-logos-600x600/AIFlavours.webp"
+      image: "./images/partner-logos-600x600/AIFlavours.webp"
       url: "https://www.linkedin.com/company/aiflavours"
     - name: Gauss
-      image: "./images/partners-logos-600x600/Gauss.webp"
+      image: "./images/partner-logos-600x600/Gauss.webp"
       url: "http://gauss.im.pwr.wroc.pl"
     - name: "Ghost Day: Applied Machine Learning Conference"
-      image: "./images/partners-logos-600x600/GhostDay.webp"
+      image: "./images/partner-logos-600x600/GhostDay.webp"
       url: "https://ghostday.pl"
     - name: Group of Horribly Optimistic STatisticians
-      image: "./images/partners-logos-600x600/GHOST.webp"
+      image: "./images/partner-logos-600x600/GHOST.webp"
       url: "https://ghost.put.poznan.pl"
     - name: Golem
-      image: "./images/partners-logos-600x600/Golem.webp"
+      image: "./images/partner-logos-600x600/Golem.webp"
       url: "https://ai.ii.pw.edu.pl/kolo-naukowe-sztucznej-inteligencji-golem/"
     - name: KNUM
-      image: "./images/partners-logos-600x600/KNUM.webp"
+      image: "./images/partner-logos-600x600/KNUM.webp"
       url: "https://mlinpl.org"
     - name: Machine Learning Prague
-      image: "./images/partners-logos-600x600/MachineLearningPrague.webp"
+      image: "./images/partner-logos-600x600/MachineLearningPrague.webp"
       url: "https://mlprague.com/"
     - name: Quantum AI Foundation
-      image: "./images/partners-logos-600x600/QuantumAIFoundation.webp"
+      image: "./images/partner-logos-600x600/QuantumAIFoundation.webp"
       url: "https://www.qaif.org"
     - name: Warsaw AI
-      image: "./images/partners-logos-600x600/WarsawAI.webp"
+      image: "./images/partner-logos-600x600/WarsawAI.webp"
       url: "https://warsaw.ai"
     - name: Zdarzenia Poznawcze
-      image: "./images/partners-logos-600x600/ZdarzeniePoznawcze.webp"
+      image: "./images/partner-logos-600x600/ZdarzeniePoznawcze.webp"
       url: "https://www.facebook.com/zderzenia.poznawcze"
 
 

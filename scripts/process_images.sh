@@ -30,7 +30,8 @@ optimize_images ${ROOT_DIR}/images/speakers-mlss-2023 600x600 webp 90
 optimize_images ${ROOT_DIR}/images/speakers-mlss-2022 600x600 webp 90
 
 # Optimize sponsors and partners logos
-optimize_images ${ROOT_DIR}/images/partners-logos 600x600 webp 90
+optimize_images ${ROOT_DIR}/images/sponsor-logos 600x600 webp 90
+optimize_images ${ROOT_DIR}/images/partner-logos 600x600 webp 90
 optimize_images ${ROOT_DIR}/images/previous-sponsors 300x300 webp 90
 
 # Optimize AI-generated images
