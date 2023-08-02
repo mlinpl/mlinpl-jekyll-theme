@@ -22,8 +22,17 @@ copy_all () {
     cp style.css builds/${website}/
     cp Gemfile builds/${website}/
     cp Gemfile.lock builds/${website}/
+    cp *.html builds/${website}/
     cp *.md builds/${website}/
     rm builds/${website}/README.md
+
+    for file in ${website}-*.md ; do
+        mv "$file" "${file#*-}"
+    done
+
+    for file in ${website}-*.html ; do
+        mv "$file" "${file#*-}"
+    done
 }
 
 # Clear old buils
@@ -39,11 +48,6 @@ rm _layouts/conference.html
 rm conference-*.md
 rm -r _includes/conference
 
-for file in mlss-*.md ; do
-    mv "$file" "${file#*-}"
-done
-
-
 # Build Conference
 cd ${ROOT_DIR}
 
@@ -54,7 +58,4 @@ rm _layouts/mlss.html
 rm -r _includes/mlss
 rm mlss-*.md
 rm _data/mlss-*.yml
-
-for file in conference-*.md ; do
-    mv "$file" "${file#*-}"
-done
+rm -rf _images/mlss-*
