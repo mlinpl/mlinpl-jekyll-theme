@@ -14,7 +14,7 @@
       image: "./images/partner-logos-600x600/AIFlavours.webp"
       url: "https://www.linkedin.com/company/aiflavours"
     - name: Gauss
-      image: "./images/partner-logos-600x600/Gauss.webp"
+      image: "./images/partner-logos-600x600/gauss.webp"
       url: "http://gauss.im.pwr.wroc.pl"
     - name: "Ghost Day: Applied Machine Learning Conference"
       image: "./images/partner-logos-600x600/GhostDay.webp"
@@ -23,10 +23,10 @@
       image: "./images/partner-logos-600x600/GHOST.webp"
       url: "https://ghost.put.poznan.pl"
     - name: Golem
-      image: "./images/partner-logos-600x600/Golem.webp"
+      image: "./images/partner-logos-600x600/golem.webp"
       url: "https://ai.ii.pw.edu.pl/kolo-naukowe-sztucznej-inteligencji-golem/"
     - name: KNUM
-      image: "./images/partner-logos-600x600/KNUM.webp"
+      image: "./images/partner-logos-600x600/knum.webp"
       url: "https://mlinpl.org"
     - name: Machine Learning Prague
       image: "./images/partner-logos-600x600/MachineLearningPrague.webp"
