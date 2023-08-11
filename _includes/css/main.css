@@ -955,42 +955,6 @@ body {
     margin-top: -1em;
 }
 
-
-/* Fade in/out animation for speakers slider */
-@keyframes fadeInFromLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-50px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadeOutToRight {
-    0% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
-    100% {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-}
-
-.fade-in {
-    animation: fadeInFromLeft 0.5s forwards;
-    animation-fill-mode: forwards;
-}
-
-.fade-out {
-    animation: fadeOutToRight 0.5s forwards;
-    animation-fill-mode: forwards;
-}
-
 .ticket-info p, .ticket-info table {
     margin-top: 15px;
     margin-bottom: 15px;
