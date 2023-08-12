@@ -27,10 +27,16 @@
       url: "https://ai.ii.pw.edu.pl/kolo-naukowe-sztucznej-inteligencji-golem/"
     - name: KNUM
       image: "./images/partner-logos-600x600/knum.webp"
-      url: "https://mlinpl.org"
+      url: "https://knum.mimuw.edu.pl/"
     - name: Machine Learning Prague
       image: "./images/partner-logos-600x600/MachineLearningPrague.webp"
       url: "https://mlprague.com/"
+    - name: MI2
+      image: "./images/partner-logos-600x600/MI2.webp"
+      url: "https://www.mi2.ai/"
+    - name: Nauka w Polsce
+      image: "./images/partner-logos-600x600/naukawpolsce.webp"
+      url: "https://naukawpolsce.pl/"
     - name: Quantum AI Foundation
       image: "./images/partner-logos-600x600/QuantumAIFoundation.webp"
       url: "https://www.qaif.org"
