@@ -188,6 +188,10 @@ a:focus {
     font-weight: 400;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 ol { 
     counter-reset: item;
 }
@@ -300,8 +304,8 @@ ol > li > ol > li > ol > li:before {
     }
 }
 
-.navbar-nav, .navbar-brand{
-    background: radial-gradient(rgba(255, 255, 255, 0.75) 0%, rgba(255,255,255,0) 100%);
+.navbar-nav li, .navbar-brand{
+    background: radial-gradient(rgba(255, 255, 255, 1.0) 0%, rgba(255,255,255,0) 100%);
 }
 
 .navbar-nav, .nav-dropdown-content {
@@ -402,6 +406,11 @@ ol > li > ol > li > ol > li:before {
 /* Fix for bootstrap non-wrapping buttons */
 .btn {
     white-space: normal;
+}
+
+.btn-small {
+    font-size: 0.5em;
+    padding: 3px 6px;
 }
 
 .btn-default{
@@ -808,6 +817,8 @@ body {
     border-radius: 50%;
     border: {{ site.photo-border-width }} solid {{ site.color.second }};
     margin-bottom: 1em;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 {% if site.color.person-photo-filter %}
@@ -835,6 +846,8 @@ body {
 .person-photo-wrapper div img{
     width: 100%;
     height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 {% if site.color.person-photo-gradient %}
@@ -947,43 +960,7 @@ body {
 }
 
 .read-more-trigger{
-    margin-top: -1em;
-}
-
-
-/* Fade in/out animation for speakers slider */
-@keyframes fadeInFromLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-50px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadeOutToRight {
-    0% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-
-    100% {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-}
-
-.fade-in {
-    animation: fadeInFromLeft 0.5s forwards;
-    animation-fill-mode: forwards;
-}
-
-.fade-out {
-    animation: fadeOutToRight 0.5s forwards;
-    animation-fill-mode: forwards;
+    margin-top: -1.5em;
 }
 
 .ticket-info p, .ticket-info table {

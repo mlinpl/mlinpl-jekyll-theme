@@ -23,7 +23,7 @@
                         <div class="person-photo-with-social" style="width: 160px;">
                             <div class="person-photo-wrapper" style="width: 160px;">
                                 <div>
-                                    <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+                                    <img src="{{ member.image | relative_url }}" alt="{{ member.name }}">
                                 </div>
                             </div>
 
@@ -42,13 +42,11 @@
                      
                     </div>
                     <div class="col-sm-8 text-justify">
-                        {% if member.bio-more %}
-                        <input type="checkbox" class="read-more-state" id="{{ member.name | replace: ' ','-' }}-bio" />
+                        {% if member.bio-intro and member.bio-more %}
+                        <input type="checkbox" class="read-more-state" id="scientific-board-{{ member.name | replace: ' ','-' }}-bio" />
                         <p style="font-size: 16px;" class="read-more-wrap">{{ member.bio-intro }} <span class="read-more-target">{{ member.bio-more }}</span>
                         </p>
-                        <label for="{{ member.name | replace: ' ','-' }}-bio" class="btn btn-default read-more-trigger"></label>
-                        {% elsif member.bio-intro %}
-                        <p style="font-size: 16px;">{{ member.bio-intro }}</p>
+                        <label for="scientific-board-{{ member.name | replace: ' ','-' }}-bio" class="btn btn-default read-more-trigger"></label>
                         {% elsif member.bio %}
                         <p style="font-size: 16px;">{{ member.bio }}</p>
                         {% endif %}
