@@ -188,6 +188,10 @@ a:focus {
     font-weight: 400;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 ol { 
     counter-reset: item;
 }
@@ -813,6 +817,8 @@ body {
     border-radius: 50%;
     border: {{ site.photo-border-width }} solid {{ site.color.second }};
     margin-bottom: 1em;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 {% if site.color.person-photo-filter %}
@@ -840,6 +846,8 @@ body {
 .person-photo-wrapper div img{
     width: 100%;
     height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 {% if site.color.person-photo-gradient %}
@@ -952,7 +960,7 @@ body {
 }
 
 .read-more-trigger{
-    margin-top: -1em;
+    margin-top: -1.5em;
 }
 
 .ticket-info p, .ticket-info table {

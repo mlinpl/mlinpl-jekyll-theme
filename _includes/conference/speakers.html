@@ -1,59 +1,59 @@
 <!-- Speakers Section -->
 <section id="invited-speakers" class="container content-section">
-  <div class="row">
-    <div class="col-lg-12">
-      <h2>/ Invited Speakers</h2>
+    <div class="row">
+        <div class="col-lg-12">
+          <h2>/ Invited Speakers</h2>
+        </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-12 slider-container">
-      <div class="slider-content">
-        {% for speaker in site.data.invited-speakers %}
-        <div class="row slider-item-content" data-index="{{ forloop.index0 }}">
-          <!-- Speaker details will be displayed here when a speaker is selected -->
-          <div class="speaker-details-image col-md-4">
-            <img src="{{ speaker.image }}" alt="{{ speaker.name }} photo" class="person-photo width-100 width-max-400px">
-          </div>
-          <div class="speaker-details-text col-md-8">
-            <h2 class="emph-i">{{ speaker.name }}</h2>
-            <h3>{{ speaker.title }}</h3>
-            <p>{{ speaker.bio }}</p>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-
-      <div style="width: 100%; padding: 30px 15px;">
-        <div class="slider-timer">
-          
-        </div>
-      </div>
-
-      <div class="slider-tabs">
-        {% for speaker in site.data.invited-speakers %}
-        <div class="slider-item person item-col-4" data-index="{{ forloop.index0 }}">
-          <div class="person-photo-wrapper speaker-photo" style="width: 75px;">
-            <div>
-              <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }} photo">
+    <div class="row">
+        <div class="col-lg-12 slider-container">
+            <div class="slider-content">
+                {% for speaker in site.data.invited-speakers %}
+                <div class="row slider-item-content" data-index="{{ forloop.index0 }}">
+                <!-- Speaker details will be displayed here when a speaker is selected -->
+                <div class="speaker-details-image col-md-4">
+                    <img src="{{ speaker.image }}" alt="{{ speaker.name }} photo" class="person-photo width-100 width-max-400px">
+                </div>
+                <div class="speaker-details-text col-md-8">
+                    <h2 class="emph-i">{{ speaker.name }}</h2>
+                    <h3>{{ speaker.title }}</h3>
+                    <p>{{ speaker.bio }}</p>
+                </div>
+                </div>
+                {% endfor %}
             </div>
-          </div>
-          <div class="center-verticaly">
-            <div>
-              <span class="speaker-name">
-                {{ speaker.name }}
-              </span></br>
-              <span class="speaker-title">
-                {{ speaker.title }}
-              </span>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
 
-    <div class="col-lg-12 text-center" style="margin-top: 2em;">
-      <h3>and more is coming!</h3>
+            <div style="width: 100%; padding: 30px 15px;">
+                <div class="slider-timer">
+                
+                </div>
+            </div>
+
+            <div class="slider-tabs">
+                {% for speaker in site.data.invited-speakers %}
+                <div class="slider-item person item-col-4" data-index="{{ forloop.index0 }}">
+                <div class="person-photo-wrapper speaker-photo" style="width: 75px;">
+                    <div>
+                    <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }} photo">
+                    </div>
+                </div>
+                <div class="center-verticaly">
+                    <div>
+                    <span class="speaker-name">
+                        {{ speaker.name }}
+                    </span></br>
+                    <span class="speaker-title">
+                        {{ speaker.title }}
+                    </span>
+                    </div>
+                </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="col-lg-12 text-center" style="margin-top: 2em;">
+            <h3>and more is coming!</h3>
+        </div>
     </div>
-  </div>
 </section>

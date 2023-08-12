@@ -60,6 +60,8 @@ navigation:
     subsites:
       - name: "/ Invited speakers"
         url: "#invited-speakers"
+      - name: "/ Discussion Panels"
+        url: "#panels"
       - name: "/ Call for Contributions"
         url: "/call-for-contributions"
       - name: "/ Call for Tutorials"

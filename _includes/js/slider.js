@@ -1,4 +1,15 @@
+'use strict';
+
+/*!
+ * ML in PL Jekyll Theme - Sliders
+ * This script take care of sliders behaviour
+ */
+
 let sliders = document.getElementsByClassName('slider-container');
+
+if (sliders === null) {
+  sliders = [];
+}
 
 for(let slider of sliders) {
   // Slider elements
@@ -7,14 +18,8 @@ for(let slider of sliders) {
   let sliderContent = slider.getElementsByClassName('slider-content')[0];
   let sliderItemContents = sliderContent.querySelectorAll('.slider-item-content');
 
-  console.log('sliderTabs', sliderTabs);
-  console.log('sliderItems', sliderItems);
-  console.log('sliderContent', sliderContent);
-  console.log('sliderItemContents', sliderItemContents);
-
   let timeoutId = null;
   function handlesliderItemClick(clickedElement) {
-    console.log('handlesliderItemClick', clickedElement);
     // Deactivate all sliders in the tab
     slider.querySelectorAll('.slider-item.active').forEach(function(item) {
       item.classList.remove('active');
@@ -28,11 +33,8 @@ for(let slider of sliders) {
     clickedElement.classList.add('active');
 
     let currentItemContent = sliderContent.querySelector('.slider-item-content.fade-in');
-    currentItemContent.classList.remove('fade-in');
+    currentItemContent.classList.remove('fade-in'); // There should be checked if it is not null
     let nextItemContent = sliderItemContents[clickedElement.dataset.index];
-
-    console.log('currentItemContent', currentItemContent);
-    console.log('nextItemContent', nextItemContent);
     
     currentItemContent.classList.add('fade-out');
     
@@ -51,6 +53,7 @@ for(let slider of sliders) {
         handlesliderItemClick(newItem);
       }, 30000);
     }, { once: true });
+
   }
 
   // Sliders preview in the tab
