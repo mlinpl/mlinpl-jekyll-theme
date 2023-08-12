@@ -31,7 +31,7 @@
 
             <div class="slider-tabs">
                 {% for speaker in site.data.invited-speakers %}
-                <div class="slider-item person item-col-4" data-index="{{ forloop.index0 }}">
+                <a class="slider-item page-scroll person item-col-4" data-index="{{ forloop.index0 }}" href="#invited-speakers">
                 <div class="person-photo-wrapper speaker-photo" style="width: 75px;">
                     <div>
                     <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }} photo">
@@ -47,7 +47,7 @@
                     </span>
                     </div>
                 </div>
-                </div>
+            </a>
                 {% endfor %}
             </div>
         </div>

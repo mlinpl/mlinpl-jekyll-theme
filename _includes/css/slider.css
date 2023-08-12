@@ -14,6 +14,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
+    color: #000;
 }
 
 .item-col-4 {
@@ -46,6 +47,7 @@
     background: {{ site.color.main }};
     transition: background .3s ease-in-out;
     color: {{ site.color.background }};
+    text-decoration: none;
 }
 
 .slider-tabs .slider-item.active div, .slider-tabs .slider-item:hover div{

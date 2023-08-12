@@ -1,5 +1,5 @@
 - title: '/ <span style="color: #F1C233;">Gold sponsors</span>'
-  imageMaxWidth: 260px
+  imageMaxWidth: 250px
   imageMaxHeight: 100px
   sponsors:
     - name: Ideas NCBR
@@ -7,7 +7,7 @@
       url: "https://ideas-ncbr.pl/en/"
 
 - title: "/ Media partners"
-  imageMaxWidth: 220px
+  imageMaxWidth: 215px
   imageMaxHeight: 120px
   sponsors:
     - name: AIFlavours

@@ -52,7 +52,7 @@
     
             <div class="slider-tabs">
                 {% for panel in site.data.panels %}
-                <div class="slider-item person item-col-3" data-index="{{ forloop.index0 }}">
+                <a class="slider-item page-scroll person item-col-3" data-index="{{ forloop.index0 }}" href="#panels">
                     {% for speaker in panel.panelists %}
                     <div class="person-photo-wrapper speaker-photo" style="width: 75px; margin-right: -20px;">
                     <div>
@@ -67,7 +67,7 @@
                         </span></br>
                     </div>
                     </div>
-                </div>
+                </a>
                 {% endfor %}
             </div>
         </div>
