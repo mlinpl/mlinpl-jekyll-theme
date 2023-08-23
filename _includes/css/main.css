@@ -837,6 +837,8 @@ body {
     border-radius: 50%;
     border: {{ site.photo-border-width }} solid {{ site.color.second }};
     margin-bottom: 1em;
+    background: {{ site.color.background }};
+    position: relative;
 }
 
 .person-photo-wrapper div{

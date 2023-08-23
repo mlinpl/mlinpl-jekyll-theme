@@ -34,17 +34,17 @@
                 <a class="slider-item page-scroll person item-col-4" data-index="{{ forloop.index0 }}" href="#invited-speakers">
                 <div class="person-photo-wrapper speaker-photo" style="width: 75px;">
                     <div>
-                    <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }} photo">
+                        <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }} photo">
                     </div>
                 </div>
-                <div class="center-verticaly">
+                <div class="center-verticaly" style="max-height: 92px;">
                     <div>
-                    <span class="speaker-name">
-                        {{ speaker.name }}
-                    </span></br>
-                    <span class="speaker-title">
-                        {{ speaker.title }}
-                    </span>
+                        <span class="speaker-name">
+                            {{ speaker.name }}
+                        </span></br>
+                        <span class="speaker-title">
+                            {{ speaker.title }}
+                        </span>
                     </div>
                 </div>
             </a>
@@ -52,8 +52,8 @@
             </div>
         </div>
 
-        <div class="col-lg-12 text-center" style="margin-top: 2em;">
+        <!-- <div class="col-lg-12 text-center" style="margin-top: 2em;">
             <h3>and more is coming!</h3>
-        </div>
+        </div> -->
     </div>
 </section>

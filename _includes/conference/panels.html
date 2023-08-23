@@ -55,17 +55,17 @@
                 <a class="slider-item page-scroll person item-col-3" data-index="{{ forloop.index0 }}" href="#panels">
                     {% for speaker in panel.panelists %}
                     <div class="person-photo-wrapper speaker-photo" style="width: 75px; margin-right: -20px;">
-                    <div>
-                        <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }} photo">
-                    </div>
+                        <div>
+                            <img src="{{ speaker.image | relative_url }}" alt="{{ speaker.name }} photo">
+                        </div>
                     </div>
                     {% endfor %}
-                    <div class="center-verticaly">
-                    <div>
-                        <span class="speaker-name">
-                            {{ panel.name }}
-                        </span></br>
-                    </div>
+                    <div class="center-verticaly" style="padding-left: 20px;">
+                        <div>
+                            <span class="speaker-name">
+                                {{ panel.name }}
+                            </span>
+                        </div>
                     </div>
                 </a>
                 {% endfor %}
