@@ -6,6 +6,7 @@
       image: "./images/sponsor-logos-600x600/IdeasNCBR.webp"
       url: "https://ideas-ncbr.pl/en/"
 
+ 
 - title: "/ Media partners"
   imageMaxWidth: 215px
   imageMaxHeight: 120px
@@ -37,6 +38,12 @@
     - name: Nauka w Polsce
       image: "./images/partner-logos-600x600/naukawpolsce.webp"
       url: "https://naukawpolsce.pl/"
+    - name: Polish ML Community
+      image: "./images/partner-logos-600x600/PolishMLCommunity.webp"
+      url: "https://polishml.community/"
+    - name: Polonium Foundation
+      image: "./images/partner-logos-600x600/PoloniumFoundation.webp"
+      url: https://poloniumfoundation.org/
     - name: Quantum AI Foundation
       image: "./images/partner-logos-600x600/QuantumAIFoundation.webp"
       url: "https://www.qaif.org"

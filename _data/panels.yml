@@ -33,13 +33,14 @@
         Łukasz Kuciński is an Assistant Professor at the Institute of Mathematics of the PAS, a Senior Research Scientist at IDEAS NCBR, and a Member of the ELLIS Society. His ambition is to design and implement AI agents that can learn to solve problems autonomously in a self-improvement manner. 
       bio-more: >-
         His research is published at CORE A* conferences, such as NeurIPS and ICLR, and covers machine learning and sequential decision-making topics, including reinforcement learning, planning, game theory, automated theorem proving, or alignment of large language models. Prior to his current roles, he worked at PFSA as Vice-Director, where he led a risk modeling team. He obtained a master's degree from the Faculty of Mathematics, Informatics, and Mechanics of the University of Warsaw and a Ph.D. in mathematics from the Polish Academy of Sciences.  
-    - name: Omar Sanseviero
-      image: images/speakers-2023-600x600/OmarSanseviero.webp
-      title: Hugging Face
-      bio-intro: >-
-        Omar Sanseviero is a lead machine learning engineer at Hugging Face, where he works at the intersection of open source, community, and product. Omar leads multiple ML teams that work on topics such as ML for Art, Developer Advocacy Engineering, ML Partnerships, Mobile ML, and ML for Healthcare. 
-      bio-more: >- 
-        Previously, Omar worked at Google as a Software Engineer on Google Assistant and TensorFlow. In Google Assistant, Omar worked with on-device language models, model training and quality refinement, and serving infrastructure.
+    - name: TBA
+      image: "images/empty.png"
+      title: ""
+      bio: ""
+    - name: TBA
+      image: "images/empty.png"
+      title: ""
+      bio: ""
 
 - name: Human in the loop
   desc: >-
@@ -59,3 +60,10 @@
         Veronika Cheplygina's research focuses on limited labeled scenarios in machine learning, in particular in medical image analysis. She received her Ph.D. from Delft University of Technology in 2015. After a postdoc at the Erasmus Medical Center, in 2017 she started as an assistant professor at Eindhoven University of Technology. 
       bio-more: >-
         In 2020, failing to achieve various metrics, she left the tenure track of search of the next step where she can contribute to open and inclusive science. In 2021 she started as an associate professor at IT University of Copenhagen. Next to research and teaching, Veronika blogs about academic life at https://www.veronikach.com. She also loves cats, which you will often encounter in her work.
+    - name: Eduardo Mosqueira Rey
+      image: images/speakers-2023-600x600/EduardoMosqueiraRey.webp
+      title: University of A Coruña / LIDIA
+      bio-intro: >-
+        Eduardo Mosqueira-Rey is a tenured Associate Professor at the University of A Coruña (Spain) and member of the research group LIDIA (Laboratory for Research and Development in Artificial Intelligence). His research focuses on the development of Machine Learning and Quantum Computing algorithms applied usually to health problems. 
+      bio-more: >-
+        His recent work is centred on the definition of new types of interaction between humans and machine learning algorithms known as “Human-in-the-Loop Machine Learning''. Within this line, he is the principal investigator of the project “Analysis of human-in-the-loop machine learning strategies and its application to pancreatic cancer research (HITL-ML)” funded by the Spanish State Research Agency (AEI). He is also a research member of the NEASQC (NExt ApplicationS of Quantum Computing) European project developing the use case “Quantum Rule-Based Systems (QRBS) for breast cancer detection.
