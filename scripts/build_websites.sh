@@ -26,6 +26,8 @@ copy_all () {
     cp *.md builds/${website}/
     rm builds/${website}/README.md
 
+    cd builds/${website}
+
     for file in ${website}-*.md ; do
         mv "$file" "${file#*-}"
     done
@@ -33,6 +35,8 @@ copy_all () {
     for file in ${website}-*.html ; do
         mv "$file" "${file#*-}"
     done
+
+    cd ${ROOT_DIR}
 }
 
 # Clear old buils
@@ -47,6 +51,7 @@ cd builds/mlss
 rm _layouts/conference.html
 rm conference-*.md
 rm -r _includes/conference
+rm conference.html
 
 # Build Conference
 cd ${ROOT_DIR}
@@ -59,3 +64,4 @@ rm -r _includes/mlss
 rm mlss-*.md
 rm _data/mlss-*.yml
 rm -rf _images/mlss-*
+rm mlss.html
