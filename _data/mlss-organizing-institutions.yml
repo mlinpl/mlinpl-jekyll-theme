@@ -1,19 +1,19 @@
 - name: Jagiellonian University in Krakow
-  logo: ./images/institutions-logos/logo-uj.svg
+  logo: images/optimized/institutions-logos/logo-uj.svg
   url: https://en.uj.edu.pl/en
 
 - name: Group of Machine Learning Research
-  logo: ./images/institutions-logos/logo-gmum.png
+  logo: images/optimized/institutions-logos/logo-gmum.png
   url: https://gmum.net/
 
 - name: ML in PL Association
-  logo: ./images/institutions-logos/logo-mlinpl.svg
+  logo: images/optimized/institutions-logos/logo-mlinpl.svg
   url: https://mlinpl.org/
 
 - name: Ideas NSBR
-  logo: ./images/institutions-logos/logo-ideas-ncbr.svg
+  logo: images/optimized/institutions-logos/logo-ideas-ncbr.svg
   url: https://ideas-ncbr.pl/en/
 
 - name: Bio-inspired artificial neural networks
-  logo: ./images/institutions-logos/logo-bionn.png
+  logo: images/optimized/institutions-logos/logo-bionn.png
   url: http://bionn.matinf.uj.edu.pl/

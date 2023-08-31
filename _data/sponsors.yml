@@ -1,57 +1,74 @@
 - title: '/ <span style="color: #F1C233;">Gold sponsors</span>'
-  imageMaxWidth: 250px
-  imageMaxHeight: 100px
+  imageMaxWidth: 280px
+  imageMaxHeight: 150px
+  margin: 30px 45px
   sponsors:
     - name: Ideas NCBR
-      image: "./images/sponsor-logos-600x600/IdeasNCBR.webp"
+      image: "images/optimized/sponsors-600x600/IdeasNCBR.webp"
       url: "https://ideas-ncbr.pl/en/"
+    - name: NASK
+      image: "images/optimized/sponsors-600x600/NASK.webp"
+      url: "https://www.nask.pl/"
 
+- title: "/ Honorary Partners"
+  imageMaxWidth: 500px
+  imageMaxHeight: 250px
+  margin: 30px 45px
+  sponsors:
+    - name: Dean of the Faculty of Mathematics, Informatics and Mechanics
+      #title: Dean of the Faculty of Mathematics, Informatics and Mechanics
+      image: "images/optimized/honorary-partners-600x600/MIMUW.webp"
+      url: https://www.mimuw.edu.pl/
  
 - title: "/ Media partners"
   imageMaxWidth: 215px
   imageMaxHeight: 120px
+  margin: 20px 30px
   sponsors:
     - name: AIFlavours
-      image: "./images/partner-logos-600x600/AIFlavours.webp"
+      image: "images/optimized/partners-600x600/AIFlavours.webp"
       url: "https://www.linkedin.com/company/aiflavours"
     - name: Gauss
-      image: "./images/partner-logos-600x600/gauss.webp"
+      image: "images/optimized/partners-600x600/gauss.webp"
       url: "http://gauss.im.pwr.wroc.pl"
     - name: "Ghost Day: Applied Machine Learning Conference"
-      image: "./images/partner-logos-600x600/GhostDay.webp"
+      image: "images/optimized/partners-600x600/GhostDay.webp"
       url: "https://ghostday.pl"
+    - name: GMUM
+      image: "images/optimized/partners-600x600/gmum.webp"
+      url: https://gmum.net/
     - name: Group of Horribly Optimistic STatisticians
-      image: "./images/partner-logos-600x600/GHOST.webp"
+      image: "images/optimized/partners-600x600/GHOST.webp"
       url: "https://ghost.put.poznan.pl"
     - name: Golem
-      image: "./images/partner-logos-600x600/golem.webp"
+      image: "images/optimized/partners-600x600/golem.webp"
       url: "https://ai.ii.pw.edu.pl/kolo-naukowe-sztucznej-inteligencji-golem/"
     - name: KNUM
-      image: "./images/partner-logos-600x600/knum.webp"
+      image: "images/optimized/partners-600x600/knum.webp"
       url: "https://knum.mimuw.edu.pl/"
     - name: Machine Learning Prague
-      image: "./images/partner-logos-600x600/MachineLearningPrague.webp"
+      image: "images/optimized/partners-600x600/MachineLearningPrague.webp"
       url: "https://mlprague.com/"
     - name: MI2
-      image: "./images/partner-logos-600x600/MI2.webp"
+      image: "images/optimized/partners-600x600/MI2.webp"
       url: "https://www.mi2.ai/"
     - name: Nauka w Polsce
-      image: "./images/partner-logos-600x600/naukawpolsce.webp"
+      image: "images/optimized/partners-600x600/naukawpolsce.webp"
       url: "https://naukawpolsce.pl/"
     - name: Polish ML Community
-      image: "./images/partner-logos-600x600/PolishMLCommunity.webp"
+      image: "images/optimized/partners-600x600/PolishMLCommunity.webp"
       url: "https://polishml.community/"
     - name: Polonium Foundation
-      image: "./images/partner-logos-600x600/PoloniumFoundation.webp"
+      image: "images/optimized/partners-600x600/PoloniumFoundation.webp"
       url: https://poloniumfoundation.org/
     - name: Quantum AI Foundation
-      image: "./images/partner-logos-600x600/QuantumAIFoundation.webp"
+      image: "images/optimized/partners-600x600/QuantumAIFoundation.webp"
       url: "https://www.qaif.org"
     - name: Warsaw AI
-      image: "./images/partner-logos-600x600/WarsawAI.webp"
+      image: "images/optimized/partners-600x600/WarsawAI.webp"
       url: "https://warsaw.ai"
     - name: Zdarzenia Poznawcze
-      image: "./images/partner-logos-600x600/ZdarzeniePoznawcze.webp"
+      image: "images/optimized/partners-600x600/ZdarzeniePoznawcze.webp"
       url: "https://www.facebook.com/zderzenia.poznawcze"
 
 
