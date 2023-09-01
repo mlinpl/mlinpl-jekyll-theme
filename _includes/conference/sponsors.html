@@ -7,7 +7,7 @@
                     <h2 class="text-align-left">{{category.title}}</h2>
                 </div>
             </div>
-            {% include logos.html logos-data=category.sponsors imageMaxWidth=category.imageMaxWidth imageMaxHeight=category.imageMaxHeight %}
+            {% include logos.html logos-data=category.sponsors imageMaxWidth=category.imageMaxWidth imageMaxHeight=category.imageMaxHeight margin=category.margin %}
         </div>
     {% endfor %}
 </section>

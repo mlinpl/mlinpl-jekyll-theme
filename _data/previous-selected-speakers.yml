@@ -1,78 +1,78 @@
 - name: Yoshua Bengio
   title: University of Montreal / Mila / IVADO / CIFAR
   google-scholar: https://scholar.google.com/citations?user=kukA0LcAAAAJ
-  image: images/previous-speakers-300x300/YoshuaBengio.webp
+  image: images/optimized/previous-speakers-300x300/YoshuaBengio.webp
   comment: Laurate of 2018 Turing Award
 
 - name: Kyunghyun Cho
   title: New York University / Genentech
   google-scholar: https://scholar.google.com/citations?hl=pl&user=0RAmmIAAAAAJ
-  image: images/previous-speakers-300x300/KyunghyunCho.webp
+  image: images/optimized/previous-speakers-300x300/KyunghyunCho.webp
   comment: Pioneer in neural machine translation
 
 - name: Daphne Koller
   title: Insitro
   google-scholar: https://scholar.google.com/citations?hl=pl&user=5Iqe53IAAAAJ
-  image: images/previous-speakers-300x300/DaphneKoller.webp
+  image: images/optimized/previous-speakers-300x300/DaphneKoller.webp
   comment: Co-founder of Coursera, CEO and Founder of Insitro a drug discovery startup
 
 - name: Łukasz Kaiser
   title: OpenAI / CNRS
   google-scholar: https://scholar.google.com/citations?user=JWmiQR0AAAAJ
-  image: images/previous-speakers-300x300/LukaszKaiser.webp
+  image: images/optimized/previous-speakers-300x300/LukaszKaiser.webp
   comment: Co-author of Tensorflow, Attention is all you need, Reformer, and ChatGPT
 
 - name: Kyle Cranmer
   title: University of Wisconsin-Madison
   google-scholar: https://scholar.google.com/citations?hl=pl&user=EZjSxgwAAAAJ
-  image: images/previous-speakers-300x300/KyleCranmer.webp
+  image: images/optimized/previous-speakers-300x300/KyleCranmer.webp
   comment: Developed statistical methodology, which was used for the discovery of the Higgs boson
 
 - name: Alexei Efros
   title: UC Berkeley
   google-scholar: https://scholar.google.com/citations?hl=pl&user=d97bGd8AAAAJ
-  image: images/previous-speakers-300x300/AlexeiEfros.webp
+  image: images/optimized/previous-speakers-300x300/AlexeiEfros.webp
   comment: One of the most cited experts in computer vision
 
 - name: Filip Wolski
   title: OpenAI
   google-scholar: https://scholar.google.fr/citations?user=Br8UEzAAAAAJ
-  image: images/previous-speakers-300x300/FilipWolski.webp
+  image: images/optimized/previous-speakers-300x300/FilipWolski.webp
   comment: Co-inventor of Proximal Policy Optimization algorithm
 
 - name: Petar Veličković
   title: Google DeepMind / University of Cambridge
   google-scholar: https://scholar.google.com/citations?hl=pl&user=kcTK_FAAAAAJ
-  image: images/previous-speakers-300x300/PetarVelickovic.webp
+  image: images/optimized/previous-speakers-300x300/PetarVelickovic.webp
   comment: First author of Graph Attention Networks
 
 - name: Razvan Pascanu
   title: Google DeepMind
   google-scholar: https://scholar.google.com/citations?user=eSPY8LwAAAAJ
-  image: images/previous-speakers-300x300/RazvanPascanu.webp
+  image: images/optimized/previous-speakers-300x300/RazvanPascanu.webp
   comment: Co-author of Theano, and many influential papers on forgetting in NNs
 
 - name: Marta Kwiatkowska
   title: University of Oxford
   google-scholar: https://scholar.google.com/citations?user=ArcH6PkAAAAJ
-  image: images/previous-speakers-300x300/MartaKwiatkowska.webp
+  image: images/optimized/previous-speakers-300x300/MartaKwiatkowska.webp
   comment: Led the development of the leading probabilistic symbolic model checker PRISM
 
 - name: Matthias Bethge
   title: Tübingen University / ELLIS / Maddox
   google-scholar: https://scholar.google.com/citations?hl=pl&user=0z0fNxUAAAAJ
-  image: images/previous-speakers-300x300/MatthiasBethge.webp
+  image: images/optimized/previous-speakers-300x300/MatthiasBethge.webp
   comment: Co-founder of ELLIS, co-inventor of neural style transfer using CNNs
 
 - name: Rich Caruana
   title: Microsoft Research
   google-scholar: https://scholar.google.com/citations?hl=pl&user=B2U8EUwAAAAJ
-  image: images/previous-speakers-300x300/RichCaruana.webp
+  image: images/optimized/previous-speakers-300x300/RichCaruana.webp
   comment: His thesis on multi-task learning helped create interest in transfer learning
 
 # - name: Cheng Zhang 
 #   title: Microsoft Research
 #   google-scholar: https://scholar.google.com/citations?hl=pl&user=r40iAwIAAAAJ
-#   image: images/previous-speakers-300x300/ChengZhang.webp
+#   image: images/optimized/previous-speakers-300x300/ChengZhang.webp
 #   comment: 
 

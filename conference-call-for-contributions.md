@@ -51,12 +51,13 @@ The factors that will be considered the most when evaluating submissions include
 All accepted talks and posters will be presented during the Main Conference (or the Student Research Workshop). 
 **The presenting author (the one submitting the application) will receive a free ticket.** 
 The co-authors will have a guaranteed option of buying a ticket in early bird, provided they fill the form in advance.
+**Even if your proposal is not accepted, you will have the oportunity to buying a ticket for early bird price.**
 
 
 ## Timeline
 
 - 1 June: Call for Contributions (Talks and Posters) open
-- 1 September (AoW): Call for Contributions submissions deadline
+- 1 September, 23:59 (AoE): Call for Contributions submissions deadline
 - 7 September: Talks and posters acceptance notifications
 - 26 October: Student Research Workshop
 - 26 - 29 October: Main Conference

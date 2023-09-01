@@ -1,3 +1,4 @@
+# Jekyll
 _site
 .sass-cache
 .jekyll-cache
@@ -6,6 +7,7 @@ vendor
 
 # Ours
 _config.yml.bak
+builds
 
 # MacOS
 .DS_Store

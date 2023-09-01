@@ -50,7 +50,7 @@ copy_all mlss mlss2023.mlinpl.org
 cd builds/mlss
 rm _layouts/conference.html
 rm conference-*.md
-rm -r _includes/conference
+rm -rf _includes/conference
 rm conference.html
 
 # Build Conference
@@ -60,8 +60,8 @@ copy_all conference conference2023.mlinpl.org
 
 cd builds/conference
 rm _layouts/mlss.html
-rm -r _includes/mlss
+rm -rf _includes/mlss
 rm mlss-*.md
 rm _data/mlss-*.yml
-rm -rf _images/mlss-*
+rm -rf images/mlss-*
 rm mlss.html
