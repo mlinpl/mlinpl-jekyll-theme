@@ -15,7 +15,7 @@ CONFIGS = {
             "twitter": lambda row: row["Twitter"].strip(),
             "image": lambda row: get_file(
                 os.path.join(
-                    "images/organizers-300x300/",
+                    "images/optimized/organizers-300x300/",
                     polish_to_ascii(row["Imię"].strip())
                     + polish_to_ascii(row["Nazwisko"].strip())
                     + ".webp",
@@ -70,7 +70,11 @@ def main(input_file, output_file, config):
         raise Exception(f"Config {config} not found, available configs: {list(CONFIGS.keys())}")
 
     # Load and sort organizers
-    df = pd.read_csv(input_file)
+    sep = ","
+    if input_file.endswith(".tsv"):
+        sep = "\t"
+
+    df = pd.read_csv(input_file, sep=sep, encoding="utf-8")
     print(df.info())
 
     df.fillna("", inplace=True)

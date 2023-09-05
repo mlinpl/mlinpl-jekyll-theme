@@ -82,6 +82,12 @@
   twitter: ""
   image: "images/optimized/organizers-300x300/MariaWyrzykowska.webp"
 
+- name: "Łukasz Zalewski"
+  title: "Special Ops Coordinator"
+  linkedin: "https://www.linkedin.com/in/zalewski-lukasz/"
+  twitter: ""
+  image: "images/optimized/organizers-300x300/LukaszZalewski.webp"
+
 - name: "Mateusz Borowski"
   title: "Sponsors Team"
   linkedin: "https://www.linkedin.com/in/m-borowski/"
@@ -114,9 +120,9 @@
 
 - name: "Alicja Grochocka-Dorocińska"
   title: "Panel Team"
-  linkedin: "https://www.linkedin.com/in/alicja-grochocka-doroci%C5%84ska-a32267180"
+  linkedin: "https://www.linkedin.com/in/alicja-grochocka-doroci%C5%84ska-a32267180/"
   twitter: ""
-  image: "images/optimized/organizers-300x300/AlicjaGrochocka.webp"
+  image: "images/optimized/organizers-300x300/AlicjaGrochocka-Dorocinska.webp"
 
 - name: "Piotr Hondra"
   title: "Premeetings and Tutorials Team"
@@ -166,6 +172,12 @@
   twitter: "https://twitter.com/aiflavours"
   image: "images/optimized/organizers-300x300/ZuzannaKwiatkowska.webp"
 
+- name: "Ewelina Kędzior"
+  title: "Special Ops Team"
+  linkedin: "https://www.linkedin.com/in/ewelinakedzior/"
+  twitter: ""
+  image: "images/optimized/organizers-300x300/EwelinaKedzior.webp"
+
 - name: "Dawid Mączka"
   title: "Infrastructure Team"
   linkedin: ""
@@ -194,7 +206,7 @@
   title: "Special Ops Team"
   linkedin: "https://www.linkedin.com/in/andrzej-pioro/"
   twitter: ""
-  image: "images/empty.png"
+  image: "images/optimized/organizers-300x300/AndrzejPioro.webp"
 
 - name: "Jakub Podolak"
   title: "Panel Team"
