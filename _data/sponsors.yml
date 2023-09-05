@@ -9,6 +9,21 @@
     - name: NASK
       image: "images/optimized/sponsors-600x600/NASK.webp"
       url: "https://www.nask.pl/"
+    - name: RTB House
+      image: "images/optimized/sponsors-600x600/RTBHouse.webp"
+      url: "https://www.rtbhouse.com/"
+
+- title: '/ <span style="color: #A0A0A0;">Silver sponsors</span>'
+  imageMaxWidth: 280px
+  imageMaxHeight: 150px
+  margin: 30px 45px
+  sponsors:
+    - name: AI Clearing
+      image: "images/optimized/sponsors-600x600/AIClearing.webp"
+      url: "https://www.aiclearing.com/"
+    - name: Alphamoon
+      image: "images/optimized/sponsors-600x600/alphamoon.webp"
+      url: "https://alphamoon.ai/"
 
 - title: "/ Honorary Partners"
   imageMaxWidth: 500px
@@ -76,5 +91,3 @@
     - name: Zdarzenia Poznawcze
       image: "images/optimized/partners-600x600/ZdarzeniePoznawcze.webp"
       url: "https://www.facebook.com/zderzenia.poznawcze"
-
-
