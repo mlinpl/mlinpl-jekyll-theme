@@ -64,4 +64,5 @@ rm -rf _includes/mlss
 rm mlss-*.md
 rm _data/mlss-*.yml
 rm -rf images/mlss-*
+rm -rf images/optimized/mlss-*
 rm mlss.html

@@ -34,7 +34,7 @@ Rules of contributed talks and posters acceptance to the {{ page.mlinpl-inline-l
 
 1. The Competition will start on 1 June 2023 and end on 1 September 2023 (hereinafter, the "Duration of the Competition").
 2. The registration for the Competition will be open from 1 June 2023 to 1 September 2023.
-3. The registration for the Competition takes place via the registration form in the Call for Contribution section available at https://conference2023.mlinpl.org/cfc/[b] (hereinafter, the "Website"). 
+3. The registration for the Competition takes place via the registration form in the Call for Contribution section available at https://conference2023.mlinpl.org/call-for-contributions (hereinafter, the "Website"). 
 4. In order to participate in the Competition, the Participant is obliged to submit the registration form on the Website through which the Participant provides:
    1. his/her personal data, 
    2. his/her preference towards presenting a talk on Main Conference or Student Research Workshop
