@@ -1,0 +1,101 @@
+- title: Thursday / 26 September
+  location: SGH
+  sessions:
+    - events: 
+        - title: Student Research Workshop
+          event-class: col-lg-12
+          time: 8:00 - 11:00
+          room: X
+    - events:
+        - title: Registration
+          event-class: col-lg-12
+          time: 11:00 - 12:00
+          room: X
+    - events:
+        - title: Opening remarks
+          event-class: col-lg-12
+          time: 11:00 - 12:00
+          room: X
+    - events:
+        - title: Opening remarks
+          event-class: col-lg-12
+          time: 11:00 - 12:00
+          room: X
+    
+    - event-class: col-lg-4
+      hours: 12:00-13:15
+      events: 
+        - title: General ML
+          room: 123
+        - title: Computer Vision
+          room: 345
+        - title: Science
+          room: 678
+    - event-class: col-lg-12
+      hours: 12:00-13:15
+      events: 
+        - title: <i class="fa-solid fa-mug-saucer"></i> Coffe-break
+    - event-class: col-lg-12
+      hours: 12:00-13:15
+      events: 
+        - title: <i class="fa-solid fa-mug-saucer"></i> Coffe-break
+- title: Friday / 27 September
+  location: SGH
+  sessions:
+    - event-class: col-lg-12
+      hours: 11:30-12:00
+      events: 
+        - title: <i class="fa-solid fa-mug-saucer"></i> Coffe-break
+    - event-class: col-lg-4
+      hours: 12:00-13:15
+      events: 
+        - title: General ML
+          room: 123
+        - title: Computer Vision
+          room: 345
+        - title: Science
+          room: 678
+    - event-class: col-lg-12
+      hours: 12:00-13:15
+      events: 
+        - title: Coffe-break
+- title: Saturday / 28 September
+  location: SGH
+  sessions:
+    - event-class: col-lg-12
+      hours: 11:30-12:00
+      events: 
+        - title: Coffe-break
+    - event-class: col-lg-4
+      hours: 12:00-13:15
+      events: 
+        - title: General ML
+          room: 123
+        - title: Computer Vision
+          room: 345
+        - title: Science
+          room: 678
+    - event-class: col-lg-12
+      hours: 12:00-13:15
+      events: 
+        - title: Coffe-break
+- title: Sunday / 29 September
+  location: SGH
+  sessions:
+    - event-class: col-lg-12
+      hours: 11:30-12:00
+      events: 
+        - title: Coffe-break
+    - event-class: col-lg-4
+      hours: 12:00-13:15
+      events: 
+        - title: General ML
+          room: 123
+        - title: Computer Vision
+          room: 345
+        - title: Science
+          room: 678
+    - event-class: col-lg-12
+      hours: 12:00-13:15
+      events: 
+        - title: Coffe-break

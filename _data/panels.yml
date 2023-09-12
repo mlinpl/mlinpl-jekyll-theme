@@ -30,17 +30,17 @@
       image: images/optimized/speakers-2023-600x600/LukaszKucinski.webp
       title: Polish Academy of Science / IDEAS NCBR
       bio-intro: >-
-        Łukasz Kuciński is an Assistant Professor at the Institute of Mathematics of the PAS, a Senior Research Scientist at IDEAS NCBR, and a Member of the ELLIS Society. His ambition is to design and implement AI agents that can learn to solve problems autonomously in a self-improvement manner. 
+        Łukasz Kuciński is an Assistant Professor at the Institute of Mathematics of the PAS, a Senior Research Scientist at IDEAS NCBR, and a Member of the ELLIS Society. His ambition is to design and implement AI agents that can learn to solve problems autonomously in a self-improvement manner.
       bio-more: >-
-        His research is published at CORE A* conferences, such as NeurIPS and ICLR, and covers machine learning and sequential decision-making topics, including reinforcement learning, planning, game theory, automated theorem proving, or alignment of large language models. Prior to his current roles, he worked at PFSA as Vice-Director, where he led a risk modeling team. He obtained a master's degree from the Faculty of Mathematics, Informatics, and Mechanics of the University of Warsaw and a Ph.D. in mathematics from the Polish Academy of Sciences.  
+        His research is published at CORE A* conferences, such as NeurIPS and ICLR, and covers machine learning and sequential decision-making topics, including reinforcement learning, planning, game theory, automated theorem proving, or alignment of large language models. Prior to his current roles, he worked at PFSA as Vice-Director, where he led a risk modeling team. He obtained a master's degree from the Faculty of Mathematics, Informatics, and Mechanics of the University of Warsaw and a Ph.D. in mathematics from the Polish Academy of Sciences.
     - name: TBA
       image: "images/empty.png"
       title: ""
-      bio: ""
+      bio: '<span style="height: 220px; width: 1px; display: inline-block;"></span>'
     - name: TBA
       image: "images/empty.png"
       title: ""
-      bio: ""
+      bio: '<span style="height: 220px; width: 1px; display: inline-block;"></span>'
 
 - name: Human in the loop
   desc: >-

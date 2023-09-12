@@ -18,11 +18,11 @@
 }
 
 .item-col-4 {
-    width: 270px;
+    width: 277.5px;
 }
 
 .item-col-3 {
-    width: 360px;
+    width: 370px;
 }
 
 .slider-tabs .slider-item .speaker-photo {
@@ -86,6 +86,12 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.slider-timer-wrapper{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
 }
 
 .slider-timer{

@@ -12,6 +12,15 @@
     Volodymyr Mnih is a Research Scientist at Google DeepMind. He completed an MSc at the University of Alberta working under the supervision of Csaba Szepesvari and a PhD at the University of Toronto working under the supervision of Geoffrey Hinton. Since joining DeepMind, he has been working at the intersection of deep learning and reinforcement learning, co-developing Deep Q Networks (DQN), the asynchronous advantage actor critic (A3C), and reinforcement learning-based hard attention mechanisms.
   google-scholar: https://scholar.google.com/citations?user=rLdfJ1gAAAAJ
 
+- name: Jiri Matas
+  title: Czech Technical University
+  image: images/optimized/speakers-2023-600x600/JiriMatas.webp
+  bio: >-
+    Jiri Matas is a full professor and the head of the Visual Recognition Group, Department of Cybernetics, Czech Technical University in Prague. He holds a PhD degree from the University of Surrey, UK (1995). He has published more than 300 papers that have been cited about 64000 times.
+    His research interests include visual tracking, object recognition, image matching and retrieval, sequential pattern recognition, and RANSAC-type optimization methods. He received the best paper prize at the British Machine Vision Conferences in 2002, 2005 and 2022, at the Asian Conference on Computer Vision in 2007 and at the Int. Conf. on Document analysis and Recognition in 2015. J. Matas served as a programme or general chair at the European Conference of Computer Vision (ECCV) in 2004, 2016, 2022 and at Computer Vision and Pattern Recognition (CVPR) in 2007 and 2022. He is an Editor-in-Chief of the International Journal of Computer Vision was an Associate Editor-in-Chief of IEEE T. Pattern Analysis and Machine Intelligence. 
+    He has co-founded two companies, Eyedea Recognition (computer vision) and Locksley (combinatorial optimization). The industrial project he has lead at the Czech Technical University (Toyota, Samsung, Hitachi, Boeing) have generated income of about 5 million euros. He is an inventor of several patents.
+  google-scholar: https://scholar.google.com/citations?user=EJCNY6QAAAAJ
+
 - name: Massimiliano Pontil
   title: Italian Institute of Technology / University College London / ELLIS
   image: images/optimized/speakers-2023-600x600/MassimilianoPontil.webp
@@ -19,12 +28,12 @@
     Massimiliano Pontil is Senior Researcher at the Italian Institute of Technology, where he leads the CSML research unit, and co-director of ELLIS unit Genoa. He is also Professor at University College London and member of the UCL Centre for Artificial Intelligence. He has been active in machine learning for over twenty-five years, working on theory and algorithms, including the areas of kernel methods, learning dynamical systems, meta-learning, multitask and transfer learning, sparse estimation, and statistical learning theory.
   google-scholar: https://scholar.google.com/citations?user=lcOacs8AAAAJ
 
-# - name: Taco Cohen
-#   title: Qualcomm AI Research
-#   image: images/optimized/speakers-2023-600x600/TacoCohen.webp
-#   bio: >-
-#     Taco Cohen is a machine learning researcher (Principal Engineer) at Qualcomm AI Research in Amsterdam. He received a BSc in theoretical computer science from Utrecht University, and a MSc in artificial intelligence and PhD in machine learning (with prof. Max Welling) from the University of Amsterdam (all three cum laude). He was a co-founder of Scyfer, a company focussed on deep active learning, acquired by Qualcomm in 2017. His research is focused on geometric deep learning and reinforcement learning. During his studies he has interned at Google Deepmind (working with Geoff Hinton) and OpenAI. He received the 2014 University of Amsterdam MSc thesis prize, a Google PhD Fellowship, ICLR 2018 best paper award for “Spherical CNNs”, was named one of 35 innovators under 35 by MIT Tech Review, and won the 2022 ELLIS PhD Award and 2022 Kees Schouhamer Immink prize for his PhD research.
-#   google-scholar: https://scholar.google.com/citations?user=a3q4YxEAAAAJ
+- name: Taco Cohen
+  title: Qualcomm AI Research
+  image: images/optimized/speakers-2023-600x600/TacoCohen.webp
+  bio: >-
+    Taco Cohen is a machine learning researcher (Principal Engineer) at Qualcomm AI Research in Amsterdam. He received a BSc in theoretical computer science from Utrecht University, and a MSc in artificial intelligence and PhD in machine learning (with prof. Max Welling) from the University of Amsterdam (all three cum laude). He was a co-founder of Scyfer, a company focussed on deep active learning, acquired by Qualcomm in 2017. His research is focused on geometric deep learning and reinforcement learning. During his studies he has interned at Google Deepmind (working with Geoff Hinton) and OpenAI. He received the 2014 University of Amsterdam MSc thesis prize, a Google PhD Fellowship, ICLR 2018 best paper award for “Spherical CNNs”, was named one of 35 innovators under 35 by MIT Tech Review, and won the 2022 ELLIS PhD Award and 2022 Kees Schouhamer Immink prize for his PhD research.
+  google-scholar: https://scholar.google.com/citations?user=a3q4YxEAAAAJ
 
 - name: Gintare Karolina Dziugaite
   title: Google DeepMind

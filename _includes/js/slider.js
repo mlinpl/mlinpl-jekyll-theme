@@ -27,7 +27,7 @@ for(let slider of sliders) {
 
     // Deactivate timer indicator
     let sliderTimer = slider.getElementsByClassName('slider-timer')[0];
-    sliderTimer.classList.remove('width-from-0-to-100');
+    if(sliderTimer) sliderTimer.classList.remove('width-from-0-to-100');
 
     // Mark the clicked slider item as active
     clickedElement.classList.add('active');
@@ -46,14 +46,15 @@ for(let slider of sliders) {
       nextItemContent.classList.add('fade-in');
       
       // Clear timer and setup new one
-      sliderTimer.classList.add('width-from-0-to-100');
-      if(timeoutId) clearTimeout(timeoutId);
-      timeoutId = setTimeout(function() {
-        let newItem = sliderItems[(parseInt(clickedElement.dataset.index) + 1) % sliderItems.length];
-        handlesliderItemClick(newItem);
-      }, 30000);
+      if(sliderTimer){
+        sliderTimer.classList.add('width-from-0-to-100');
+        if(timeoutId) clearTimeout(timeoutId);
+        timeoutId = setTimeout(function() {
+          let newItem = sliderItems[(parseInt(clickedElement.dataset.index) + 1) % sliderItems.length];
+          handlesliderItemClick(newItem);
+        }, 30000);
+      }
     }, { once: true });
-
   }
 
   // Sliders preview in the tab
