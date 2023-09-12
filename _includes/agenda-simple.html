@@ -13,7 +13,7 @@ Expects following parameters: agenda-data
             <h4>{{ day.title }} <span class="emph d-inline-block">/ {{ day.subtitle }}</span></h4>
             <div class="events">
                 {% for event in day.events %}
-                <div class="event event-{{ event.height }}">
+                <div class="event {{ event.element-class }}">
                     <div>{{ event.time }}</div>
                     <div><strong>{{ event.title }}</strong></div>
                     <div style="font-size: 12px;">{{ event.subtitle }}</div>

@@ -8,10 +8,10 @@ mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="e
 ## Instructions for Contributed Talks
 
 - All talks should be held in English.
-- The talk will have a length of 20 minutes + 5 minutes for questions. Please prepare your talk accordingly so that it is within the time limit.
-- The exact time and room of your talk will be announced in the conference program.
+- All the talks will have a length of 20 minutes + 5 minutes for questions. Please prepare your talk accordingly so that it is within the time limit.
+- The talks will be grouped into sessions with 3 talks per session. The exact time, order of talks, and room for each session will be announced in the conference program.
 - To avoid technical difficulties, this year, we will ask you to provide the slides before the session in the form of a PDF file or a link to your slides (e.g., Google Slides, PowerPoint Online, Canva). We will upload them to our conference computer and make sure that everything works smoothly. 
-- Please be 5-10 minutes before the session starts in the room where your talk will be held to meet the session chair and test the slides.
+- Please be 5-10 minutes before the start of the session in the room where your talk will be held to meet the session chair and test the slides.
 - In cases when the presentation requires specific software, please contact us in advance.
 - The slide switcher will be available for you to use during the session.
 
@@ -20,8 +20,8 @@ mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="e
 
 - All the posters should be in English.
 - The printed version of the poster has to be A0-size in a vertical orientation (recommended) or smaller. Larger posters will not fit on the poster boards.
-- There will be two poster sessions during the conference. One on 27 September and the second on 28 September. Your poster will be assigned to one of them and a specific poster board.
-- Please be at least 5-10 minutes before the session starts in the room where your poster session will be held to hang it on the designated poster board. We don't know yet for 100%, but it might be possible to hang your poster earlier.
+- There will be two poster sessions during the conference. One on 27 October and the second on 27 October. Your poster will be assigned to one of them and a specific poster board.
+- Please be at least 5-10 minutes before the start of the session in the room where your poster presentation will be held to hang it on the designated poster board. We don't know yet, but it might be possible to hang your poster earlier.
 - The posters need to be removed at the end of the session. Posters that are not removed will be discarded.
 
 

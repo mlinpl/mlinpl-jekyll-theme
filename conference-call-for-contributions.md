@@ -68,8 +68,7 @@ The co-authors will have a guaranteed option of buying a ticket in early bird, p
 
 The best talks and posters from the Main Conference will be awarded with gift cards. Winners will be selected in two categories: Audience Award and Scientific Board Award.
 
-
-## Submit your talk/poster proposal
+<!-- ## Submit your talk/poster proposal
 
 <ul class="list-inline banner-social-buttons">
     <li>
@@ -83,7 +82,11 @@ The best talks and posters from the Main Conference will be awarded with gift ca
     </li>
 </ul>
 
-You can contact us at <a href="mailto:contributions@conference.mlinpl.org">contributions@conference.mlinpl.org</a> in case you have any questions regarding Call for Contributions.
-
 We look forward to receiving your talk and poster proposals!
-Join us in shaping **{{ page.mlinpl-inline-logo }}**!
+Join us in shaping **{{ page.mlinpl-inline-logo }}**! -->
+
+## Instructions for preparing Contributed Talk and Poster
+
+The exact guidelines for preparing your talk and poster can be found [here]({{ "./cfc-instructions" | relative_url }}).
+
+You can contact us at <a href="mailto:contributions@conference.mlinpl.org">contributions@conference.mlinpl.org</a> in case you have any questions regarding Call for Contributions.
