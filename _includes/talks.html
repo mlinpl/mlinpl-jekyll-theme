@@ -3,23 +3,23 @@ Expects following parameters:
     talks-title, 
     talks-data
 {% endcomment %}
-<div class="row">
-    <div class="col-lg-12">
-        <h2>/ {{ include.talks-title }}</h2>
-    </div>
-    <div class="col-md-{{ include.timeline-col-width }} timeline">
-        {% for talk in include.talks-data %}
-        <div class="row">
-            <div class="speaker-details-image col-md-3">
-                <img src="{{ talk.author-image }}" alt="{{ talk.author-name }} photo" class="person-photo width-100 width-max-400px">
-            </div>
-            <div class="speaker-details-text col-md-9">
-                <h2 class="emph-i">{{ talk.title }}</h2>
-                <h3><i class="fa-solid fa-user"></i> {{ talk.author-name }} ({{ talk.author-name }}) / <i class="fa-solid fa-calendar-day"></i> {{ talk.time }} </h3>
-                <p>Abstract: {{ talk.abstract }}</p>
-                <p>Bio: {{ talk.author-bio }}</p>
-            </div>
+<section class="container content-section">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2>{{ include.talks-title }}</h2>
         </div>
-        {% endfor %}
     </div>
-</div>
+    {% for talk in include.talks-data %}
+    <div class="row">
+        <div class="speaker-details-image col-md-3">
+            <img src="{{ talk.author-image }}" alt="{{ talk.author-name }} photo" class="person-photo width-100 width-max-400px">
+        </div>
+        <div class="speaker-details-text col-md-9">
+            <h2 class="emph-i" style="margin-bottom: 0px;">{{ talk.title }}</h2>
+            <h3><i class="fa-solid fa-user"></i> {{ talk.author-name }} ({{ talk.author-name }}) / <i class="fa-solid fa-calendar-day"></i> {{ talk.time }} </h3>
+            <p><strong>Abstract:</strong><br> {{ talk.abstract }}</p>
+            <p><strong>Biography:</strong><br> {{ talk.author-bio }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</section>

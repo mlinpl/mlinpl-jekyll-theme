@@ -18,8 +18,8 @@ mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="e
         <div class="col-xs-12">
             <h3>{{ day.title }}</h3>
             <h4>{{ day.location }}</h4>
-            {% include agenda-day-details.html agenda-data=day %}
         </div>
+        {% include agenda-day-details.html day=day %}
         {% endfor %}
     </div>
 </section>
@@ -28,9 +28,10 @@ mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="e
 
 {% include conference/panels.html %}
 
-{% include talks.html talks-title="/ Contributed talks" talks-data=site.data.contributed-talks %}
+{% include talks-tba.html talks-title="/ Contributed talks" talks-data=site.data.contributed-talks %}
 
-{% include talks.html talks-title="/ Posters" talks-data=site.data.posters %}
+{% include talks-tba.html talks-title="/ Posters" talks-data=site.data.posters %}
 
-{% include talks.html talks-title="/ Student Research Workshop Talks" talks-data=site.data.srw-talks %}
+{% include talks-tba.html talks-title="/ Student Research Workshop Talks" talks-data=site.data.srw-talks %}
 
+{% include talks-tba.html talks-title="/ Tutorials" talks-data=site.data.tutorials %}
