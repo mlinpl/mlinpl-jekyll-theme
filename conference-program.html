@@ -1,0 +1,37 @@
+---
+layout: page
+content-wrapper: false
+title: Program of ML in PL Conference
+html-title: Program of <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference</span></span>
+permalink: /program
+mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference</span></span>
+---
+
+
+<section class="container content-section" style="">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>/ Agenda</h2>
+        </div>
+
+        {% for day in site.data.agenda %}
+        <div class="col-xs-12">
+            <h3>{{ day.title }}</h3>
+            <h4>{{ day.location }}</h4>
+        </div>
+        {% include agenda-day-details.html day=day %}
+        {% endfor %}
+    </div>
+</section>
+
+{% include talks.html talks-title="/ Invited talks" talks-data=site.data.invited-talks %}
+
+{% include conference/panels.html %}
+
+{% include talks-tba.html talks-title="/ Contributed talks" talks-data=site.data.contributed-talks %}
+
+{% include talks-tba.html talks-title="/ Posters" talks-data=site.data.posters %}
+
+{% include talks-tba.html talks-title="/ Student Research Workshop Talks" talks-data=site.data.srw-talks %}
+
+{% include talks-tba.html talks-title="/ Tutorials" talks-data=site.data.tutorials %}

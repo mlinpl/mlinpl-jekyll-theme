@@ -7,7 +7,7 @@ Expects following parameters: agenda-data
         <div class="col-lg-12">
             <h2>/ Agenda</h2>
         </div>
-        <div class="col-lg-12 agenda d-flex">
+        <div class="col-lg-12 simple-agenda d-flex">
         {% for day in include.agenda-data %}
         <div class="day days-{{ include.agenda-data | size }}">
             <h4>{{ day.title }} <span class="emph d-inline-block">/ {{ day.subtitle }}</span></h4>

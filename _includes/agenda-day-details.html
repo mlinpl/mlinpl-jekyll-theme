@@ -1,0 +1,20 @@
+<!-- Agenda Section -->
+{% comment %}
+Expects following parameters: day
+{% endcomment %}
+
+<div class="agenda-day">
+{% for session in include.day.sessions %}
+{% for event in session.events %}
+<div class="{{ event.element-class }} agenda-item">
+    <div>
+        {{ event.time }} 
+        {% if event.room %}
+        / {{ event.room }}
+        {% endif %}
+        <h4>{{ event.title }}</h4>
+    </div>
+</div> 
+{% endfor %}
+{% endfor %}
+</div>

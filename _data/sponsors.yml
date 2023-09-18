@@ -6,9 +6,6 @@
     - name: Ideas NCBR
       image: "images/optimized/sponsors-600x600/IdeasNCBR.webp"
       url: "https://ideas-ncbr.pl/en/"
-    - name: NASK
-      image: "images/optimized/sponsors-600x600/NASK.webp"
-      url: "https://www.nask.pl/"
     - name: RTB House
       image: "images/optimized/sponsors-600x600/RTBHouse.webp"
       url: "https://www.rtbhouse.com/"
@@ -24,15 +21,31 @@
     - name: Alphamoon
       image: "images/optimized/sponsors-600x600/alphamoon.webp"
       url: "https://alphamoon.ai/"
+    - name: QuickchatAI
+      image: "images/optimized/sponsors-600x600/Quickchat.webp"
+      url: "https://www.quickchat.ai/"
 
-- title: "/ Honorary Partners"
-  imageMaxWidth: 500px
+- title: "/ Partners"
+  imageMaxWidth: 280px
+  imageMaxHeight: 150px
+  margin: 30px 45px
+  sponsors:
+    - name: NASK
+      image: "images/optimized/sponsors-600x600/NASK.webp"
+      url: "https://en.nask.pl/"
+
+- title: "/ Honorary Patronages"
+  imageMaxWidth: 450px
   imageMaxHeight: 250px
   margin: 30px 45px
   sponsors:
+    - name: Minister of Digital Affairs
+      #title: Minister of Digital Affairs
+      image: "images/optimized/honorary-patronages-600x600/MinistryOfDigitialAffairs.webp"
+      url: https://www.mimuw.edu.pl/
     - name: Dean of the Faculty of Mathematics, Informatics and Mechanics
       #title: Dean of the Faculty of Mathematics, Informatics and Mechanics
-      image: "images/optimized/honorary-partners-600x600/MIMUW.webp"
+      image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
       url: https://www.mimuw.edu.pl/
  
 - title: "/ Media partners"
@@ -73,6 +86,9 @@
     - name: Opanuj AI
       image: "images/optimized/partners-600x600/OpanujAI.webp"
       url: https://opanuj.ai/ 
+    - name: Opium
+      image: "images/optimized/partners-600x600/Opium.webp"
+      url: http://opium.sh
     - name: Polish ML Community
       image: "images/optimized/partners-600x600/PolishMLCommunity.webp"
       url: "https://polishml.community/"

@@ -12,6 +12,7 @@ optimize_images () {
 
     echo "Optimizing images in images/${1}, saving to images/optimized/${1}-${2} ..."
     
+    mkdir -p images/optimized
     rm -rf $output_directory
     cp -r $input_directory $output_directory
     cd $output_directory
@@ -21,6 +22,7 @@ optimize_images () {
     rm -f *.jpg *.jpeg *.png *.gif
     unset GLOBIGNORE
 }
+
 
 # Optimize images of organizers and scientific board
 optimize_images organizers 300x300 webp 90
@@ -36,7 +38,7 @@ optimize_images mlss-speakers-2022 600x600 webp 90
 optimize_images sponsors 600x600 webp 90
 optimize_images partners 600x600 webp 90
 optimize_images previous-sponsors 300x300 webp 90
-optimize_images honorary-partners 600x600 webp 90
+optimize_images honorary-patronages 600x600 webp 90
 
 # Optimize AI-generated images
 optimize_images ai-generated 800x800 webp 90
