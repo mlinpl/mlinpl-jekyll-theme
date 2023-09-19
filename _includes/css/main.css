@@ -657,6 +657,14 @@ body {
     width: 100%;
 }
 
+.width-max-300px {
+    max-width: 300px;
+}
+
+.width-max-350px {
+    max-width: 350px;
+}
+
 .width-max-400px {
     max-width: 400px;
 }

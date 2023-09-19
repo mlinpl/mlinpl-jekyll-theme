@@ -136,6 +136,12 @@
   twitter: ""
   image: "images/optimized/organizers-300x300/MaciejKaczkowski.webp"
 
+- name: "Piotr Kitłowski"
+  title: "Finance Team"
+  linkedin: "https://www.linkedin.com/in/piotr-kitlowski/"
+  twitter: ""
+  image: "images/optimized/organizers-300x300/PiotrKitlowski.webp"
+
 - name: "Piotr Komorowski"
   title: "Panel Team"
   linkedin: "https://www.linkedin.com/in/piotr-komorowski/"
@@ -226,6 +232,12 @@
   twitter: ""
   image: "images/optimized/organizers-300x300/KarolinaRomanowska.webp"
 
+- name: "Kacper Skonieczka"
+  title: "Research Platform Team"
+  linkedin: "https://www.linkedin.com/in/kskonieczka01/"
+  twitter: ""
+  image: "images/optimized/organizers-300x300/KacperSkonieczka.webp"
+
 - name: "Jakub Sobolewski"
   title: "Sponsors Team"
   linkedin: "https://www.linkedin.com/in/jakub-sobolewski-3b29a0227/"
@@ -249,12 +261,6 @@
   linkedin: "https://www.linkedin.com/in/jakub-walendowski-982550210/"
   twitter: ""
   image: "images/optimized/organizers-300x300/JakubWalendowski.webp"
-
-- name: "Joanna Wojciechowska"
-  title: "Sponsors Team"
-  linkedin: ""
-  twitter: ""
-  image: "images/optimized/organizers-300x300/JoannaWojciechowska.webp"
 
 - name: "Dima Zhylko"
   title: "Special Ops Team"

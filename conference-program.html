@@ -2,7 +2,7 @@
 layout: page
 content-wrapper: false
 title: Program of ML in PL Conference
-html-title: Program of <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference</span></span>
+html-title: Program of <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference</span></span> (Under Construction)
 permalink: /program
 mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference</span></span>
 ---
@@ -13,15 +13,16 @@ mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="e
         <div class="col-xs-12">
             <h2>/ Agenda</h2>
         </div>
-
-        {% for day in site.data.agenda %}
+    </div>
+    {% for day in site.data.agenda %}
+    <div class="row" style="margin-bottom: 70px;">
         <div class="col-xs-12">
-            <h3>{{ day.title }}</h3>
-            <h4>{{ day.location }}</h4>
+            <h3 style="margin-bottom: 0px;">{{ day.title }}</h3>
+            <h4><i class="fa-solid fa-location-dot"></i> {{ day.location }}</h4>
         </div>
         {% include agenda-day-details.html day=day %}
-        {% endfor %}
     </div>
+    {% endfor %}
 </section>
 
 {% include talks.html talks-title="/ Invited talks" talks-data=site.data.invited-talks %}
@@ -34,4 +35,4 @@ mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="e
 
 {% include talks-tba.html talks-title="/ Student Research Workshop Talks" talks-data=site.data.srw-talks %}
 
-{% include talks-tba.html talks-title="/ Tutorials" talks-data=site.data.tutorials %}
+{% include talks.html talks-title="/ Tutorials" talks-data=site.data.tutorials %}
