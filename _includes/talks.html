@@ -11,14 +11,46 @@ Expects following parameters:
     </div>
     {% for talk in include.talks-data %}
     <div class="row">
-        <div class="speaker-details-image col-md-3">
-            <img src="{{ talk.author-image }}" alt="{{ talk.author-name }} photo" class="person-photo width-100 width-max-400px">
+        <div class="speaker-details-image col-md-3 person text-center">
+            <div class="person-photo-wrapper width-100 width-max-300px" style="margin-bottom: 1em;">
+                <div>
+                    <img src="{{ talk.author-image }}" alt="{{ talk.author-name }} photo">
+                </div>
+            </div>
+            {% if talk.author-image2 %}
+            <div class="person-photo-wrapper width-100 width-max-300px" style="margin-bottom: 1em;">
+                <div>
+                    <img src="{{ talk.author-image2 }}" alt="{{ talk.author-name }} photo">
+                </div>
+            </div>    
+            {% endif %}
+            {% if talk.author-image3 %}
+            <div class="person-photo-wrapper width-100 width-max-300px" style="margin-bottom: 1em;">
+                <div>
+                    <img src="{{ talk.author-image3 }}" alt="{{ talk.author-name }} photo">
+                </div>
+            </div>    
+            {% endif %}
+            {% if talk.author-image4 %}
+            <div class="person-photo-wrapper width-100 width-max-300px" style="margin-bottom: 1em;">
+                <div>
+                    <img src="{{ talk.author-image4 }}" alt="{{ talk.author-name }} photo">
+                </div>
+            </div>    
+            {% endif %}
+            {% if talk.author-image5 %}
+            <div class="person-photo-wrapper width-100 width-max-300px" style="margin-bottom: 1em;">
+                <div>
+                    <img src="{{ talk.author-image5 }}" alt="{{ talk.author-name }} photo">
+                </div>
+            </div>    
+            {% endif %}
         </div>
         <div class="speaker-details-text col-md-9">
             <h2 class="emph-i" style="margin-bottom: 0px;">{{ talk.title }}</h2>
-            <h3><i class="fa-solid fa-user"></i> {{ talk.author-name }} ({{ talk.author-name }}) / <i class="fa-solid fa-calendar-day"></i> {{ talk.time }} </h3>
-            <p><strong>Abstract:</strong><br> {{ talk.abstract }}</p>
-            <p><strong>Biography:</strong><br> {{ talk.author-bio }}</p>
+            <h3><i class="fa-solid fa-user"></i> {{ talk.author-name }} ({{ talk.author-title }}) / <i class="fa-solid fa-calendar-day"></i> {{ talk.time }} </h3>
+            <h4 style="margin-bottom: 0px;"><strong>Abstract:</strong></h4> {{ talk.abstract | markdownify }}
+            <h4 style="margin-bottom: 0px;"><strong>Biography:</strong></h4> {{ talk.author-bio | markdownify }}
         </div>
     </div>
     {% endfor %}

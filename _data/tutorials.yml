@@ -1,0 +1,123 @@
+- title: 'Dancing with censored data: How to survive with explainable survival analysis?'
+  time: TBA
+  abstract: >-
+    As machine learning in survival analysis is gaining popularity, it is becoming crucial for ML practitioners to understand the unique aspects of this type of modeling and effectively interpret survival models.
+
+
+    This tutorial will guide you through a complete journey of examining the machine learning survival models with explainability and interpretability techniques. You will learn about various methods used for survival model analysis, both from the theoretical perspective and use cases. You will also become familiar with practical tools for creating explanations.
+
+
+    We will cover explanation techniques developed specifically for survival analysis (SurvSHAP(t), SurvLIME) but also demonstrate how to apply methods adapted from classification and regression problems in this specific field of survival analysis.
+
+
+    The emphasis will be on the insights these techniques unveil, along with discussions about their limitations, all demonstrated through specially curated examples complemented by code snippets.
+
+
+    The examples showcased during the tutorial will be mostly prepared using the 'survex' package for the R language. However, survex is capable of creating explanations also for models implemented in Python. Furthermore, a part of the tutorial's examples will be presented in Python, too.
+
+  author-name: Mateusz and Mikołaj
+  author-title: MI2.AI
+  author-image: "images/empty.png"
+  author-image2: "images/empty.png"
+  author-bio: >-
+    Mateusz and Mikołaj are researchers within the MI2.AI team, whose focus spans various areas, with a particular interest in explainable artificial intelligence, especially XAI for survival model analysis. They are the authors of the survex package for R, a tool designed to enhance XAI in survival analysis. Their work also extends to innovative methods. They introduced the SurvSHAP(t) technique, offering a new way to explain machine learning survival models in a time-dependent manner. 
+
+
+    Beyond theoretical aspects, their commitment extends to practical applications. This involvement includes close collaboration with medical professionals, facilitating the integration of innovative methodologies into the healthcare landscape.
+
+- title: 'Quickly Build and Deploy Interactive Machine Learning Applications with Streamlit'
+  time: TBA
+  abstract: >-
+    Looking for an easy & engaging way to share your Data Science & Machine Learning contributions to the world?
+
+
+    This 4h workshop is a beginner’s guide to Streamlit, one of the fastest-growing open-source Python libraries to build beautiful and interactive web applications. After setting up a Python local development environment, we will build a web application to explore data and investigate predictive results on a Machine Learning project. We will then deploy it on Streamlit Cloud for free, so it can be linked from a research paper or embedded in a blog post for others to freely interact with the results.
+    
+
+    By the end of the session, you will be able to demonstrate your ML projects on the Internet or to stakeholders through fully interactive & easy to use web apps.
+    
+
+    This event is best suited for practitioners with some experience in Python. 
+
+  author-name: Fanilo Andrianasolo
+  author-title: Worldline
+  author-image: "images/empty.png"
+  author-bio: >-
+    Fanilo Andrianasolo is a Data & AI Strategist at Worldline, with a decade of experience prototyping and deploying Data Analytics features for customer projects / company products in retail, telecommunications and banking.
+    
+
+    Following years of delivering tutorials on Big Data & MLOps to Master students at Université Lumière Lyon 2, he started a Youtube channel as a side-project, where he covers Streamlit in depth to build and share Data projects as Web Applications.
+    
+
+    Drawing from his experience in Educational Video Production, Fanilo now also mentors Developer Advocates in Content Creation & Community Building. His current goal is to inspire the next generation of Data People to showcase their works and impact the world in a positive way.
+
+- title: 'Graph representation learning and graph classification'
+  time: TBA
+  abstract: >-
+    Graphs are one of the most general structures that we can process with machine learning. However, as combinatorial and non-Euclidean structures, with unique invariants, they present unique challenges for representation learning. Traditional approaches, such as graph descriptors or graph kernels, focus solely on graph topology. Recent rise of graph neural networks (GNNs) allow us to utilize rich information such as node and edge labels, and include complex subgraph interactions into learned representations. In this tutorial I will outline both classical approaches and modern GNNs. Starting from spectral graph theory, we will introduce the message-passing paradigm, convolutional and attentional GNN architectures. I will focus on graph classification problems, with applications for challenging domains, such as molecular property prediction. Finally, we will introduce the current research problems such as oversmoothing, effective pretraining strategies and fair evaluation.
+
+
+    **Description and outline:** Tutorial will cover 3 approaches to graph classification: graph invariants (feature engineering), graph kernels and graph neural networks (GNNs). The largest focus will be on the latter. I will start with graph descriptors (invariants), as the most basic, and present classical topological features for graph classification, e.g. with centrality measures or community detection indexes. The example models will be Local Degree Profile (LDP) and Local Topological Profile (LTP), implemented with torch-scatter and networkit, and applied for non-attributed graph classification, e.g. for social networks. For graph kernels, I will present the most well-known topological kernels such as random walk kernel, implemented with GraKeL library and applied for bioinformatics dataset, e.g. proteins. For both of those approaches, I will discuss their advantages and disadvantages, especially in terms of attributed graphs (both nodes and edges), and scalability. For graph neural networks, we will start with Graph Convolutional Network (GCN) as a spectral graph convolution, and then go into the message-passing paradigm with GraphSAGE, GAT and GIN. We will implement them with PyTorch Geometric and apply for molecular property prediction. Lastly, we will review interesting areas of GNN research and development, e.g. oversmoothing (e.g. skip connections, directional message passing), pretraining strategies (e.g. Deep Graph Infomax, graph transformers) and fair evaluation. In general, the tutorial will start from the basics and will not require any specific knowledge apart from undergraduate level mathematics, Python and ML.
+
+
+    **Goals:** Attendees will learn about graph representation learning approaches, their strengths and weaknesses. In particular, we will focus on GNNs, so they will have a strong foundation for modern methods for graph classification. This can also be applied for node classification, link prediction and other graph-based learning tasks. We will also introduce efficient frameworks, and implement example models.
+
+  author-name: Jakub Adamczyk
+  author-title: AGH University of Cracow
+  author-image: "images/empty.png"
+  author-bio: >-
+    Jakub Adamczyk is a PhD candidate at AGH University of Cracow, and Data Science graduate. His research work concerns supervised learning on graphs, in particular for molecular property prediction. He also works as a Data Science Engineer at Placewise, developing models for serverless ML in NLP and computer vision. He spends his free time doing Historical European Martial Arts (HEMA).
+
+- title: 'Generative Methods in Drug Discovery: A Practical Introduction'
+  time: TBA
+  abstract: >-
+    The drug discovery process is a search for a compound that possesses a number of properties such as high activity or low toxicity. In recent years, there has been a rapid development of methods for generating potential drugs using neural networks.   During the workshop, we will generate a set of compounds that satisfy a certain set of criteria. We will pay special attention to synthesizability and activity. We will focus on practical techniques that are popular in the drug discovery space.  The workshop goal is to illustrate practical and realistic challenges in generating active molecules. One common issue is that the training data might be limited and noisy, due to the high cost of biological experiments. As such generated compounds might be biased and work poorly in reality.   Another issue is that compounds predicted to be active might be very hard to synthesize. Balancing the ease of synthesis with finding highly active compounds is an ongoing challenge.  During the workshop, we will host a leaderboard for participants to submit and score their generated compounds.
+
+
+    **Description and outline:** We will cover generating compounds for targets from the TDC leaderboard such as DRD2 using popular techniques (we will likely pick between REINVENT and genetic algorithms). We will host a leaderboard for participants to submit and score their generated compounds.
+
+
+    **Goals:** We would like attendees to understand what is de novo drug discovery, what are its challenges (e.g. OOD generalization, synthesizability, and many more), and reimplement some rudimentary techniques for generating compounds.
+
+  author-name: Stanislaw Jastrzebski
+  author-title: Molecule.one
+  author-image: "images/empty.png"
+  author-bio: >-
+    Stanislaw Jastrzebski serves as the CTO and Chief Scientist at Molecule.one, a biotech startup in the drug discovery space. He is passionate about improving the fundamental aspects of deep learning and applying it to automate scientific discovery. He completed his postdoctoral training at New York University in deep learning. His PhD thesis was based on work on foundations of deep learning done during research visits at MILA (with Yoshua Bengio) and the University of Edinburgh (with Amos Storkey). He received his PhD from Jagiellonian University, advised by Jacek Tabor. Beyond academia, he gained industrial experience at Google, Microsoft and Palantir. In his scientific work, he has published at leading machine learning venues (NeurIPS, ICLR, ICML, JMLR, Nature SR). He is also actively contributing to the machine learning community as an Area Chair (most recently NeurIPS '23) and as an Action Editor for TMLR. At Molecule.one, he leads technical teams working on software for synthesis planning based on deep learning, public data sources, and experiments from a highly automated laboratory. 
+
+- title: 'What is possible in real-time machine learning?'
+  time: TBA
+  abstract: >-
+    “The only constant thing in life is change”. A lot of modern data processing applications work with data streams and changing data inputs, and their objective is to provide up-to-date outcomes with low latency at high data throughput.
+
+
+    In this tutorial, we look at how to design dynamic data processing algorithms in a systematic way, and to implement them in an actual distributed streaming system. A major challenge here is the design of dynamic algorithms ready for different input data scenarios: data streams with insertion, deletion, arrival of data out-of-order, backfilling, etc.
+
+
+    We center the discussion around designing iterative machine learning algorithms, especially  graph algorithms and nearest neighbor methods for time-changing data. For this task, we provide examples of code in Pathway, a new performant data processing framework, for bounded and unbounded data streams, equipped with a Table API in Python, and powered by a distributed incremental dataflow in Rust.
+
+
+    In the course of a hands-on code tutorial, we will first show which machine learning algorithms can be implemented to quickly react to training data changes and how they can efficiently keep on updating their answers to the known test cases. We will then use them to design a reactive knowledge base for a Large Language Model chatbot application, showing how it is possible to integrate multiple data sources, learn in real time from its answers, or maintain up-to-date bot answers in the presence of knowledge-base changes.
+
+
+  author-name: Jan Chorowski, Przemek Uznański, Michał Bartoszkiewicz, Mateusz Lewandowski, Krzysztof Nowicki
+  author-title: Pathway
+  author-image: "images/empty.png"
+  author-image2: "images/empty.png"
+  author-image3: "images/empty.png"
+  author-image4: "images/empty.png"
+  author-image5: "images/empty.png"
+  author-bio: >-
+    Jan Chorowski is the CTO at Pathway working on realtime data processing frameworks. He received his M.Sc. degree in electrical engineering from Wrocław University of Technology and Ph.D. from University of Louisville. He has worked at the University of Wroclaw and has collaborated with several research teams, including Google Brain, Microsoft Research and Yoshua Bengio’s lab.
+
+
+    Przemek Uznański is the streaming algorithms and data structure expert at Pathway, and a former competitive programmer (finalist of ACM ICPC, TopCoder Open and Facebook HackerCup). He did his PhD at the INRIA Bordeaux on the topic of distributed computing, then was a Post-doc at ETH Zurich, Aalto (Finland), and in Marseille. He was an assistant professor at University of Wrocław
+
+
+    Michał Bartoszkiewicz: Michal designs the Pathway data processing framework. He is a competitive programmer with a long list of achievements including Topcoder finals, Google Code Jam and Facebook HackerCup. He co-founded nasza-klasa.pl, the first Polish social network.
+
+
+    Mateusz Lewandowski obtained his Ph.D. in Computer Science from the University of Wrocław in the field of combinatorial optimization and network design. Prior joining Pathway - the data processing and logistics company - he gained valuable experiences during his stays in EPFL (École polytechnique fédérale de Lausanne), Google Zürich and Horváth's Steering Lab in Munich.
+
+
+    Krzysztof Nowicki is a Datastore Research Engineer at Pathway. Prior to that, Krzysztof obtained his PhD student at Univ. of Wrocław, after which he was a postdoc at Univ. of Copenhagen. His areas of interest focus on the algorithms for big data sets (distributed, parallel, real-time). For his research on graph algorithms, he was awarded Lipski Prize (2020) and the Prime Minister Prize for the best PhD theses (2022).  At Pathway, he works on algorithms and data structures for processing streams of data in real time.
