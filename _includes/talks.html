@@ -10,7 +10,7 @@ Expects following parameters:
         </div>
     </div>
     {% for talk in include.talks-data %}
-    <div class="row">
+    <div class="row" style="margin-bottom: 35px;">
         <div class="speaker-details-image col-md-3 person text-center">
             <div class="person-photo-wrapper width-100 width-max-300px" style="margin-bottom: 1em;">
                 <div>
@@ -47,8 +47,9 @@ Expects following parameters:
             {% endif %}
         </div>
         <div class="speaker-details-text col-md-9">
-            <h2 class="emph-i" style="margin-bottom: 0px;">{{ talk.title }}</h2>
-            <h3><i class="fa-solid fa-user"></i> {{ talk.author-name }} ({{ talk.author-title }}) / <i class="fa-solid fa-calendar-day"></i> {{ talk.time }} </h3>
+            <h2 class="emph-i bold" style="margin-bottom: 0px;">{{ talk.title }}</h2>
+            <h3 style="margin-bottom: 0;"><i class="fa-solid fa-user"></i> {{ talk.author-name }} ({{ talk.author-title }})</h3>
+            <h3><i class="fa-solid fa-calendar-day"></i> {{ talk.time }} </h3>
             <h4 style="margin-bottom: 0px;"><strong>Abstract:</strong></h4> {{ talk.abstract | markdownify }}
             <h4 style="margin-bottom: 0px;"><strong>Biography:</strong></h4> {{ talk.author-bio | markdownify }}
         </div>

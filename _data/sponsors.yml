@@ -1,4 +1,13 @@
-- title: '/ <span style="color: #F1C233;">Gold sponsors</span>'
+- title: '/ <span class="platinium-shine-text">Platinium sponsors</span>'
+  imageMaxWidth: 400px
+  imageMaxHeight: 220px
+  margin: 45px 60px
+  sponsors:
+    - name: G-Resaerch
+      image: "images/optimized/sponsors-600x600/GResearch.webp"
+      url: "https://ideas-ncbr.pl/en/"
+
+- title: '/ <span class="gold-shine-text">Gold sponsors</span>'
   imageMaxWidth: 280px
   imageMaxHeight: 150px
   margin: 30px 45px
@@ -6,11 +15,14 @@
     - name: Ideas NCBR
       image: "images/optimized/sponsors-600x600/IdeasNCBR.webp"
       url: "https://ideas-ncbr.pl/en/"
+    - name: Pearson
+      image: "images/optimized/sponsors-600x600/Pearson.webp"
+      url: "https://www.pearson.pl/"
     - name: RTB House
       image: "images/optimized/sponsors-600x600/RTBHouse.webp"
       url: "https://www.rtbhouse.com/"
 
-- title: '/ <span style="color: #A0A0A0;">Silver sponsors</span>'
+- title: '/ <span class="silver-shine-text">Silver sponsors</span>'
   imageMaxWidth: 280px
   imageMaxHeight: 150px
   margin: 30px 45px
@@ -35,16 +47,24 @@
       url: "https://en.nask.pl/"
 
 - title: "/ Honorary Patronages"
-  imageMaxWidth: 450px
-  imageMaxHeight: 250px
-  margin: 30px 45px
+  imageMaxWidth: 400px
+  imageMaxHeight: 220px
+  margin: 45px 60px
   sponsors:
     - name: Minister of Digital Affairs
       #title: Minister of Digital Affairs
       image: "images/optimized/honorary-patronages-600x600/MinistryOfDigitialAffairs.webp"
       url: https://www.mimuw.edu.pl/
+    - name: GovTech
+      #title: Minister of Digital Affairs
+      image: "images/honorary-patronages/govtech.svg"
+      url: https://www.mimuw.edu.pl/
+    - name: University of Warsaw
+      title: Rector of University of Warsaw
+      image: "images/optimized/honorary-patronages-600x600/UW.webp"
+      url: https://www.mimuw.edu.pl/
     - name: Dean of the Faculty of Mathematics, Informatics and Mechanics
-      #title: Dean of the Faculty of Mathematics, Informatics and Mechanics
+      title: Dean of the Faculty of Mathematics, Informatics and Mechanics UW
       image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
       url: https://www.mimuw.edu.pl/
  

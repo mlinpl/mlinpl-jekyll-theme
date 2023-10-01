@@ -15,6 +15,7 @@
         padding-left: 30px;
     }
 
+    /* Fix for nested rows */
     .row .row{
         margin-right: -30px;
         margin-left: -30px;
@@ -997,6 +998,9 @@ body {
     text-align: center;
 }
 
+
+/* Helpers and misc */
+
 .bg-active{
     background: {{ site.color.main }};
     color: {{ site.color.background }};
@@ -1006,3 +1010,66 @@ body {
     background: #666;
     color: {{ site.color.background }};
 }
+
+@keyframes shine-animation {
+    to {background-position: right}
+}
+
+.platinium-shine-text {
+    background: linear-gradient(90deg, 
+        rgba(146, 166, 183, 1) 10%, 
+        rgba(201, 214, 228, 1) 25%, 
+        rgba(146, 166, 183, 1) 40%, 
+        rgba(238, 240, 242, 1) 50%, 
+        rgba(146, 166, 183, 1) 60%, 
+        rgba(201, 214, 228, 1) 75%, 
+        rgba(146, 166, 183, 1) 90%
+    );
+}
+
+.gold-shine-text {
+    background: linear-gradient(90deg, 
+        rgba(188, 136, 30, 1) 10%, 
+        rgba(224, 196, 85, 1) 25%, 
+        rgba(188, 136, 30, 1) 40%, 
+        rgba(234, 225, 199, 1) 50%, 
+        rgba(188, 136, 30, 1) 60%, 
+        rgba(224, 196, 85, 1) 75%, 
+        rgba(188, 136, 30, 1) 90%
+    );
+}
+
+.silver-shine-text {
+    background: linear-gradient(90deg, 
+        rgba(143, 144, 143, 1) 10%, 
+        rgba(217, 219, 220, 1) 25%, 
+        rgba(143, 144, 143, 1) 40%, 
+        rgba(238, 240, 242, 1) 50%, 
+        rgba(143, 144, 143, 1) 60%, 
+        rgba(217, 219, 220, 1) 75%, 
+        rgba(143, 144, 143, 1) 90%
+    );
+}
+
+.bronze-shine-text {
+    background: linear-gradient(90deg, 
+        rgba(150, 124, 98, 1) 10%, 
+        rgba(197, 169, 141, 1) 25%, 
+        rgba(150, 124, 98, 1) 40%, 
+        rgba(222, 213, 204, 1) 50%, 
+        rgba(150, 124, 98, 1) 60%, 
+        rgba(197, 169, 141, 1) 75%, 
+        rgba(150, 124, 98, 1) 90%
+    );
+}
+
+.bronze-shine-text, .silver-shine-text, .gold-shine-text, .platinium-shine-text {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;	
+  animation: shine-animation 8s infinite;
+  background-size: 200%;
+  background-position: left;
+  padding: 0 50px;
+  margin: 0 -50px;
+}
+
