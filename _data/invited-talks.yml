@@ -1,6 +1,8 @@
 - title: TBA
   abstract: TBA
-  time: Friday, 12:30 - 13:30 / Lecture Hall
+  data: Thursday / 26 October
+  time: 12:30 - 13:30 
+  room: Main Lecture Hall
   author-name: Léon Bottou
   author-title: Meta AI
   author-image: images/optimized/speakers-2023-600x600/LeonBottou.webp
@@ -10,7 +12,9 @@
 
 - title: TBA
   abstract: TBA
-  time: Friday, 17:35 - 18:35 / Lecture Hall
+  data: Thursday / 26 October
+  time: 17:35 - 18:35
+  room: Main Lecture Hall
   author-name: Volodymyr Mnih
   author-title: Google DeepMind
   author-image: images/optimized/speakers-2023-600x600/VolodymyrMnih.webp

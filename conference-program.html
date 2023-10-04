@@ -25,14 +25,14 @@ mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="e
     {% endfor %}
 </section>
 
-{% include talks.html talks-title="/ Invited talks" talks-data=site.data.invited-talks %}
+{% include talks.html talks-title="/ Invited talks" talks-data=site.data.invited-talks talk-title-prefix="Invited talk" %}
 
 {% include conference/panels.html %}
 
-{% include talks-tba.html talks-title="/ Contributed talks" talks-data=site.data.contributed-talks %}
+{% include talks.html talks-title="/ Contributed talks" talks-data=site.data.contributed-talks talk-title-prefix="Contributed talk" %}
 
-{% include talks-tba.html talks-title="/ Posters" talks-data=site.data.posters %}
+{% include talks.html talks-title="/ Posters" talks-data=site.data.posters talk-title-prefix="Poster" %}
 
-{% include talks-tba.html talks-title="/ Student Research Workshop Talks" talks-data=site.data.srw-talks %}
+{% include talks.html talks-title="/ Student Research Workshop (SRW) Talks" talks-data=site.data.student-research-workshop-talks talk-title-prefix="SRW Talk" %}
 
-{% include talks.html talks-title="/ Tutorials" talks-data=site.data.tutorials %}
+{% include talks.html talks-title="/ Tutorials" talks-data=site.data.tutorials talk-title-prefix="Tutorial" %}

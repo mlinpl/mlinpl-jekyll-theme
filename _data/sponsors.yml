@@ -60,11 +60,11 @@
       image: "images/honorary-patronages/govtech.svg"
       url: https://www.mimuw.edu.pl/
     - name: University of Warsaw
-      title: Rector of University of Warsaw
+      #title: Rector of University of Warsaw
       image: "images/optimized/honorary-patronages-600x600/UW.webp"
       url: https://www.mimuw.edu.pl/
     - name: Dean of the Faculty of Mathematics, Informatics and Mechanics
-      title: Dean of the Faculty of Mathematics, Informatics and Mechanics UW
+      #title: Dean of the Faculty of Mathematics, Informatics and Mechanics UW
       image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
       url: https://www.mimuw.edu.pl/
  
@@ -118,6 +118,9 @@
     - name: Quantum AI Foundation
       image: "images/optimized/partners-600x600/QuantumAIFoundation.webp"
       url: "https://www.qaif.org"
+    - name: SKN Data Science
+      image: "images/optimized/partners-600x600/SKNDataScience.webp"
+      url: https://www.linkedin.com/company/skndatascience
     - name: SpeakLeash
       image: "images/optimized/partners-600x600/SpeakLeash.webp"
       url: https://speakleash.org/en/speakleash-a-k-a-spichlerz-english/
