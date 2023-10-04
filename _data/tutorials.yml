@@ -1,6 +1,8 @@
 - title: 'Dancing with censored data: How to survive with explainable survival analysis?'
+  date: Sunday / 29 October
   time: TBA
-  abstract: >-
+  room: TBA
+  desc-md: >-
     As machine learning in survival analysis is gaining popularity, it is becoming crucial for ML practitioners to understand the unique aspects of this type of modeling and effectively interpret survival models.
 
 
@@ -14,20 +16,26 @@
 
 
     The examples showcased during the tutorial will be mostly prepared using the 'survex' package for the R language. However, survex is capable of creating explanations also for models implemented in Python. Furthermore, a part of the tutorial's examples will be presented in Python, too.
+  authors:
+    - name: Mateusz Krzyziński
+      title: MI2.AI
+      image: images/optimized/cfc-2023-600x600/MateuszKrzyziński.webp
 
-  author-name: Mateusz and Mikołaj
-  author-title: MI2.AI
-  author-image: "images/empty.png"
-  author-image2: "images/empty.png"
-  author-bio: >-
-    Mateusz and Mikołaj are researchers within the MI2.AI team, whose focus spans various areas, with a particular interest in explainable artificial intelligence, especially XAI for survival model analysis. They are the authors of the survex package for R, a tool designed to enhance XAI in survival analysis. Their work also extends to innovative methods. They introduced the SurvSHAP(t) technique, offering a new way to explain machine learning survival models in a time-dependent manner. 
+    - name: Mikołaj Spytek
+      title: MI2.AI
+      image: images/optimized/cfc-2023-600x600/MikołajSpytek.webp
+
+  author-bio-md: >-
+    Mateusz Krzyziński and Mikołaj Spytek are researchers within the MI2.AI team, whose focus spans various areas, with a particular interest in explainable artificial intelligence, especially XAI for survival model analysis. They are the authors of the survex package for R, a tool designed to enhance XAI in survival analysis. Their work also extends to innovative methods. They introduced the SurvSHAP(t) technique, offering a new way to explain machine learning survival models in a time-dependent manner. 
 
 
     Beyond theoretical aspects, their commitment extends to practical applications. This involvement includes close collaboration with medical professionals, facilitating the integration of innovative methodologies into the healthcare landscape.
 
 - title: 'Quickly Build and Deploy Interactive Machine Learning Applications with Streamlit'
+  date: Sunday / 29 October
   time: TBA
-  abstract: >-
+  room: TBA
+  desc-md: >-
     Looking for an easy & engaging way to share your Data Science & Machine Learning contributions to the world?
 
 
@@ -41,8 +49,8 @@
 
   author-name: Fanilo Andrianasolo
   author-title: Worldline
-  author-image: "images/empty.png"
-  author-bio: >-
+  author-image: images/optimized/cfc-2023-600x600/FaniloAndrianasolo.webp
+  author-bio-md: >-
     Fanilo Andrianasolo is a Data & AI Strategist at Worldline, with a decade of experience prototyping and deploying Data Analytics features for customer projects / company products in retail, telecommunications and banking.
     
 
@@ -52,8 +60,10 @@
     Drawing from his experience in Educational Video Production, Fanilo now also mentors Developer Advocates in Content Creation & Community Building. His current goal is to inspire the next generation of Data People to showcase their works and impact the world in a positive way.
 
 - title: 'Graph representation learning and graph classification'
+  date: Sunday / 29 October
   time: TBA
-  abstract: >-
+  room: TBA
+  desc-md: >-
     Graphs are one of the most general structures that we can process with machine learning. However, as combinatorial and non-Euclidean structures, with unique invariants, they present unique challenges for representation learning. Traditional approaches, such as graph descriptors or graph kernels, focus solely on graph topology. Recent rise of graph neural networks (GNNs) allow us to utilize rich information such as node and edge labels, and include complex subgraph interactions into learned representations. In this tutorial I will outline both classical approaches and modern GNNs. Starting from spectral graph theory, we will introduce the message-passing paradigm, convolutional and attentional GNN architectures. I will focus on graph classification problems, with applications for challenging domains, such as molecular property prediction. Finally, we will introduce the current research problems such as oversmoothing, effective pretraining strategies and fair evaluation.
 
 
@@ -64,13 +74,15 @@
 
   author-name: Jakub Adamczyk
   author-title: AGH University of Cracow
-  author-image: "images/empty.png"
+  author-image: images/optimized/cfc-2023-600x600/JakubAdamczyk.webp
   author-bio: >-
     Jakub Adamczyk is a PhD candidate at AGH University of Cracow, and Data Science graduate. His research work concerns supervised learning on graphs, in particular for molecular property prediction. He also works as a Data Science Engineer at Placewise, developing models for serverless ML in NLP and computer vision. He spends his free time doing Historical European Martial Arts (HEMA).
 
 - title: 'Generative Methods in Drug Discovery: A Practical Introduction'
+  date: Sunday / 29 October
   time: TBA
-  abstract: >-
+  room: TBA
+  desc-md: >-
     The drug discovery process is a search for a compound that possesses a number of properties such as high activity or low toxicity. In recent years, there has been a rapid development of methods for generating potential drugs using neural networks.   During the workshop, we will generate a set of compounds that satisfy a certain set of criteria. We will pay special attention to synthesizability and activity. We will focus on practical techniques that are popular in the drug discovery space.  The workshop goal is to illustrate practical and realistic challenges in generating active molecules. One common issue is that the training data might be limited and noisy, due to the high cost of biological experiments. As such generated compounds might be biased and work poorly in reality.   Another issue is that compounds predicted to be active might be very hard to synthesize. Balancing the ease of synthesis with finding highly active compounds is an ongoing challenge.  During the workshop, we will host a leaderboard for participants to submit and score their generated compounds.
 
 
@@ -81,13 +93,15 @@
 
   author-name: Stanislaw Jastrzebski
   author-title: Molecule.one
-  author-image: "images/empty.png"
-  author-bio: >-
+  author-image: images/optimized/cfc-2023-600x600/StanislawJastrzebski.webp
+  author-bio-md: >-
     Stanislaw Jastrzebski serves as the CTO and Chief Scientist at Molecule.one, a biotech startup in the drug discovery space. He is passionate about improving the fundamental aspects of deep learning and applying it to automate scientific discovery. He completed his postdoctoral training at New York University in deep learning. His PhD thesis was based on work on foundations of deep learning done during research visits at MILA (with Yoshua Bengio) and the University of Edinburgh (with Amos Storkey). He received his PhD from Jagiellonian University, advised by Jacek Tabor. Beyond academia, he gained industrial experience at Google, Microsoft and Palantir. In his scientific work, he has published at leading machine learning venues (NeurIPS, ICLR, ICML, JMLR, Nature SR). He is also actively contributing to the machine learning community as an Area Chair (most recently NeurIPS '23) and as an Action Editor for TMLR. At Molecule.one, he leads technical teams working on software for synthesis planning based on deep learning, public data sources, and experiments from a highly automated laboratory. 
 
 - title: 'What is possible in real-time machine learning?'
+  date: Sunday / 29 October
   time: TBA
-  abstract: >-
+  room: TBA
+  desc-md: >-
     “The only constant thing in life is change”. A lot of modern data processing applications work with data streams and changing data inputs, and their objective is to provide up-to-date outcomes with low latency at high data throughput.
 
 
@@ -100,14 +114,28 @@
     In the course of a hands-on code tutorial, we will first show which machine learning algorithms can be implemented to quickly react to training data changes and how they can efficiently keep on updating their answers to the known test cases. We will then use them to design a reactive knowledge base for a Large Language Model chatbot application, showing how it is possible to integrate multiple data sources, learn in real time from its answers, or maintain up-to-date bot answers in the presence of knowledge-base changes.
 
 
-  author-name: Jan Chorowski, Przemek Uznański, Michał Bartoszkiewicz, Mateusz Lewandowski, Krzysztof Nowicki
-  author-title: Pathway
-  author-image: "images/empty.png"
-  author-image2: "images/empty.png"
-  author-image3: "images/empty.png"
-  author-image4: "images/empty.png"
-  author-image5: "images/empty.png"
-  author-bio: >-
+  authors:
+    - name: Jan Chorowski
+      title: Pathway
+      image: images/optimized/cfc-2023-600x600/JanChorowski.webp
+
+    - name: Przemek Uznański
+      title: Pathway
+      image: images/optimized/cfc-2023-600x600/PrzemekUznański.webp
+
+    - name: Michał Bartoszkiewicz
+      title: Pathway
+      image: images/optimized/cfc-2023-600x600/MichałBartoszkiewicz.webp
+
+    - name: Mateusz Lewandowski
+      title: Pathway
+      image: images/optimized/cfc-2023-600x600/MateuszLewandowski.webp
+
+    - name: Krzysztof Nowicki
+      title: Pathway
+      image: images/optimized/cfc-2023-600x600/KrzysztofNowicki.webp
+
+  author-bio-md: >-
     Jan Chorowski is the CTO at Pathway working on realtime data processing frameworks. He received his M.Sc. degree in electrical engineering from Wrocław University of Technology and Ph.D. from University of Louisville. He has worked at the University of Wroclaw and has collaborated with several research teams, including Google Brain, Microsoft Research and Yoshua Bengio’s lab.
 
 

@@ -23,6 +23,28 @@ CONFIGS = {
                 "images/empty.png",
             ),
         },
+    },
+    "cfc": {
+        "sort_values": ["id", "time", "room"],
+        "fields": {
+            "author-name": lambda row: row["author-name"].strip(),
+            "title": lambda row: '"' + row["title"].strip() + '"',
+            "author-title": lambda row: '"' + row["affiliation"].strip() + '"',
+            "abstract": lambda row: ">- \n    " + row["abstract"].strip().replace("\n", "\n    "),
+            "author-bio": lambda row: ">- \n    " + row["author-bio"].strip().replace("\n", "\n    "),
+            "co-authors": lambda row: row["co-authors"].strip(),
+            "date": lambda row: row["day"].strip(),
+            "time": lambda row: row["time"].strip(),
+            "room": lambda row: row["room"].strip(),
+            "session": lambda row: row["session"].strip(),
+            "id": lambda row: row["id"],
+            "author-image": lambda row: get_file(
+                os.path.join(
+                    "images/optimized/cfc-2023-600x600/", row["photo"].split(".")[0] + ".webp",
+                ),
+                "images/empty.png",
+            ),
+        },
     }
 }
 
@@ -88,7 +110,7 @@ def main(input_file, output_file, config):
                     file.write("- ")
                 else:
                     file.write("  ")
-                file.write(f'{field}: "{func(row)}"\n')
+                file.write(f'{field}: {func(row)}\n')
                 df.loc[id, field] = func(row)
             file.write("\n")
             i += 1

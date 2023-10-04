@@ -33,6 +33,7 @@ optimize_images previous-speakers 300x300 webp 90
 optimize_images speakers-2023 600x600 webp 90
 optimize_images mlss-speakers-2023 600x600 webp 90
 optimize_images mlss-speakers-2022 600x600 webp 90
+optimize_images cfc-2023 600x600 webp 90
 
 # Optimize sponsors and partners logos
 optimize_images sponsors 600x600 webp 90

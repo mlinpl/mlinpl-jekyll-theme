@@ -1,0 +1,30 @@
+{% comment %}
+Expects following parameters:
+    content
+{% endcomment %}
+
+{% assign string = include.content | split: "." %}
+{% assign shortstr = "" %}
+{% assign morestr = "" %}
+
+{% for sentence in string %}
+  {% assign tempstr = shortstr | append: sentence %}
+  {% if tempstr.size < 500 %}
+    {% assign shortstr = tempstr | join: "." %}
+  {% else %}
+    {% assign tempstr = morestr | append: sentence %}
+    {% assign morestr = tempstr | join: "." %}
+  {% endif %}
+{% endfor %}
+
+{% if morestr.size > 0 %}
+<input type="checkbox" class="read-more-state" id="more-{{ include.content | truncate: 50, "" | slugify }}" />
+<p class="read-more-wrap">
+    {{ shortstr }}. <span class="read-more-target">{{ morestr }}.</span>
+</p>
+<label for="more-{{ include.content | truncate: 50, "" | slugify }}" class="btn btn-default read-more-trigger"></label>
+{% else %}
+<p>
+    {{ include.content }}
+</p>
+{% endif %}

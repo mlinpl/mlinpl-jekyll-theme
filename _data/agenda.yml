@@ -1,5 +1,6 @@
-- title: Thursday / 26 September
-  location: SGH Warsaw School of Economics
+- title: Thursday / 26 October
+  # location: SGH Warsaw School of Economics
+  location: TBA
   sessions:
     - events: 
         - title: Student Research Workshop
@@ -26,7 +27,7 @@
           time: 12:30 - 13:30
           room: Lecture Hall
     - events:
-        - title: '<i class="fa-solid fa-mug-saucer"></i> Coffe-break'
+        - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee-break'
           element-class: col-lg-12
           time: 13:30 - 14:00
     - events:
@@ -44,7 +45,7 @@
           time: 16:15 - 17:05
           room: Lecture Hall
     - events:
-        - title: '<i class="fa-solid fa-mug-saucer"></i> Coffe-break'
+        - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee-break'
           element-class: col-lg-12
           time: 17:05 - 17:35
     - events:
@@ -53,7 +54,7 @@
           time: 17:35 - 18:35
           room: Lecture Hall
     - events:
-        - title: '<i class="fa-solid fa-mug-saucer"></i> Coffe-break'
+        - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee-break'
           element-class: col-lg-12
           time: 18:35 - 19:00
     - events:
@@ -61,13 +62,13 @@
           element-class: col-lg-12
           time: 19:00 - 20:00
           room: Lecture Hall
-    - events:
-        - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party'
-          element-class: col-lg-12
-          time: 21:00
-          room: TBA
+    # - events:
+    #     - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party'
+    #       element-class: col-lg-12
+    #       time: 21:00
+    #       room: TBA
 
-- title: Friday / 27 September
+- title: Friday / 27 October
   location: Copernicus Science Centre, Warszawa
   sessions:
     - events:
@@ -101,7 +102,7 @@
           time: 10:00 - 11:15
           room: Room C
     - events:
-        - title: '<i class="fa-solid fa-mug-saucer"></i> Coffe-break'
+        - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee-break'
           element-class: col-lg-12
           time: 11:15 - 11:45
     - events: 
@@ -148,11 +149,11 @@
           time: 15:15 - 16:30
           room: Room C
     - events:
-        - title: 'Poster Session + <i class="fa-solid fa-mug-saucer"></i> Coffe'
+        - title: 'Poster Session + <i class="fa-solid fa-mug-saucer"></i> Coffee'
           element-class: col-lg-12
           time: 16:30 - 18:30
 
-- title: Saturday / 28 September
+- title: Saturday / 28 October
   location: Copernicus Science Centre, Warszawa
   sessions:
     - events:
@@ -173,7 +174,7 @@
           time: 09:00 - 10:00
           room: Room C
     - events:
-        - title: 'Poster Session + <i class="fa-solid fa-mug-saucer"></i> Coffe'
+        - title: 'Poster Session + <i class="fa-solid fa-mug-saucer"></i> Coffee'
           element-class: col-lg-12
           time: 10:00 - 12:00
     - events: 
@@ -211,11 +212,12 @@
           element-class: col-lg-12
           time: 15:15 - 15:45
 
-- title: Sunday / 29 September
+- title: Sunday / 29 October
+  note: Due to limited number of seats, attending tutorials require separate registration (see <a href="#tickets">tickets section</a>).
   location: Faculty of Mathematics and Information Science, Warsaw University of Technology
   sessions:
     - events:
-        - title: Workshop registration
+        - title: Tutorials registration
           element-class: col-lg-12
           time: 08:30 - 09:00
     - events:

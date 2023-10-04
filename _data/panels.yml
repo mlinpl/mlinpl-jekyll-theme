@@ -1,4 +1,8 @@
 - name: Open Source
+  date: Thursday / 26 October
+  room: Main Lecture Hall
+  time: 14:00 - 15:00
+  id: 1
   desc: >-
     Join us for an engaging panel discussion on Open Source, where we will delve into the intricacies of opening AI models. Our panelists will provide valuable insights and thought-provoking perspectives on the benefits and risks associated with this practice.
   panelists:
@@ -23,6 +27,10 @@
         Previously, Omar worked at Google as a Software Engineer on Google Assistant and TensorFlow. In Google Assistant, Omar worked with on-device language models, model training and quality refinement, and serving infrastructure.
 
 - name: Generative models
+  date: Friday / 27 October
+  room: Main Lecture Hall
+  time: 11:45 - 13:15
+  id: 2
   desc: >-
       During our panel discussion, immerse yourself in the captivating "Generative Models" realm. Prepare to be enthralled as our panelists explore the profound impact of Generative AI and its wide-ranging implications. We will delve into the potential opportunities and risks arising from these models.
   panelists:
@@ -43,6 +51,10 @@
       bio: '<span style="height: 220px; width: 1px; display: inline-block;"></span>'
 
 - name: Human in the loop
+  date: Saturday / 28 October
+  room: Main Lecture Hall
+  time: 14:15 - 15:15
+  id: 3
   desc: >-
     Join us for a panel discussion on the intriguing concept of "Human in the Loop." Delve into the topic of training models with human involvement as our panelists shed light on harnessing human expertise to enhance AI models. We will explore the effectiveness of leveraging human insights, assess their inherent value, and uncover the true potential they hold.
   panelists:

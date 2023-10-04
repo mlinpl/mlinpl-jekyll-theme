@@ -12,7 +12,7 @@ Expects following parameters:
         {% if logo.url %}
         <a href="{{ logo.url }}" target="_blank">
         {% endif %}
-            <img style="max-width: {{ include.imageMaxWidth }}; max-height: {{ include.imageMaxHeight }};" src="{{ logo.image | relative_url }}" alt="{{ logo.name }} logo">
+            <img style="object-fit: contain; width: 100%; height: auto; max-width: {{ include.imageMaxWidth }}; max-height: {{ include.imageMaxHeight }};" src="{{ logo.image | relative_url }}" alt="{{ logo.name }} logo">
         {% if logo.url %}
         {% if logo.title %}
             <h5>{{ logo.title }}</h5>
