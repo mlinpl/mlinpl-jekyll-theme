@@ -7,7 +7,8 @@
 
     <div class="row">
         {% for panel in site.data.panels %}
-        <div class="col-md-12">
+        <anchor style="position: relative; top: -70px;" id="discussion-panel-{{ panel.id }}"></anchor>
+        <div class="col-md-12" style="margin-bottom: 70px;">
             {% include conference/panel-details.html panel=panel include-details=true %}
         </div>
         {% endfor %}
