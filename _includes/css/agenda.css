@@ -111,6 +111,18 @@
     border-top: none;
 }
 
-.agenda-item h4 {
+.agenda-item h4, .agenda-item h5, .agenda-item h6 {
     margin-bottom: 0;
+    text-align: left;
+}
+
+.agenda-item ul {
+    list-style: disc;
+    list-style-position: outside;
+    padding-left: 1em;
+    margin-bottom: 0;
+}
+
+.agenda-item ul li a {
+    display: inline-table;
 }

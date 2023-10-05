@@ -8,11 +8,39 @@ Expects following parameters: day
 {% for event in session.events %}
 <div class="{{ event.element-class }} agenda-item">
     <div>
+        {% if event.url %}
+        <a href="{{ event.url | relative_url }}">
+        {% endif %}
+
         {{ event.time }} 
         {% if event.room %}
         / {{ event.room }}
         {% endif %}
         <h4>{{ event.title }}</h4>
+        {% if event.subtitle %}
+        <h5>{{ event.subtitle }}</h5>
+        {% endif %}
+
+        {% if event.subevents %}
+        <ul>
+        {% for subevent in event.subevents %}
+        <li class="agenda-subitem">
+            {% if subevent.url %}
+            <a href="{{ subevent.url | relative_url }}">
+            {% endif %}
+            <h5>{{ subevent.title }}</h5>
+            <h6>{{ subevent.subtitle }}</h6>
+            {% if subevent.url %}
+            </a>
+            {% endif %}
+        </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if event.url %}
+        </a>
+        {% endif %}
     </div>
 </div> 
 {% endfor %}

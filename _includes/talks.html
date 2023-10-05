@@ -11,7 +11,8 @@ Expects following parameters:
         </div>
     </div>
     {% for talk in include.talks-data %}
-    <div id="{{ include.talk-title-prefix | downcase | replace ' ','-' }}-{{forloop.index}}" class="row" style="margin-bottom: 70px;">
+    <anchor style="position: relative; top: -70px;" id="{{ include.talk-title-prefix | slugify }}-{{forloop.index}}"></anchor>
+    <div class="row" style="margin-bottom: 70px;">
         <div class="speaker-details-image col-md-3 person text-center">
             {% if talk.author-name %}
             <div class="person-photo-wrapper width-100 width-max-300px" style="margin-bottom: 1em;">
@@ -20,7 +21,7 @@ Expects following parameters:
                 </div>
             </div>
             <h3 style="margin-bottom: 0.2em">{{ talk.author-name }}</h3>
-            <p style="font-size: 14px; margin-bottom: 0.5em"><span>{{ talk.author-title }}</span></p>
+            <p style="font-size: 14px; margin-bottom: 35px;">{{ talk.author-title }}</p>
             {% endif %}
             
             {% if talk.authors %}
@@ -32,9 +33,14 @@ Expects following parameters:
                 </div>
             </div>
             <h3 style="margin-bottom: 0.2em">{{ author.name }}</h3>
-            <p style="font-size: 14px; margin-bottom: 0.5em"><span>{{ author.title }}</span></p>
+            <p style="font-size: 14px; margin-bottom: 35px;">{{ author.title }}</p>
             {% endfor %}
 
+            {% endif %}
+
+            {% if talk.co-authors %}
+                <h4 style="margin-bottom: 0px;"><strong><i class="fa-solid fa-users"></i> Co-authors:</strong></h4>
+                <p>{{ talk.co-authors }}</p>
             {% endif %}
         </div>
         <div class="speaker-details-text col-md-9">
@@ -66,12 +72,16 @@ Expects following parameters:
             {{ talk.desc-md | markdownify }}
             {% endif %}
             {% if talk.abstract %}
+            <div>
             <h4 style="margin-top: 35px; margin-bottom: 0px;"><strong><i class="fa-solid fa-file"></i> Abstract:</strong></h4> 
             {% include read-more.html content=talk.abstract %}  
+            </div>
             {% endif %}
             {% if talk.author-bio %}
+            <div>
             <h4 style="margin-top: 35px; margin-bottom: 0px;"><strong><i class="fa-solid fa-user"></i> Biography:</strong></h4> 
             {% include read-more.html content=talk.author-bio %}
+            </div>
             {% endif %}
             {% if talk.author-bio-md %}
             <h4 style="margin-top: 25px; margin-bottom: 0px;"><strong><i class="fa-solid fa-user"></i> Biography:</strong></h4> 

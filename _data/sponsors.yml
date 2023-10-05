@@ -1,11 +1,11 @@
-- title: '/ <span class="platinium-shine-text">Platinium sponsors</span>'
+- title: '/ <span class="platinium-shine-text">Platinum sponsors</span>'
   imageMaxWidth: 400px
   imageMaxHeight: 220px
   margin: 45px 60px
   sponsors:
     - name: G-Resaerch
       image: "images/optimized/sponsors-600x600/GResearch.webp"
-      url: "https://ideas-ncbr.pl/en/"
+      url: "https://www.gresearch.com/"
 
 - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
   imageMaxWidth: 280px

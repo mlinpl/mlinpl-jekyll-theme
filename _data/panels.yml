@@ -26,35 +26,11 @@
       bio-more: >- 
         Previously, Omar worked at Google as a Software Engineer on Google Assistant and TensorFlow. In Google Assistant, Omar worked with on-device language models, model training and quality refinement, and serving infrastructure.
 
-- name: Generative models
-  date: Friday / 27 October
-  room: Main Lecture Hall
-  time: 11:45 - 13:15
-  id: 2
-  desc: >-
-      During our panel discussion, immerse yourself in the captivating "Generative Models" realm. Prepare to be enthralled as our panelists explore the profound impact of Generative AI and its wide-ranging implications. We will delve into the potential opportunities and risks arising from these models.
-  panelists:
-    - name: Łukasz Kuciński
-      image: images/optimized/speakers-2023-600x600/LukaszKucinski.webp
-      title: Polish Academy of Science / IDEAS NCBR
-      bio-intro: >-
-        Łukasz Kuciński is an Assistant Professor at the Institute of Mathematics of the PAS, a Senior Research Scientist at IDEAS NCBR, and a Member of the ELLIS Society. His ambition is to design and implement AI agents that can learn to solve problems autonomously in a self-improvement manner.
-      bio-more: >-
-        His research is published at CORE A* conferences, such as NeurIPS and ICLR, and covers machine learning and sequential decision-making topics, including reinforcement learning, planning, game theory, automated theorem proving, or alignment of large language models. Prior to his current roles, he worked at PFSA as Vice-Director, where he led a risk modeling team. He obtained a master's degree from the Faculty of Mathematics, Informatics, and Mechanics of the University of Warsaw and a Ph.D. in mathematics from the Polish Academy of Sciences.
-    - name: TBA
-      image: "images/empty.png"
-      title: ""
-      bio: '<span style="height: 220px; width: 1px; display: inline-block;"></span>'
-    - name: TBA
-      image: "images/empty.png"
-      title: ""
-      bio: '<span style="height: 220px; width: 1px; display: inline-block;"></span>'
-
 - name: Human in the loop
   date: Saturday / 28 October
   room: Main Lecture Hall
   time: 14:15 - 15:15
-  id: 3
+  id: 2
   desc: >-
     Join us for a panel discussion on the intriguing concept of "Human in the Loop." Delve into the topic of training models with human involvement as our panelists shed light on harnessing human expertise to enhance AI models. We will explore the effectiveness of leveraging human insights, assess their inherent value, and uncover the true potential they hold.
   panelists:
@@ -79,3 +55,34 @@
         Eduardo Mosqueira-Rey is a tenured Associate Professor at the University of A Coruña (Spain) and member of the research group LIDIA (Laboratory for Research and Development in Artificial Intelligence). His research focuses on the development of Machine Learning and Quantum Computing algorithms applied usually to health problems. 
       bio-more: >-
         His recent work is centred on the definition of new types of interaction between humans and machine learning algorithms known as “Human-in-the-Loop Machine Learning''. Within this line, he is the principal investigator of the project “Analysis of human-in-the-loop machine learning strategies and its application to pancreatic cancer research (HITL-ML)” funded by the Spanish State Research Agency (AEI). He is also a research member of the NEASQC (NExt ApplicationS of Quantum Computing) European project developing the use case “Quantum Rule-Based Systems (QRBS) for breast cancer detection.
+
+- name: Generative models
+  date: Friday / 27 October
+  room: Main Lecture Hall
+  time: 11:45 - 13:15
+  id: 3
+  desc: >-
+      During our panel discussion, immerse yourself in the captivating "Generative Models" realm. Prepare to be enthralled as our panelists explore the profound impact of Generative AI and its wide-ranging implications. We will delve into the potential opportunities and risks arising from these models.
+  panelists:
+    - name: Łukasz Kuciński
+      image: images/optimized/speakers-2023-600x600/LukaszKucinski.webp
+      title: Polish Academy of Science / IDEAS NCBR
+      bio-intro: >-
+        Łukasz Kuciński is an Assistant Professor at the Institute of Mathematics of the PAS, a Senior Research Scientist at IDEAS NCBR, and a Member of the ELLIS Society. His ambition is to design and implement AI agents that can learn to solve problems autonomously in a self-improvement manner.
+      bio-more: >-
+        His research is published at CORE A* conferences, such as NeurIPS and ICLR, and covers machine learning and sequential decision-making topics, including reinforcement learning, planning, game theory, automated theorem proving, or alignment of large language models. Prior to his current roles, he worked at PFSA as Vice-Director, where he led a risk modeling team. He obtained a master's degree from the Faculty of Mathematics, Informatics, and Mechanics of the University of Warsaw and a Ph.D. in mathematics from the Polish Academy of Sciences.
+    - name: Paula Skrzypecka
+      image: images/optimized/speakers-2023-600x600/PaulaSkrzypecka.webp
+      title: Creativa Legal
+      bio-intro: >-
+        Paula Skrzypecka is a Doctor of Law and a senior lawyer at Creativa Legal, where she deals with, amongst others, providing services to technology companies, start-ups, and software houses. 
+      bio-more: >-
+        She completed attorney-at-law training and specializes in the law of new technologies, including blockchain (her scientific work concerned the legal qualification and conceptualization of cryptocurrencies) and the implementation of artificial intelligence. It is also familiar with legal problems related to the protection of personal data and cybersecurity, e.g. as part of IoT.
+
+    - name: Michał Karpowicz
+      image: images/optimized/speakers-2023-600x600/MichalKarpowicz.webp
+      title: NASK
+      bio-intro: >-
+        Michał Karpowicz joined NASK PIB in 2006. He has traversed the full path of his research career, from the position of research assistant to professor at the institute, heading a team, a department and a division (cybersecurity systems) along the way. He is a visiting professor at MIT's Department of Mathematics. 
+      bio-more: >-
+        He has given guest lectures at Stanford University and UCSD (University of California San Diego), among others. Long-time lecturer at the Department of Electronics and Information Technology, Warsaw University of Technology. Creator of meta-factorization theory and new algorithms for detecting and suppressing DDoS attacks. He formulated optimality conditions for a class of energy-efficient stochastic control tasks on an infinite horizon, as well as necessary and sufficient conditions for the efficiency of Nash equilibrium points in games induced by KKT conditions for nonlinear optimization tasks with constraints. Co-inventor of FLDX technology, energy-efficient network control systems, and energy-efficient CPU drivers (for the Linux kernel). Laureate of the NASK PIB Director's Award given for special contribution to the development of the Institute. Laureate of the Prize of the Rector of the Warsaw University of Technology awarded for the author's lecture Control Theory and the Prize of the Rector of the Warsaw University of Technology awarded for scientific achievements related to the development of energy-efficient control mechanisms for information systems.

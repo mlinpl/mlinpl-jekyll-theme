@@ -256,7 +256,7 @@
 
 - author-name: Sebastian Chwilczyński
   title: "Random Similarity Isolation Forest - Outlier Detection for Multimodal Data"
-  author-title: "PUT"
+  author-title: "Poznan University of Technology"
   abstract: >- 
     To enhance the accuracy of predictive models, it is reasonable to gather as much data about the object of interest as possible. As a result, increasingly often, the collected data consists not only of simple numerical data but also more complex objects such as time series, images, sets, or graphs. Such multimodal representations provide many different points of view on the data and may improve performance. However, optimal use of these modalities is a challenging task, especially in outlier detection, where algorithms are dedicated to individual types of data. Consequently, working with mixed types of data requires either fusing multiple data-specific models or transforming all of the representations into a single format, both of which can hinder predictive performance.
     
@@ -266,7 +266,7 @@
     
     In our work, we tried to elaborate on similarity-based projection methods and their usage in multimodal outlier detection as thoroughly as possible. As a result, a new competitive algorithm - Random Isolation Similarity Forest - was introduced. Still, many exciting directions for future work, such as the potential for interpretability, the search for better similarity measures, the optimal way of selecting projection pairs, and the search for new multimodal outlier detection datasets, remain open. This is why, besides sharing our insights, we fully open-source our code and unique set of datasets.
   author-bio: >- 
-    Sebastian Chwilczyński is a 7th semester student of Artificial Intelligence at Poznań University of Technology, president of GHOST science club and music enthusiast. He gained his experience, among others, at Intel in the Audio Research team and PSNC working on Computer Vision problems. Currently he works with segmentation models at deepsense.ai.
+    Sebastian Chwilczyński is a 7th semester student of Artificial Intelligence at Poznan University of Technology, president of GHOST science club and music enthusiast. He gained his experience, among others, at Intel in the Audio Research team and PSNC working on Computer Vision problems. Currently he works with segmentation models at deepsense.ai.
     
     He loves to share his knowledge, this is why he led many groups at GHOST science club, both in practical and research setting. 
     
@@ -415,11 +415,11 @@
 
 - author-name: Damian Sójka
   title: "AR-TTA: A Simple Method for Real-World Continual Test-Time Adaptation"
-  author-title: "Poznań University of Technology, IDEAS NCBR"
+  author-title: "Poznan University of Technology, IDEAS NCBR"
   abstract: >- 
     Test-time adaptation is a promising research direction that allows the source model to adapt itself to changes in data distribution without any supervision. Yet, current methods are usually evaluated on benchmarks that are only a simplification of real-world scenarios. Hence, we propose to validate test-time adaptation methods using the recently introduced datasets for autonomous driving, namely CLAD-C and SHIFT. We observe that current test-time adaptation methods struggle to effectively handle varying degrees of domain shift, often resulting in degraded performance that falls below that of the source model. We noticed that the root of the problem lies in the inability to preserve the knowledge of the source model and adapt to dynamically changing, temporally correlated data streams. Therefore, we enhance well-established self-training framework by incorporating a small memory buffer to increase model stability and at the same time perform dynamic adaptation based on the intensity of domain shift. The proposed method, named AR-TTA, outperforms existing approaches on both synthetic and more real-world benchmarks and shows robustness across a variety of TTA scenarios.
   author-bio: >- 
-    I'm a PhD student at Poznań University of Technology and IDEAS NCBR. I completed a bachelor's degree in Mechatronics and a master's degree in Automatic Control and Robotics, specializing in robots and autonomous systems, all accomplished at Poznań University of Technology. My master's thesis research led to the publication of a paper at the esteemed ICRA conference. My scholarly focus encompasses a spectrum of domains including computer vision, machine perception, self-supervised learning, test-time adaptation, and continual learning, all resonating within the context of robotics. I also have hands-on industry experience in embedded software development at Aether Biomedical, where he contributed to developing innovative bionic hand prostheses.
+    I'm a PhD student at Poznan University of Technology and IDEAS NCBR. I completed a bachelor's degree in Mechatronics and a master's degree in Automatic Control and Robotics, specializing in robots and autonomous systems, all accomplished at Poznan University of Technology. My master's thesis research led to the publication of a paper at the esteemed ICRA conference. My scholarly focus encompasses a spectrum of domains including computer vision, machine perception, self-supervised learning, test-time adaptation, and continual learning, all resonating within the context of robotics. I also have hands-on industry experience in embedded software development at Aether Biomedical, where he contributed to developing innovative bionic hand prostheses.
   co-authors: 
   date: Friday / 27 October
   time: 16:30 - 18:30
@@ -564,6 +564,42 @@
   id: 31
   author-image: images/optimized/cfc-2023-600x600/maciej_mozolewski.webp
 
+- author-name: Piotr Wyrwiński
+  title: "Exploring the potential of CycleGANs in CT Imaging: Enhancing Segmentation through Contrast and Non-Contrast Approaches"
+  author-title: "Poznan University of Technology"
+  abstract: >- 
+    Computed tomography angiography (CTA) scans serve as the diagnostic gold standard for a range of diseases, including atherosclerosis, hypertrophic cardiomyopathy, aortic stenosis, and aortic aneurysms. The main problem with such a diagnostic approach is that it becomes an invasive technique when contrast is added. People with kidney failure or other contradictions cannot be diagnosed in this way due to the toxicity of contrast. On the other hand, computed tomography (CT) is a non-invasive method that is applicable to the majority of patients. However, distinguishing heart structures on CT is a challenge, and the diagnosis of pathological changes is even harder. The fact that it is difficult to see some structures in CT with the human eye does not mean that there is no information at all. Maybe modern AI algorithms could enhance the information hidden in CT and make it more clear to humans?
+    
+    Previous research has explored the use of generative models to enhance contrast in CT scans, producing artificially contrast enhanced CT (ACT). Artificial contrast creates the opportunity to use other diagnostic tools, such as SyngoVIA, dedicated to CTA analysis. It was shown that Deep Learning (DL) models trained on real CTA scans can also be successfully run on artificial CTAs. While this approach is promising, it has some limitations. First of all, in the analysis, an intermediate step, i.e., generating an ACT, is required. Secondly, there is a risk that when adding artificial contrast, certain information may be altered or lost, resulting in the accumulation of errors in subsequent processing steps. This can lead to reduced performance of diagnostic tools or AI models utilized in subsequent stages.
+    
+    Our study introduces a novel approach that explores the opposite technique, i.e., removing contrast, and investigates how it impacts the segmentation task. Typically, medical datasets lack annotations for non-contrast CT scans, making it challenging to train models for tasks like segmentation. We suggest using CTA annotated scans, from which we can artificially remove contrast, to create a distinct dataset of annotated CT scans. Our assumption is that a segmentation model (or any other task-specific model) trained on artificial non-contrast CT (ANCT) scans can be directly applied to real CT scans.
+    
+    The most common way to transform NCTA into CTA is using CycleGAN. In this approach, two models are trained in an entanglement, one generator is trained to add artificial contrast to real non-contrast images, while the second generator removes the contrast from real CTA scans. In other approaches, the second model is discarded, but we argue that it can still be useful. In this work, we present a comparison of two distinct approaches for enhancing segmentation. The first one uses artificial contrast CT to train segmentation algorithms, and the second one uses artificial non-contrast CT. To the best of our knowledge, nobody has done such a comparison before.
+  author-bio: >- 
+    Piotr Wyrwiński is a PhD student in Machine Learning at the PUT advised by prof. Krzysztof Krawiec. His research interests include neurosymbolic systems, program synthesis, and machine learning. He also works as a Research Scientist at PSNC. He is a scientific supervisor of the Students' Scientific Group "Group of Horribly Optimistic STatisticians" (GHOST).
+  co-authors: Marek Justyna, Wojciech Andrzejewski
+  date: Friday / 27 October
+  time: 16:30 - 18:30
+  room: 
+  session: 
+  id: 32
+  author-image: images/optimized/cfc-2023-600x600/piotr_wyrwiński.webp
+
+- author-name: Tomasz Szczepański
+  title: "DENTNet: 3D Tooth Instance Segmentation from CBCT Scans with Geometry Prior-Assisted Learning"
+  author-title: "Sano Centre for Computational Medicine"
+  abstract: >- 
+    Accurate tooth segmentation from Cone-Beam Computed Tomography (CBCT) scans is essential for computer-aided treatment planning. The inter-patient tooth geometry variability resulting, e.g., from the extraction of individual teeth or orthodontic treatment, poses this task very challenging. Existing methods ignored anatomical topology or limited geometrical aspects only to tooth adjacency. To address this limitation, we propose a novel tooth segmentation method, DENTNet, that leverages geometry prior-assisted learning. We train our model using the morphological prior defined by the geometry of the normal dentition from the statistical shape model. Integrating the loss function with the statistical geometric model allows the network to extract significant features not limited by the discrete adjacency matrix, resulting in better segmentation and identification. DENTNet takes advantage of a multitask decoder that simultaneously performs segmentation of all teeth and classifies them. Extensive experiments on a multi-center external dataset demonstrate the proposed method's superior performance compared with several state-of-the-art methods. This work showcases the potential utility of DENTNet in improving dental imaging and treatment planning.
+  author-bio: >- 
+    I obtained MSc in Computer Science in 2022 from the Warsaw University of Technology (WUT) and BEng from  WUT in Photonics Engineering. My master thesis focused on the problem of data bias in chest X-rays of patients with COVID-19. Currently, I am pursuing PhD at Sano Centre Cracow and WUT. I joined the Health Informatics Group Sano at Sano (HIGS), and I am working on medical treatment planning in orthodonthics using deep learning methods. In my free time, I bake Neapolitan pizza and brew speciality coffee.
+  co-authors: 
+  date: Friday / 27 October
+  time: 16:30 - 18:30
+  room: 
+  session: 
+  id: 33
+  author-image: images/optimized/cfc-2023-600x600/tomasz_szczepański.webp
+
 - author-name: Charles O'Neill
   title: "Steering Language Generation: Harnessing Contrastive Guidance and Negative Prompting for Coherent and Diverse Synthetic Data Generation"
   author-title: "The Australian National University"
@@ -576,7 +612,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 32
+  id: 34
   author-image: images/empty.png
 
 - author-name: Eryka Probierz
@@ -611,7 +647,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 33
+  id: 35
   author-image: images/optimized/cfc-2023-600x600/eryka_probierz.webp
 
 - author-name: Rodolfo Pina
@@ -630,7 +666,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 34
+  id: 36
   author-image: images/optimized/cfc-2023-600x600/rodolfo_pina.webp
 
 - author-name: Hanna Broszczak
@@ -645,7 +681,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 35
+  id: 37
   author-image: images/optimized/cfc-2023-600x600/hanna_broszczak.webp
 
 - author-name: Jakub Piwko
@@ -664,7 +700,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 36
+  id: 38
   author-image: images/optimized/cfc-2023-600x600/jakub_piwko.webp
 
 - author-name: Emilia Witkowska Nery
@@ -684,7 +720,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 37
+  id: 39
   author-image: images/optimized/cfc-2023-600x600/emilia_witkowska_nery.webp
 
 - author-name: Dariusz Kajtoch
@@ -699,7 +735,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 38
+  id: 40
   author-image: images/optimized/cfc-2023-600x600/dariusz_kajtoch.webp
 
 - author-name: Hubert Ruczyński
@@ -717,7 +753,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 39
+  id: 41
   author-image: images/optimized/cfc-2023-600x600/hubert_ruczyński.webp
 
 - author-name: Marcin Furtak
@@ -739,7 +775,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 40
+  id: 42
   author-image: images/optimized/cfc-2023-600x600/marcin_furtak.webp
 
 - author-name: Tsimur Hadeliya
@@ -754,7 +790,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 41
+  id: 43
   author-image: images/empty.png
 
 - author-name: Wojciech Kretowicz
@@ -772,7 +808,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 42
+  id: 44
   author-image: images/optimized/cfc-2023-600x600/wojciech_kretowicz.webp
 
 - author-name: Sandra Frycz
@@ -790,7 +826,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 43
+  id: 45
   author-image: images/empty.png
 
 - author-name: Katarzyna Baraniak
@@ -805,7 +841,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 44
+  id: 46
   author-image: images/empty.png
 
 - author-name: Katarzyna Frankowska
@@ -822,7 +858,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 45
+  id: 47
   author-image: images/optimized/cfc-2023-600x600/katarzyna_frankowska.webp
 
 - author-name: Marek Justyna
@@ -837,7 +873,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 46
+  id: 48
   author-image: images/empty.png
 
 - author-name: Hanna Sobocińska
@@ -856,7 +892,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 47
+  id: 49
   author-image: images/optimized/cfc-2023-600x600/hanna_sobocińska.webp
 
 - author-name: Anna Wąsik
@@ -873,7 +909,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 48
+  id: 50
   author-image: images/optimized/cfc-2023-600x600/anna_wąsik.webp
 
 - author-name: Kacper Cybiński
@@ -893,7 +929,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 49
+  id: 51
   author-image: images/optimized/cfc-2023-600x600/kacper_cybiński.webp
 
 - author-name: Maciej Szymkowski
@@ -908,7 +944,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 50
+  id: 52
   author-image: images/optimized/cfc-2023-600x600/maciej_szymkowski.webp
 
 - author-name: Paweł Skierś
@@ -923,7 +959,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 51
+  id: 53
   author-image: images/optimized/cfc-2023-600x600/paweł_skierś.webp
 
 - author-name: Piotr Gręda
@@ -941,7 +977,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 52
+  id: 54
   author-image: images/optimized/cfc-2023-600x600/piotr_gręda.webp
 
 - author-name: Łukasz Sztukiewicz
@@ -971,7 +1007,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 53
+  id: 55
   author-image: images/optimized/cfc-2023-600x600/łukasz_sztukiewicz.webp
 
 - author-name: Dominik Lewy
@@ -986,7 +1022,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 54
+  id: 56
   author-image: images/optimized/cfc-2023-600x600/dominik_lewy.webp
 
 - author-name: Patryk Będkowski
@@ -1012,23 +1048,8 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 55
+  id: 57
   author-image: images/empty.png
-
-- author-name: Tomasz Szczepański
-  title: "DENTNet: 3D Tooth Instance Segmentation from CBCT Scans with Geometry Prior-Assisted Learning"
-  author-title: "Sano Centre for Computational Medicine"
-  abstract: >- 
-    Accurate tooth segmentation from Cone-Beam Computed Tomography (CBCT) scans is essential for computer-aided treatment planning. The inter-patient tooth geometry variability resulting, e.g., from the extraction of individual teeth or orthodontic treatment, poses this task very challenging. Existing methods ignored anatomical topology or limited geometrical aspects only to tooth adjacency. To address this limitation, we propose a novel tooth segmentation method, DENTNet, that leverages geometry prior-assisted learning. We train our model using the morphological prior defined by the geometry of the normal dentition from the statistical shape model. Integrating the loss function with the statistical geometric model allows the network to extract significant features not limited by the discrete adjacency matrix, resulting in better segmentation and identification. DENTNet takes advantage of a multitask decoder that simultaneously performs segmentation of all teeth and classifies them. Extensive experiments on a multi-center external dataset demonstrate the proposed method's superior performance compared with several state-of-the-art methods. This work showcases the potential utility of DENTNet in improving dental imaging and treatment planning.
-  author-bio: >- 
-    I obtained MSc in Computer Science in 2022 from the Warsaw University of Technology (WUT) and BEng from  WUT in Photonics Engineering. My master thesis focused on the problem of data bias in chest X-rays of patients with COVID-19. Currently, I am pursuing PhD at Sano Centre Cracow and WUT. I joined the Health Informatics Group Sano at Sano (HIGS), and I am working on medical treatment planning in orthodonthics using deep learning methods. In my free time, I bake Neapolitan pizza and brew speciality coffee.
-  co-authors: 
-  date: Saturday / 28 October
-  time: 10:00 - 12:00
-  room: 
-  session: 
-  id: 56
-  author-image: images/optimized/cfc-2023-600x600/tomasz_szczepański.webp
 
 - author-name: Sneha Jha
   title: "Multimodal machine learning in the healthcare domain"
@@ -1043,7 +1064,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 57
+  id: 58
   author-image: images/optimized/cfc-2023-600x600/sneha_jha.webp
 
 - author-name: Michał Wiliński
@@ -1061,7 +1082,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 58
+  id: 59
   author-image: images/optimized/cfc-2023-600x600/michał_wiliński.webp
 
 - author-name: Piotr Wyrwiński
@@ -1087,7 +1108,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 59
+  id: 60
   author-image: images/optimized/cfc-2023-600x600/piotr_wyrwiński.webp
 
 - author-name: Klaudia Balcer
@@ -1112,7 +1133,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 60
+  id: 61
   author-image: images/optimized/cfc-2023-600x600/klaudia_balcer.webp
 
 - author-name: Bartlomiej Sobieski
@@ -1129,7 +1150,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 61
+  id: 62
   author-image: images/optimized/cfc-2023-600x600/bartlomiej_sobieski.webp
 
 - author-name: Marianna Zadrozna
@@ -1146,7 +1167,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 62
+  id: 63
   author-image: images/empty.png
 
 - author-name: Adam Zadrozny
@@ -1161,7 +1182,7 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 63
+  id: 64
   author-image: images/optimized/cfc-2023-600x600/adam_zadrozny.webp
 
 - author-name: Izabela Krysińska
@@ -1184,6 +1205,6 @@
   time: 10:00 - 12:00
   room: 
   session: 
-  id: 64
+  id: 65
   author-image: images/empty.png
 
