@@ -4,6 +4,40 @@
   sessions:
     - events: 
         - title: Student Research Workshop
+          subevents:
+            - title: Opening remarks
+            - title: "Towards More Realistic Membership Inference Attacks on Large Diffusion Models"
+              subtitle: Antoni Kowalczuk
+              time: 8:10 - 8:30
+              url: /program#srw-talk-1
+            - title: "Solver-free neural ordinary differential equations for forecasting long horizon time series"
+              subtitle: Szymon Haponiuk
+              time: 8:30 - 8:50
+              url: /program#srw-talk-2
+            - title: "Fine-grained Mixture-of-Experts"
+              subtitle: Jakub Krajewski
+              time: 8:50 - 9:10
+              url: /program#srw-talk-3
+            - title: "When a Language Question Is at Stake. A Revisited Approach to Label Sensitive Content"
+              subtitle: Daria Stetsenko
+              time: 9:10 - 9:30
+              url: /program#srw-talk-4
+            - title: "Fine-grained Mixture-of-Experts"
+              subtitle: Sebastian Chwilczyński
+              time: 9:10 - 9:30
+              url: /program#srw-talk-5
+            - title: "Self-guided semantic segmentation"
+              subtitle: Maksymilian Kulicki
+              time: 9:10 - 9:30
+              url: /program#srw-talk-6
+            - title: "Energy Storage in the Smart Grid: a Multi-Agent Deep Reinforcement Learning Approach"
+              subtitle: Pawel Knap
+              time: 10:10 - 10:30
+              url: /program#srw-talk-7
+            - title: "Deep learning based distance estimation of galaxies"
+              subtitle: Anjitha John William Mini Latha
+              time: 10:30 - 10:50
+              url: /program#srw-talk-8
           element-class: col-lg-12
           time: 8:00 - 11:00
           room: TBA
@@ -42,28 +76,19 @@
           element-class: col-lg-12
           time: 13:30 - 14:00
     - events:
-        - title: "Sponsor Talk 1"
-          element-class: col-lg-12
-          time: 16:15 - 17:05
-          room: Main Lecture Hall
-    - events:
-        - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee-break'
-          element-class: col-lg-12
-          time: 17:05 - 17:35
-    - events:
         - title: "Keynote Talk: Volodymyr Mnih"
           element-class: col-lg-12
-          time: 17:35 - 18:35
+          time: 16:15 - 17:15
           room: Main Lecture Hall
           url: /program#invited-talk-2
     - events:
         - title: '<i class="fa-solid fa-mug-saucer"></i> Coffee-break'
           element-class: col-lg-12
-          time: 18:35 - 19:00
+          time: 17:15 - 17:45
     - events:
         - title: "Keynote Talk"
           element-class: col-lg-12
-          time: 19:00 - 20:00
+          time: 17:45 - 18:45
           room: Main Lecture Hall
     # - events:
     #     - title: '<i class="fa-solid fa-champagne-glasses"></i> Conference Party'
@@ -259,7 +284,7 @@
           room: Lecture Hall B
     - events:
         - title: 'Poster Session + <i class="fa-solid fa-mug-saucer"></i> Coffee'
-          subtitle: with posters from 33 to 64
+          subtitle: with posters from 34 to 65
           element-class: col-lg-12
           time: 10:00 - 12:00
           url: /program#poster-34
