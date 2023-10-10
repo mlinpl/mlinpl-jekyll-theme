@@ -25,6 +25,8 @@ mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="e
     {% endfor %}
 </section>
 
+{% include talks.html talks-title="/ Keynote talks" talks-data=site.data.keynote-talks talk-title-prefix="Keynote talk" %}
+
 {% include talks.html talks-title="/ Invited talks" talks-data=site.data.invited-talks talk-title-prefix="Invited talk" %}
 
 {% include conference/panels.html %}

@@ -22,7 +22,7 @@
               subtitle: Daria Stetsenko
               time: 9:10 - 9:30
               url: /program#srw-talk-4
-            - title: "Fine-grained Mixture-of-Experts"
+            - title: "Random Similarity Isolation Forest - Outlier Detection for Multimodal Data"
               subtitle: Sebastian Chwilczyński
               time: 9:10 - 9:30
               url: /program#srw-talk-5
@@ -56,7 +56,7 @@
           time: 12:15 - 12:30
           room: Main Lecture Hall
     - events:
-        - title: "Keynote Talk: Leon Bottou"
+        - title: "Keynote Talk 1: Leon Bottou"
           element-class: col-lg-12
           time: 12:30 - 13:30
           room: Main Lecture Hall
@@ -72,11 +72,11 @@
           room: Main Lecture Hall
           url: /program#discussion-panel-1
     - events:
-        - title: '<i class="fa-solid fa-utensils"></i> Lunch-break'
+        - title: '<i class="fa-solid fa-utensils"></i> Late lunch-break'
           element-class: col-lg-12
-          time: 13:30 - 14:00
+          time: 15:00 - 16:15
     - events:
-        - title: "Keynote Talk: Volodymyr Mnih"
+        - title: "Keynote Talk 2: Volodymyr Mnih"
           element-class: col-lg-12
           time: 16:15 - 17:15
           room: Main Lecture Hall
@@ -86,7 +86,7 @@
           element-class: col-lg-12
           time: 17:15 - 17:45
     - events:
-        - title: "Keynote Talk"
+        - title: "Keynote Talk 3: TBA"
           element-class: col-lg-12
           time: 17:45 - 18:45
           room: Main Lecture Hall
@@ -104,15 +104,15 @@
           element-class: col-lg-12
           time: 08:30 - 09:00
     - events: 
-        - title: 'Invited talk 1'
+        - title: 'Invited talk 1: TBA'
           element-class: col-lg-4
           time: 09:00 - 10:00
           room: Main Lecture Hall
-        - title: 'Invited talk 2'
+        - title: 'Invited talk 2: TBA'
           element-class: col-lg-4
           time: 09:00 - 10:00
           room: Lecture Hall A
-        - title: 'Invited talk 3'
+        - title: 'Invited talk 3: TBA'
           element-class: col-lg-4
           time: 09:00 - 10:00
           room: Lecture Hall B
@@ -178,11 +178,11 @@
           time: 11:45 - 13:15
           room: Main Lecture Hall
           url: /program#discussion-panel-2
-        - title: 'Sponsor Talk #2'
+        - title: 'Sponsor talk 1: TBA'
           element-class: col-lg-4
           time: 11:45 - 13:15
           room: Lecture Hall A
-        - title: 'Sponsor Talk #3'
+        - title: 'Sponsor talk 2: TBA'
           element-class: col-lg-4
           time: 11:45 - 13:15
           room: Lecture Hall B
@@ -191,15 +191,15 @@
           element-class: col-lg-12
           time: 13:15 - 14:15
     - events: 
-        - title: 'Invited talk #4'
+        - title: 'Invited talk 4: TBA'
           element-class: col-lg-4
           time: 14:15 - 15:15
           room: Main Lecture Hall
-        - title: 'Invited talk #5'
+        - title: 'Invited talk 5: TBA'
           element-class: col-lg-4
           time: 14:15 - 15:15
           room: Lecture Hall A
-        - title: 'Invited talk #6'
+        - title: 'Invited talk 6: TBA'
           element-class: col-lg-4
           time: 14:15 - 15:15
           room: Lecture Hall B
@@ -256,7 +256,7 @@
           time: 15:15 - 16:30
           room: Lecture Hall B
     - events:
-        - title: 'Poster Session + <i class="fa-solid fa-mug-saucer"></i> Coffee'
+        - title: 'Poster Session 1 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
           subtitle: with posters from 1 to 33
           element-class: col-lg-12
           time: 16:30 - 18:30
@@ -270,20 +270,20 @@
           element-class: col-lg-12
           time: 08:30 - 09:00
     - events: 
-        - title: 'Invited talk #1'
+        - title: 'Invited talk 1'
           element-class: col-lg-4
           time: 09:00 - 10:00
           room: Main Lecture Hall
-        - title: 'Invited talk #2'
+        - title: 'Invited talk 2'
           element-class: col-lg-4
           time: 09:00 - 10:00
           room: Lecture Hall A
-        - title: 'Invited talk #3'
+        - title: 'Invited talk 3'
           element-class: col-lg-4
           time: 09:00 - 10:00
           room: Lecture Hall B
     - events:
-        - title: 'Poster Session + <i class="fa-solid fa-mug-saucer"></i> Coffee'
+        - title: 'Poster Session 2 + <i class="fa-solid fa-mug-saucer"></i> Coffee'
           subtitle: with posters from 34 to 65
           element-class: col-lg-12
           time: 10:00 - 12:00
@@ -324,6 +324,7 @@
           time: 12:00 - 13:15
           room: Lecture Hall A
         - title: 'Talks by Witold Lipski Award Laureates'
+          subtitle: 'Program will be anounced after the award ceremony'
           element-class: col-lg-4
           time: 12:00 - 13:15
           room: Lecture Hall B
@@ -337,11 +338,11 @@
           time: 14:15 - 15:15
           room: Main Lecture Hall
           url: /program#discussion-panel-3
-        - title: 'Sponsor Talk #4'
+        - title: 'Sponsor talk 4'
           element-class: col-lg-4
           time: 14:15 - 15:15
           room: Lecture Hall A
-        - title: 'Sponsor Talk #5'
+        - title: 'Sponsor talk 5'
           element-class: col-lg-4
           time: 14:15 - 15:15
           room: Lecture Hall B

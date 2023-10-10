@@ -3,47 +3,53 @@
   imageMaxHeight: 220px
   margin: 45px 60px
   sponsors:
+    - name: Amazon
+      image: "images/optimized/sponsors-2023-600x600/Amazon.webp"
+      url: "https://www.aboutamazon.eu/"
     - name: G-Resaerch
-      image: "images/optimized/sponsors-600x600/GResearch.webp"
+      image: "images/optimized/sponsors-2023-600x600/GResearch.webp"
       url: "https://www.gresearch.com/"
 
 - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
   imageMaxWidth: 280px
-  imageMaxHeight: 150px
+  imageMaxHeight: 100px
   margin: 30px 45px
   sponsors:
     - name: Ideas NCBR
-      image: "images/optimized/sponsors-600x600/IdeasNCBR.webp"
+      image: "images/optimized/sponsors-2023-600x600/IdeasNCBR.webp"
       url: "https://ideas-ncbr.pl/en/"
     - name: Pearson
-      image: "images/optimized/sponsors-600x600/Pearson.webp"
+      image: "images/optimized/sponsors-2023-600x600/Pearson.webp"
       url: "https://www.pearson.pl/"
     - name: RTB House
-      image: "images/optimized/sponsors-600x600/RTBHouse.webp"
+      image: "images/optimized/sponsors-2023-600x600/RTBHouse.webp"
       url: "https://www.rtbhouse.com/"
+    - name: Snowflake
+      image: "images/optimized/sponsors-2023-600x600/Snowflake.webp"
+      url: "https://www.snowflake.com/en/"
 
 - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
   imageMaxWidth: 280px
-  imageMaxHeight: 150px
+  imageMaxHeight: 80px
   margin: 30px 45px
   sponsors:
     - name: AI Clearing
-      image: "images/optimized/sponsors-600x600/AIClearing.webp"
+      image: "images/optimized/sponsors-2023-600x600/AIClearing.webp"
       url: "https://www.aiclearing.com/"
     - name: Alphamoon
-      image: "images/optimized/sponsors-600x600/alphamoon.webp"
+      image: "images/optimized/sponsors-2023-600x600/alphamoon.webp"
       url: "https://alphamoon.ai/"
     - name: QuickchatAI
-      image: "images/optimized/sponsors-600x600/Quickchat.webp"
+      image: "images/optimized/sponsors-2023-600x600/Quickchat.webp"
       url: "https://www.quickchat.ai/"
 
 - title: "/ Partners"
   imageMaxWidth: 280px
-  imageMaxHeight: 150px
+  imageMaxHeight: 110px
   margin: 30px 45px
   sponsors:
     - name: NASK
-      image: "images/optimized/sponsors-600x600/NASK.webp"
+      image: "images/optimized/sponsors-2023-600x600/NASK.webp"
       url: "https://en.nask.pl/"
 
 - title: "/ Honorary Patronages"
@@ -76,6 +82,9 @@
     - name: AIFlavours
       image: "images/optimized/partners-600x600/AIFlavours.webp"
       url: "https://www.linkedin.com/company/aiflavours"
+    - name: Digital Festival
+      image: "images/optimized/partners-600x600/DigitalFestival.webp"
+      url: "https://digitalfestival.pl/"
     - name: Gauss
       image: "images/optimized/partners-600x600/gauss.webp"
       url: "http://gauss.im.pwr.wroc.pl"

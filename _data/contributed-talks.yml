@@ -15,7 +15,7 @@
 
 - author-name: Adam Dziedzic
   title: "Privacy for Large Language Models"
-  author-title: "University of Toronto and Vector Institute"
+  author-title: "University of Toronto / Vector Institute"
   abstract: >- 
     Large language models (LLMs) are excellent in-context learners. However, the sensitivity of data contained in prompts raises privacy concerns. Our work first shows that these concerns are valid: we instantiate a simple but highly effective membership inference attack against the data used to prompt LLMs. To address this vulnerability, one could forego prompting and resort to fine-tuning LLMs with known algorithms for private gradient descent. However, this comes at the expense of the practicality and efficiency offered by prompting. Therefore, we propose to privately learn to prompt. We first show that soft prompts can be obtained privately through gradient descent on downstream data. However, this is not the case for discrete prompts. Thus, we orchestrate a noisy vote among an ensemble of LLMs presented with different prompts, i.e., a flock of stochastic parrots. The vote privately transfers the flock's knowledge into a single public prompt. We show that LLMs prompted with our private algorithms closely match the non-private baselines. For example, using GPT3 as the base model, we achieve a downstream accuracy of 92.7% on the sst2 dataset with (ϵ=0.147,δ=10−6)-differential privacy vs. 95.2% for the non-private baseline. Through our experiments, we also show that our prompt-based approach is easily deployed with existing commercial APIs.
   author-bio: >- 
@@ -64,7 +64,7 @@
 
 - author-name: Patryk Wielopolski
   title: "TreeFlow: A Novel Tree-Based Approach for Flexible Regression Modeling with Normalizing Flows"
-  author-title: "DataWalk; Wrocław University of Science and Technology"
+  author-title: "DataWalk / Wrocław University of Science and Technology"
   abstract: >- 
     Tree-based ensembles have long been acknowledged for their exceptional performance in handling classification and regression tasks involving mixed-type variables from diverse domains and ranges. However, in regression problems, they traditionally offer deterministic responses or model output uncertainty using Gaussian or parametric distributions. To overcome these limitations, we present TreeFlow, an innovative approach that seamlessly integrates the strengths of tree ensembles with the adaptability of modeling complex probability distributions using normalizing flows.
     
@@ -89,7 +89,7 @@
 
 - author-name: Jan Mielniczuk
   title: "Double  logistic regression approach to biased positive-unlabeled data"
-  author-title: "Polish Academy of Sciences, Warsaw University of Technology"
+  author-title: "Polish Academy of Sciences / Warsaw University of Technology"
   abstract: >- 
     Positive and unlabelled learning is an important nonstandard
     inference problem which arises naturally in many applications.The significant limitation of almost all existing methods addressing it lies in assuming that the propensity score function is constant and does not depend on features (Selected Completely at Random assumption), which is unrealistic in many practical situations. Avoiding this assumption, we consider parametric approach to the
@@ -129,7 +129,7 @@
 
 - author-name: Bartosz Ptak
   title: "Enhancing Lunar Robotics Rover through Deep Learning and Edge AI"
-  author-title: "Poznań University of Technolgy"
+  author-title: "Poznan University of Technolgy"
   abstract: >- 
     With the growing interest in space exploration, challenges are also increasing. Recent years have witnessed a notable surge in the advancement of space robotics, particularly pertaining to Moon exploration. The incorporation of Commercial off-the-shelf (COTS) devices in this domain has expedited both research and development endeavours. It also enables equipping satellites, rovers and landers in deep-learning accelerators and edge AI devices. Their usage allows not only for onboard data processing and reduction of data transfer, but can also help in the decision-making process, instilling elements of autonomy. 
     In our project, we employ deep learning for space robotics by using an image segmentation model of the lunar environment.  This network, designed for rock segmentation, was deployed on an FPGA accelerator board, thereby enabling efficient and low-power processing of rover-captured images directly onboard. The solution was validated in the analogue lunar research station.
@@ -145,7 +145,7 @@
 
 - author-name: Bartosz Zieliński
   title: "Sustainable computer vision for autonomous machines"
-  author-title: "IDEAS / Jagiellonian University"
+  author-title: "IDEAS NCBR / Jagiellonian University"
   abstract: >- 
     In this talk, I will introduce the main topics of my research group dedicated to developing sustainable computer vision methods for autonomous machines, where we assume device limitations and a variety of sensors. After the short overview, I will present our research on active visual exploration, which addresses the issue of limited sensor capabilities in real-world scenarios, where successive observations are actively chosen based on the environment. For this purpose, I will describe our technique called Attention-Map Entropy (AME) that we recently published at IJCAI. It leverages the internal uncertainty of the transformer-based model to determine the most informative observations. Unlike the existing solutions, it does not require additional loss components, which simplifies the training and significantly improves the performance of reconstruction, segmentation, and classification on publicly available datasets.
   author-bio: >- 
@@ -160,7 +160,7 @@
 
 - author-name: Sebastian Cygert
   title: "Toward Continually Learning Models"
-  author-title: "IDEAS NCBR, Gdańsk University of Technology"
+  author-title: "IDEAS NCBR / Gdańsk University of Technology"
   abstract: >- 
     Continual Learning is an emerging paradigm in machine learning where models learn new tasks in sequence without access to previously acquired knowledge. The key challenge in this field is addressing the problem of catastrophic forgetting of previous information. This is crucial because models must adapt to constantly evolving data and tasks in many real-world scenarios. During this presentation, I will discuss the latest developments in Continual Learning research and draw the connection to test-time adaptation, which allows the initial model to adapt to data distribution changes without any supervision. Finally, I will present our research results with self-adapting models for visual recognition in autonomous driving scenarios.
   author-bio: >- 
@@ -171,7 +171,7 @@
   room: Main Lecture Hall
   session: CfC Session 4
   id: 10
-  author-image: images/empty.png
+  author-image: images/optimized/cfc-2023-600x600/sebastian_cygert.webp
 
 - author-name: Michał Jamroż
   title: "Class Fitting in Residual Convolutional Networks"
@@ -194,7 +194,7 @@
 
 - author-name: Kamil Deja
   title: "Diffusion models - what we already can and yet can’t generate"
-  author-title: "Warsaw University of Technology/IDEAS NCBR"
+  author-title: "Warsaw University of Technology / IDEAS NCBR"
   abstract: >- 
     In this presentation, I will provide an overview of recent advancements in generative modeling using diffusion models. I will begin with a brief introduction, followed by a review of several recent publications that highlight significant progress. These advancements include concepts like classifier guidance, representation learning, selective forgetting, and continual learning within the context of diffusion models. During the presentation, I'll highlight the practical applications where diffusion-based generative models excel and delve into interesting research opportunities that arise from the limitations of these models.
   author-bio: >- 

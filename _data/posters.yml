@@ -481,7 +481,7 @@
   author-image: images/optimized/cfc-2023-600x600/jan_dubiński.webp
 
 - author-name: Paulina Tomaszewska
-  title: "Analysis of histopathological images using neural networks and the role of context"
+  title: "The analysis of histopathological images using neural networks through the lens of context"
   author-title: "Warsaw University of Technology"
   abstract: >- 
     The development of AI for healthcare is of great importance. One of the valuable applications of neural networks is digital pathology where histopathological images are processed. However, it comes with challenges. Recognizing the type of lesions is sometimes difficult even for histopathologists with long experience due to the complexity of the problem and the ambiguous nature of the lesions. Moreover, the whole slide images (WSIs) are of very huge resolution (e.g., 60000x100000 pixels). In the talk, the most common architecture for WSI classification will be presented. Moreover, the need for the analysis of whether the behaviour of the trained models aligns with the histopathologists' good practices will be emphasized together with a proposal on the spatial context measures.
@@ -516,14 +516,10 @@
   title: "Generalized test utilities for long-tail performance in extreme multi-label classification"
   author-title: "Poznan University of Technology"
   abstract: >- 
-    Extreme multi-label classification (XMLC) is the task of selecting a small subset of relevant labels from a very large set of possible labels. As such, it is characterized by long-tail labels, i.e., most labels have very few positive instances. With standard performance measures such as precision@k, a classifier can ignore tail labels and still report good performance. However, it is often argued that correct predictions in the tail are more interesting, rewarding, and, in many applications, important for fairness. The community has not yet settled on a metric capturing this intuitive concept. The existing propensity-scored metrics fall short of this goal by confounding the problems of long-tail and missing labels. In this paper, we analyze generalized metrics budgeted at k as an alternative solution. These include the popular family of macro-averaged performance metrics that average the performance over labels, resulting in measures that emphasize the balance between labels, independently of their frequencies and potentially alleviating the problems with evaluating long-tail performance. While the problem of optimizing macro-measures is well studied in the literature, we focus on the specific setting when the algorithm is required to predict exactly k labels for each instance, which is a popular constraint in XMLC applications. The constraint couples the otherwise independent binary classification tasks, leading to a much more challenging optimization problem than standard macro averages. We tackle this problem under two statistical frameworks - the Expected Test Utility (ETU) framework, which aims to optimize the expected performance on a fixed test set, and the Population Utility (PU), which aims to optimize the expected performance on the population level. In the first framework, we derive optimal prediction rules and construct computationally efficient approximations with provable regret guarantees and robustness against model misspecification and propose to optimize the problem using block coordinate ascent. In the second, we prove the existence and the form of the optimal classifier and propose a statistically consistent and practical learning algorithm based on the Frank-Wolfe method. Our algorithms scale effortlessly to the XMLC setting and obtain promising results in terms of long-tail performance. 
-    
-    Poster based on two papers that are currently under review for NeurIPS.
-    
-    There is a chance that I won't be able to attend the conference, so feel free to reject me if there are better submissions :)
+    Extreme multi-label classification (XMLC) is the task of selecting a small subset of relevant labels from a very large set of possible labels. As such, it is characterized by long-tail labels, i.e., most labels have very few positive instances. With standard performance measures such as precision@k, a classifier can ignore tail labels and still report good performance. However, it is often argued that correct predictions in the tail are more interesting, rewarding, and, in many applications, important for fairness. The community has not yet settled on a metric capturing this intuitive concept. The existing propensity-scored metrics fall short of this goal by confounding the problems of long-tail and missing labels. In this paper, we analyze generalized metrics budgeted at k as an alternative solution. These include the popular family of macro-averaged performance metrics that average the performance over labels, resulting in measures that emphasize the balance between labels, independently of their frequencies and potentially alleviating the problems with evaluating long-tail performance. While the problem of optimizing macro-measures is well studied in the literature, we focus on the specific setting when the algorithm is required to predict exactly k labels for each instance, which is a popular constraint in XMLC applications. The constraint couples the otherwise independent binary classification tasks, leading to a much more challenging optimization problem than standard macro averages. We tackle this problem under two statistical frameworks - the Expected Test Utility (ETU) framework, which aims to optimize the expected performance on a fixed test set, and the Population Utility (PU), which aims to optimize the expected performance on the population level. In the first framework, we derive optimal prediction rules and construct computationally efficient approximations with provable regret guarantees and robustness against model misspecification and propose to optimize the problem using block coordinate ascent. In the second, we prove the existence and the form of the optimal classifier and propose a statistically consistent and practical learning algorithm based on the Frank-Wolfe method. Our algorithms scale effortlessly to the XMLC setting and obtain promising results in terms of long-tail performance.
   author-bio: >- 
     Marek Wydmuch is currently a Ph.D. student at the Machine Learning Laboratory at Poznan University of Technology (PUT), Poland. His research interests include various topics in Machine Learning, with the main focus on Extreme Multi-Label Classification (XMLC). During his Ph.D., he published papers at a few A* conferences (NeurIPS, KDD, SIGIR). He also has industry experience, working as a Data Scientist for OLX Group (2017-2020) and Yahoo France (2022). He is a member of ML in PL Association and co-organizer of ML in PL Conference 2019-2023. Marek is also the author of ViZDoom library with environments for reinforcement learning (RL) research based on the Doom game and a member of the Farama Foundation that focuses on the development and maintenance of RL environments.
-  co-authors: 
+  co-authors: Erik Schultheis, Wojtek Kotłowski, Rohit Babbar, Krzysztof Dembczyński
   date: Friday / 27 October
   time: 16:30 - 18:30
   room: 
@@ -970,7 +966,7 @@
   author-bio: >- 
     - September 2017 – June 2020; IX LO im. Klementyny Hoffmanowej w Warszawie
     - October 2020 – NOW; Warsaw University of Technology, Computer Science, Artificial Intelligence, bachelor
-    - February 2022 –NOW Junior fullstack developer • M4X Sp. Z O.O.
+    - February 2022 – NOW Junior fullstack developer • M4X Sp. Z O.O.
     - Interesed in AI, with a focus on continual learning
   co-authors: 
   date: Saturday / 28 October
@@ -1001,7 +997,7 @@
     
     Our research communicates that we can learn single, robust, performant trees even on data with high label noise ratios.
   author-bio: >- 
-    Lukasz Sztukiewicz is pursuing a Bachelor of Science degree in Artificial Intelligence at the Poznan University of Technology. He participated in the prestigious Robotics Institute Summer Scholar Programme at Carnegie Mellon University. He currently works remotely as a machine learning research intern at Carnegie Mellon University, AutonLab.
+    Łukasz Sztukiewicz is pursuing a Bachelor of Science degree in Artificial Intelligence at the Poznan University of Technology. He participated in the prestigious Robotics Institute Summer Scholar Programme at Carnegie Mellon University. He currently works remotely as a machine learning research intern at Carnegie Mellon University, AutonLab.
   co-authors: 
   date: Saturday / 28 October
   time: 10:00 - 12:00
@@ -1153,7 +1149,7 @@
   id: 62
   author-image: images/optimized/cfc-2023-600x600/bartlomiej_sobieski.webp
 
-- author-name: Marianna Zadrozna
+- author-name: Marianna Zadrożna
   title: "Before Self-Driving Cars in Poland, We Need to Fix Road Markings! But Where?"
   author-title: "ASP"
   abstract: >- 
@@ -1170,7 +1166,7 @@
   id: 63
   author-image: images/empty.png
 
-- author-name: Adam Zadrozny
+- author-name: Adam Zadrożny
   title: "Why we are who we are? - Analysing historical media trends at scale"
   author-title: "National Centre for Nuclear Research / AnyLawyer / University of Warsaw"
   abstract: >- 
@@ -1183,7 +1179,7 @@
   room: 
   session: 
   id: 64
-  author-image: images/optimized/cfc-2023-600x600/adam_zadrozny.webp
+  author-image: images/optimized/cfc-2023-600x600/adam_zadrożny.webp
 
 - author-name: Izabela Krysińska
   title: "Enhancing Semgrex for Unstructured Text."
