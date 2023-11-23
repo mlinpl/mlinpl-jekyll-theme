@@ -5,16 +5,22 @@
   sponsors:
     - name: Amazon
       image: "images/optimized/sponsors-2023-600x600/Amazon.webp"
-      url: "https://www.aboutamazon.eu/"
+      url: "https://www.aboutamazon.pl/nasze-miejsce-pracy/amazon-development-center"
     - name: G-Resaerch
       image: "images/optimized/sponsors-2023-600x600/GResearch.webp"
       url: "https://www.gresearch.com/"
 
 - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
   imageMaxWidth: 280px
-  imageMaxHeight: 100px
+  imageMaxHeight: 90px
   margin: 30px 45px
   sponsors:
+    - name: Allegro
+      image: "images/optimized/sponsors-2023-600x600/Allegro.webp"
+      url: https://ml.allegro.tech/
+    - name: Google DeepMind
+      image: "images/optimized/sponsors-2023-600x600/GoogleDeepMind.webp"
+      url: https://www.deepmind.com/
     - name: Ideas NCBR
       image: "images/optimized/sponsors-2023-600x600/IdeasNCBR.webp"
       url: "https://ideas-ncbr.pl/en/"
@@ -29,9 +35,9 @@
       url: "https://www.snowflake.com/en/"
 
 - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
-  imageMaxWidth: 280px
-  imageMaxHeight: 80px
-  margin: 30px 45px
+  imageMaxWidth: 270px
+  imageMaxHeight: 70px
+  margin: 30px 50px
   sponsors:
     - name: AI Clearing
       image: "images/optimized/sponsors-2023-600x600/AIClearing.webp"
@@ -39,6 +45,15 @@
     - name: Alphamoon
       image: "images/optimized/sponsors-2023-600x600/alphamoon.webp"
       url: "https://alphamoon.ai/"
+    - name: Bites Studio
+      image: "images/optimized/sponsors-2023-600x600/Bites.webp"
+      url: "https://www.bitesstudio.com/"
+    - name: Gemelo
+      image: "images/optimized/sponsors-2023-600x600/Gemelo.webp"
+      url: https://gemelo.ai/
+    - name: Hewlett Packard Enterprise
+      image: "images/optimized/sponsors-2023-600x600/HPE.webp"
+      url: https://www.hpe.com/us/en/home.html
     - name: QuickchatAI
       image: "images/optimized/sponsors-2023-600x600/Quickchat.webp"
       url: "https://www.quickchat.ai/"
@@ -53,22 +68,27 @@
       url: "https://en.nask.pl/"
 
 - title: "/ Honorary Patronages"
-  imageMaxWidth: 400px
-  imageMaxHeight: 220px
+  imageMaxWidth: 410px
+  imageMaxHeight: 240px
   margin: 45px 60px
   sponsors:
     - name: Minister of Digital Affairs
       #title: Minister of Digital Affairs
       image: "images/optimized/honorary-patronages-600x600/MinistryOfDigitialAffairs.webp"
-      url: https://www.mimuw.edu.pl/
     - name: GovTech
       #title: Minister of Digital Affairs
       image: "images/honorary-patronages/govtech.svg"
-      url: https://www.mimuw.edu.pl/
+      url: https://www.gov.pl/web/govtech-en
+    - name: SGH
+      image: "images/optimized/honorary-patronages-600x600/SGH.webp"
+      url: https://www.sgh.waw.pl/en
+    - name: WMiNI
+      image: "images/optimized/honorary-patronages-600x600/WMiNI.webp"
+      url: "https://ww4.mini.pw.edu.pl/"
     - name: University of Warsaw
       #title: Rector of University of Warsaw
       image: "images/optimized/honorary-patronages-600x600/UW.webp"
-      url: https://www.mimuw.edu.pl/
+      url: https://en.uw.edu.pl/
     - name: Dean of the Faculty of Mathematics, Informatics and Mechanics
       #title: Dean of the Faculty of Mathematics, Informatics and Mechanics UW
       image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"

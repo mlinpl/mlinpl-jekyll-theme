@@ -1,16 +1,17 @@
-<section id="organizers" class="container content-section">
+<section class="container content-section">
     <div class="row">
         <div class="col-lg-12">
             <h2>/ Discussion Panels</h2>
         </div>
     </div>
 
+    
+    {% for panel in site.data.panels %}
     <div class="row">
-        {% for panel in site.data.panels %}
         <anchor style="position: relative; top: -70px;" id="discussion-panel-{{ panel.id }}"></anchor>
         <div class="col-md-12" style="margin-bottom: 70px;">
             {% include conference/panel-details.html panel=panel include-details=true %}
         </div>
-        {% endfor %}
     </div>
+    {% endfor %}
 </section>
