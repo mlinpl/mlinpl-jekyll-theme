@@ -1,7 +1,8 @@
-# www-dev
-Repositorium for testing new ideas and designs for ML in PL websites
+# mlinpl-jekyll-theme
 
-## Our resources
+This repository contains the Jekyll theme developed for the ML in PL websites (conferences, summer schools etc.).
+
+## Resources
 
 - Jakyll tutorial: https://jekyllrb.com/docs/step-by-step/01-setup/
 - GitHub pages docs: https://docs.github.com/en/pages
@@ -12,7 +13,10 @@ Repositorium for testing new ideas and designs for ML in PL websites
 - _data - contains yml files with data
 - _includes - contains different modules that can be included
 - _layouts - contains full layouts for the page
+- _posts - contains blog posts
 - images - contains different images used on the site
+- libs - contains external libraries
+- scripts - contains scripts used for different tasks like generating optimized images, building the site etc.
 
 ## Quick-start - running this repo locally
 
@@ -70,4 +74,16 @@ bundle _2.4.5_ install
 bundle exec jekyll serve --livereload
 ```
 This should start the server and make your website available at http://localhost:4000.
+
+To run server with config for a conference site use:
+```
+bash serve_conference.sh
+```
+
+To run server with config for a summer school site use:
+```
+bash serve_mlss.sh
+```
+
+### Optimizing images
 
