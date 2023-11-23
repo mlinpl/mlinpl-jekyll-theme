@@ -21,6 +21,7 @@ optimize_images () {
     mogrify -adaptive-resize ${size}\> -format ${format} -quality ${quality} *
     rm -f *.jpg *.jpeg *.png *.gif
     unset GLOBIGNORE
+    cd $ROOT_DIR
 }
 
 
@@ -36,7 +37,7 @@ optimize_images mlss-speakers-2022 600x600 webp 90
 optimize_images cfc-2023 600x600 webp 90
 
 # Optimize sponsors and partners logos
-optimize_images sponsors 600x600 webp 90
+optimize_images sponsors-2023 600x600 webp 90
 optimize_images partners 600x600 webp 90
 optimize_images previous-sponsors 300x300 webp 90
 optimize_images honorary-patronages 600x600 webp 90

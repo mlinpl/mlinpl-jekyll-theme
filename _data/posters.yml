@@ -1,25 +1,25 @@
-- author-name: Maciej Wysocki
-  title: "The Future is Now: Embracing Allegro Transactional Data for Risk Modeling"
-  author-title: "Faculty of Economic Sciences, Quantiatitve Finance Department, University of Warsaw; Allegro Pay"
-  abstract: >- 
-    The accurate prediction of probability of default plays a critical role in safeguarding Allegro Pay business. Industry standard models, like tree-based models, unfortunately fall short in capturing the complexities of time-varying transactional data, limiting their predictive capabilities in prescoring applications. This presentation unveils a groundbreaking approach that harnesses the power of deep learning models to transform preliminary credit risk assessment.
+# - author-name: Maciej Wysocki
+#   title: "The Future is Now: Embracing Allegro Transactional Data for Risk Modeling"
+#   author-title: "Faculty of Economic Sciences, Quantiatitve Finance Department, University of Warsaw / Allegro Pay"
+#   abstract: >- 
+#     The accurate prediction of probability of default plays a critical role in safeguarding Allegro Pay business. Industry standard models, like tree-based models, unfortunately fall short in capturing the complexities of time-varying transactional data, limiting their predictive capabilities in prescoring applications. This presentation unveils a groundbreaking approach that harnesses the power of deep learning models to transform preliminary credit risk assessment.
     
-    At the core of our methodology lies the utilization of time series transactional data, which provides insights into customers' behavior over time. We developed a custom experimentation framework tailored to our specific credit risk domain leveraging this valuable data. This framework facilitated seamless integration of deep learning models and allowed us to derive more accurate preliminary probability of default estimates.
+#     At the core of our methodology lies the utilization of time series transactional data, which provides insights into customers' behavior over time. We developed a custom experimentation framework tailored to our specific credit risk domain leveraging this valuable data. This framework facilitated seamless integration of deep learning models and allowed us to derive more accurate preliminary probability of default estimates.
     
-    Our experimentation framework enabled us to explore various deep learning architectures, including Long Short-Term Memory (LSTM) networks and transformers, capable of capturing temporal dependencies in the data. We incorporated a combination of numerical and categorical features into our models, effectively encoding customer behavior patterns and leveraging transactional data in a meaningful way.
+#     Our experimentation framework enabled us to explore various deep learning architectures, including Long Short-Term Memory (LSTM) networks and transformers, capable of capturing temporal dependencies in the data. We incorporated a combination of numerical and categorical features into our models, effectively encoding customer behavior patterns and leveraging transactional data in a meaningful way.
     
-    To evaluate the effectiveness of our approach, extensive experiments were conducted on a diverse dataset comprising hundreds of thousands of time series of customer transactions. The results surpassed our baseline approaches, showcasing the potential of deep learning in probability of default prediction. We witnessed remarkable improvements in model performance, enabling more precise preliminary risk assessment and proactive decision-making.
+#     To evaluate the effectiveness of our approach, extensive experiments were conducted on a diverse dataset comprising hundreds of thousands of time series of customer transactions. The results surpassed our baseline approaches, showcasing the potential of deep learning in probability of default prediction. We witnessed remarkable improvements in model performance, enabling more precise preliminary risk assessment and proactive decision-making.
     
-    In conclusion, this presentation demonstrates the transformative potential of deep learning models in credit risk assessment, leveraging time series transactional data to accurately calculate preliminary probability of default based solely on Allegro data. The developed experimentation framework and the insights gained from our experiments pave the way for future advancements and usage of our methodology for customers prelimit offers.
-  author-bio: >- 
-    Maciej Wysocki is a first-year Ph.D. student in Quantitative Finance at the University of Warsaw and works as a data scientist at Allegro Pay. In his academic research he tackles the problems of derivatives pricing and portfolio optimization, while at Allegro Pay on a daily basis he deals with terabytes of data to deliver state-of-the-art machine learning solutions for credit risk management. With a passion for data-driven insights, he has a track record of applying advanced analytics and machine learning methods to solve complex business challenges in the banking and fintech industries.
-  co-authors: Jan Kościałkowski
-  date: Friday / 27 October
-  time: 16:30 - 18:30
-  room: 
-  session: 
-  id: 1
-  author-image: images/optimized/cfc-2023-600x600/maciej_wysocki.webp
+#     In conclusion, this presentation demonstrates the transformative potential of deep learning models in credit risk assessment, leveraging time series transactional data to accurately calculate preliminary probability of default based solely on Allegro data. The developed experimentation framework and the insights gained from our experiments pave the way for future advancements and usage of our methodology for customers prelimit offers.
+#   author-bio: >- 
+#     Maciej Wysocki is a first-year Ph.D. student in Quantitative Finance at the University of Warsaw and works as a data scientist at Allegro Pay. In his academic research he tackles the problems of derivatives pricing and portfolio optimization, while at Allegro Pay on a daily basis he deals with terabytes of data to deliver state-of-the-art machine learning solutions for credit risk management. With a passion for data-driven insights, he has a track record of applying advanced analytics and machine learning methods to solve complex business challenges in the banking and fintech industries.
+#   co-authors: Jan Kościałkowski
+#   date: Friday / 27 October
+#   time: 16:30 - 18:30
+#   room: 
+#   session: 
+#   id: 1
+#   author-image: images/optimized/cfc-2023-600x600/maciej_wysocki.webp
 
 - author-name: Mateusz Panasiuk
   title: "Calm in the eye of the storm: how to thrive in noisy environment"
@@ -33,18 +33,20 @@
     I will demonstrate how to use these methods in the realm of highly noisy and limited financial data to generate a signal for trading strategies.
     The presentation will dive deep into philosophical questions of choosing a model, working with limited data and managing the noise contained in it.
   author-bio: >- 
-    I am a machine learning specialist, mathematics aficionado and statistical modelling devotee. My modelling experience ranges from finances to immunology and genomics. Currently I combine foundational questions about machine learning, stochastic processes and Bayesian statistics to cook the tastiest methods of unique, mathematically sound flavour.
+    Mateusz Panasiuk is a machine learning specialist, mathematics aficionado, and statistical modelling devotee. His modelling experience ranges from finances to immunology and genomics. Currently, he combines foundational questions about machine learning, stochastic processes, and Bayesian statistics to cook the tastiest methods of unique, mathematically sound flavour.
   co-authors: 
   date: Friday / 27 October
   time: 16:30 - 18:30
   room: 
   session: 
   id: 2
+  poster: docs/poster_2.pdf
   author-image: images/optimized/cfc-2023-600x600/mateusz_panasiuk.webp
+  
 
 - author-name: Adam Dziedzic
   title: "Privacy for Large Language Models"
-  author-title: "University of Toronto and Vector Institute"
+  author-title: "University of Toronto / Vector Institute"
   abstract: >- 
     Large language models (LLMs) are excellent in-context learners. However, the sensitivity of data contained in prompts raises privacy concerns. Our work first shows that these concerns are valid: we instantiate a simple but highly effective membership inference attack against the data used to prompt LLMs. To address this vulnerability, one could forego prompting and resort to fine-tuning LLMs with known algorithms for private gradient descent. However, this comes at the expense of the practicality and efficiency offered by prompting. Therefore, we propose to privately learn to prompt. We first show that soft prompts can be obtained privately through gradient descent on downstream data. However, this is not the case for discrete prompts. Thus, we orchestrate a noisy vote among an ensemble of LLMs presented with different prompts, i.e., a flock of stochastic parrots. The vote privately transfers the flock's knowledge into a single public prompt. We show that LLMs prompted with our private algorithms closely match the non-private baselines. For example, using GPT3 as the base model, we achieve a downstream accuracy of 92.7% on the sst2 dataset with (ϵ=0.147,δ=10−6)-differential privacy vs. 95.2% for the non-private baseline. Through our experiments, we also show that our prompt-based approach is easily deployed with existing commercial APIs.
   author-bio: >- 
@@ -63,7 +65,7 @@
   abstract: >- 
     How AutoML can provide fairness metrics. Ensuring fairness in Machine Learning is essential to avoid discrimination and bias based on sensitive attributes like race, gender, age, or ethnicity. With our AutoML - mljar-supervised (an on pen-source Python package https://github.com/mljar/mljar-supervised), you can now measure fairness and mitigate bias for these sensitive features across three Machine Learning tasks: binary classification, multiclass classification, and regression.
   author-bio: >- 
-    Ph.D. of Informatics from  Warsaw  University of Technology with experience in scientific and industry projects. Since 2016' working on MLJAR AutoML
+    Piotr Płoński is a Ph.D. of Informatics from Warsaw  University of Technology with experience in scientific and industry projects. Since 2016, he is working on MLJAR AutoML.
   co-authors: Aleksandra Płońska
   date: Friday / 27 October
   time: 16:30 - 18:30
@@ -81,28 +83,30 @@
     and variables, careful selection of the models included in ensembles, and an understanding of the mathematical basis behind them. This process is challenging for data scientists and prevents efficient ML solutions from being made available to researchers in other fields. Automated machine learning (AutoML) has emerged as a solution to this problem, aiming to perform the model selection and optimization process on its own. 
     This work focuses on two popular AutoML frameworks in Python: Auto-sklearn and AutoGluon. We conduct experiments with various parameters and analyze the results to understand the performance and effectiveness of these frameworks. Both frameworks use ensemble methods to create models with optimized parameters. We study the differences between the families of models used by each framework and how their diversity depends on data structure and training time. In addition, we compare the predictive accuracy of trained ensembles on validation data. To better understand how these frameworks work, we provide theoretical descriptions of the popular ML models used by these AutoML tools and descriptions of the ensemble process and the error metrics used to evaluate these models.
   author-bio: >- 
-    A graduate of the first degree at the Faculty of Mathematics and Information Sciences of Warsaw University of Technology in Mathematics and Data Analysis.
+    Jędrzej is a graduate of the first degree at the Faculty of Mathematics and Information Sciences of Warsaw University of Technology in Mathematics and Data Analysis.
   co-authors: Anna Kozak
   date: Friday / 27 October
   time: 16:30 - 18:30
   room: 
   session: 
   id: 5
+  poster: docs/poster_5.pdf
   author-image: images/empty.png
 
 - author-name: Aleksandra Mulewicz
   title: "Can quantum computing optimize machine learning?"
   author-title: "Unify"
   abstract: >- 
-    Nowadays,  the impact of nature on multiple areas of our lives is constantly increasing. One of the objectives of this talk is to find out if the contribution of quantum computers can increase the efficiency of machine learning models. This study highlights two types of quantum advantage - comparison of classical algorithms with a quantum equivalent and ideas derived primarily in the context of quantum computing. The research was based on multiple papers from relevant sources such as original IBM documentations or university professors’ papers - I compared different views on the topic and found a lot of surprising facts. What is emphasised however is the critics of quantum machines supported mostly by the cost and time taken to evaluate these algorithms. While acknowledging the impact of quantum machine learning, my study discovers the power of optimization in simulators that are not actual quantum computers that is caused by advanced mathematics solutions. The talk will cover areas that could benefit the most thanks to the quantum approach such as drug discovery or molecule modelling - at the same time different approaches are studied to ensure the best possible reasons.
+    Nowadays, the impact of nature on multiple areas of our lives is constantly increasing. One of the objectives of this talk is to find out if the contribution of quantum computers can increase the efficiency of machine learning models. This study highlights two types of quantum advantage - comparison of classical algorithms with a quantum equivalent and ideas derived primarily in the context of quantum computing. The research was based on multiple papers from relevant sources such as original IBM documentations or university professors' papers - I compared different views on the topic and found a lot of surprising facts. What is emphasised however is the critics of quantum machines supported mostly by the cost and time taken to evaluate these algorithms. While acknowledging the impact of quantum machine learning, my study discovers the power of optimization in simulators that are not actual quantum computers that is caused by advanced mathematics solutions. The talk will cover areas that could benefit the most thanks to the quantum approach such as drug discovery or molecule modelling - at the same time different approaches are studied to ensure the best possible reasons.
   author-bio: >- 
-    I'm a polish scholarship student in one of british colleges. I study maths and computer science - in the mean time I'm working on the research concerning machine learning optimization. Before changing countries I've been doing IB at III LO in Katowice. In my free time I love to read, create jewelerly and work on additional projects
+    Aleksandra Mulewicz is a Polish scholarship student in one of the British colleges. She studies math and computer science. In the meantime, she is working on research concerning machine learning optimization. Before changing countries, Aleksandra was doing IB at III LO in Katowice. In her free time, she loves to read, create jewelry, and work on additional projects.
   co-authors: 
   date: Friday / 27 October
   time: 16:30 - 18:30
   room: 
   session: 
   id: 6
+  poster: docs/poster_6.pdf
   author-image: images/optimized/cfc-2023-600x600/aleksandra_mulewicz.webp
 
 - author-name: Patryk Wielopolski
@@ -115,9 +119,9 @@
     
     Our experimental results demonstrate that TreeFlow achieves state-of-the-art performance in both probabilistic and deterministic metrics on datasets featuring multi-modal target distributions. Furthermore, when compared to traditional tree-based regression baselines, TreeFlow delivers competitive results on datasets with unimodal target distributions. Overall, our novel TreeFlow approach represents a significant advancement in the realm of flexible regression modeling, offering promising avenues for tackling complex real-world problems requiring probabilistic output predictions.
   author-bio: >- 
-    Patryk Wielopolski is an Artificial Intelligence Ph.D. Researcher at Wrocław University of Science and Technology. He holds a Master’s degree in Applied Mathematics. His research focuses on advanced topics in AI, with a particular emphasis on normalizing flows, probabilistic modeling, and uncertainty estimation. 
+    Patryk Wielopolski is an Artificial Intelligence Ph.D. Researcher at Wrocław University of Science and Technology. He holds a Master's degree in Applied Mathematics. His research focuses on advanced topics in AI, with a particular emphasis on normalizing flows, probabilistic modeling, and uncertainty estimation. 
     
-    Wielopolski’s contributions to the field have been recognized through publications in AAAI and ECAI and his role as a reviewer for the ICML Conference. Further, Wielopolski has actively participated as a speaker in multiple conferences, delivering insightful presentations and showcasted innovative solutions at over 10 hackathons.
+    Wielopolski's contributions to the field have been recognized through publications in AAAI and ECAI and his role as a reviewer for the ICML Conference. Further, Wielopolski has actively participated as a speaker in multiple conferences, delivering insightful presentations and showcasted innovative solutions at over 10 hackathons.
     
     His expertise extends beyond academia, as he also occupies the role of an AI Solution Architect at DataWalk. Previously, he held roles as a Senior Data Scientist and R&D Product Owner in the CTO Office Team at DataWalk.
     
@@ -128,56 +132,59 @@
   room: 
   session: 
   id: 7
+  poster: docs/poster_7.pdf
   author-image: images/optimized/cfc-2023-600x600/patryk_wielopolski.webp
 
 - author-name: Krzysztof Jankowski
   title: "GARAGE: Generative-Augmented Retrieval Assisting Generation Enhancement"
   author-title: "University of Warsaw"
   abstract: >- 
-    With the recent rise in popularity of generative models (e.g. ChatGPT, GPT4) the issues with the accuracy of the provided information became a great threat. The models might generate a correct answer, but in many cases, they output with high confidence a totally wrong and extremely plausible answer. In many sectors, this hallucinating behavior can have critical consequences e.g. medicine, law, or engineering, and therefore the usage of generative models is very risky especially when people don’t know the limitations of such tools. In this paper, we tackle a very important task of augmenting generative models like BART or ChatGPT to improve their capabilities of generating factual responses. Moreover, we incorporate a mechanism of providing passages containing information from a local knowledge database alongside the generated response. Thanks to such improvements the users get the possibility to quickly assess the correctness of a response and by relying on an external nonparametric knowledge-base memory it is easy to update the model’s knowledge to provide correct answers. Our model consists of a powerful ensemble of classical and neural retrievers and generative prompt enhancement to achieve a superior performance of information retrieval. Our experiments employ the CovidQA dataset, which comprises questions and passages from scientific articles, to assess the performance of GARAGE. The results demonstrate that our approach outperforms the baseline models in terms of retrieval accuracy and answer quality, while also reducing hallucinations typically encountered in large language models. The total cost of training the model and performing experiments was 10$ making it very affordable and compute resource efficient. GARAGE signifies a promising advancement in open-domain question answering systems and paves the way for future research in combining traditional retrieval methods with neural approaches.
+    With the recent rise in popularity of generative models (e.g. ChatGPT, GPT4) the issues with the accuracy of the provided information became a great threat. The models might generate a correct answer, but in many cases, they output with high confidence a totally wrong and extremely plausible answer. In many sectors, this hallucinating behavior can have critical consequences e.g. medicine, law, or engineering, and therefore the usage of generative models is very risky especially when people don't know the limitations of such tools. In this paper, we tackle a very important task of augmenting generative models like BART or ChatGPT to improve their capabilities of generating factual responses. Moreover, we incorporate a mechanism of providing passages containing information from a local knowledge database alongside the generated response. Thanks to such improvements the users get the possibility to quickly assess the correctness of a response and by relying on an external nonparametric knowledge-base memory it is easy to update the model's knowledge to provide correct answers. Our model consists of a powerful ensemble of classical and neural retrievers and generative prompt enhancement to achieve a superior performance of information retrieval. Our experiments employ the CovidQA dataset, which comprises questions and passages from scientific articles, to assess the performance of GARAGE. The results demonstrate that our approach outperforms the baseline models in terms of retrieval accuracy and answer quality, while also reducing hallucinations typically encountered in large language models. The total cost of training the model and performing experiments was 10$ making it very affordable and compute resource efficient. GARAGE signifies a promising advancement in open-domain question answering systems and paves the way for future research in combining traditional retrieval methods with neural approaches.
   author-bio: >- 
-    I am a final year Machine Learning MSc student at University of Warsaw, SDE intern at Amazon and a member of TensorCell research group. I graduated from University of Warsaw with Bachelor's degree in Computer Science and a thesis "Large Scale Optimization Algorithms in Vehicle Routing Problem" which was recognized as the best engineering thesis by IEEE Engineer 4 Science. From that moment I embarked on a fascinating Machine Learning journey. I am particularly passionate about Natural Language Processing and Reinforcement Learning and have started contributing to these fields. I love connecting academic research with business challenges and applying Machine Learning solutions to such problems. I also worked in 2 startups and learned a lot about enterpreuneship by winning a startup accelerator program organized by UW Incubator. In my free time I love attending ML events and meeting amazing people.
-  co-authors: Michał Janik, Michał Grotkowski, Antoni Hanke
+    Krzysztof Jankowski is a final year Machine Learning MSc student at University of Warsaw, SDE intern at Amazon and a member of TensorCell research group. He graduated from University of Warsaw with Bachelor's degree in Computer Science and a thesis "Large Scale Optimization Algorithms in Vehicle Routing Problem" which was recognized as the best engineering thesis by IEEE Engineer 4 Science. From that moment, he embarked on a fascinating Machine Learning journey. Krzysztof is particularly passionate about Natural Language Processing and Reinforcement Learning and has started contributing to these fields. He loves connecting academic research with business challenges and applying Machine Learning solutions to such problems. He also worked in 2 startups and learned a lot about entrepreneurship by winning a startup accelerator program organized by UW Incubator. In his free time, he loves attending ML events and meeting amazing people.
+  co-authors: Michał Janik, Michał Grotkowski, Antoni Hanke, Grzegorz Preibisch
   date: Friday / 27 October
   time: 16:30 - 18:30
-  room: 
-  session: 
+  room:
+  session:
   id: 8
+  poster: docs/poster_8.pdf
   author-image: images/optimized/cfc-2023-600x600/krzysztof_jankowski.webp
 
 - author-name: Pawel Knap
   title: "Energy Storage in the Smart Grid: a Multi-Agent Deep Reinforcement Learning Approach"
   author-title: "University of Southampton"
   abstract: >- 
-    My work presents a novel energy storage system controlled by a Reinforcement Learning agent for households in the context of smart grid technology. The proposed system aims to optimize electricity trading in variable tariff environment. The system has been shown through simulations and evaluations to generate significant consumer savings in electricity bills, up to 29.53\%, without requiring changes in consumption habits. It also offers substantial earnings when combined with solar panels. My work further investigates a Multi-Agent System simulation to analyze interactions and identify beneficial price-demand relationships. The findings highlight the positive impact of storage on the energy market and demonstrate the advantages for both consumers and network operators. Deep Q Learning is identified as the most effective algorithm, and the study examines the effects of different storage sizes and agent complexity levels. The results provide valuable insights into the potential of the proposed solution and its benefits for the wider community.
+    This work presents a novel energy storage system controlled by a Reinforcement Learning agent for households in the context of smart grid technology. The proposed system aims to optimize electricity trading in variable tariff environment. The system has been shown through simulations and evaluations to generate significant consumer savings in electricity bills, up to 29.53%, without requiring changes in consumption habits. It also offers substantial earnings when combined with solar panels. My work further investigates a Multi-Agent System simulation to analyze interactions and identify beneficial price-demand relationships. The findings highlight the positive impact of storage on the energy market and demonstrate the advantages for both consumers and network operators. Deep Q Learning is identified as the most effective algorithm, and the study examines the effects of different storage sizes and agent complexity levels. The results provide valuable insights into the potential of the proposed solution and its benefits for the wider community.
   author-bio: >- 
-    I am an enthusiastic 4th year Electronics with AI student at the University of Southampton, expected to graduate in 2024. With a steadfast passion for Machine Learning, particularly in Computer Vision and Reinforcement Learning, my academic journey has been marked by exceptional achievements.
+    Pawel Knap is an enthusiastic 4th year Electronics with AI student at the University of Southampton, expected to graduate in 2024. With a steadfast passion for Machine Learning, particularly in Computer Vision and Reinforcement Learning.
     
-    My education has been characterized by a remarkable academic record, consistently achieving first-class average, and laureate/finalist titles in three National Olympiads of EEE knowledge in middle school, cementing my dedication to technical excellence from an early age. Additionally, I've contributed extensively to research with two publications submitted to international academic conferences:"Energy Storage in the Smart Grid: A Multi-Agent Deep Reinforcement Learning Approach", and "Real-time Omnidirectional 3D Multi-Person Human Pose Estimation with Occlusion Handling".
+    His education has been characterized by a remarkable academic record, consistently achieving first-class average, and laureate/finalist titles in three National Olympiads of EEE knowledge in middle school, cementing my dedication to technical excellence from an early age. Additionally, I've contributed extensively to research with two publications submitted to international academic conferences:"Energy Storage in the Smart Grid: A Multi-Agent Deep Reinforcement Learning Approach", and "Real-time Omnidirectional 3D Multi-Person Human Pose Estimation with Occlusion Handling".
     
-    In addition to my academic pursuits, I've gained valuable industry experience, including roles as a Computer Vision Engineer at the University of Southampton, where I developed a real-time 3D multi-person human pose estimation system with occlusion-handling capabilities, and as a Computer Vision Intern at OculAI, contributing to the development and fine-tuning of yolov5-based applications. Furthermore, my tenure as a Data Science Intern at Clas-SiC Wafer Fab involved designing and implementing a high-performance supervised algorithm for detecting faulty components. I contributed to data preprocessing, analysis, and v
-  co-authors: 
+    In addition to my academic pursuits, he has gained valuable industry experience, including roles as a Computer Vision Engineer at the University of Southampton, where he developed a real-time 3D multi-person human pose estimation system with occlusion-handling capabilities, and as a Computer Vision Intern at OculAI, contributing to the development and fine-tuning of yolov5-based applications. Furthermore, his tenure as a Data Science Intern at Clas-SiC Wafer Fab involved designing and implementing a high-performance supervised algorithm for detecting faulty components.
+  co-authors:
   date: Friday / 27 October
   time: 16:30 - 18:30
-  room: 
-  session: 
+  room:
+  session:
   id: 9
+  poster: docs/poster_9.pdf
   author-image: images/empty.png
 
-- author-name: Sindhu Padakandla
-  title: "End-to-End Machine Learning Approaches for Autonomous Driving"
-  author-title: "OLA Electric"
-  abstract: >- 
-    Autonomous driving is a geometric problem, where the goal is to navigate a vehicle safely and correctly through 3D space. Based on LiDAR ensing, a 3D representation of the scene is commonly used for motion planning and prediction. Recent advances in camera-based perception are applicable for wider monocular vision tasks including motion prediction and planning. Autonomous vehicles (AV) based on cameras are much cheaper compared to LiDAR based. Thus, of late, there has been lot of emphasis on utilizing camera-based perception for all driving related tasks, with weather related abnormalities handled using minimal dependence on expensive sensors (like LiDAR, RADAR etc). This review work follows two main threads - (1) emphasis on end-to-end learning approaches for driving, more specifically reinforcement learning (RL)-based (2) highlighting the importance of both 2D and 3D representations for scene understanding in autonomous driving (AD).
-  author-bio: >- 
-    I am a scientist working in the area of Autonomous Vehicles, and specialize in Deep Reinforcement Learning and Machine Learning. Currently I am also keen to make AI approaches accessible to non-AI, non-tech background researchers as well. Have been actively conducting summer schools and workshops for Bio and Chemistry researchers to help them get initiated into AI.
-  co-authors: 
-  date: Friday / 27 October
-  time: 16:30 - 18:30
-  room: 
-  session: 
-  id: 10
-  author-image: images/empty.png
+# - author-name: Sindhu Padakandla
+#   title: "End-to-End Machine Learning Approaches for Autonomous Driving"
+#   author-title: "OLA Electric"
+#   abstract: >-
+#     Autonomous driving is a geometric problem, where the goal is to navigate a vehicle safely and correctly through 3D space. Based on LiDAR ensing, a 3D representation of the scene is commonly used for motion planning and prediction. Recent advances in camera-based perception are applicable for wider monocular vision tasks including motion prediction and planning. Autonomous vehicles (AV) based on cameras are much cheaper compared to LiDAR based. Thus, of late, there has been lot of emphasis on utilizing camera-based perception for all driving related tasks, with weather related abnormalities handled using minimal dependence on expensive sensors (like LiDAR, RADAR etc). This review work follows two main threads - (1) emphasis on end-to-end learning approaches for driving, more specifically reinforcement learning (RL)-based (2) highlighting the importance of both 2D and 3D representations for scene understanding in autonomous driving (AD).
+#   author-bio: >-
+#     Sindhu Padakandla is a scientist working in the area of Autonomous Vehicles, and specialize in Deep Reinforcement Learning and Machine Learning. Currently she is also keen to make AI approaches accessible to non-AI, non-tech background researchers as well. She has been actively conducting summer schools and workshops for Bio and Chemistry researchers to help them get initiated into AI.
+#   co-authors:
+#   date: Friday / 27 October
+#   time: 16:30 - 18:30
+#   room:
+#   session:
+#   id: 10
+#   author-image: images/empty.png
 
 - author-name: Wojciech Kusa
   title: "Effective Matching of Patients to Clinical Trials using Entity Extraction and Neural Re-ranking"
@@ -196,11 +203,11 @@
     The re-ranking strategy, based on our training schema, consistently enhances CT retrieval and shows improved performance by 15% in terms of precision at retrieving eligible trials.
   author-bio: >- 
     Wojciech is a Research Assistant and a PhD student at TU Wien, where he works on the automation of the Systematic Literature Review process. He is a member of the EU Horizon 2020 Project DoSSIER. He specialises in (biomedical) natural language processing, and his research interests include information extraction, evaluation and language modelling. He graduated in Computer Science from AGH University and Cognitive Science from Jagiellonian University. Previously, he worked as an NLP Engineer at Samsung R&D Institute. He interned at Sony CSL in Tokyo, UNINOVA R&D in Lisbon and the Polish Academy of Sciences, researching natural language processing and computer vision.
-  co-authors: 
+  co-authors:
   date: Friday / 27 October
   time: 16:30 - 18:30
-  room: 
-  session: 
+  room:
+  session:
   id: 11
   author-image: images/empty.png
 
@@ -209,14 +216,15 @@
   author-title: "Center For Theoretical Physics, Polish Academy Of Science"
   abstract: >- 
     One of the biggest challenges in astronomy is to measure distances to celestial objects. This is especially the case for far-away galaxies, which are millions and billions of light years from us. The traditional observational technique to measure galaxy distances is by obtaining their electromagnetic spectra - detailed decomposition of the light arriving to us - and computing the so-called redshift, related to the expansion of the Universe. However, exact redshifts can only be obtained for a small percentage of all observed galaxies. In the era of billions of galaxy samples, other techniques of distance estimation are being developed, and among them are those using machine learning to estimate the redshift from galaxy images at different “colors” - different electromagnetic wavelengths or frequencies. For many years now methods such as artificial neural networks have been used for that purpose, and they have relied on post-processed, summary information about galaxies, in the form of galaxy fluxes measured for the different colors. However, more precise information about galaxy distances can be extracted directly from their full images, which encode many features lost in the post-processing (“data reduction”). This is where deep learning techniques excel and in my talk, I will show how we employ convolutional neural networks to estimate redshifts from state-of-the-art observational data.
-  author-bio: >- 
-    I am doing PhD in Cosmology at the Center for Theoretical Physics, Warsaw. I
+  author-bio: >-
+    Anjitha is a PhD student at Center for Theoretical Physics, Warsaw, Poland. She did her master's in Physics at University of Kerala, India. Her research work includes analysing cosmological observational data by using machine learning techniques and clustering of galaxies. She has developed a deep learning model to estimate photometric redshifts of galaxies.
   co-authors: Maciej Bilicki, Priyanka Jalan
   date: Friday / 27 October
   time: 16:30 - 18:30
-  room: 
-  session: 
+  room:
+  session:
   id: 12
+  poster: docs/poster_12.pdf
   author-image: images/optimized/cfc-2023-600x600/anjitha_john_william_mini_latha.webp
 
 - author-name: Andrii Krutsylo
@@ -226,12 +234,13 @@
     Continual Learning aims to simulate the human ability to learn tasks sequentially while mitigating catastrophic forgetting. Replay-based strategies have shown promise in preserving the knowledge of previous tasks in non-independent and identically distributed data. However, existing strategies often focus on selecting samples based on their individual properties, neglecting the cumulative impact of a batch of samples. This paper presents a novel Experience Replay approach for Continual Learning that considers the contribution of a batch as a whole. We propose a metric based on the distance between the hidden representations of the samples before and after the model update. We hypothesize that the higher changes in the representations would mean the higher forgetting of the sample, and replaying the most forgotten samples will lead to reducing forgetting. The proposed metric allows us to select the samples which not only suffer from forgetting the most, but also in a different parts of their representations, increasing the batch diversity. Our method was evaluated using the MNIST and CIFAR-10 datasets and compared with existing replay-based methods. The results demonstrate consistent outperformance or competitive performance across different memory sizes, thereby proving our method's robustness and versatility. Taking into account the collective contribution of a batch, our research significantly enhances the effectiveness of Experience Replay.
   author-bio: >- 
     Andrii Krutsylo is a Ph.D. Candidate in Computer Science at the Polish Academy of Sciences, specializing in Continual Learning and Experience Replay strategies. He holds a Master's degree in Artificial Intelligence from Jagiellonian University. His research interest lies in exploring novel methodologies and improving traditional techniques in machine learning, particularly in non-independent and non-identically distributed data scenarios.
-  co-authors: 
+  co-authors:
   date: Friday / 27 October
   time: 16:30 - 18:30
-  room: 
-  session: 
+  room:
+  session:
   id: 13
+  poster: docs/poster_13.pdf
   author-image: images/empty.png
 
 - author-name: Jakub Kopyciński
@@ -243,15 +252,16 @@
     The prototype neural network architecture we employ merges established models, incorporating 2D and 3D convolutional layers, pooling, and fully-connected layers. Our performance assessment relies on precision, recall, and F1-score metrics applied to datasets simulating vortices in ultracold matter. The outcomes of our exploratory research are highly promising, with precision, recall, and F1-score metrics exceeding 80%.
     It lays a foundation for advancing our study into turbulent states characterized by vortices forming spaghetti-like tangles. To this end, we envision expanding the network architecture to achieve enhanced accuracy in detecting vortex configurations.
   author-bio: >- 
-    I am a PhD student at the Centre for Theoretical Physics of the Polish Academy of Sciences in Warsaw. My research focusses on solitons and vortices in ultracold gases.
+    Jakub Kopyciński is a PhD student at the Centre for Theoretical Physics of the Polish Academy of Sciences in Warsaw. His research focuses on solitons and vortices in ultracold gases.
     
-    I study beyond-mean-field effects in dipolar Bose systems and in Bose-Bose mixtures. I am also interested in out-of-equilibrium phenomena in superfluid systems, especially quantum turbulence in both Bose and Fermi gases. One of my latest projects incorporates the use of neural networks in the investigation of quantum vortex states.
-  co-authors: 
+    He studies beyond-mean-field effects in dipolar Bose systems and in Bose-Bose mixtures. he is also interested in out-of-equilibrium phenomena in superfluid systems, especially quantum turbulence in both Bose and Fermi gases. One of my latest projects incorporates the use of neural networks in the investigation of quantum vortex states.
+  co-authors:
   date: Friday / 27 October
   time: 16:30 - 18:30
-  room: 
-  session: 
+  room:
+  session:
   id: 14
+  poster: docs/poster_14.pdf
   author-image: images/optimized/cfc-2023-600x600/jakub_kopyciński.webp
 
 - author-name: Sebastian Chwilczyński
@@ -271,12 +281,13 @@
     He loves to share his knowledge, this is why he led many groups at GHOST science club, both in practical and research setting. 
     
     His favourite part of learning a new method is to understand all the maths behind it.
-  co-authors: 
+  co-authors:
   date: Friday / 27 October
   time: 16:30 - 18:30
-  room: 
-  session: 
+  room:
+  session:
   id: 15
+  poster: docs/poster_15.pdf
   author-image: images/optimized/cfc-2023-600x600/sebastian_chwilczyński.webp
 
 - author-name: Daniel Marczak
@@ -286,27 +297,29 @@
     Recent works suggest that models trained with self-supervision outperform purely supervised models in a continual learning regime. More specifically, some works claim that representations learned in a self-supervised fashion are more robust, stable, and less prone to forgetting than supervised ones. We show that it is not necessarily true when we compare both learning paradigms under simple finetuning in a continual learning setting. We experimentally show what attributes and limitations supervised and self-supervised models share in a continual learning regime. We also highlight the differences and demonstrate that supervised models can develop stronger and less forgetful representations. Through minor modifications to the architecture and the application of data augmentations akin to those used in self-supervised methods, the transferability of the feature extractor is notably enhanced in a supervised setting. Additionally, while having better transferability and more robust features from previous tasks we also experience lower forgetting of representations. These observations remain consistent for both minor and significant distribution shifts between tasks as well as for both short and long sequences of tasks.
   author-bio: >- 
     Daniel Marczak is a PhD student at IDEAS NCBR and at the Computer Vision Lab at the Warsaw University of Technology. He obtained his master's degree in computer science from the Warsaw University of Technology. Prior to starting his doctoral studies, he worked at Versabox and Robotec.ai. His research interests include continual learning and self-supervised representation learning.
-  co-authors: 
+  co-authors:
   date: Friday / 27 October
   time: 16:30 - 18:30
-  room: 
-  session: 
+  room:
+  session:
   id: 16
+  poster: docs/poster_16.pdf
   author-image: images/optimized/cfc-2023-600x600/daniel_marczak.webp
 
 - author-name: Adam Piróg
   title: "Future pandemics prevention by key nodes identification"
   author-title: "4Semantics"
   abstract: >- 
-    COVID-19 exposed the truth, that the world was woefully unprepared for global pandemic. This catastrophy made us realize, that with the limited medical resources we have, we need to put more focus on early forecasting and strategic planning to provide our support in the most efficient manner. This is were Artificial Intelligence can play a key role – by properly adapting the task of key node identification in complex networks we can reliably forecast the scale of the pandemic processes. It has already been proven that Machine Learning can be unparallel when put up to this task, but these methods still require further refinement. In our work we present an enhanced machine learning-based framework for identifying key nodes in complex networks designed to address the shortcomings of its predecessors. Firstly we define an improved process of obtaining the labels required for training, proving its significant advantage over known methods. Next, we show that our models, contrary to their predecessors, are not only capable of predicting the total scale of the viral spread but can also determine the characteristics of the spreading process (such as the peak of the pandemic – widely regarded as the most important trait). Finally, we extensively test our models and their ability to generalize beyond complex networks of different types and sizes, gaining important insight into our methods’ properties.
+    COVID-19 exposed the truth, that the world was woefully unprepared for global pandemic. This catastrophy made us realize, that with the limited medical resources we have, we need to put more focus on early forecasting and strategic planning to provide our support in the most efficient manner. This is were Artificial Intelligence can play a key role – by properly adapting the task of key node identification in complex networks we can reliably forecast the scale of the pandemic processes. It has already been proven that Machine Learning can be unparallel when put up to this task, but these methods still require further refinement. In our work we present an enhanced machine learning-based framework for identifying key nodes in complex networks designed to address the shortcomings of its predecessors. Firstly we define an improved process of obtaining the labels required for training, proving its significant advantage over known methods. Next, we show that our models, contrary to their predecessors, are not only capable of predicting the total scale of the viral spread but can also determine the characteristics of the spreading process (such as the peak of the pandemic – widely regarded as the most important trait). Finally, we extensively test our models and their ability to generalize beyond complex networks of different types and sizes, gaining important insight into our methods' properties.
   author-bio: >- 
     Machine Learning engineer with true passion for research
-  co-authors: 
+  co-authors: Mateusz Stolarski (Alphamoon)
   date: Friday / 27 October
   time: 16:30 - 18:30
-  room: 
-  session: 
+  room:
+  session:
   id: 17
+  poster: docs/poster_17.pdf
   author-image: images/empty.png
 
 - author-name: Rafał Bachorz
@@ -319,8 +332,8 @@
   co-authors: Adam Karaszewski, Grzegorz Miebs, Małgorzata Mochol-Grzelak, Paulina Wawdysz, Michał Wójcik
   date: Friday / 27 October
   time: 16:30 - 18:30
-  room: 
-  session: 
+  room:
+  session:
   id: 18
   author-image: images/empty.png
 
@@ -330,13 +343,14 @@
   abstract: >- 
     Advancements in biomedical imaging and supervised machine learning (ML) carry the potential to revolutionize clinical diagnostics. However, the application of supervised ML techniques requires extensive datasets annotated by specialized biomedical experts - a laborious and challenging endeavor, particularly in highly specialized cases like clinical urine microscopy. Here, we evaluate methodologies well-established in data science including self-supervised learning, teacher-student learning, and weak labeling employing a clinical dataset. In a systematic comparison, we formulate an optimal approach for leveraging extensive quantities of unlabelled data, facilitating the acquisition of enhanced representations. The results of our work hold the promise of improving downstream predictions.
   author-bio: >- 
-    am currently a computer science student at the Institute of Computer Science, University of Wrocław, specializing in machine learning. In the past six months, I've been a student assistant at the Center for Advanced Systems Understanding. Here, I applied my academic knowledge to practical situations, specifically by utilizing self-supervised learning techniques to enhance biomedical image analysis. My project targeted improved results in urine microscopy samples for the detection of urinary tract infections. Post-graduation, I'm dedicated to pursuing a PhD to further my academic journey.
-  co-authors: 
+    Adrian Urbański is currently a computer science student at the Institute of Computer Science, University of Wrocław, specializing in machine learning. In the past six months, he has been a student assistant at the Center for Advanced Systems Understanding. Here, he applied his academic knowledge to practical situations, specifically by utilizing self-supervised learning techniques to enhance biomedical image analysis. His project targeted improved results in urine microscopy samples for the detection of urinary tract infections. Post-graduation, He is dedicated to pursuing a PhD to further my academic journey.
+  co-authors:
   date: Friday / 27 October
   time: 16:30 - 18:30
-  room: 
-  session: 
+  room:
+  session:
   id: 19
+  poster: docs/poster_19.pdf
   author-image: images/optimized/cfc-2023-600x600/adrian_urbański.webp
 
 - author-name: Paweł Koźmiński
@@ -356,28 +370,52 @@
   co-authors: Jan Mielniczuk
   date: Friday / 27 October
   time: 16:30 - 18:30
-  room: 
-  session: 
+  room:
+  session:
   id: 20
+  poster: docs/poster_20.pdf
   author-image: images/optimized/cfc-2023-600x600/paweł_koźmiński.webp
 
-- author-name: Daria Stetsenko
-  title: "When a Language Question Is at Stake. A Revisited Approach to Label Sensitive Content"
-  author-title: "NASK National Research Institute"
+#- author-name: Daria Stetsenko
+#  title: "When a Language Question Is at Stake. A Revisited Approach to Label Sensitive Content"
+#  author-title: "NASK National Research Institute"
+#  abstract: >-
+#    Many under-resourced languages require high-quality datasets for specific tasks such as offensive language detection, disinformation, or misinformation identification. However, the intricacies of the content may have a detrimental effect on the annotators. The article aims to revisit an approach of pseudo-labeling sensitive data on the example of Ukrainian tweets covering the Russian-Ukrainian war. Nowadays, this acute topic is in the spotlight of various language manipulations that cause numerous disinformation and profanity on social media platforms. The conducted experiment highlights three main stages of data annotation and underlines the main obstacles during machine annotation. Ultimately, we provide a fundamental statistical analysis of the obtained data, evaluation of models used for pseudo-labeling, and set further guidelines on how the scientists can leverage the corpus to execute more advanced research and extend the existing data samples without annotators' engagement.
+#  author-bio: >-
+#    Daria Stetsenko is an NLP researcher at NASK National Research Institute. These days, she is developing an English version of a stylometric tool, implementing metrics for text embeddings and text vector representation.
+#    In the years 2018 - 2019, she was a research assistant at the department of Computational Psycholinguistics. Together with her group, she worked on the development of the connectionist language models for natural language generation. They based their study on the N400/P600 theory related to information retrieval, syntax, and semantic processing of linguistic data by humans. During the post-graduate program, She was an exchange student at Saarland University in the department of Language Science and Technology, specializing in Computational Linguistics. She has gained thorough knowledge in computational models for speech processing, basic NLP algorithms, basic AI algorithms, and statistical natural language processing.
+#    Daria is also currently involved in another area of research objectives, which deals with cognitive linguistics and functional semantics. This experience gives me an understanding of how people construct conceptual models, scripts, and frames, which can be further developed into machine learning algorithms for language generation and text mining as well as deep learning language models.
+#    In her research, she aims to employ machine learning tools and out-of-the-box models that will highlight the syntactic characteristics of harmful language.
+#  co-authors:
+#  date: Friday / 27 October
+#  time: 16:30 - 18:30
+#  room:
+#  session:
+#  id: 21
+#  author-image: images/optimized/cfc-2023-600x600/daria_stetsenko.webp
+
+- author-name: Izabela Krysińska
+  title: "Enhancing Semgrex for Unstructured Text."
+  author-title: "Pearson"
   abstract: >- 
-    Many under-resourced languages require high-quality datasets for specific tasks such as offensive language detection, disinformation, or misinformation identification. However, the intricacies of the content may have a detrimental effect on the annotators. The article aims to revisit an approach of pseudo-labeling sensitive data on the example of Ukrainian tweets covering the Russian-Ukrainian war. Nowadays, this acute topic is in the spotlight of various language manipulations that cause numerous disinformation and profanity on social media platforms. The conducted experiment highlights three main stages of data annotation and underlines the main obstacles during machine annotation. Ultimately, we provide a fundamental statistical analysis of the obtained data, evaluation of models used for pseudo-labeling, and set further guidelines on how the scientists can leverage the corpus to execute more advanced research and extend the existing data samples without annotators' engagement.
+    The rise in unstructured textual data from various sources, including student interactions and online transcripts, has highlighted the challenge of extracting meaningful information from such content. In this context, the integration of advanced graph-based regular expressions – semgrex – emerges as a pivotal solution. However, existing approaches which integrate semgrex fall short in terms of efficiency and effectiveness.   
+    
+    Our research aims to enhance them by introducing a novel method that enriches the output of semgrex. The enriched output contains words matched with semgrex as well as selected unmatched words that together hold significant meaning within the context of a larger expression. This is achieved by combining syntactic and semantic insights of words connected with matched expression.  
+    
+    Let us assume we want to highlight the following grammatical structure verb + to + infinitive. Giving the following utterance “…he recently started taking online courses to expand his skillset …”, the match will contain the following words “taking […] to expand” which lacks needed context. Our method extracts a relevant fragment that presents the grammatical structure more accurately – “taking [...] courses to expand his skillset”.  
+    
+    The potential of this method is extensive, with its most promising application in the field of education. Within this domain, a compelling opportunity arises to enhance feedback delivery by precisely identifying grammatical errors or highlighting key grammatical structures in text or online transcript and presenting them to learners in a meaningful way.  
+    
+    With 351 grammatical pattern matches extracted from 20 sentences (averaging 117 words each), the method has demonstrated significant promise. Human assessment indicated that 80.7% of the extracted matches accurately presented targeted grammar structures. These outcomes highlight the method's potential in gleaning insights from unstructured texts, especially in language learning contexts. By improving feedback, our approach holds the key to transforming approaches to teaching and learning, making education more effective and accessible.
   author-bio: >- 
-    I am an NLP researcher at NASK National Research Institute. These days I am developing an English version of a stylometric tool, implementing metrics for text embeddings and text vector representation. 
-               In the years 2018 - 2019, I was a research assistant at the department of Computational Psycholinguistics. My group and I worked on the development of the connectionist language models for natural language generation. We based our study on the N400/P600 theory related to information retrieval, syntax and semantic processing of linguistic data by humans. During the post-graduate program, I was an exchange student at Saarland University in the department of Language Science and Technology, specializing in Computational Linguistics. I have gained thorough knowledge in computational models for speech processing, basic NLP algorithms, basic AI algorithms, and statistical natural language processing. 
-               I am also currently involved in another area of research objectives which deals with cognitive linguistics and functional semantics. This experience gives me an understanding of how people construct conceptual models, scripts, and frames, which can be further developed into machine learning algorithms for language generation and text mining as well as deep learning language models. 
-               In my research, I aim to employ machine learning tools and out-of-the-box models that will highlight the syntactic characteristics of harmful language. The extracted charact
-  co-authors: 
-  date: Friday / 27 October
-  time: 16:30 - 18:30
-  room: 
-  session: 
+    Iza is a Senior Data Scientist boasting a 3 year career in machine learning and data analysis at Pearson. She centers her work on collaborating with learning designers, aiming to develop innovative capabilities to support language learners across the globe. Simultaneously pursuing a PhD, Iza is engrossed in studying the dynamics of social media. She is primarily focused on developing mechanisms to immune society to misinformation. Using a multidisciplinary approach, her research aims to leverage machine learning and psychological studies in detecting, tracking, and countering the propagation of false information.
+  co-authors: Mateusz Półtorak, Agnieszka Pludra
+  date: Friday / 28 October
+  time: 10:00 - 12:00
+  room:
+  session:
   id: 21
-  author-image: images/optimized/cfc-2023-600x600/daria_stetsenko.webp
+  author-image: images/empty.png
 
 - author-name: Dominik Kossiński
   title: "Application of machine learning in menstrual cycle assessment based on data from iYoni mobile app"
@@ -385,13 +423,14 @@
   abstract: >- 
     According to WHO, infertility affects 10-16% of people of reproductive age. In Poland it affects 1 million couples. One of the most important issues when trying to conceive (TTC) is to correctly determine the fertile window. This knowledge allows one to maximize chances of getting pregnant in the current cycle since fertile days fall +/- 2 days before/after ovulation.The most popular method of ovulation prediction uses basal body temperature (BBT), but its accuracy can be effectively disrupted by incorrect measurements or an active infection. There is also a method based on ovulation tests detecting LH peak, but there is bias linked with low quality of kits. Another method of ovulation prediction is based on menstrual cycle length, but first you have to determine the length of the current cycle. Nowadays there are many applications with period tracking options. Most of them show predictions of the length of upcoming cycles. Except from data on the length of bleeding or cycle, the apps allow users to register additional information i.e. symptoms, mood, BBT, cervical mucus, which can help indicate the current phase of the cycle. Using the database of menstrual cycles of users from the Polish application iYoni (over 300K registered cycles by over 80K users), we prepared datasets containing menstrual cycles and basic users' attributes (e.g. age, cycle regularity, months of TTC). The datasets were used to develop and train machine learning models (including regression models  and deep models) that predict the length of the menstrual cycle. The application of machine learning improved  the quality of cycle length prediction relative to baseline algorithms (returning average/median/last cycle length). I will discuss current results and opportunities to develop models that make predictions based also on aforementioned daily measurements provided by users and medical interviews.
   author-bio: >- 
-    My name is Dominik Kossiński. Since the beginning of 2022, I've been a machine learning engineer and Android developer at iYoni - a mobile period and fertility tracking application. In 2021 I graduated with honors Computer Science at Poznan University of Technology (Master’s degree, specialization “Intelligent Information Technologies”). My interest is in machine learning applications in medicine. In my free time, I train triathlon (swimming, cycling, running). I have completed a half marathon, marathon, and 1/4 of an Ironman.
+    Since the beginning of 2022, Dominik Kossiński has been a machine learning engineer and Android developer at iYoni - a mobile period and fertility tracking application. In 2021, he graduated with honors Computer Science at Poznan University of Technology (Master's degree, specialization “Intelligent Information Technologies”). His interest is in machine learning applications in medicine. In his free time, Dominik train triathlon (swimming, cycling, running). I have completed a half marathon, marathon, and 1/4 of an Ironman.
   co-authors: 
   date: Friday / 27 October
   time: 16:30 - 18:30
   room: 
   session: 
   id: 22
+  poster: docs/poster_22.pdf
   author-image: images/optimized/cfc-2023-600x600/dominik_kossiński.webp
 
 - author-name: Maksymilian Kulicki
@@ -400,17 +439,18 @@
   abstract: >- 
     While humans can recognize a virtually limitless variety of objects in context, automated segmentation systems typically rely on a fixed set of objects they have been trained to identify. Open-vocabulary segmentation methods, meant to address this issue, instead rely on a list of objects given by the user alongside the image. A truly open segmentation method should be able to name and localize different parts of the scene based on the image itself, without the need for user-provided labels or a predefined set of classes. To achieve this, we propose Self-guided Semantic Segmentation (SegSeg), a new framework for semantic segmentation, which combines open-vocabulary segmentation with a method of generating labels from the image itself. Utilizing ClusterBLIP, our newly introduced method based on the Vision-Language model BLIP, we successfully generate localized captions that comprehensively describe different parts of an image. These captions then serve as a source of labels for X-Decoder, an open-vocabulary segmentation model. To evaluate the performance in this new self-guided setting, we propose modifications to the mean Intersection over Union (mIoU) that compares predicted and ground truth labels using text embedding similarities. Our results demonstrate that our method outperforms baselines that use image captioning in a more conventional manner, thereby making a significant contribution to the field of image segmentation and paving the way for future research in open-world vision systems.
   author-bio: >- 
-    I obtained my Bachelor's degree in Artificial Intelligence at Radboud University and  a Master's degree in Artificial Intelligence at University of Amsterdam. My Master thesis was about self-guided semantic segmentation, a novel computer vision task in which the model has to generate object names and localize them in an image. During my studies, I also participated in a reproduction study about strategic classification, which got published in the ReScience journal. I had an opportunity to present it as a poster at NeruIPS 2023.
+    Maksymilian Kulicki obtained a Bachelor's degree in Artificial Intelligence at Radboud University and a Master's degree in Artificial Intelligence at University of Amsterdam. His master thesis was about self-guided semantic segmentation, a novel computer vision task in which the model has to generate object names and localize them in an image. During his studies, he also participated in a reproduction study about strategic classification, which was published in the ReScience journal. I had an opportunity to present it as a poster at NeruIPS 2023.
     
-    I will now start my PhD at Ideas NCBR in collaboration with the Polish Academy of Science, with the focus of applying AI in precision forestry. My main research subjects are computer vision and multimodal learning. I am interesting in combining various forms of data into unified embedding spaces, and in practical applications of AI. 
+    He will now start his PhD at Ideas NCBR in collaboration with the Polish Academy of Science, with a focus on applying AI in precision forestry. His main research subjects are computer vision and multimodal learning. He is interested in combining various forms of data into unified embedding spaces, and in practical applications of AI. 
     
-    In my free time, since 2018, I have been exploring AI art. I have an instagram with over 300 unique AI artworks, and I have exhibited some of them in the Vrijpaleis gallery in Amsterdam. In 2022, I gave a talk about AI art at the Starfest festival in Lublin.
+    In his free time, since 2018, he has been exploring AI art. Maksymilian has an Instagram with over 300 unique AI artworks, and he has exhibited some of them in the Vrijpaleis gallery in Amsterdam. In 2022, he gave a talk about AI art at the Starfest festival in Lublin.
   co-authors: Osman Ülger
   date: Friday / 27 October
   time: 16:30 - 18:30
   room: 
   session: 
   id: 23
+  poster: docs/poster_23.pdf
   author-image: images/optimized/cfc-2023-600x600/maksymilian_kulicki.webp
 
 - author-name: Damian Sójka
@@ -419,13 +459,14 @@
   abstract: >- 
     Test-time adaptation is a promising research direction that allows the source model to adapt itself to changes in data distribution without any supervision. Yet, current methods are usually evaluated on benchmarks that are only a simplification of real-world scenarios. Hence, we propose to validate test-time adaptation methods using the recently introduced datasets for autonomous driving, namely CLAD-C and SHIFT. We observe that current test-time adaptation methods struggle to effectively handle varying degrees of domain shift, often resulting in degraded performance that falls below that of the source model. We noticed that the root of the problem lies in the inability to preserve the knowledge of the source model and adapt to dynamically changing, temporally correlated data streams. Therefore, we enhance well-established self-training framework by incorporating a small memory buffer to increase model stability and at the same time perform dynamic adaptation based on the intensity of domain shift. The proposed method, named AR-TTA, outperforms existing approaches on both synthetic and more real-world benchmarks and shows robustness across a variety of TTA scenarios.
   author-bio: >- 
-    I'm a PhD student at Poznan University of Technology and IDEAS NCBR. I completed a bachelor's degree in Mechatronics and a master's degree in Automatic Control and Robotics, specializing in robots and autonomous systems, all accomplished at Poznan University of Technology. My master's thesis research led to the publication of a paper at the esteemed ICRA conference. My scholarly focus encompasses a spectrum of domains including computer vision, machine perception, self-supervised learning, test-time adaptation, and continual learning, all resonating within the context of robotics. I also have hands-on industry experience in embedded software development at Aether Biomedical, where he contributed to developing innovative bionic hand prostheses.
+    Damian Sójka is a PhD student at Poznan University of Technology and IDEAS NCBR. He completed a bachelor's degree in Mechatronics and a master's degree in Automatic Control and Robotics, specializing in robots and autonomous systems, all accomplished at Poznan University of Technology. His master's thesis research led to the publication of a paper at the esteemed ICRA conference. His scholarly focus encompasses a spectrum of domains, including computer vision, machine perception, self-supervised learning, test-time adaptation, and continual learning, all resonating within the context of robotics. He also has hands-on industry experience in embedded software development at Aether Biomedical, where he contributed to developing innovative bionic hand prostheses.
   co-authors: 
   date: Friday / 27 October
   time: 16:30 - 18:30
   room: 
   session: 
   id: 24
+  poster: docs/poster_24.pdf
   author-image: images/optimized/cfc-2023-600x600/damian_sójka.webp
 
 - author-name: Antoni Kowalczuk
@@ -439,8 +480,7 @@
     raising significant concerns about the potential unauthorized
     use of copyright-protected images. In this paper, we examine
     whether it is possible to determine if a specific image was
-    used in the training set, a problem known in the cybersecu-
-    rity community and referred to as a membership inference
+    used in the training set, a problem known in the cybersecurity community and referred to as a membership inference
     attack. Our focus is on Stable Diffusion, and we address
     the challenge of designing a fair evaluation framework to
     answer this membership question. We propose a new dataset
@@ -456,7 +496,7 @@
     privacy and copyright issues will persist in the foreseeable
     future.
   author-bio: >- 
-    I'm an undergrad student currently pursuing a Bachelors of Engineering Degree at Warsaw University of Technology in the field of Computer Science. I'm involved in building the Artificial Intelligence Society "Golem" at the University, successfully developing the brand and recognisability of "Golem" in the field. I'm co-organizing the ML in PL 2023 Conference. I was also involved in the previous two editions of the event. My current field of research revolves around adversarial examples and robustness in context of the SSL vision encoders in cooperation with CISPA.
+    Antoni Kowalczuk is an undergraduate student currently pursuing a Bachelor of Engineering Degree at Warsaw University of Technology in the field of Computer Science. He is involved in building the Artificial Intelligence Society "Golem" at the University, successfully developing the brand and recognisability of "Golem" in the field. He is co-organizing the ML in PL 2023 Conference. Antoni was also involved in the previous two editions of the event. His current field of research revolves around adversarial examples and robustness in the context of the SSL vision encoders in cooperation with CISPA.
   co-authors: Jan Dubiński
   date: Friday / 27 October
   time: 16:30 - 18:30
@@ -471,29 +511,15 @@
   abstract: >- 
     Machine Learning as a Service (MLaaS) APIs provide ready-to-use and high-utility encoders that generate vector representations for given inputs. Since these encoders are very costly to train, they become lucrative targets for model stealing attacks during which an adversary leverages query access to the API to replicate the encoder locally at a fraction of the original training costs. We propose Bucks for Buckets (B4B), the first active defense that prevents stealing while the attack is happening without degrading representation quality for legitimate API users. Our defense relies on the observation that the representations returned to adversaries who try to steal the encoder's functionality cover a significantly larger fraction of the embedding space than representations of legitimate users who utilize the encoder to solve a particular downstream task. B4B leverages this to adaptively adjust the utility of the returned representations according to a user's coverage of the embedding space. To prevent adaptive adversaries from eluding our defense by simply creating multiple user accounts (sybils), B4B also individually transforms each user's representations. This prevents the adversary from directly aggregating representations over multiple accounts to create their stolen encoder copy. Our active defense opens a new path towards securely sharing and democratizing encoders over public APIs.
   author-bio: >- 
-    I was born in Warsaw, Poland, in 1995. I received a M.Sc. degree in computer science, as well as a B.Sc. a M.Sc. degrees in power engineering from the Warsaw University of Technology. I also hold a bachelor’s degree in quantitative methods from the Warsaw School of Economics, Warsaw. I am currently pursuing a Ph.D. degree in deep learning learning at the Warsaw University of Technology. I am a member of the ALICE Collaboration at LHC CERN.  I have been working on fast simulation methods for High Energy Physics experiments at the Large Hadron Collider at CERN. The methods developed in this research leverage generative deep learning models such as GANs to provide a computationally efficient alternative to existing Monte Carlo-based methods. More recently, I have focused on issues related to security and of machine learning models and data privacy. My latest efforts aim to improve the security of self-supervised and generative methods, which are often overlooked in comparison to self-supervised models.
+    Jan Dubiński was born in Warsaw, Poland, in 1995. He received a M.Sc. degree in computer science, as well as a B.Sc. and a M.Sc. degrees in power engineering from the Warsaw University of Technology. He also holds a bachelor's degree in quantitative methods from the Warsaw School of Economics, Warsaw. He is currently pursuing a PhD degree in deep learning at the Warsaw University of Technology. He is a member of the ALICE Collaboration at LHC CERN. Jan has been working on fast simulation methods for High Energy Physics experiments at the Large Hadron Collider at CERN. The methods developed in this research leverage generative deep learning models such as GANs to provide a computationally efficient alternative to existing Monte Carlo-based methods. More recently, he has focused on issues related to the security of machine learning models and data privacy. His latest efforts aim to improve the security of self-supervised and generative methods, which are often overlooked compared to supervised models.
   co-authors: Stanisław Pawlak, Franziska Boenitsch, Tomasz Trzciński, Adam Dziedzic
   date: Friday / 27 October
   time: 16:30 - 18:30
   room: 
   session: 
   id: 26
+  poster: docs/poster_26.pdf
   author-image: images/optimized/cfc-2023-600x600/jan_dubiński.webp
-
-- author-name: Paulina Tomaszewska
-  title: "Analysis of histopathological images using neural networks and the role of context"
-  author-title: "Warsaw University of Technology"
-  abstract: >- 
-    The development of AI for healthcare is of great importance. One of the valuable applications of neural networks is digital pathology where histopathological images are processed. However, it comes with challenges. Recognizing the type of lesions is sometimes difficult even for histopathologists with long experience due to the complexity of the problem and the ambiguous nature of the lesions. Moreover, the whole slide images (WSIs) are of very huge resolution (e.g., 60000x100000 pixels). In the talk, the most common architecture for WSI classification will be presented. Moreover, the need for the analysis of whether the behaviour of the trained models aligns with the histopathologists' good practices will be emphasized together with a proposal on the spatial context measures.
-  author-bio: >- 
-    Paulina Tomaszewska is a PhD student in Computer Science at the Warsaw University of Technology. She gained experience in artificial intelligence at leading universities such as Tsinghua University (China), Nanyang Technological University (Singapore), Institute of Science and Technology Austria, École Polytechnique Fédérale de Lausanne (Switzerland). Recently, her research mainly concerns digital pathology, especially in the area of investigating whether the Deep Learning models capture and pay attention to contextual information.
-  co-authors: 
-  date: Friday / 27 October
-  time: 16:30 - 18:30
-  room: 
-  session: 
-  id: 27
-  author-image: images/optimized/cfc-2023-600x600/paulina_tomaszewska.webp
 
 - author-name: Joanna Kaleta
   title: "Enhancing Medical Imaging Understanding and Performance via Joint Diffusion Models and Visual Counterfactual Explanations"
@@ -516,14 +542,10 @@
   title: "Generalized test utilities for long-tail performance in extreme multi-label classification"
   author-title: "Poznan University of Technology"
   abstract: >- 
-    Extreme multi-label classification (XMLC) is the task of selecting a small subset of relevant labels from a very large set of possible labels. As such, it is characterized by long-tail labels, i.e., most labels have very few positive instances. With standard performance measures such as precision@k, a classifier can ignore tail labels and still report good performance. However, it is often argued that correct predictions in the tail are more interesting, rewarding, and, in many applications, important for fairness. The community has not yet settled on a metric capturing this intuitive concept. The existing propensity-scored metrics fall short of this goal by confounding the problems of long-tail and missing labels. In this paper, we analyze generalized metrics budgeted at k as an alternative solution. These include the popular family of macro-averaged performance metrics that average the performance over labels, resulting in measures that emphasize the balance between labels, independently of their frequencies and potentially alleviating the problems with evaluating long-tail performance. While the problem of optimizing macro-measures is well studied in the literature, we focus on the specific setting when the algorithm is required to predict exactly k labels for each instance, which is a popular constraint in XMLC applications. The constraint couples the otherwise independent binary classification tasks, leading to a much more challenging optimization problem than standard macro averages. We tackle this problem under two statistical frameworks - the Expected Test Utility (ETU) framework, which aims to optimize the expected performance on a fixed test set, and the Population Utility (PU), which aims to optimize the expected performance on the population level. In the first framework, we derive optimal prediction rules and construct computationally efficient approximations with provable regret guarantees and robustness against model misspecification and propose to optimize the problem using block coordinate ascent. In the second, we prove the existence and the form of the optimal classifier and propose a statistically consistent and practical learning algorithm based on the Frank-Wolfe method. Our algorithms scale effortlessly to the XMLC setting and obtain promising results in terms of long-tail performance. 
-    
-    Poster based on two papers that are currently under review for NeurIPS.
-    
-    There is a chance that I won't be able to attend the conference, so feel free to reject me if there are better submissions :)
+    Extreme multi-label classification (XMLC) is the task of selecting a small subset of relevant labels from a very large set of possible labels. As such, it is characterized by long-tail labels, i.e., most labels have very few positive instances. With standard performance measures such as precision@k, a classifier can ignore tail labels and still report good performance. However, it is often argued that correct predictions in the tail are more interesting, rewarding, and, in many applications, important for fairness. The community has not yet settled on a metric capturing this intuitive concept. The existing propensity-scored metrics fall short of this goal by confounding the problems of long-tail and missing labels. In this work, we analyze generalized metrics budgeted at k as an alternative solution. These include the popular family of macro-averaged performance metrics that average the performance over labels, resulting in measures that emphasize the balance between labels, independently of their frequencies and potentially alleviating the problems with evaluating long-tail performance. While the problem of optimizing macro-measures is well studied in the literature, we focus on the specific setting when the algorithm is required to predict exactly k labels for each instance, which is a popular constraint in XMLC applications. The constraint couples the otherwise independent binary classification tasks, leading to a much more challenging optimization problem than standard macro averages. We tackle this problem under two statistical frameworks - the Expected Test Utility (ETU) framework, which aims to optimize the expected performance on a fixed test set, and the Population Utility (PU), which aims to optimize the expected performance on the population level. In the first framework, we derive optimal prediction rules and construct computationally efficient approximations with provable regret guarantees and robustness against model misspecification and propose to optimize the problem using block coordinate ascent. In the second, we prove the existence of a simple optimal classifier and propose a statistically consistent and practical learning algorithm based on the Frank-Wolfe method. Our algorithms scale effortlessly to the XMLC setting and obtain promising results in terms of long-tail performance.
   author-bio: >- 
-    Marek Wydmuch is currently a Ph.D. student at the Machine Learning Laboratory at Poznan University of Technology (PUT), Poland. His research interests include various topics in Machine Learning, with the main focus on Extreme Multi-Label Classification (XMLC). During his Ph.D., he published papers at a few A* conferences (NeurIPS, KDD, SIGIR). He also has industry experience, working as a Data Scientist for OLX Group (2017-2020) and Yahoo France (2022). He is a member of ML in PL Association and co-organizer of ML in PL Conference 2019-2023. Marek is also the author of ViZDoom library with environments for reinforcement learning (RL) research based on the Doom game and a member of the Farama Foundation that focuses on the development and maintenance of RL environments.
-  co-authors: 
+    Marek Wydmuch is currently a Ph.D. student at the Machine Learning Laboratory at Poznan University of Technology (PUT), Poland. His research interests include various topics in Machine Learning, with the main focus on Extreme Multi-Label Classification (XMLC). During his Ph.D., he published papers at a few A* conferences (NeurIPS, KDD, SIGIR). He also has industry experience, working as a Data Scientist for OLX Group (2017-2020) and Yahoo France (2022). He is a member of ML in PL Association and co-organizer of ML in PL Conference 2019-2023. Marek is also the author of popular ViZDoom library with environments for reinforcement learning (RL) research based on the FPS game Doom and a member of the Farama Foundation that focuses on the development and maintenance of RL environments.
+  co-authors: Erik Schultheis, Wojtek Kotłowski, Rohit Babbar, Krzysztof Dembczyński
   date: Friday / 27 October
   time: 16:30 - 18:30
   room: 
@@ -537,7 +559,7 @@
   abstract: >- 
     Transformer-based Large Language Models have achieved remarkable success in recent years, in many cases reaching, or even surpassing, human performance in Natural Language Understanding tasks. These models are typically backed up by a generous computational budget, size of dataset and parameter count. However, in many cases this scaling cannot be continued due to hardware limitations. This leads researchers and engineers to look for more efficient techniques. Among them, Mixture-of-Experts (MoE) seems to give the most promising results, allowing to scale Language Models to up to a trillion parameters, and reaching state-of-the-art performance on many tasks. This is accompanied by a much lower need for computational power in comparison to classical Transformer models. Existing work only considers scaling up these models by adding more experts with the same size. This is limited due to the memory requirements and diminishing returns for higher model sizes. In our work we will consider increasing the number of experts, but keeping the amount of computation and parameter count constant. We will explain how to use this technique to train a Language Model to the same performance using 2 times fewer steps (compared with baseline MoE). We will also present other benefits that come from using our method.
   author-bio: >- 
-    I am a master's student in Machine Learning at the University of Warsaw, finishing in September, 2023. After pursuing the degree I am planning to continue my education during PhD studies in a joint program with IDEAS NCBR. I am broadly interested in Large Language Models. In particular, I would like to contribute to a better understanding of this architecture and develop more efficient training methods.
+    Jakub Krajewski is a master's student in Machine Learning at the University of Warsaw, finishing in September, 2023. After pursuing the degree, he is planning to continue my education during PhD studies in a joint program with IDEAS NCBR. He is broadly interested in Large Language Models. In particular, Jakub would like to contribute to a better understanding of this architecture and develop more efficient training methods.
   co-authors: Marek Cygan, Jan Ludziejewski, Maciej Pióro, Szymon Antoniak, Tomasz Odrzygóźdź, Sebastian Jaszczur, Michał Krutul
   date: Friday / 27 October
   time: 16:30 - 18:30
@@ -562,6 +584,7 @@
   room: 
   session: 
   id: 31
+  poster: docs/poster_31.pdf
   author-image: images/optimized/cfc-2023-600x600/maciej_mozolewski.webp
 
 - author-name: Piotr Wyrwiński
@@ -591,7 +614,7 @@
   abstract: >- 
     Accurate tooth segmentation from Cone-Beam Computed Tomography (CBCT) scans is essential for computer-aided treatment planning. The inter-patient tooth geometry variability resulting, e.g., from the extraction of individual teeth or orthodontic treatment, poses this task very challenging. Existing methods ignored anatomical topology or limited geometrical aspects only to tooth adjacency. To address this limitation, we propose a novel tooth segmentation method, DENTNet, that leverages geometry prior-assisted learning. We train our model using the morphological prior defined by the geometry of the normal dentition from the statistical shape model. Integrating the loss function with the statistical geometric model allows the network to extract significant features not limited by the discrete adjacency matrix, resulting in better segmentation and identification. DENTNet takes advantage of a multitask decoder that simultaneously performs segmentation of all teeth and classifies them. Extensive experiments on a multi-center external dataset demonstrate the proposed method's superior performance compared with several state-of-the-art methods. This work showcases the potential utility of DENTNet in improving dental imaging and treatment planning.
   author-bio: >- 
-    I obtained MSc in Computer Science in 2022 from the Warsaw University of Technology (WUT) and BEng from  WUT in Photonics Engineering. My master thesis focused on the problem of data bias in chest X-rays of patients with COVID-19. Currently, I am pursuing PhD at Sano Centre Cracow and WUT. I joined the Health Informatics Group Sano at Sano (HIGS), and I am working on medical treatment planning in orthodonthics using deep learning methods. In my free time, I bake Neapolitan pizza and brew speciality coffee.
+    Tomasz Szczepański obtained an MSc in Computer Science in 2022 from the Warsaw University of Technology (WUT) and a BEng from  WUT in Photonics Engineering. His master's thesis focused on the problem of data bias in chest X-rays of patients with COVID-19. Currently, he is pursuing PhD at Sano Centre Cracow and WUT. Tomasz joined the Health Informatics Group Sano at Sano (HIGS), and he is working on medical treatment planning in orthodontics using deep learning methods. In his free time, he bakes Neapolitan pizza and brews speciality coffee.
   co-authors: 
   date: Friday / 27 October
   time: 16:30 - 18:30
@@ -606,7 +629,7 @@
   abstract: >- 
     Large Language Models (LLMs) hold immense potential to generate synthetic data of high quality and utility, which has numerous applications from downstream model training to practical data utilisation. However, contemporary models, despite their impressive capacities, consistently struggle to produce both coherent and diverse data. To address this, we introduce an innovative approach that employs classifier-free contrastive guidance and negative prompting for inference-time logit reshaping. Our approach systematically guides the LLMs to strike a balance between adherence to the data distribution (ensuring semantic fidelity) and deviation from prior synthetic examples or existing real datasets (ensuring diversity and authenticity). Our key contribution lies in this delicate balancing act, achieved by dynamically moving towards or away from chosen representations in the latent space. We evaluate our method using principles from minimum set theory, abstracting metrics for precision, recall, and authenticity. Using these metrics, our method demonstrates superior performance to previous data generation techniques across all dimensions of fidelity, diversity, and authenticity in three distinct tasks. Our findings underscore the universality and effectiveness of our approach, positioning it as a generalisable algorithm in synthetic data generation that fully capitalises on the strengths of LLMs.
   author-bio: >- 
-    I am an undergraduate Honours student at ANU studying mathematics and computer science. I have a broad history of implementing and researching applied AI systems, from healthcare to climate change, in both an industry and academic setting. I'm particularly interested in cross-disciplinary pollination between different subfields of machine learning as a means to improve generative AI.
+    Charles is an undergraduate Honours student at ANU studying mathematics and computer science. He has a broad history of implementing and researching applied AI systems, from healthcare to climate change, in both an industry and academic setting. He is particularly interested in cross-disciplinary pollination between different subfields of machine learning as a means to improve generative AI.
   co-authors: Yuan-Sen Ting, Ioana Ciuca, Thang Bui
   date: Saturday / 28 October
   time: 10:00 - 12:00
@@ -636,38 +659,33 @@
     Eryka Probierz was a doctoral student at two universities: Silesian University of Technology in Gliwice and the University of Silesia in Katowice. She was pursuing doctoral studies in psychology and computer science (finished in June 2023). 
     She has participated in 24 international and 18 national conferences, and has published 20 publications in the form of peer-reviewed articles and chapters in monographs. She has been funded 4 times by a grant for young scientists at the Silesian University of Technology and a grant for research in a new topic. She received the award for the best poster at the 2021 Analytical Challenges conference. She was nominated for the Scientist of the Future award and was the winner of the 2021 Scientist of the Future award in the social sciences. She received an award from the JM Rector of the University of Silesia for the best doctoral students. She obtained funding to develop a project of new topics in social robotics and companion robots for 2021-2022. 
     In her scientific work, she deals with human-robot relationship, emotion detection using image and sound, social robotics, application of machine learning methods to social data or simulation of social phenomena in virtual environments.
-    
-    Bibliometrics:
-    h-index (Google Scholar citations) 4
-    Total IF 8.56
-    Summary SNIP 7.18
-    Summarized CiteScore 14.7
   co-authors: 
   date: Saturday / 28 October
   time: 10:00 - 12:00
   room: 
   session: 
   id: 35
+  poster: docs/poster_35.pdf
   author-image: images/optimized/cfc-2023-600x600/eryka_probierz.webp
-
-- author-name: Rodolfo Pina
-  title: "Identification of selected properties of cementitious composites using artificial neural networks"
-  author-title: "-"
-  abstract: >- 
-    The poster would focus on the optimization of concrete mix design using a combination of Genetic Algorithms (GA) and Artificial Neural Networks (ANN) as surrogate
-    models. The study aims to achieve an optimal mix design that strikes a balance between cost and compressive strength requirements, while meeting the desired compressive strength requirements and avoiding explosive spalling. The Genetic Algorithms are employed to explore
-    the mix design space and generate candidate solutions, while the Artificial Neural Networks are utilized to predict the compressive strength based on the mix proportions and to predict the likelihood of explosive spalling in concrete structures exposed to high temperatures. Both ANN’s are included in the GA as surrogate models to evaluate the fitness of the possible solutions. The results demonstrate the effectiveness of the optimization process in generating
-    improved mix designs, while considering cost constraints and mitigating the risk of explosive spalling. The findings of this research contribute to the advancement of concrete mix design optimization techniques and offer valuable insights for enhancing the fire performance and durability of concrete structures subjected to elevated temperature.
-  author-bio: >- 
-    I was born and raised in Costa Rica. From an early age, I developed a fascination with the built environment and its impact on our lives. This fascination led me to pursue a degree in civil engineering.
-    After completing my undergraduate studies in Costa Rica, I decided to delve deeper into the mechanics that govern structures and materials. This prompted me to pursue a master's degree in solid mechanics. Throughout my international master's program, I had the privilege of studying at diverse universities in France, Italy, Greece and Poland.
-  co-authors: Łukasz Sadowski
-  date: Saturday / 28 October
-  time: 10:00 - 12:00
-  room: 
-  session: 
-  id: 36
-  author-image: images/optimized/cfc-2023-600x600/rodolfo_pina.webp
+#
+#- author-name: Rodolfo Pina
+#  title: "Identification of selected properties of cementitious composites using artificial neural networks"
+#  author-title: "-"
+#  abstract: >-
+#    The poster would focus on the optimization of concrete mix design using a combination of Genetic Algorithms (GA) and Artificial Neural Networks (ANN) as surrogate
+#    models. The study aims to achieve an optimal mix design that strikes a balance between cost and compressive strength requirements, while meeting the desired compressive strength requirements and avoiding explosive spalling. The Genetic Algorithms are employed to explore
+#    the mix design space and generate candidate solutions, while the Artificial Neural Networks are utilized to predict the compressive strength based on the mix proportions and to predict the likelihood of explosive spalling in concrete structures exposed to high temperatures. Both ANN's are included in the GA as surrogate models to evaluate the fitness of the possible solutions. The results demonstrate the effectiveness of the optimization process in generating
+#    improved mix designs, while considering cost constraints and mitigating the risk of explosive spalling. The findings of this research contribute to the advancement of concrete mix design optimization techniques and offer valuable insights for enhancing the fire performance and durability of concrete structures subjected to elevated temperature.
+#  author-bio: >-
+#    Rodolfo Pina was born and raised in Costa Rica. From an early age, he developed a fascination with the built environment and its impact on our lives. This fascination led him to pursue a degree in civil engineering.
+#    After completing his undergraduate studies in Costa Rica, Rodolfo decided to delve deeper into the mechanics that govern structures and materials. This prompted him to pursue a master's degree in solid mechanics. Throughout his international master's program, he had the privilege of studying at diverse universities in France, Italy, Greece and Poland.
+#  co-authors: Łukasz Sadowski
+#  date: Saturday / 28 October
+#  time: 10:00 - 12:00
+#  room:
+#  session:
+#  id: 36
+#  author-image: images/optimized/cfc-2023-600x600/rodolfo_pina.webp
 
 - author-name: Hanna Broszczak
   title: "Combining Biclustering with Probabilistic Predictive Models to Develop Personalised Sets for Early Detection of Dementia"
@@ -675,13 +693,14 @@
   abstract: >- 
     With the ageing of the world population, addressing the challenges of healthy ageing becomes increasingly important. Dementia is a major cause of disability and dependency among the elderly population but, despite its prevalence, it often goes undiagnosed due to its complex nature and variations in progression. Personalised approaches in medicine, facilitated by data science, offer potential solutions. This project focuses on the application of biclustering and probabilistic models to investigate individual differences in the performance on the Famous Faces Test (FFT) for early detection and diagnosis of dementia. Biclustering analysis confirms the existence of individual differences in FFT performance only for the recall task. The multi-label classification task involves utilising separate binary models for each item and aggregating their outputs to predict the final set based on probabilities. Three modelling approaches (Logistic Regression, SVM, and Gaussian Naïve Bayes Classifiers) are compared with and without bicluster membership as an additional predictor variable. Logistic Regression with the extra bicluster information is found to outperform other models. The findings highlight the potential of creating personalised versions of the FFT to aid early detection and support the diagnostic process of dementia in general practice.
   author-bio: >- 
-    I recently obtained a Bachelor degree in Data Science (joint programme of Eindhoven University of Technology and Tilburg University) and will continue my studies in a Masters programme in Machine Learning and Data Science in Imperial College London. I am passionate about ML and its real-life applications, in healthcare in particular, which I made the main topic of my Bachelor Final Project research.
+    Hanna Broszczak recently obtained a Bachelor's degree in Data Science (a joint programme of Eindhoven University of Technology and Tilburg University) and will continue my studies in a Master's programme in Machine Learning and Data Science at Imperial College London. She is passionate about ML and its real-life applications, in healthcare in particular, which she made the main topic of her Bachelor's Final Project research.
   co-authors: 
   date: Saturday / 28 October
   time: 10:00 - 12:00
   room: 
   session: 
   id: 37
+  poster: docs/poster_37.pdf
   author-image: images/optimized/cfc-2023-600x600/hanna_broszczak.webp
 
 - author-name: Jakub Piwko
@@ -694,13 +713,14 @@
     
     The cattleia tool, through tables and visualizations, allows you to look at the metrics of the models to assess their contribution to the prediction of the built committee. Also, it introduces compatimetrics, which enable analysis of model similarity. Our application will support model ensembles created by automatic machine learning packages available in Python, such as Auto-sklearn, AutoGluon, and FLAML.
   author-bio: >- 
-    I am a fourth-year student of Data Science at Warsaw University of Technology. Strongly interested in data processing, visualization and most of all, machine learning. Together with my teammates we engaged in project about model ensembles in machine learning, which is also a part of our bachelor thesis.
+    Jakub Piwko is a fourth-year student of Data Science at Warsaw University of Technology. Strongly interested in data processing, visualization and most of all, machine learning. Together with his teammates, he engaged in a project about model ensembles in machine learning, which is also a part of our bachelor thesis.
   co-authors: Dominik Kędzierski, Malwina Wojewoda, Anna Kozak
   date: Saturday / 28 October
   time: 10:00 - 12:00
   room: 
   session: 
   id: 38
+  poster: docs/poster_38.pdf
   author-image: images/optimized/cfc-2023-600x600/jakub_piwko.webp
 
 - author-name: Emilia Witkowska Nery
@@ -729,7 +749,7 @@
   abstract: >- 
     Novel intent discovery automates the process of grouping similar messages (questions) to identify previously unknown intents. However, current research focuses on publicly available datasets which have only the question field and significantly differ from real-life datasets. This paper proposes methods to improve the intent discovery pipeline deployed in a large e-commerce platform. We show the benefit of pre-training language models on in-domain data: both self-supervised and with weak supervision. We also devise the best method to utilize the conversational structure (i.e., question and answer) of real-life datasets during fine-tuning for clustering tasks, which we call Conv. All our methods combined to fully utilize real-life datasets give up to 33pp performance boost over state-of-the-art Constrained Deep Adaptive Clustering (CDAC) model for question only. By comparison CDAC model for the question data only gives only up to 13pp performance boost over the naive baseline.
   author-bio: >- 
-    Associated with Allegro for more than 3 years, specializing in the automation of Customer Experience processes using natural language processing (NLP). Currently, working on Semantic Search for e-commerce. I switched from theoretical physics to machine learning a few years before starting my path in digital marketing. I am interested in transferring research ideas to the real world.
+    Associated with Allegro for more than 3 years, specializing in the automation of Customer Experience processes using natural language processing (NLP). Currently, working on Semantic Search for e-commerce. Dariusz switched from theoretical physics to machine learning a few years before starting my path in digital marketing. He is interested in transferring research ideas to the real world.
   co-authors: 
   date: Saturday / 28 October
   time: 10:00 - 12:00
@@ -742,18 +762,19 @@
   title: "Investigating the Efficiency of Tree-Based Models for Tabular Data with forester Package"
   author-title: "WUT - Warsaw University of Technology"
   abstract: >- 
-    Every machine learning (ML) enthusiast learns that according to the saying ‘garbage in, garbage out’ before we start the modeling process we have to ensure the high quality of the input data. It is generally true, the job of the data scientist, mostly consists of collecting, and preprocessing data, to provide meaningful information for ML models. There is, however, one well-known family of models, that doesn’t need excessive preprocessing and additionally proves to be extremely effective for tabular data - the tree-based models. 
+    Every machine learning (ML) enthusiast learns that according to the saying ‘garbage in, garbage out' before we start the modeling process we have to ensure the high quality of the input data. It is generally true, the job of the data scientist, mostly consists of collecting, and preprocessing data, to provide meaningful information for ML models. There is, however, one well-known family of models, that doesn't need excessive preprocessing and additionally proves to be extremely effective for tabular data - the tree-based models. 
     The presented results are the outcomes of research conducted on the forester package. It is an AutoML tool that covers the entire machine learning pipeline, from data preparation, through model training and tuning, to evaluation and explanations. As a result of continuous work on the package, in addition to expanding its capabilities and improving its performance, numerous experiments aimed at its efficiency were carried out. 
     The first one compares the performance of the forester to the H2O AutoML package on the example of 8 binary classification and 7 regression tasks. The results indicate that the forester is able to achieve competitive results in a shorter time than those obtained using the huge framework while maintaining ease of use. 
     The ablation study, on the other hand, compares the efficiency of models created using the forester depending on how the input data was preprocessed. This study indicates that tree-based models do not need additional variable selection methods, as they can handle this task much better on their own. In addition, the obtained results indicate that other methods of data processing do not significantly affect the performance of models, as long as we are not dealing with a huge dataset with many issues.
   author-bio: >- 
-    I'm pursuing a Master's Degree in Data Science at WUT. My main scientific interests are AutoML, Data Visualization, and Natural Language Processing (NLP). I'm the main developer of the forester AutoML package in R. Aside from my scientific work, I'm also keen on sharing knowledge by teaching DVT (Data Visualization Techniques), and EDA (Exploratory Data Analysis) at the MiNI faculty of WUT.
+    Hubert Ruczyński is pursuing a Master's Degree in Data Science at WUT. My main scientific interests are AutoML, Data Visualization, and Natural Language Processing (NLP). He is the main developer of the forester AutoML package in R. Aside from his scientific work, Hubert is also keen on sharing knowledge by teaching DVT (Data Visualization Techniques), and EDA (Exploratory Data Analysis) at the MiNI faculty of WUT.
   co-authors: Anna Kozak
   date: Saturday / 28 October
   time: 10:00 - 12:00
   room: 
   session: 
   id: 41
+  poster: docs/poster_41.pdf
   author-image: images/optimized/cfc-2023-600x600/hubert_ruczyński.webp
 
 - author-name: Marcin Furtak
@@ -769,13 +790,14 @@
     5. Bambach, S., Lee, S., Crandall, D. J., & Yu, C. 2015. Lending A Hand: Detecting Hands and Recognizing Activities in Complex Egocentric Interactions. Proceedings. IEEE International Conference on Computer Vision, 1949–1957. https://doi.org/10.1109/ICCV.2015.226
     6. Pujara, A. & Bhamare, M. 2022. DeepSORT: Real Time & Multi-Object Detection and Tracking with YOLO and TensorFlow, 2022 International Conference on Augmented Intelligence and Sustainable Systems (ICAISS), Trichy, India, pp. 456-460, doi: 10.1109/ICAISS55157.2022.10011018.
   author-bio: >- 
-    I have completed Bachelor's degrees in Automation and Robotics and in Cognitive Science at the Warsaw University of Technology and University of Warsaw, respectively. I continued my scientific career by obtaining a Master’s degree in Neuroscience, Psychology, and Human Sciences at the University of Pavia, Italy. After taking a break to develop my technical skills by working as a Data Engineer I decided to pursue a PhD degree at the University of Osnabrück, Germany.
+    Marcin Furtak has completed Bachelor's degrees in Automation and Robotics and in Cognitive Science at the Warsaw University of Technology and University of Warsaw, respectively. He continued my scientific career by obtaining a Master's degree in Neuroscience, Psychology, and Human Sciences at the University of Pavia, Italy. After taking a break to develop his technical skills by working as a Data Engineer, Marcin decided to pursue a PhD degree at the University of Osnabrück, Germany.
   co-authors: 
   date: Saturday / 28 October
   time: 10:00 - 12:00
   room: 
   session: 
   id: 42
+  poster: docs/poster_42.pdf
   author-image: images/optimized/cfc-2023-600x600/marcin_furtak.webp
 
 - author-name: Tsimur Hadeliya
@@ -791,6 +813,7 @@
   room: 
   session: 
   id: 43
+  poster: docs/poster_43.pdf
   author-image: images/empty.png
 
 - author-name: Wojciech Kretowicz
@@ -809,6 +832,7 @@
   room: 
   session: 
   id: 44
+  poster: docs/poster_44.pdf
   author-image: images/optimized/cfc-2023-600x600/wojciech_kretowicz.webp
 
 - author-name: Sandra Frycz
@@ -820,13 +844,14 @@
     Based on the EEG signal properties including the aperiodic component, the central frequency of the peak with the highest amplitude and the high-to-low frequency ratio from centro-parietal brain areas it was possible to predict the presence of awareness with 77.9% accuracy (AUC=0.79) and relatively high sensitivity and specificity (76.5% and 79.5%, respectively). 
     The results confirm the potential of ML as a complement to behavioral diagnosis for pDoC. However, further research is needed to refine the selection of appropriate, artefact-prone features and to optimise the ML settings.
   author-bio: >- 
-    I completed my master's degree in neurobiology at the Jagiellonian University in Krakow. Currently, I am pursuing a PhD in the International PhD Programme in Cognitive Neuroscience. In my research, I combine brain-based techniques, like electroencephalography, with machine learning, placing a particular emphasis on individuals with impaired consciousness due to brain injuries. The overarching objective of my research is to improve the reliability of diagnosing Disorders of Consciousness.
+    Sandra Frycz completed her master's degree in neurobiology at the Jagiellonian University in Krakow. Currently, she is pursuing a PhD in the International PhD Programme in Cognitive Neuroscience. In her research, Sandra combines brain-based techniques, like electroencephalography, with machine learning, placing a particular emphasis on individuals with impaired consciousness due to brain injuries. The overarching objective of her research is to improve the reliability of diagnosing Disorders of Consciousness.
   co-authors: 
   date: Saturday / 28 October
   time: 10:00 - 12:00
   room: 
   session: 
   id: 45
+  poster: docs/poster_45.pdf
   author-image: images/empty.png
 
 - author-name: Katarzyna Baraniak
@@ -842,6 +867,7 @@
   room: 
   session: 
   id: 46
+  poster: docs/poster_46.pdf
   author-image: images/empty.png
 
 - author-name: Katarzyna Frankowska
@@ -850,7 +876,7 @@
   abstract: >- 
     Wheel odometry is a low-cost, high-update-rate, and low-power-consumption method to estimate robots' position and orientation. It is frequently utilized in combination with other sensors, such as IMUs, cameras, or LIDARs, to improve the localization algorithms' accuracy. However, certain factors, including slippage or uneven terrain, can introduce significant errors in the state estimation provided by wheel odometry, potentially leading to the failure of the tasks performed by autonomous systems. One should consider these errors when employing wheel odometry to improve state estimation quality. This assumption was the starting point for the work carried out by the team. 
     
-    Our project aimed to detect and consider abnormal drive conditions (defined as slip and stuck) to enhance the modeling of measurement uncertainty. For this purpose, we developed a synthetic dataset from a series of experiments conducted in a simulation using the Isaac Sim software. We have found it to be sufficient for this task due to its accurate physics engine, ROS compatibility, robot kinematics modeling, and sensor simulation capabilities. Using simulation to generate data allowed us to start working on the project even before the actual robot prototype was created, speeding up the project’s development, reducing the costs and facilitating the creation of diverse scenarios. We used the acquired data to work on machine learning models for discovering and classifying slip and stuck states. Labeling this kind of data is subject to human error, so we decided to compare the outcome of both supervised and unsupervised learning methods. Our research resulted in an investigation of the impact of the occurrence of slip and stuck states on the robot's localization measurement. We assessed the capability to differentiate slip and stuck states from normal driving and demonstrated the potential of modeling measurement uncertainty to enhance localization methods.
+    Our project aimed to detect and consider abnormal drive conditions (defined as slip and stuck) to enhance the modeling of measurement uncertainty. For this purpose, we developed a synthetic dataset from a series of experiments conducted in a simulation using the Isaac Sim software. We have found it to be sufficient for this task due to its accurate physics engine, ROS compatibility, robot kinematics modeling, and sensor simulation capabilities. Using simulation to generate data allowed us to start working on the project even before the actual robot prototype was created, speeding up the project's development, reducing the costs and facilitating the creation of diverse scenarios. We used the acquired data to work on machine learning models for discovering and classifying slip and stuck states. Labeling this kind of data is subject to human error, so we decided to compare the outcome of both supervised and unsupervised learning methods. Our research resulted in an investigation of the impact of the occurrence of slip and stuck states on the robot's localization measurement. We assessed the capability to differentiate slip and stuck states from normal driving and demonstrated the potential of modeling measurement uncertainty to enhance localization methods.
   author-bio: >- 
     Katarzyna Frankowska serves as an AI Developer with Robot Operating System (ROS) at Haul Vision, where she is responsible for developing autonomous systems for haul trucks. She earned an M.Sc. degree in the field of Aerospace Engineering with specialization in avionics at Rzeszow University of Technology. Her interest in Machine Learning originated from her work for a UAV startup, where she took part in designing solutions that utilize computer vision systems to process and analyze data collected by drones. Her professional interests include Computer Vision, AI applications for Robotics, and Space Engineering, which she has demonstrated through her participation in various student initiatives, including being a member of the Student Council of the President of the Polish Space Agency and winning the second prize with the Supercluster student team for the Local Edition of the NASA Space Apps Challenge hackathon in Rzeszow.
   co-authors: Michał Bednarek
@@ -859,6 +885,7 @@
   room: 
   session: 
   id: 47
+  poster: docs/poster_47.pdf
   author-image: images/optimized/cfc-2023-600x600/katarzyna_frankowska.webp
 
 - author-name: Marek Justyna
@@ -880,19 +907,20 @@
   title: "Towards inherent Transformers explanations. Comparing Transformers characteristics to human explanations based on sentiment analysis task."
   author-title: "SentiOne"
   abstract: >- 
-    Transformer neural networks have demonstrated exceptional performance across various natural language processing tasks. While their complex nature raises concerns about the lack of transparency in their decision-making processes, they also contain inherently interpretable components, i.e., attention mechanisms. With the growing demand for both trustworthy artificial intelligence (AI) systems and natural language understanding solutions, the need for effective explainability techniques for Transformer neural networks cannot be overlooked. This work will investigate if the model's decisions may be explained by the Transformers’ hidden features on the example of a sentiment analysis task.
+    Transformer neural networks have demonstrated exceptional performance across various natural language processing tasks. While their complex nature raises concerns about the lack of transparency in their decision-making processes, they also contain inherently interpretable components, i.e., attention mechanisms. With the growing demand for both trustworthy artificial intelligence (AI) systems and natural language understanding solutions, the need for effective explainability techniques for Transformer neural networks cannot be overlooked. This work will investigate if the model's decisions may be explained by the Transformers' hidden features on the example of a sentiment analysis task.
     
-    There are two major characteristics of a good model explanation: accurately representing the model's behavior (fidelity) and being human-understandable (comprehensibility). In this work, both of them were aimed to be investigated. To begin with, a large, token level, fine-grained, manually annotated sentiment analysis corpus was built. The dataset was annotated by skilled linguistic specialists, and it contains user-generated content in three different languages (English, German, Spanish) for three different domains (utilities, healthcare, and banking). The corpus was used to train a sentiment classifier (Transformers encoder with a classification layer), from which the attention heads have been extracted. Finally, to capture the explainability potential of the model’s hidden features, the similarities between various model’s attention heads and human explanations were analyzed. The findings show the relation between the model’s inner state and human understanding. It drowns out hypotheses of correlations or lack thereof between annotated phrase groups (such as emotionally charged adjectives or verbs) and different attention heads on various layers.
+    There are two major characteristics of a good model explanation: accurately representing the model's behavior (fidelity) and being human-understandable (comprehensibility). In this work, both of them were aimed to be investigated. To begin with, a large, token level, fine-grained, manually annotated sentiment analysis corpus was built. The dataset was annotated by skilled linguistic specialists, and it contains user-generated content in three different languages (English, German, Spanish) for three different domains (utilities, healthcare, and banking). The corpus was used to train a sentiment classifier (Transformers encoder with a classification layer), from which the attention heads have been extracted. Finally, to capture the explainability potential of the model's hidden features, the similarities between various model's attention heads and human explanations were analyzed. The findings show the relation between the model's inner state and human understanding. It drowns out hypotheses of correlations or lack thereof between annotated phrase groups (such as emotionally charged adjectives or verbs) and different attention heads on various layers.
     
-    As AI technologies continue to integrate into critical decision-making processes, this research provides valuable insights for interpreting machine learning models in a way that aligns with human cognitive processes. It shows the extent to which the hidden Transformer’s features may be interpretable in classification tasks and extends the discussion on the model-specific approach to explainability. Ultimately, the insights gained from this study can pave the way for more transparent and accountable AI systems in real-world applications.
+    As AI technologies continue to integrate into critical decision-making processes, this research provides valuable insights for interpreting machine learning models in a way that aligns with human cognitive processes. It shows the extent to which the hidden Transformer's features may be interpretable in classification tasks and extends the discussion on the model-specific approach to explainability. Ultimately, the insights gained from this study can pave the way for more transparent and accountable AI systems in real-world applications.
   author-bio: >- 
-    Hanna Sobocińska is a Data Science and Machine Learning specialist, for the past several years closely related to the field of Natural Language Understanding and Text Mining. Currently working as an AI Engineer in the SentiOne’s research department, she has been developing brand analytics and conversational AI tools. Her main interests are Affective Computing, Explainable AI, and Data Exploration and Visualization. In her free time she enjoys cooking fancy dishes or visiting interesting places.
+    Hanna Sobocińska is a Data Science and Machine Learning specialist, for the past several years closely related to the field of Natural Language Understanding and Text Mining. Currently working as an AI Engineer in the SentiOne's research department, she has been developing brand analytics and conversational AI tools. Her main interests are Affective Computing, Explainable AI, and Data Exploration and Visualization. In her free time she enjoys cooking fancy dishes or visiting interesting places.
   co-authors: Emilia Kacprzak, Agnieszka Pluwak
   date: Saturday / 28 October
   time: 10:00 - 12:00
   room: 
   session: 
   id: 49
+  poster: docs/poster_49.pdf
   author-image: images/optimized/cfc-2023-600x600/hanna_sobocińska.webp
 
 - author-name: Anna Wąsik
@@ -903,13 +931,14 @@
     
     We have prepared several datasets with accelerometer signals. Each signal was labeled with one of the following activities: eating, drinking, speaking, other activity. Our goal was to classify signals according to the labels and we compared various machine learning models to approach this problem. First we used random forest trained on various features of the signals: including Fourier transforms and recurrence plots. Then we compared this approach with one dimensional convolutional neural networks. In this talk we shall compare both types of models and present their advantages and disadvantages with some hints on what parameters of the signals are actually used to predict correct activity.
   author-bio: >- 
-    I hold a Master of Science degree in Mathematical Modeling and Data Analysis. My interests span both theoretical and applied mathematics. My doctoral research focuses on set theory and topology, but I have also pursued my interest in machine learning. In late 2022, I joined Lifeconcept LLC and took part in creating a fertility and lifestyle monitoring device.
+    Anna Wąsik holds a Master of Science degree in Mathematical Modeling and Data Analysis. Her interests span both theoretical and applied mathematics. Her doctoral research focuses on set theory and topology, but she has also pursued my interest in machine learning. In late 2022, she joined Lifeconcept LLC and took part in creating a fertility and lifestyle monitoring device.
   co-authors: Janusz Przewocki
   date: Saturday / 28 October
   time: 10:00 - 12:00
   room: 
   session: 
   id: 50
+  poster: docs/poster_50.pdf
   author-image: images/optimized/cfc-2023-600x600/anna_wąsik.webp
 
 - author-name: Kacper Cybiński
@@ -918,18 +947,19 @@
   abstract: >- 
     Recently, machine learning has become a powerful tool for detecting quantum phases. While the sole information about the presence of transition is valuable, the lack of interpretability and knowledge on the detected order parameter prevents this tool from becoming a customary element of a physicist's toolbox. Here, we report designing a special convolutional neural network with adaptive kernels, which allows for fully interpretable and unsupervised detection of local order parameters out of spin configurations measured in arbitrary bases. With the proposed architecture, we detect relevant and simplest order parameters for the one-dimensional transverse-field Ising model from any combination of projective measurements in the x, y, or z basis. Moreover, we successfully tackle the bilinear-biquadratic spin-1 Heisenberg model with a nontrivial nematic order. We also consider extending the proposed approach to detecting topological order parameters. This work can lead to integrating machine learning methods with quantum simulators studying new exotic phases of matter.
   author-bio: >- 
-    I am a MSc student at the Faculty of Physics of the University of Warsaw. I have worked on scientific projects focused on explainable/interpretable ML for 2 years now. 
-    My interest in the field is focused on the topic of explainable/interpretable ML for science, with particular emphasis of quantum many-body physics. 
-    In the process, I have completed research internships in Institute of Photonic Sciences in Spain and The Flatiron Institute's Center of Computational Quantum Physics in New York City where I collaborated on the projects tackling the topic of interpretable ML in applications to quantum physics,  and was able to work directly with some renowned experts of the field. Both of those collaborations are to be concluded with published scientific articles, where I would be the principal author. 
-    I have presented my research on interpretable ML in a talk at American Physical Society March Meeting in 2023, and on several occasions as a poster.
-    During my scientific path I was also twice a member of a team awarded with a medal at University Physics Competition (2021 silver, 2022 bronze).
-    Apart from taking part in conferences, I have also been acting as an organizer on "Machine Learning in Quantum Physics and Chemistry" Summer School in 2021, and two additional ultracold physics conferences in 2022 and 2023.
+    Kacper Cybiński is an MSc student at the Faculty of Physics of the University of Warsaw. He has worked on scientific projects focused on explainable/interpretable ML for 2 years now. 
+    His interest in the field is focused on the topic of explainable/interpretable ML for science, with particular emphasis of quantum many-body physics. 
+    In the process, he has completed research internships in Institute of Photonic Sciences in Spain and The Flatiron Institute's Center of Computational Quantum Physics in New York City where he collaborated on projects tackling the topic of interpretable ML in applications to quantum physics,  and was able to work directly with some renowned experts of the field. Both of those collaborations are to be concluded with published scientific articles, which hs would be the principal author. 
+    He has presented my research on interpretable ML in a talk at American Physical Society March Meeting in 2023, and on several occasions as a poster.
+    During my scientific path, Kacper was also twice a member of a team awarded with a medal at University Physics Competition (2021 silver, 2022 bronze).
+    Apart from taking part in conferences, he has also been acting as an organizer on "Machine Learning in Quantum Physics and Chemistry" Summer School in 2021 and two additional ultracold physics conferences in 2022 and 2023.
   co-authors: 
   date: Saturday / 28 October
   time: 10:00 - 12:00
   room: 
   session: 
   id: 51
+  poster: docs/poster_51.pdf
   author-image: images/optimized/cfc-2023-600x600/kacper_cybiński.webp
 
 - author-name: Maciej Szymkowski
@@ -953,7 +983,7 @@
   abstract: >- 
     Diffusion models achieve remarkable performance in the task of image synthesis. However, in the process of learning how to generate new data samples, they also learn meaningful data features that might be used for other tasks. In this work, we investigate the potential of using joint diffusion models trained to generate and classify in the problem of semi-supervised learning, which tries to leverage unlabeled data to improve model's performance. To that end, we extend the joint diffusion model with mechanisms of consistency regularization and pseudo-labeling. Additionally, we propose an attention-based method of classifying data representations from the vanilla diffusion model. Finally, we present a modified version of the U-Net architecture that is more suitable for the classification task. Our models achieve promising results on all tested datasets, notably CIFAR10 and SVHN.
   author-bio: >- 
-    My name is Paweł Skierś, and I am a student at Warsaw University of Technology. I am a young and ambitious student, with a passion for artificial intelligence and machine learning. For the past 2 years I have been a member of Artificial Intelligence Society Golem. There, I am continuously expanding my knowledge about my subject of interest. In my free time, I enjoy playing chess and bridge, as well as reading about history.
+    Paweł Skierś is a student at Warsaw University of Technology. He is a young and ambitious student with a passion for artificial intelligence and machine learning. For the past 2 years, I have been a member of Artificial Intelligence Society Golem. There, he is continuously expanding my knowledge about my subject of interest. In his free time, Paweł enjoys playing chess and bridge, as well as reading about history.
   co-authors: 
   date: Saturday / 28 October
   time: 10:00 - 12:00
@@ -968,21 +998,19 @@
   abstract: >- 
     Human brain can learn new tasks in a sequential fashion. This ability differentiates it from neural networks - every new task causes a significant decrease in accuracy of previously learnt ones - this phenomenon is called "catastrophic forgetting". People learn since early age, their wealth of knowledge is vast and therefore they use formerly acquired insight when addressing new issue. Despite this fact, we still tend to initialize our neural models randomly. In this work we investigate whether pretraining on a different dataset can boost a neural network's performance in new tasks and reduce catastrophic forgetting. In particular, we investigate several pretraining approaches such as supervised learning, simulation of continual learning or self-supervised techniques. We compare evaluated techniques on standard benchmarks and draw the conclusions with practical suggestions on how to prepare the neural network for continual learning.
   author-bio: >- 
-    - September 2017 – June 2020; IX LO im. Klementyny Hoffmanowej w Warszawie
-    - October 2020 – NOW; Warsaw University of Technology, Computer Science, Artificial Intelligence, bachelor
-    - February 2022 –NOW Junior fullstack developer • M4X Sp. Z O.O.
-    - Interesed in AI, with a focus on continual learning
+    Piotr is currently pursuing a Bachelor's degree in Artificial Intelligence at Warsaw University of Technology and works as a junior fullstack developer at M4X. He is interested in AI, with a focus on continual learning.
   co-authors: 
   date: Saturday / 28 October
   time: 10:00 - 12:00
   room: 
   session: 
   id: 54
+  poster: docs/poster_54.pdf
   author-image: images/optimized/cfc-2023-600x600/piotr_gręda.webp
 
 - author-name: Łukasz Sztukiewicz
   title: "Learning Decision Trees When You Cannot Trust Your Labels"
-  author-title: "Poznan University of Technology, Carnegie Mellon University"
+  author-title: "Poznan University of Technology / Carnegie Mellon University"
   abstract: >- 
     The roots of decision tree techniques date back to early approaches such as Quinlan's ID3, followed by developments such as C4.5 and CART. It is well-known that these algorithms are naturally unstable, meaning that slight changes in the input data can produce very different output models. 
     Some algorithms address common data issues like missing values, outliers, and feature noise. However, the reliability of data annotations is often overlooked, and in reality, labels are rarely perfect.
@@ -1001,18 +1029,19 @@
     
     Our research communicates that we can learn single, robust, performant trees even on data with high label noise ratios.
   author-bio: >- 
-    Lukasz Sztukiewicz is pursuing a Bachelor of Science degree in Artificial Intelligence at the Poznan University of Technology. He participated in the prestigious Robotics Institute Summer Scholar Programme at Carnegie Mellon University. He currently works remotely as a machine learning research intern at Carnegie Mellon University, AutonLab.
+    Łukasz Sztukiewicz is pursuing a Bachelor of Science degree in Artificial Intelligence at the Poznan University of Technology. He participated in the prestigious Robotics Institute Summer Scholar Programme at Carnegie Mellon University. He currently works remotely as a machine learning research intern at Carnegie Mellon University, AutonLab.
   co-authors: 
   date: Saturday / 28 October
   time: 10:00 - 12:00
   room: 
   session: 
   id: 55
+  poster: docs/poster_55.pdf
   author-image: images/optimized/cfc-2023-600x600/łukasz_sztukiewicz.webp
 
 - author-name: Dominik Lewy
   title: "How to use BERT attention for data augmentation? Overview of mixing augmentation methods for NLP."
-  author-title: "Lingaro Group & Faculty of Mathematics and Information Science, Warsaw University of Technology"
+  author-title: "Lingaro Group / Faculty of Mathematics and Information Science, Warsaw University of Technology"
   abstract: >- 
     The presentation covers recent advances in data augmentation via mixing training samples for Natural Language Processing (NLP). It shows how methods originally developed for Computer Vision (CV) were adapted to the NLP modality. The presentation builds understanding of the BERT internals as those will be the key to understanding mixing method proposed by the author. Recent and non-obvious applications are also mentioned. All this is accompanied with visual aspect (what does the resulting augmented observation look like?) and empirical evaluation of the methods.
   author-bio: >- 
@@ -1023,13 +1052,14 @@
   room: 
   session: 
   id: 56
+  poster: docs/poster_56.pdf
   author-image: images/optimized/cfc-2023-600x600/dominik_lewy.webp
 
 - author-name: Patryk Będkowski
   title: "Fast Generative Machine Learning Simulations for High Energy Physics experiments at ALICE, CERN"
-  author-title: "Warsaw University of Technology | GfK"
+  author-title: "Warsaw University of Technology / GfK"
   abstract: >- 
-    At the European Organisation for Nuclear Research (CERN) physicists and engineers study the fundamental properties of matter by recreating the extreme conditions of the early universe inside the Large Hadron Collider (LHC). Understanding what happens during these particle collisions requires complex simulations that generate the expected response of the detectors inside the LHC. Currently, over 50% of the computing power at CERN’s GRID is used to run High Energy Physics simulations. The recent updates at the LHC  create the need for developing more efficient simulation methods. In particular, there exists a demand for a fast simulation of the Zero Degree Calorimeter, where existing Monte Carlo-based methods impose a significant computational burden. We propose an alternative solution to the problem that leverages generative machine learning to directly simulate the response of the detector.
+    At the European Organisation for Nuclear Research (CERN) physicists and engineers study the fundamental properties of matter by recreating the extreme conditions of the early universe inside the Large Hadron Collider (LHC). Understanding what happens during these particle collisions requires complex simulations that generate the expected response of the detectors inside the LHC. Currently, over 50% of the computing power at CERN's GRID is used to run High Energy Physics simulations. The recent updates at the LHC  create the need for developing more efficient simulation methods. In particular, there exists a demand for a fast simulation of the Zero Degree Calorimeter, where existing Monte Carlo-based methods impose a significant computational burden. We propose an alternative solution to the problem that leverages generative machine learning to directly simulate the response of the detector.
     	We explore state-of-the-art generative models: autoencoders, diffusion models and generative adversarial networks and address multiple challenges of the simulation process.
     	Diffusion models present desirable properties such as high distribution coverage and a consistent training objective. This forms the basis for our proposal of a conditional diffusion model, constructed upon the UNet architecture. The iterative denoising process of diffusion models introduces a natural trade-off between the quality of generated results and inference time. We leverage this fact to introduce a dynamic mechanism for controlling the simulation quality.
     	To increase control over the simulation, we propose to use a conditional control mechanism that will allow us to independently control the output parameters. Our approach is built upon the existing CorrVAE model. The model introduces a second, disentangled latent vector that is mutually dependent on high-level image properties. This control allows for generating outcomes with predetermined attributes such as position, size, and intensity.
@@ -1049,6 +1079,7 @@
   room: 
   session: 
   id: 57
+  poster: docs/poster_57.pdf
   author-image: images/empty.png
 
 - author-name: Sneha Jha
@@ -1065,6 +1096,7 @@
   room: 
   session: 
   id: 58
+  poster: docs/poster_58.pdf
   author-image: images/optimized/cfc-2023-600x600/sneha_jha.webp
 
 - author-name: Michał Wiliński
@@ -1073,10 +1105,10 @@
   abstract: >- 
     Aspect Sentiment Triplet Extraction (ASTE) is one of the most challenging problems in sentiment analysis. The task is to extract sentiment-related triplets from a given sentence, containing:: aspects ('What'), their sentiment ('How'), and the specific opinion words ('Why'). In this framework, 'What' serves to pinpoint the subject or entity under discussion, 'How' assigns the sentiment (e.g. positive, negative, neutral), and 'Why' identifies the specific phrases that can be interpreted as the source of the sentiment. 
     As in the classical aspect-based sentiment-analysis problem, the overall objective is to capture the sentiment nuances contained within a sentence. However, ASTE adds the difficulty of establishing complex relationships between aspect phrases, opinion phrases, and sentiment polarity. Current approaches, constrained by quadratic time complexity, are problematic in their scalability and efficiency, often requiring exhaustive analyses of all potential spans and aspect-opinion pairings in the text. Such computational demands significantly limit the applicability of existing methods in large-scale data settings
-    To address these computational challenges and bridge current methodological gaps, we introduce a shift-reduce-inspired transition framework for the ASTE task that enjoys linear time complexity The architecture of our proposed system is composed of two core components: a dual-buffer processing unit with dedicated buffers for aspects and opinions and an action-selecting neural network actuator. The dual-buffer unit serves as the computational core, optimized to both extract relevant phrases from the text and preserve essential contextual cues. The aforementioned dual-buffers employ a stack-like mechanism for expeditious span storage and processing, contributing to the model’s efficiency. The action-selecting neural network actuator complements this by serving as a decision-making engine, selecting optimal actions to guide the dual-buffer unit based on the current state. This targeted action selection adds a layer of efficiency and precision to the system, further enhancing its computational scalability.
+    To address these computational challenges and bridge current methodological gaps, we introduce a shift-reduce-inspired transition framework for the ASTE task that enjoys linear time complexity The architecture of our proposed system is composed of two core components: a dual-buffer processing unit with dedicated buffers for aspects and opinions and an action-selecting neural network actuator. The dual-buffer unit serves as the computational core, optimized to both extract relevant phrases from the text and preserve essential contextual cues. The aforementioned dual-buffers employ a stack-like mechanism for expeditious span storage and processing, contributing to the model's efficiency. The action-selecting neural network actuator complements this by serving as a decision-making engine, selecting optimal actions to guide the dual-buffer unit based on the current state. This targeted action selection adds a layer of efficiency and precision to the system, further enhancing its computational scalability.
     Our work puts forward an effective paradigm in the context of ASTE, successfully combining computational efficiency with a robust mechanism for complex structural extraction. This approach holds considerable promise as an innovative direction for future research, with potential applications in real-time sentiment analysis.
   author-bio: >- 
-    Michał is a third-year undergraduate student specializing in Artificial Intelligence at Poznan University of Technology. Serving as the Vice President of the GHOST student organization, he is involved in building a students’ community around Machine Learning. Currently, Michał works as a Research Assistant at the Institute of Robotics and Machine Intelligence, where he collaborates closely with Dr. Michał Nowicki. He is also engaged in research at the Institute of Computer Science, under the mentorship of Dr. Mateusz Lango. With a broad range of interests that encompass Computer Vision, Natural Language Processing, Machine Learning Theory, and Robotics, Michał is passionate about pushing the boundaries of AI research and applications.
+    Michał is a third-year undergraduate student specializing in Artificial Intelligence at Poznan University of Technology. Serving as the Vice President of the GHOST student organization, he is involved in building a students' community around Machine Learning. Currently, Michał works as a Research Assistant at the Institute of Robotics and Machine Intelligence, where he collaborates closely with Dr. Michał Nowicki. He is also engaged in research at the Institute of Computer Science, under the mentorship of Dr. Mateusz Lango. With a broad range of interests that encompass Computer Vision, Natural Language Processing, Machine Learning Theory, and Robotics, Michał is passionate about pushing the boundaries of AI research and applications.
   co-authors: 
   date: Saturday / 28 October
   time: 10:00 - 12:00
@@ -1123,17 +1155,16 @@
     
     In this talk, we will consider and compare a few different ways of defining discrete values (deterministic / quasi-random / random, data-dependent / data-independent), the two main ways of evaluating their probabilities - exact and approximate (considering their efficiency and accuracy), and some examples of modern HMM-type model architectures using the described algorithms (including FlowHMM - 2022, DenseHMM - 2019, GaussianDenseHMM - 2023). The benefits of the presented models and learning algorithms are dense state representations, applicability for huge data with a non-specified distribution.
   author-bio: >- 
-    I am a final year student of Mathematics and Data Science, starting my PhD studies at the University of Wrocław. I am involved in modelling multidimensional temporal data developing machine learning-based approaches, including by exploring the practical possibilities of FlowHMM models with emission models of different architectures (discrete and continuous). I developed extensions of Hidden Markov Models during my participation in a research project founded by the Polish National Science Centre (NCN) and for my master thesis. 
+    Klaudia Balcer is a final year student of Mathematics and Data Science, starting my PhD studies at the University of Wrocław. She is involved in modelling multidimensional temporal data developing machine learning-based approaches, including by exploring the practical possibilities of FlowHMM models with emission models of different architectures (discrete and continuous). She developed extensions of Hidden Markov Models during my participation in a research project founded by the Polish National Science Centre (NCN) and for my master thesis. 
     
-    I would like to develop models based on Bayesian machine learning, bringing together the worlds of stochastic models and machine learning, also taking care of human understandability of the models (Explainable AI), possible simplicity and universality.
-    
-    For more information about me  please see my LinkedIn: https://www.linkedin.com/in/klaudia-data-scientist/
+    Klaudia would like to develop models based on Bayesian machine learning, bringing together the worlds of stochastic models and machine learning, also taking care of human understandability of the models (Explainable AI), possible simplicity and universality.
   co-authors: Piotr Lipinski
   date: Saturday / 28 October
   time: 10:00 - 12:00
   room: 
   session: 
   id: 61
+  poster: docs/poster_61.pdf
   author-image: images/optimized/cfc-2023-600x600/klaudia_balcer.webp
 
 - author-name: Bartlomiej Sobieski
@@ -1142,18 +1173,19 @@
   abstract: >- 
     Diffusion models are the latest revolution in the domain of generative modelling in computer vision with their unprecedented image quality, training stability and solid theoretical properties. Thanks to their flexibility, many new applications have been found that were not previously possible with the use of generative approaches. Recently, they have proven useful as a tool for explaining visual predictive models in the field of explainable artificial intelligence - a growing research domain with a goal of developing tools for understanding and explaining the decisions of machine learning methods. As visual models continue to evolve and grow in complexity, providing new methods that improve the explanation of their inner workings is critical to ensuring their safe and responsible use.
     
-    Our work proposes a novel approach to explaining visual predictive models using diffusion models. We utilize the Diffusion Autoencoders framework and show that the semantic part of its latent space can be optimized to fulfill specific constraints. Concretely, we propose a combination of visual classifier's logit and perceptual similarity to optimize for the generation of counterfactual explanations (CEs) – for visual models, this type of explanation aims to modify the image in a minimally semantic way so that the model’s prediction is flipped (e.g., from male to female). Therefore, CEs provide an intuitive way to explain the decision-making process of the model. We propose multiple strategies for performing such optimization using proxy lightweight approximators. The unique property of our approach is that optimizing for CEs can also benefit the task of synthetic image generation - solving this optimization problem provides strong supervisory signal which allows for the discovery of new meaningful semantic directions in the latent space. We perform extensive experiments on two popular CEs benchmarks (FFHQ, CelebA) to verify the performance of our approach.
+    Our work proposes a novel approach to explaining visual predictive models using diffusion models. We utilize the Diffusion Autoencoders framework and show that the semantic part of its latent space can be optimized to fulfill specific constraints. Concretely, we propose a combination of visual classifier's logit and perceptual similarity to optimize for the generation of counterfactual explanations (CEs) – for visual models, this type of explanation aims to modify the image in a minimally semantic way so that the model's prediction is flipped (e.g., from male to female). Therefore, CEs provide an intuitive way to explain the decision-making process of the model. We propose multiple strategies for performing such optimization using proxy lightweight approximators. The unique property of our approach is that optimizing for CEs can also benefit the task of synthetic image generation - solving this optimization problem provides strong supervisory signal which allows for the discovery of new meaningful semantic directions in the latent space. We perform extensive experiments on two popular CEs benchmarks (FFHQ, CelebA) to verify the performance of our approach.
   author-bio: >- 
-    I'm a researcher in the MI2 DataLab and a Msc student in Data Science at Warsaw University of Technology. I've completed Bsc degree in Mathematics and Data Analysis at the same university. I have experience in a variety of machine learning topics like AutoML, Reinforcement Learning and Computer Vision. My current focus is on the domain of generative models, in particular diffusion models.
+    Bartlomiej Sobieski is a researcher in the MI2 DataLab and an MSc student in Data Science at Warsaw University of Technology. He has completed a BSc degree in Mathematics and Data Analysis at the same university. He has experience in a variety of machine learning topics like AutoML, Reinforcement Learning, and Computer Vision. His current focus is on the domain of generative models, in particular, diffusion models.
   co-authors: Przemysław Biecek
   date: Saturday / 28 October
   time: 10:00 - 12:00
   room: 
   session: 
   id: 62
+  poster: docs/poster_62.pdf
   author-image: images/optimized/cfc-2023-600x600/bartlomiej_sobieski.webp
 
-- author-name: Marianna Zadrozna
+- author-name: Marianna Zadrożna
   title: "Before Self-Driving Cars in Poland, We Need to Fix Road Markings! But Where?"
   author-title: "ASP"
   abstract: >- 
@@ -1170,7 +1202,7 @@
   id: 63
   author-image: images/empty.png
 
-- author-name: Adam Zadrozny
+- author-name: Adam Zadrożny
   title: "Why we are who we are? - Analysing historical media trends at scale"
   author-title: "National Centre for Nuclear Research / AnyLawyer / University of Warsaw"
   abstract: >- 
@@ -1183,28 +1215,5 @@
   room: 
   session: 
   id: 64
-  author-image: images/optimized/cfc-2023-600x600/adam_zadrozny.webp
-
-- author-name: Izabela Krysińska
-  title: "Enhancing Semgrex for Unstructured Text."
-  author-title: "Pearson"
-  abstract: >- 
-    The rise in unstructured textual data from various sources, including student interactions and online transcripts, has highlighted the challenge of extracting meaningful information from such content. In this context, the integration of advanced graph-based regular expressions – semgrex – emerges as a pivotal solution. However, existing approaches which integrate semgrex fall short in terms of efficiency and effectiveness.   
-    
-    Our research aims to enhance them by introducing a novel method that enriches the output of semgrex. The enriched output contains words matched with semgrex as well as selected unmatched words that together hold significant meaning within the context of a larger expression. This is achieved by combining syntactic and semantic insights of words connected with matched expression.  
-    
-    Let us assume we want to highlight the following grammatical structure verb + to + infinitive. Giving the following utterance “…he recently started taking online courses to expand his skillset …”, the match will contain the following words “taking […] to expand” which lacks needed context. Our method extracts a relevant fragment that presents the grammatical structure more accurately – “taking [...] courses to expand his skillset”.  
-    
-    The potential of this method is extensive, with its most promising application in the field of education. Within this domain, a compelling opportunity arises to enhance feedback delivery by precisely identifying grammatical errors or highlighting key grammatical structures in text or online transcript and presenting them to learners in a meaningful way.  
-    
-    With 351 grammatical pattern matches extracted from 20 sentences (averaging 117 words each), the method has demonstrated significant promise. Human assessment indicated that 80.7% of the extracted matches accurately presented targeted grammar structures. These outcomes highlight the method's potential in gleaning insights from unstructured texts, especially in language learning contexts. By improving feedback, our approach holds the key to transforming approaches to teaching and learning, making education more effective and accessible.
-  author-bio: >- 
-    Iza is a Senior Data Scientist boasting a 3 year career in machine learning and data analysis at Pearson. She centers her work on collaborating with learning designers, aiming to develop innovative capabilities to support language learners across the globe. Simultaneously pursuing a PhD, Iza is engrossed in studying the dynamics of social media. She is primarily focused on developing mechanisms to immune society to misinformation. Using a multidisciplinary approach, her research aims to leverage machine learning and psychological studies in detecting, tracking, and countering the propagation of false information.
-  co-authors: Mateusz Półtorak
-  date: Saturday / 28 October
-  time: 10:00 - 12:00
-  room: 
-  session: 
-  id: 65
-  author-image: images/empty.png
+  author-image: images/optimized/cfc-2023-600x600/adam_zadrożny.webp
 

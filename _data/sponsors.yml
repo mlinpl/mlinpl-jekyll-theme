@@ -3,66 +3,92 @@
   imageMaxHeight: 220px
   margin: 45px 60px
   sponsors:
+    - name: Amazon
+      image: "images/optimized/sponsors-2023-600x600/Amazon.webp"
+      url: "https://www.aboutamazon.pl/nasze-miejsce-pracy/amazon-development-center"
     - name: G-Resaerch
-      image: "images/optimized/sponsors-600x600/GResearch.webp"
+      image: "images/optimized/sponsors-2023-600x600/GResearch.webp"
       url: "https://www.gresearch.com/"
 
 - title: '/ <span class="gold-shine-text">Gold sponsors</span>'
   imageMaxWidth: 280px
-  imageMaxHeight: 150px
+  imageMaxHeight: 90px
   margin: 30px 45px
   sponsors:
+    - name: Allegro
+      image: "images/optimized/sponsors-2023-600x600/Allegro.webp"
+      url: https://ml.allegro.tech/
+    - name: Google DeepMind
+      image: "images/optimized/sponsors-2023-600x600/GoogleDeepMind.webp"
+      url: https://www.deepmind.com/
     - name: Ideas NCBR
-      image: "images/optimized/sponsors-600x600/IdeasNCBR.webp"
+      image: "images/optimized/sponsors-2023-600x600/IdeasNCBR.webp"
       url: "https://ideas-ncbr.pl/en/"
     - name: Pearson
-      image: "images/optimized/sponsors-600x600/Pearson.webp"
+      image: "images/optimized/sponsors-2023-600x600/Pearson.webp"
       url: "https://www.pearson.pl/"
     - name: RTB House
-      image: "images/optimized/sponsors-600x600/RTBHouse.webp"
+      image: "images/optimized/sponsors-2023-600x600/RTBHouse.webp"
       url: "https://www.rtbhouse.com/"
+    - name: Snowflake
+      image: "images/optimized/sponsors-2023-600x600/Snowflake.webp"
+      url: "https://www.snowflake.com/en/"
 
 - title: '/ <span class="silver-shine-text">Silver sponsors</span>'
-  imageMaxWidth: 280px
-  imageMaxHeight: 150px
-  margin: 30px 45px
+  imageMaxWidth: 270px
+  imageMaxHeight: 70px
+  margin: 30px 50px
   sponsors:
     - name: AI Clearing
-      image: "images/optimized/sponsors-600x600/AIClearing.webp"
+      image: "images/optimized/sponsors-2023-600x600/AIClearing.webp"
       url: "https://www.aiclearing.com/"
     - name: Alphamoon
-      image: "images/optimized/sponsors-600x600/alphamoon.webp"
+      image: "images/optimized/sponsors-2023-600x600/alphamoon.webp"
       url: "https://alphamoon.ai/"
+    - name: Bites Studio
+      image: "images/optimized/sponsors-2023-600x600/Bites.webp"
+      url: "https://www.bitesstudio.com/"
+    - name: Gemelo
+      image: "images/optimized/sponsors-2023-600x600/Gemelo.webp"
+      url: https://gemelo.ai/
+    - name: Hewlett Packard Enterprise
+      image: "images/optimized/sponsors-2023-600x600/HPE.webp"
+      url: https://www.hpe.com/us/en/home.html
     - name: QuickchatAI
-      image: "images/optimized/sponsors-600x600/Quickchat.webp"
+      image: "images/optimized/sponsors-2023-600x600/Quickchat.webp"
       url: "https://www.quickchat.ai/"
 
 - title: "/ Partners"
   imageMaxWidth: 280px
-  imageMaxHeight: 150px
+  imageMaxHeight: 110px
   margin: 30px 45px
   sponsors:
     - name: NASK
-      image: "images/optimized/sponsors-600x600/NASK.webp"
+      image: "images/optimized/sponsors-2023-600x600/NASK.webp"
       url: "https://en.nask.pl/"
 
 - title: "/ Honorary Patronages"
-  imageMaxWidth: 400px
-  imageMaxHeight: 220px
+  imageMaxWidth: 410px
+  imageMaxHeight: 240px
   margin: 45px 60px
   sponsors:
     - name: Minister of Digital Affairs
       #title: Minister of Digital Affairs
       image: "images/optimized/honorary-patronages-600x600/MinistryOfDigitialAffairs.webp"
-      url: https://www.mimuw.edu.pl/
     - name: GovTech
       #title: Minister of Digital Affairs
       image: "images/honorary-patronages/govtech.svg"
-      url: https://www.mimuw.edu.pl/
+      url: https://www.gov.pl/web/govtech-en
+    - name: SGH
+      image: "images/optimized/honorary-patronages-600x600/SGH.webp"
+      url: https://www.sgh.waw.pl/en
+    - name: WMiNI
+      image: "images/optimized/honorary-patronages-600x600/WMiNI.webp"
+      url: "https://ww4.mini.pw.edu.pl/"
     - name: University of Warsaw
       #title: Rector of University of Warsaw
       image: "images/optimized/honorary-patronages-600x600/UW.webp"
-      url: https://www.mimuw.edu.pl/
+      url: https://en.uw.edu.pl/
     - name: Dean of the Faculty of Mathematics, Informatics and Mechanics
       #title: Dean of the Faculty of Mathematics, Informatics and Mechanics UW
       image: "images/optimized/honorary-patronages-600x600/MIMUW.webp"
@@ -76,6 +102,9 @@
     - name: AIFlavours
       image: "images/optimized/partners-600x600/AIFlavours.webp"
       url: "https://www.linkedin.com/company/aiflavours"
+    - name: Digital Festival
+      image: "images/optimized/partners-600x600/DigitalFestival.webp"
+      url: "https://digitalfestival.pl/"
     - name: Gauss
       image: "images/optimized/partners-600x600/gauss.webp"
       url: "http://gauss.im.pwr.wroc.pl"

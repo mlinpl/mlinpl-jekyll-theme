@@ -4,8 +4,8 @@
  */
 
 function emphI(html){
-    html = html.replace('i', '<span class="emph">i</span>');
-    html = html.replace('I', '<span class="emph">I</span>');
+    html = html.replaceAll('i', '<span class="emph">i</span>');
+    html = html.replaceAll('I', '<span class="emph">I</span>');
     return html;
 };
 

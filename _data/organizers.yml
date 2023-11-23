@@ -71,7 +71,7 @@
   image: "images/optimized/organizers-300x300/MichalTyrolski.webp"
 
 - name: "Marek Wydmuch"
-  title: "Infrastructure Team Coordinator"
+  title: "Website / Infrastructure Team Coordinator"
   linkedin: "https://www.linkedin.com/in/marekwydmuch/"
   twitter: "https://twitter.com/marekwydmuch"
   image: "images/optimized/organizers-300x300/MarekWydmuch.webp"
@@ -99,6 +99,12 @@
   linkedin: "https://www.linkedin.com/in/magdalena-cebula/"
   twitter: ""
   image: "images/optimized/organizers-300x300/MagdalenaCebula.webp"
+
+- name: "Aleksandra Daniluk"
+  title: "Visual Identity Team"
+  linkedin: "https://www.linkedin.com/in/aleksandra-daniluk/"
+  twitter: ""
+  image: "images/optimized/organizers-300x300/AleksandraDaniluk.webp"
 
 - name: "Błażej Dolicki"
   title: "Speakers Team"
@@ -162,8 +168,8 @@
 
 - name: "Bartek Krzepkowski"
   title: "Registration Team"
-  linkedin: ""
-  twitter: ""
+  linkedin: "https://www.linkedin.com/in/bartekkrzepkowski/"
+  twitter: "https://twitter.com/KrzepkowskiB"
   image: "images/optimized/organizers-300x300/BartekKrzepkowski.webp"
 
 - name: "Piotr Kucharski"
@@ -185,7 +191,7 @@
   image: "images/optimized/organizers-300x300/EwelinaKedzior.webp"
 
 - name: "Dawid Mączka"
-  title: "Infrastructure Team"
+  title: "Website / Infrastructure Team"
   linkedin: ""
   twitter: ""
   image: "images/optimized/organizers-300x300/DawidMaczka.webp"
@@ -251,7 +257,7 @@
   image: "images/optimized/organizers-300x300/MikolajSlupinski.webp"
 
 - name: "Jakub Walendowski"
-  title: "Infrastructure Team"
+  title: "Website / Infrastructure Team"
   linkedin: "https://www.linkedin.com/in/jakub-walendowski-982550210/"
   twitter: ""
   image: "images/optimized/organizers-300x300/JakubWalendowski.webp"
@@ -263,7 +269,7 @@
   image: "images/optimized/organizers-300x300/DimaZhylko.webp"
 
 - name: "Alicja Ziarko"
-  title: "Infrastructure Team"
+  title: "Website / Infrastructure Team"
   linkedin: "https://www.linkedin.com/in/alicja-ziarko-941b44173/"
   twitter: ""
   image: "images/optimized/organizers-300x300/AlicjaZiarko.webp"

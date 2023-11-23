@@ -2,10 +2,10 @@
 layout: page
 title: Call for Contributions (CfC)
 permalink: /call-for-contributions
-mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2023</span></span>
+
 ---
 
-We are excited to invite you to submit proposals for **contributed talks and posters** for **{{ page.mlinpl-inline-logo }}** and **Student Research Workshop**.
+We are excited to invite you to submit proposals for **contributed talks and posters** for **{{ site.inline-logo }}** and **Student Research Workshop**.
 
 <ul class="list-inline banner-social-buttons">
     <li>
@@ -83,7 +83,7 @@ The best talks and posters from the Main Conference will be awarded with gift ca
 </ul>
 
 We look forward to receiving your talk and poster proposals!
-Join us in shaping **{{ page.mlinpl-inline-logo }}**! -->
+Join us in shaping **{{ site.inline-logo }}**! -->
 
 ## Instructions for preparing Contributed Talk and Poster
 

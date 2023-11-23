@@ -2,11 +2,11 @@
 layout: page
 title: Call for Tutorials
 permalink: /call-for-tutorials
-mlinpl-inline-logo: <span class="logo"><span class="main-name">ML <span class="emph">i</span>n PL</span> <span class="sub-name">Conference 2023</span></span>
+
 ---
 
 
-The **{{ page.mlinpl-inline-logo }}** is inviting proposals for tutorials on core machine learning topics or emerging areas of significance for machine learning. Tutorials should be self-contained, covering necessary background material, and demonstrate their importance to the ML in PL community.
+The **{{ site.inline-logo }}** is inviting proposals for tutorials on core machine learning topics or emerging areas of significance for machine learning. Tutorials should be self-contained, covering necessary background material, and demonstrate their importance to the ML in PL community.
 
 Only research institutions are eligible to submit tutorial proposals. Tutorials should reflect the wider machine learning research, not solely focus on presenters or their organizations. They should provide a balanced overview of the research area, including both known results and open problems.
 
@@ -24,4 +24,4 @@ The proposal deadline is 20 August 2023. To submit a proposal, please visit the 
 </ul>
 
 We look forward to receiving your tutorial proposals!
-Join us in shaping **{{ page.mlinpl-inline-logo }}**!
+Join us in shaping **{{ site.inline-logo }}**!

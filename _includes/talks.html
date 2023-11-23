@@ -11,7 +11,8 @@ Expects following parameters:
         </div>
     </div>
     {% for talk in include.talks-data %}
-    <anchor style="position: relative; top: -70px;" id="{{ include.talk-title-prefix | slugify }}-{{forloop.index}}"></anchor>
+    {% assign html-id = include.talk-title-prefix | slugify | append: "-" | append: forloop.index %}
+    <anchor style="position: relative; top: -70px;" id="{{ html-id }}"></anchor>
     <div class="row" style="margin-bottom: 70px;">
         <div class="speaker-details-image col-md-3 person text-center">
             {% if talk.author-name %}
@@ -73,14 +74,16 @@ Expects following parameters:
             {% endif %}
             {% if talk.abstract %}
             <div>
-            <h4 style="margin-top: 35px; margin-bottom: 0px;"><strong><i class="fa-solid fa-file"></i> Abstract:</strong></h4> 
-            {% include read-more.html content=talk.abstract %}  
+            <h4 style="margin-top: 35px; margin-bottom: 0px;"><strong><i class="fa-solid fa-file"></i> Abstract:</strong></h4>
+            {% assign read-more-id = html-id | append: "-abstract" %}
+            {% include read-more.html content=talk.abstract id=read-more-id %}  
             </div>
             {% endif %}
             {% if talk.author-bio %}
             <div>
             <h4 style="margin-top: 35px; margin-bottom: 0px;"><strong><i class="fa-solid fa-user"></i> Biography:</strong></h4> 
-            {% include read-more.html content=talk.author-bio %}
+            {% assign read-more-id = html-id | append: "-bio" %}
+            {% include read-more.html content=talk.author-bio id=read-more-id %}
             </div>
             {% endif %}
             {% if talk.author-bio-md %}
